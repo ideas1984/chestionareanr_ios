@@ -49,6 +49,8 @@ class BooksParser: NSObject, XMLParserDelegate {
             bookAuthor = String()
         }
         
+        
+        
         self.elementName = elementName
     }
     
