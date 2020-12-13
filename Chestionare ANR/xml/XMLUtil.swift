@@ -12,14 +12,19 @@ class XMLUtil : NSObject, XMLParserDelegate {
     
     static let instance = XMLUtil();
     
-    var books: [Book] = []
+//    var books: [Book] = [];
+    var questions: [Question] = [];
     
     private override init() {
         super.init();
         print("s-a initializat");
         
-        books = BooksParser().books;
-        print(books);
+//        books = BooksParser().books;
+//        print(books);
+        
+        questions = QuestionsParser().questions;
+        print(questions);
+        
     }
 
     

@@ -14,7 +14,12 @@ class LearningVC: UIViewController {
 
     @IBAction func categorySelected(_ sender: UITapGestureRecognizer) {
         
-            switch sender.view?.accessibilityIdentifier?.description {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let pdfVC = storyboard.instantiateViewController(withIdentifier: "PDFViewerVC") as! PDFViewerVC;
+        pdfVC.modalPresentationStyle = .fullScreen;
+        mainController.present(pdfVC, animated: true, completion: nil);
+        
+        switch sender.view?.accessibilityIdentifier?.description {
             case "but_nav_dunare":
                 print("but_nav_dunare");
             case "but_marinarie_1":

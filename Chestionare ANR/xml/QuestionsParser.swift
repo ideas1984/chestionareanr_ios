@@ -10,11 +10,18 @@ import UIKit
 
 class QuestionsParser: NSObject, XMLParserDelegate {
     
-    var books: [Book] = [];
-    
+    var questions: [Question] = [];
     var elementName: String = String();
-    var bookTitle = String();
-    var bookAuthor = String();
+    var answerId = Int();
+    
+    var id = Int();
+    var name = String();
+    var category = [Int]();
+    var subcategory = Int();
+    var image = String();
+    var answers = [Int: String]();
+    var correctAnswerId = Int();
+    var hints = [Int]();
     
     override init() {
         super.init();
@@ -23,7 +30,7 @@ class QuestionsParser: NSObject, XMLParserDelegate {
     
     
     private func readXML() {
-        if let path = Bundle.main.url(forResource: "questions_test", withExtension: "xml") {
+        if let path = Bundle.main.url(forResource: "questions", withExtension: "xml") {
             if let parser = XMLParser(contentsOf: path) {
                 parser.delegate = self;
                 parser.parse();
@@ -34,19 +41,27 @@ class QuestionsParser: NSObject, XMLParserDelegate {
     
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
         
-        if elementName == "book" {
-            bookTitle = String()
-            bookAuthor = String()
+        if elementName == "question" {
+            id = Int(attributeDict["id"]!)!;
+            name = String();
+            category  = [];
+            subcategory = Int();
+            image = String();
+            answers = [Int: String]();
+            correctAnswerId = Int();
+            hints  = [];
+        } else if elementName == "answer" {
+            answerId = Int(attributeDict["id"]!)!;
         }
         
-        self.elementName = elementName
+        self.elementName = elementName;
     }
     
     // 2
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if elementName == "book" {
-            let book = Book(id: 1, bookTitle: bookTitle, bookAuthor: bookAuthor)
-            books.append(book)
+        if elementName == "question" {
+            let question = Question(id: id, name: name, category: category,subcategory: subcategory,image: image,answers: answers, correctAnswerId: correctAnswerId,hints: hints);
+            questions.append(question);
         }
     }
     
@@ -55,10 +70,20 @@ class QuestionsParser: NSObject, XMLParserDelegate {
         let data = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         
         if (!data.isEmpty) {
-            if self.elementName == "title" {
-                bookTitle += data
-            } else if self.elementName == "author" {
-                bookAuthor += data
+            if self.elementName == "name" {
+                name += data;
+            } else if self.elementName == "category" {
+                category = data.components(separatedBy: ",").map{Int($0)!};
+            } else if self.elementName == "subcategory" {
+                subcategory = (data as NSString).integerValue;
+            } else if self.elementName == "subcategory" {
+                image += data;
+            } else if self.elementName == "answer" {
+                answers[answerId] = data;
+            } else if self.elementName == "correct_answer" {
+                correctAnswerId = Int(data)!;
+            } else if self.elementName == "hint" {
+                hints = data.components(separatedBy: ",").map{Int($0)!};
             }
         }
     }

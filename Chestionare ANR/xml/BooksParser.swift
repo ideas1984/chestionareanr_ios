@@ -35,14 +35,7 @@ class BooksParser: NSObject, XMLParserDelegate {
     
     
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
-        
-        print("attributeDict=\(attributeDict)");
-        
-        let myString1 = "556"
-        let myInt1 = Int(attributeDict["id"]!)
-        
-        var x = Int();
-        x = myInt1!;        
+               
         if elementName == "book" {
             id = Int(attributeDict["id"]!)!;
             bookTitle = String()

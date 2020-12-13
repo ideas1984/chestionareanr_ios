@@ -13,6 +13,13 @@ class MainViewController: UIViewController {
     @IBOutlet weak var containerView: UIView!;
     var visibleVC: UIViewController!;
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated);
+       
+        AppUtility.lockOrientation(.portrait, andRotateTo: .portrait)
+   }
+    
+    
     
     @IBAction func backClicked(_ sender: Any) {
         if(visibleVC != nil) {
@@ -21,12 +28,11 @@ class MainViewController: UIViewController {
         
         mainMenuVC.view.isHidden = false;
         visibleVC = mainMenuVC;
-        
     }
     
     lazy var mainMenuVC: MainMenuVC = {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        var viewController = storyboard.instantiateViewController(withIdentifier: "OtherViewController") as! MainMenuVC;
+        var viewController = storyboard.instantiateViewController(withIdentifier: "MainMenuVC") as! MainMenuVC;
         viewController.setMainController(self);
         self.addViewControllerAsChildViewController(childViewController: viewController)
         return viewController;

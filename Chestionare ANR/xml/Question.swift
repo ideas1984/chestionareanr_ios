@@ -15,7 +15,7 @@ struct Question {
     var subcategory : Int;
     var image: String;
     var answers = [Int: String]();
-    var correctAnswer: Int;
+    var correctAnswerId: Int;
     var hints = [Int]();
     
 }
