@@ -17,6 +17,7 @@
 		078BEE3D2539027E00A6B31F /* questions.xml in Resources */ = {isa = PBXBuildFile; fileRef = 078BEE3C2539027E00A6B31F /* questions.xml */; };
 		078BEE402539028C00A6B31F /* questions_test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 078BEE3F2539028C00A6B31F /* questions_test.xml */; };
 		078BEE442539036700A6B31F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BEE432539036700A6B31F /* Question.swift */; };
+		078D01152592AE9500F7021E /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D01142592AE9500F7021E /* QuestionVC.swift */; };
 		078DC00A24C4E6FC00512D0A /* LearningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00924C4E6FC00512D0A /* LearningVC.swift */; };
 		078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00B24D8A2B000512D0A /* ArrowButton.swift */; };
 		078DC00E24D8C41600512D0A /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00D24D8C41600512D0A /* TestButton.swift */; };
@@ -34,9 +35,9 @@
 		07D6650E256B14CD00C10811 /* semnale _sonore.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D6650D256B14CD00C10811 /* semnale _sonore.pdf */; };
 		07D66511256B14D800C10811 /* semnale_care_servesc_reglementării_navigatiei_pe_calea_navigabila.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D66510256B14D800C10811 /* semnale_care_servesc_reglementării_navigatiei_pe_calea_navigabila.pdf */; };
 		07D66514256B14DD00C10811 /* semnalizarea_vizuala_a_navelor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D66513256B14DD00C10811 /* semnalizarea_vizuala_a_navelor.pdf */; };
+		07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF3ADE258D714700E1BC76 /* CommercialVC.swift */; };
 		07E7719924A01FB200292287 /* QuestionnaireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7719824A01FB200292287 /* QuestionnaireVC.swift */; };
 		07E7719B24A01FEB00292287 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7719A24A01FEB00292287 /* MainMenuVC.swift */; };
-		07E7719D24A157F100292287 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7719C24A157F100292287 /* TestClass.swift */; };
 		07F514EF249D74A6001681D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F514EE249D74A5001681D8 /* AppDelegate.swift */; };
 		07F514F1249D74A6001681D8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F514F0249D74A6001681D8 /* MainViewController.swift */; };
 		07F514F4249D74A9001681D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F514F2249D74A9001681D8 /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		078BEE3C2539027E00A6B31F /* questions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = questions.xml; sourceTree = "<group>"; };
 		078BEE3F2539028C00A6B31F /* questions_test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = questions_test.xml; sourceTree = "<group>"; };
 		078BEE432539036700A6B31F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		078D01142592AE9500F7021E /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
 		078DC00924C4E6FC00512D0A /* LearningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningVC.swift; sourceTree = "<group>"; };
 		078DC00B24D8A2B000512D0A /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
 		078DC00D24D8C41600512D0A /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
@@ -73,9 +75,9 @@
 		07D6650D256B14CD00C10811 /* semnale _sonore.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "semnale _sonore.pdf"; sourceTree = "<group>"; };
 		07D66510256B14D800C10811 /* semnale_care_servesc_reglementării_navigatiei_pe_calea_navigabila.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "semnale_care_servesc_reglementării_navigatiei_pe_calea_navigabila.pdf"; sourceTree = "<group>"; };
 		07D66513256B14DD00C10811 /* semnalizarea_vizuala_a_navelor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = semnalizarea_vizuala_a_navelor.pdf; sourceTree = "<group>"; };
+		07DF3ADE258D714700E1BC76 /* CommercialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialVC.swift; sourceTree = "<group>"; };
 		07E7719824A01FB200292287 /* QuestionnaireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireVC.swift; sourceTree = "<group>"; };
 		07E7719A24A01FEB00292287 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
-		07E7719C24A157F100292287 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		07F514EB249D74A0001681D8 /* Chestionare ANR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chestionare ANR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F514EE249D74A5001681D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F514F0249D74A6001681D8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -185,12 +187,13 @@
 				07F514F5249D755D001681D8 /* Assets.xcassets */,
 				07F514F7249D755D001681D8 /* LaunchScreen.storyboard */,
 				07F514FA249D755D001681D8 /* Info.plist */,
+				078D01142592AE9500F7021E /* QuestionVC.swift */,
 				07E7719824A01FB200292287 /* QuestionnaireVC.swift */,
 				07E7719A24A01FEB00292287 /* MainMenuVC.swift */,
 				078DC00924C4E6FC00512D0A /* LearningVC.swift */,
-				07E7719C24A157F100292287 /* TestClass.swift */,
 				07D664D1256B04FE00C10811 /* test.pdf */,
 				0760E6872569E3FD00C51497 /* PDFViewerVC.swift */,
+				07DF3ADE258D714700E1BC76 /* CommercialVC.swift */,
 			);
 			path = "Chestionare ANR";
 			sourceTree = "<group>";
@@ -300,6 +303,8 @@
 				07FD8D2024AA96F50065E024 /* CustomButton.swift in Sources */,
 				078BEE34253901BC00A6B31F /* BooksParser.swift in Sources */,
 				078BEE442539036700A6B31F /* Question.swift in Sources */,
+				07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */,
+				078D01152592AE9500F7021E /* QuestionVC.swift in Sources */,
 				078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */,
 				07E7719924A01FB200292287 /* QuestionnaireVC.swift in Sources */,
 				07E7719B24A01FEB00292287 /* MainMenuVC.swift in Sources */,
@@ -307,7 +312,6 @@
 				078DC00A24C4E6FC00512D0A /* LearningVC.swift in Sources */,
 				078BEE2C2538F79C00A6B31F /* QuestionsParser.swift in Sources */,
 				0760E6882569E3FD00C51497 /* PDFViewerVC.swift in Sources */,
-				07E7719D24A157F100292287 /* TestClass.swift in Sources */,
 				078DC00E24D8C41600512D0A /* TestButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

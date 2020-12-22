@@ -10,22 +10,21 @@ import UIKit
 
 class MainMenuVC: UIViewController {
     
-    var mainController: MainViewController!
+    var mainController: MainViewController!;
+    
+    override func viewDidLoad() {
+        super.viewDidLoad();
+    }
 
     
     @IBAction func menuClicked(_ sender: CustomButton) {
-        mainController.mainMenuClicked(sender.accessibilityIdentifier!)
+        mainController.mainMenuClicked(sender.accessibilityIdentifier!);
     }
     
     public func setMainController(_ mainController: MainViewController) {
         self.mainController = mainController;
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-//        myLabel.text = "ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc ala bala portocala melc melc codobelc "
-    }
     
 
     /*

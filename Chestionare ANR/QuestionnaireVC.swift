@@ -9,12 +9,23 @@
 import UIKit
 
 class QuestionnaireVC: UIViewController {
+    
+    var mainController: MainViewController!;
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
 
+    @IBAction func startTestClicked(_ sender: CustomButton) {
+        mainController.startTest(sender.accessibilityIdentifier!);
+    }
+    
+    
+    public func setMainController(_ mainController: MainViewController) {
+        self.mainController = mainController;
+    }
+    
     /*
     // MARK: - Navigation
 
