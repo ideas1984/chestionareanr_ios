@@ -1140,28 +1140,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K2m-E6-4SP" userLabel="time header">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="OM2-F6-9xs"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwS-1S-nmM" userLabel="status header">
+                                <rect key="frame" x="0.0" y="70" width="375" height="40"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cgg-RG-YUK"/>
+                                </constraints>
+                            </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dG3-Ah-Fc6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="110" width="375" height="557"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OsL-uf-XVW" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKw-rO-FBH">
-                                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="0Gr-fK-i9g"/>
-                                                    <constraint firstAttribute="height" constant="30" id="lfj-ax-euq"/>
-                                                </constraints>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="JKw-rO-FBH" secondAttribute="bottom" constant="319" id="EGK-5G-SQw"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JKw-rO-FBH" secondAttribute="trailing" constant="20" symbolic="YES" id="EP6-7p-lH0"/>
-                                            <constraint firstItem="JKw-rO-FBH" firstAttribute="leading" secondItem="OsL-uf-XVW" secondAttribute="leading" constant="164" id="SQZ-7C-Cts"/>
-                                            <constraint firstItem="JKw-rO-FBH" firstAttribute="top" secondItem="OsL-uf-XVW" secondAttribute="top" constant="318" id="kuh-5F-dYU"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="557"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -1177,17 +1175,23 @@
                         <constraints>
                             <constraint firstItem="dG3-Ah-Fc6" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="9HJ-hL-3eq"/>
                             <constraint firstItem="dG3-Ah-Fc6" firstAttribute="bottom" secondItem="Wwh-Oh-dlS" secondAttribute="bottom" id="9Ls-zj-Bff"/>
+                            <constraint firstItem="SwS-1S-nmM" firstAttribute="top" secondItem="K2m-E6-4SP" secondAttribute="bottom" id="DJi-dy-CUW"/>
+                            <constraint firstItem="K2m-E6-4SP" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="E5p-tI-X9G"/>
                             <constraint firstItem="dG3-Ah-Fc6" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="OeJ-B9-tdh"/>
-                            <constraint firstItem="OsL-uf-XVW" firstAttribute="height" secondItem="B4X-cb-WbJ" secondAttribute="height" priority="250" id="ag4-zD-sAl"/>
-                            <constraint firstItem="dG3-Ah-Fc6" firstAttribute="top" secondItem="Wwh-Oh-dlS" secondAttribute="top" id="iPd-gJ-r0z"/>
-                            <constraint firstItem="OsL-uf-XVW" firstAttribute="width" secondItem="B4X-cb-WbJ" secondAttribute="width" id="zTS-E6-GxI"/>
+                            <constraint firstItem="K2m-E6-4SP" firstAttribute="top" secondItem="Wwh-Oh-dlS" secondAttribute="top" id="QFl-qo-8UG"/>
+                            <constraint firstItem="OsL-uf-XVW" firstAttribute="height" secondItem="dG3-Ah-Fc6" secondAttribute="height" priority="250" id="ag4-zD-sAl"/>
+                            <constraint firstItem="SwS-1S-nmM" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="bgu-C1-LkC"/>
+                            <constraint firstItem="SwS-1S-nmM" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="fTO-d9-21k"/>
+                            <constraint firstItem="dG3-Ah-Fc6" firstAttribute="top" secondItem="SwS-1S-nmM" secondAttribute="bottom" id="iPd-gJ-r0z"/>
+                            <constraint firstItem="K2m-E6-4SP" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="pZd-yn-jR7"/>
+                            <constraint firstItem="OsL-uf-XVW" firstAttribute="width" secondItem="dG3-Ah-Fc6" secondAttribute="width" id="zTS-E6-GxI"/>
                         </constraints>
                     </view>
                     <size key="freeformSize" width="375" height="667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aRi-zJ-0Xf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-826" y="1108"/>
+            <point key="canvasLocation" x="-826.39999999999998" y="1107.7961019490256"/>
         </scene>
     </scenes>
     <resources>
