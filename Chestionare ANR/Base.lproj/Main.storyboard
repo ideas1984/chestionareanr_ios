@@ -1155,10 +1155,10 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dG3-Ah-Fc6">
-                                <rect key="frame" x="0.0" y="110" width="375" height="557"/>
+                                <rect key="frame" x="0.0" y="110" width="375" height="487"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OsL-uf-XVW" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="557"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="487"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
@@ -1169,16 +1169,26 @@
                                     <constraint firstAttribute="trailing" secondItem="OsL-uf-XVW" secondAttribute="trailing" id="ssE-3f-Gxp"/>
                                 </constraints>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZe-CJ-AFg" userLabel="control footer">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="OO8-5X-b8t"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wwh-Oh-dlS"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="rZe-CJ-AFg" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="4O2-u1-AZI"/>
                             <constraint firstItem="dG3-Ah-Fc6" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="9HJ-hL-3eq"/>
-                            <constraint firstItem="dG3-Ah-Fc6" firstAttribute="bottom" secondItem="Wwh-Oh-dlS" secondAttribute="bottom" id="9Ls-zj-Bff"/>
+                            <constraint firstItem="dG3-Ah-Fc6" firstAttribute="bottom" secondItem="rZe-CJ-AFg" secondAttribute="top" id="9Ls-zj-Bff"/>
                             <constraint firstItem="SwS-1S-nmM" firstAttribute="top" secondItem="K2m-E6-4SP" secondAttribute="bottom" id="DJi-dy-CUW"/>
                             <constraint firstItem="K2m-E6-4SP" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="E5p-tI-X9G"/>
                             <constraint firstItem="dG3-Ah-Fc6" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="OeJ-B9-tdh"/>
+                            <constraint firstItem="rZe-CJ-AFg" firstAttribute="bottom" secondItem="Wwh-Oh-dlS" secondAttribute="bottom" id="PuW-sV-7KB"/>
                             <constraint firstItem="K2m-E6-4SP" firstAttribute="top" secondItem="Wwh-Oh-dlS" secondAttribute="top" id="QFl-qo-8UG"/>
+                            <constraint firstItem="rZe-CJ-AFg" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="U7y-Q4-tix"/>
                             <constraint firstItem="OsL-uf-XVW" firstAttribute="height" secondItem="dG3-Ah-Fc6" secondAttribute="height" priority="250" id="ag4-zD-sAl"/>
                             <constraint firstItem="SwS-1S-nmM" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="bgu-C1-LkC"/>
                             <constraint firstItem="SwS-1S-nmM" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="fTO-d9-21k"/>

@@ -23,7 +23,6 @@
 		078DC00E24D8C41600512D0A /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00D24D8C41600512D0A /* TestButton.swift */; };
 		07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C8C71F2537A462002F12FD /* XMLUtil.swift */; };
 		07C8C7242537AB12002F12FD /* Books.xml in Resources */ = {isa = PBXBuildFile; fileRef = 07C8C7232537AB12002F12FD /* Books.xml */; };
-		07D664D2256B04FE00C10811 /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664D1256B04FE00C10811 /* test.pdf */; };
 		07D664EE256B0F2700C10811 /* anexe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664ED256B0F2700C10811 /* anexe.pdf */; };
 		07D664F2256B11CC00C10811 /* partea_a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664F1256B11CC00C10811 /* partea_a.pdf */; };
 		07D664FB256B149200C10811 /* partea_b_sectiunea_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664FA256B149200C10811 /* partea_b_sectiunea_1.pdf */; };
@@ -63,7 +62,6 @@
 		078DC00D24D8C41600512D0A /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
 		07C8C71F2537A462002F12FD /* XMLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLUtil.swift; sourceTree = "<group>"; };
 		07C8C7232537AB12002F12FD /* Books.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Books.xml; sourceTree = "<group>"; };
-		07D664D1256B04FE00C10811 /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
 		07D664ED256B0F2700C10811 /* anexe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anexe.pdf; sourceTree = "<group>"; };
 		07D664F1256B11CC00C10811 /* partea_a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = partea_a.pdf; sourceTree = "<group>"; };
 		07D664FA256B149200C10811 /* partea_b_sectiunea_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = partea_b_sectiunea_1.pdf; sourceTree = "<group>"; };
@@ -191,7 +189,6 @@
 				07E7719824A01FB200292287 /* QuestionnaireVC.swift */,
 				07E7719A24A01FEB00292287 /* MainMenuVC.swift */,
 				078DC00924C4E6FC00512D0A /* LearningVC.swift */,
-				07D664D1256B04FE00C10811 /* test.pdf */,
 				0760E6872569E3FD00C51497 /* PDFViewerVC.swift */,
 				07DF3ADE258D714700E1BC76 /* CommercialVC.swift */,
 			);
@@ -284,7 +281,6 @@
 				078BEE3A2539027700A6B31F /* hints.xml in Resources */,
 				07D664FE256B149D00C10811 /* partea_b_sectiunea_2.pdf in Resources */,
 				07F514F4249D74A9001681D8 /* Main.storyboard in Resources */,
-				07D664D2256B04FE00C10811 /* test.pdf in Resources */,
 				07D66501256B14A400C10811 /* partea_c.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
