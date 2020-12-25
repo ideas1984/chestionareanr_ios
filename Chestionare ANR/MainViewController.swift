@@ -121,7 +121,6 @@ class MainViewController: UIViewController {
     }
     
     public func startTest(_ buttonName: String) {
-        
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
         let vc = storyboard.instantiateViewController(withIdentifier: "QuestionViewController") as! QuestionVC;
         vc.modalPresentationStyle = .fullScreen;
