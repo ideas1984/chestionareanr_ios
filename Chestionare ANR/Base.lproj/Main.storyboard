@@ -1142,9 +1142,43 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K2m-E6-4SP" userLabel="time header">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB4-da-UyT">
+                                        <rect key="frame" x="8" y="10" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Jl6-vl-SiP"/>
+                                            <constraint firstAttribute="width" constant="50" id="N3b-bg-FaE"/>
+                                        </constraints>
+                                        <state key="normal" image="back"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpW-cb-INk">
+                                        <rect key="frame" x="317" y="10" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="5W7-bT-4Sy"/>
+                                            <constraint firstAttribute="width" constant="50" id="6yW-Fc-nAH"/>
+                                        </constraints>
+                                        <state key="normal" image="help_transparent"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timp rămas: 00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbc-9w-RBh">
+                                        <rect key="frame" x="66" y="8" width="243" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="iB4-da-UyT" secondAttribute="bottom" constant="10" id="CcU-ty-gfd"/>
+                                    <constraint firstAttribute="trailing" secondItem="PpW-cb-INk" secondAttribute="trailing" constant="8" id="MOS-uW-GFc"/>
+                                    <constraint firstItem="PpW-cb-INk" firstAttribute="leading" secondItem="zbc-9w-RBh" secondAttribute="trailing" constant="8" symbolic="YES" id="Mw2-7u-2c8"/>
                                     <constraint firstAttribute="height" constant="70" id="OM2-F6-9xs"/>
+                                    <constraint firstItem="zbc-9w-RBh" firstAttribute="top" secondItem="K2m-E6-4SP" secondAttribute="top" constant="8" id="QZb-ca-JKQ"/>
+                                    <constraint firstItem="iB4-da-UyT" firstAttribute="top" secondItem="K2m-E6-4SP" secondAttribute="top" constant="10" id="Wxg-vf-2Sn"/>
+                                    <constraint firstItem="PpW-cb-INk" firstAttribute="top" secondItem="K2m-E6-4SP" secondAttribute="top" constant="10" id="Xbu-lp-RnZ"/>
+                                    <constraint firstItem="iB4-da-UyT" firstAttribute="leading" secondItem="K2m-E6-4SP" secondAttribute="leading" constant="8" id="a5R-Dw-rAO"/>
+                                    <constraint firstAttribute="bottom" secondItem="PpW-cb-INk" secondAttribute="bottom" constant="10" id="ah0-Pr-bV3"/>
+                                    <constraint firstAttribute="bottom" secondItem="zbc-9w-RBh" secondAttribute="bottom" constant="8" id="jQh-1I-EeW"/>
+                                    <constraint firstItem="zbc-9w-RBh" firstAttribute="leading" secondItem="iB4-da-UyT" secondAttribute="trailing" constant="8" symbolic="YES" id="ufS-PJ-WKU"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwS-1S-nmM" userLabel="status header">
@@ -1207,6 +1241,7 @@
     <resources>
         <image name="back" width="162.66667175292969" height="170.33332824707031"/>
         <image name="close" width="40" height="40"/>
+        <image name="help_transparent" width="50" height="50"/>
         <image name="paper_boats" width="1180.6666259765625" height="694.33331298828125"/>
         <image name="play" width="66.666664123535156" height="77"/>
         <systemColor name="systemBackgroundColor">
