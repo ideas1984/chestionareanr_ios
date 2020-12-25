@@ -1150,6 +1150,9 @@
                                             <constraint firstAttribute="width" constant="50" id="N3b-bg-FaE"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backClicked:" destination="cN5-oK-smh" eventType="touchUpInside" id="1GQ-Ud-7Pm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpW-cb-INk">
                                         <rect key="frame" x="317" y="10" width="50" height="50"/>
@@ -1212,7 +1215,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wwh-Oh-dlS"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="rZe-CJ-AFg" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="4O2-u1-AZI"/>
                             <constraint firstItem="dG3-Ah-Fc6" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="9HJ-hL-3eq"/>
