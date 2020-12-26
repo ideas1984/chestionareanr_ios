@@ -25,22 +25,22 @@ class QuestionVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
-        
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
         let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
         addViewControllerAsChildViewController(childViewController: viewController);
         
+        view.layoutIfNeeded();//very important here. do not erase this
         
         
-        let softWrappedQuotation = "The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare";
         
+        let softWrappedQuotation = "Morbi consectetur purus rhoncus est vulputate semper. Integer dictum diam vitae metus vulputate gravida. Sed sollicitudin, enim id tempor interdum, orci enim congue dui, in viverra velit magna non felis. Cras sit amet lorem nunc. Integer et lectus et est lobortis aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla et elit elit. Duis non urna ut libero sollicitudin aliquet. Suspendisse bibendum, velit quis laoreet luctus, quam ligula viverra neque, ac tristique eros elit a ligula. Donec a laoreet diam. Vestibulum eget arcu consectetur, suscipit lectus a, convallis magna. Aliquam quis accumsan orci.";
         
-//        let font = UIFont(name: "Helvetica", size: 20.0);
-//        let height = heightForView(text:softWrappedQuotation, font: font!, width: self.view.frame.width);
-//        label.text = softWrappedQuotation;
-//        label.font = font;
-//        questionHeightConstraint.constant = height;
-//        label.layoutIfNeeded();
+//        let softWrappedQuotation = "Morbi consectetur purus?";
+        
+        let question = Question(id:1, name: softWrappedQuotation,category: [],subcategory: 1,image: "",answers: [Int: String](),correctAnswerId:  1,hints: []);
+        
+        viewController.setQuestion(question);
+
         
         
         
@@ -67,17 +67,6 @@ class QuestionVC: UIViewController {
 //        }
         
    }
-    
-    func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat{
-        let label:UILabel = UILabel(frame: CGRect(x:0, y:0, width:width, height:CGFloat.greatestFiniteMagnitude));
-        label.numberOfLines = 0;
-        label.lineBreakMode = NSLineBreakMode.byWordWrapping;
-        label.font = font;
-        label.text = text;
-
-        label.sizeToFit();
-        return label.frame.height;
-    }
 
     
     @IBAction func backClicked(_ sender: Any) {

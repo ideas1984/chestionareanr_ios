@@ -12,8 +12,37 @@ class OneQuestionVC: UIViewController {
     
 //    var mainController: MainViewController!
     
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var questionHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var questionView: UIView!
+    @IBOutlet weak var aAnswerView: UIView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
+        
+        questionView.layer.cornerRadius = 10;
+        aAnswerView.layer.cornerRadius = 10;
+    }
+    
+    
+    public func setQuestion(_ question: Question) {
+        let font = UIFont(name: "Helvetica", size: 20.0);
+        let height = heightForView(text:question.name, font: font!, width: self.view.frame.width - 32) + 16;
+        questionLabel.text = question.name;
+        questionLabel.font = font;
+        questionHeightConstraint.constant = height;
+        view.layoutIfNeeded();
+    }
+    
+    func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat{
+        let label:UILabel = UILabel(frame: CGRect(x:0, y:0, width:width, height:CGFloat.greatestFiniteMagnitude));
+        label.numberOfLines = 0;
+        label.lineBreakMode = NSLineBreakMode.byWordWrapping;
+        label.font = font;
+        label.text = text;
+
+        label.sizeToFit();
+        return label.frame.height;
     }
 
     @IBAction func categorySelected(_ sender: UITapGestureRecognizer) {
