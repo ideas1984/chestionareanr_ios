@@ -15,6 +15,7 @@ class QuestionVC: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var questionHeightConstraint: NSLayoutConstraint!;
+    @IBOutlet weak var containerView: UIView!
     
     
     override func viewDidLoad() {
@@ -24,14 +25,21 @@ class QuestionVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
+        addViewControllerAsChildViewController(childViewController: viewController);
+        
+        
+        
         let softWrappedQuotation = "The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare The White Rabbit put on his spectacles.  Where shall I begin, please your Majesty? he asked.Begin at the eginning, the King said gravely, and go on till you come to the end; then stop. asd asd si mai adaug eu ceva aici sa vedem ce o sa iasa . ideea e ssa fie o chesti emare";
         
         
-        let font = UIFont(name: "Helvetica", size: 20.0);
-        let height = heightForView(text:softWrappedQuotation, font: font!, width: self.view.frame.width);
-        label.text = softWrappedQuotation;
-        label.font = font;
-        questionHeightConstraint.constant = height;
+//        let font = UIFont(name: "Helvetica", size: 20.0);
+//        let height = heightForView(text:softWrappedQuotation, font: font!, width: self.view.frame.width);
+//        label.text = softWrappedQuotation;
+//        label.font = font;
+//        questionHeightConstraint.constant = height;
 //        label.layoutIfNeeded();
         
         
@@ -78,6 +86,14 @@ class QuestionVC: UIViewController {
                 } else {
                     self.dismiss(animated: true, completion: nil)
                 }
+    }
+    
+    private func addViewControllerAsChildViewController(childViewController: UIViewController) {
+        addChild(childViewController);
+        containerView.addSubview(childViewController.view);
+        childViewController.view.frame = containerView.bounds;
+        childViewController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight];
+        childViewController.didMove(toParent: self);
     }
     
 }
