@@ -12,28 +12,110 @@ class OneQuestionVC: UIViewController {
     
 //    var mainController: MainViewController!
     
+    @IBOutlet weak var questionView: UIView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var questionHeightConstraint: NSLayoutConstraint!
-    @IBOutlet weak var questionView: UIView!
+    
+    
     @IBOutlet weak var aAnswerView: UIView!
+    @IBOutlet weak var aAnswerLabel: UILabel!
+    @IBOutlet weak var aAnswerHeightConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var bAnswerView: UIView!
+    @IBOutlet weak var bAnswerLabel: UILabel!
+    @IBOutlet weak var bAnswerHeightConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var cAnswerView: UIView!
+    @IBOutlet weak var cAnswerLabel: UILabel!
+    @IBOutlet weak var cAnswerHeightConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var dAnswerView: UIView!
+    @IBOutlet weak var dAnswerLabel: UILabel!
+    @IBOutlet weak var dAnswerHeightConstraint: NSLayoutConstraint!
+    
+    
+    @IBOutlet weak var c1: NSLayoutConstraint!
+    @IBOutlet weak var c2: NSLayoutConstraint!
+    @IBOutlet weak var c3: NSLayoutConstraint!
+    @IBOutlet weak var c4: NSLayoutConstraint!
+    @IBOutlet weak var c5: NSLayoutConstraint!
+    @IBOutlet weak var c6: NSLayoutConstraint!
+    @IBOutlet weak var c7: NSLayoutConstraint!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad();
         
         questionView.layer.cornerRadius = 10;
         aAnswerView.layer.cornerRadius = 10;
+        bAnswerView.layer.cornerRadius = 10;
+        cAnswerView.layer.cornerRadius = 10;
+        dAnswerView.layer.cornerRadius = 10;
+        
+        
+        aAnswerView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (answerAClicked (_:))));
+        bAnswerView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (answerBClicked (_:))));
+        cAnswerView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (answerCClicked (_:))));
+        dAnswerView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (answerDClicked (_:))));
     }
     
     
     public func setQuestion(_ question: Question) {
         let font = UIFont(name: "Helvetica", size: 20.0);
-        let height = heightForView(text:question.name, font: font!, width: self.view.frame.width - 32) + 16;
+        
+        questionHeightConstraint.constant = heightForView(text:question.name, font: font!, width: self.view.frame.width - 32) + 16;
         questionLabel.text = question.name;
         questionLabel.font = font;
-        questionHeightConstraint.constant = height;
+        
+        aAnswerHeightConstraint.constant = heightForView(text:question.answers[1]!, font: font!, width: self.view.frame.width - 79) + 16;
+        aAnswerLabel.text = question.answers[1];
+        aAnswerLabel.font = font;
+        
+        bAnswerHeightConstraint.constant = heightForView(text:question.answers[2]!, font: font!, width: self.view.frame.width - 79) + 16;
+        bAnswerLabel.text = question.answers[2];
+        bAnswerLabel.font = font;
+
+        cAnswerHeightConstraint.constant = heightForView(text:question.answers[3]!, font: font!, width: self.view.frame.width - 79) + 16;
+        cAnswerLabel.text = question.answers[3];
+        cAnswerLabel.font = font;
+
+        if(question.answers[4] != nil) {
+            dAnswerHeightConstraint.constant = heightForView(text:question.answers[4]!, font: font!, width: self.view.frame.width - 79) + 16;
+            dAnswerLabel.text = question.answers[4];
+            dAnswerLabel.font = font;
+        } else {
+            dAnswerHeightConstraint.constant = 0;
+            c1.constant = 0;
+            c2.constant = 0;
+            c3.constant = 0;
+            c4.constant = 0;
+            c5.constant = 0;
+            c6.constant = 0;
+            c7.constant = 0;
+        }
+
+        
+        
         view.layoutIfNeeded();
     }
     
+    @IBAction func answerAClicked(_ sender: UIView) {
+        print("AAA");
+    }
+    
+    @IBAction func answerBClicked(_ sender: UIView) {
+        print("BBB");
+    }
+    
+    @IBAction func answerCClicked(_ sender: UIView) {
+        print("CCC");
+    }
+    
+    @IBAction func answerDClicked(_ sender: UIView) {
+        print("DDD");
+    }
+    
+
     func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat{
         let label:UILabel = UILabel(frame: CGRect(x:0, y:0, width:width, height:CGFloat.greatestFiniteMagnitude));
         label.numberOfLines = 0;
