@@ -1181,9 +1181,35 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwS-1S-nmM" userLabel="status header">
                                 <rect key="frame" x="0.0" y="70" width="375" height="40"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwP-dE-mIq">
+                                        <rect key="frame" x="8" y="8" width="114.5" height="24"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CX9-Cv-eHp">
+                                        <rect key="frame" x="130.5" y="8" width="114" height="24"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRp-Dj-SUz">
+                                        <rect key="frame" x="252.5" y="8" width="114.5" height="24"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
+                                    <constraint firstItem="pRp-Dj-SUz" firstAttribute="top" secondItem="SwS-1S-nmM" secondAttribute="top" constant="8" id="48v-Co-r5e"/>
+                                    <constraint firstAttribute="bottom" secondItem="CX9-Cv-eHp" secondAttribute="bottom" constant="8" id="5VX-tj-RUq"/>
+                                    <constraint firstItem="pRp-Dj-SUz" firstAttribute="leading" secondItem="CX9-Cv-eHp" secondAttribute="trailing" constant="8" id="K5O-Up-LHL"/>
+                                    <constraint firstAttribute="bottom" secondItem="wwP-dE-mIq" secondAttribute="bottom" constant="8" id="KHM-TH-1zI"/>
+                                    <constraint firstItem="CX9-Cv-eHp" firstAttribute="width" secondItem="wwP-dE-mIq" secondAttribute="width" id="NHf-gC-vez"/>
+                                    <constraint firstAttribute="bottom" secondItem="pRp-Dj-SUz" secondAttribute="bottom" constant="8" id="YJS-dN-Wio"/>
+                                    <constraint firstAttribute="trailing" secondItem="pRp-Dj-SUz" secondAttribute="trailing" constant="8" id="YWV-bo-P87"/>
+                                    <constraint firstItem="CX9-Cv-eHp" firstAttribute="leading" secondItem="wwP-dE-mIq" secondAttribute="trailing" constant="8" id="az0-Jw-5sQ"/>
                                     <constraint firstAttribute="height" constant="40" id="cgg-RG-YUK"/>
+                                    <constraint firstItem="pRp-Dj-SUz" firstAttribute="width" secondItem="wwP-dE-mIq" secondAttribute="width" id="eGk-1d-vR4"/>
+                                    <constraint firstItem="wwP-dE-mIq" firstAttribute="leading" secondItem="SwS-1S-nmM" secondAttribute="leading" constant="8" id="fcf-9n-kaC"/>
+                                    <constraint firstItem="CX9-Cv-eHp" firstAttribute="top" secondItem="SwS-1S-nmM" secondAttribute="top" constant="8" id="h01-nT-Ov5"/>
+                                    <constraint firstItem="wwP-dE-mIq" firstAttribute="top" secondItem="SwS-1S-nmM" secondAttribute="top" constant="8" id="i0C-qT-uvk"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YL2-wI-nOu" userLabel="container_view">
@@ -1242,7 +1268,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSa-Q0-D0A">
                                                 <rect key="frame" x="8" y="8" width="359" height="80"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwb-wu-FDO">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwb-wu-FDO">
                                                         <rect key="frame" x="4" y="8" width="38" height="64"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>

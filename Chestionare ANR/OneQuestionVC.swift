@@ -61,28 +61,30 @@ class OneQuestionVC: UIViewController {
     
     
     public func setQuestion(_ question: Question) {
-        let font = UIFont(name: "Helvetica", size: 20.0);
+        let qFont = UIFont(name: "Helvetica", size: 20.0);
         
-        questionHeightConstraint.constant = heightForView(text:question.name, font: font!, width: self.view.frame.width - 32) + 16;
+        questionHeightConstraint.constant = heightForView(text:question.name, font: qFont!, width: self.view.frame.width - 79) + 16;
         questionLabel.text = question.name;
-        questionLabel.font = font;
+        questionLabel.font = qFont;
         
-        aAnswerHeightConstraint.constant = heightForView(text:question.answers[1]!, font: font!, width: self.view.frame.width - 79) + 16;
+        let aFont = UIFont(name: "Helvetica", size: 16.0);
+        
+        aAnswerHeightConstraint.constant = heightForView(text:question.answers[1]!, font: aFont!, width: self.view.frame.width - 79) + 16;
         aAnswerLabel.text = question.answers[1];
-        aAnswerLabel.font = font;
+        aAnswerLabel.font = aFont;
         
-        bAnswerHeightConstraint.constant = heightForView(text:question.answers[2]!, font: font!, width: self.view.frame.width - 79) + 16;
+        bAnswerHeightConstraint.constant = heightForView(text:question.answers[2]!, font: aFont!, width: self.view.frame.width - 79) + 16;
         bAnswerLabel.text = question.answers[2];
-        bAnswerLabel.font = font;
+        bAnswerLabel.font = aFont;
 
-        cAnswerHeightConstraint.constant = heightForView(text:question.answers[3]!, font: font!, width: self.view.frame.width - 79) + 16;
+        cAnswerHeightConstraint.constant = heightForView(text:question.answers[3]!, font: aFont!, width: self.view.frame.width - 79) + 16;
         cAnswerLabel.text = question.answers[3];
-        cAnswerLabel.font = font;
+        cAnswerLabel.font = aFont;
 
         if(question.answers[4] != nil) {
-            dAnswerHeightConstraint.constant = heightForView(text:question.answers[4]!, font: font!, width: self.view.frame.width - 79) + 16;
+            dAnswerHeightConstraint.constant = heightForView(text:question.answers[4]!, font: aFont!, width: self.view.frame.width - 79) + 16;
             dAnswerLabel.text = question.answers[4];
-            dAnswerLabel.font = font;
+            dAnswerLabel.font = aFont;
         } else {
             dAnswerHeightConstraint.constant = 0;
             c1.constant = 0;
