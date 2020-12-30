@@ -58,7 +58,7 @@ class QuestionVC: UIViewController {
         answers[4] = answerD;
         
         
-        let question = Question(id:1, name: softWrappedQuotation,category: [],subcategory: 1,image: "",answers: answers,correctAnswerId:  1,hints: []);
+        let question = Question(id:1036, name: softWrappedQuotation,category: [],subcategory: 1,image: "",answers: answers,correctAnswerId:  1,hints: []);
         
         viewController.setQuestion(question);
 

@@ -42,6 +42,8 @@ class OneQuestionVC: UIViewController {
     @IBOutlet weak var c6: NSLayoutConstraint!
     @IBOutlet weak var c7: NSLayoutConstraint!
     
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageViewHeightConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad();
@@ -66,6 +68,22 @@ class OneQuestionVC: UIViewController {
         questionHeightConstraint.constant = heightForView(text:question.name, font: qFont!, width: self.view.frame.width - 79) + 16;
         questionLabel.text = question.name;
         questionLabel.font = qFont;
+        
+        
+//        if let path = Bundle.main.url(forResource: "anexe", withExtension: "png") {
+//            imageView.image = UIImage();
+//        } else {
+//
+//        }
+        
+        if let filePath = Bundle.main.path(forResource: "image" + String(question.id), ofType: "png"), let image = UIImage(contentsOfFile: filePath) {
+            imageViewHeightConstraint.constant = 150;
+            imageView.contentMode = .scaleAspectFit;
+            imageView.image = image;
+        } else {
+            imageViewHeightConstraint.constant = 0;
+        }
+        
         
         let aFont = UIFont(name: "Helvetica", size: 16.0);
         

@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1131,7 +1132,7 @@
         <scene sceneID="QQ0-Ax-k8b">
             <objects>
                 <viewController storyboardIdentifier="QuestionViewController" id="cN5-oK-smh" customClass="QuestionVC" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="B4X-cb-WbJ" userLabel="testtt">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="B4X-cb-WbJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1383,7 +1384,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4O-k3-eg5" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="424"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="566"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSa-Q0-D0A">
                                                 <rect key="frame" x="8" y="8" width="359" height="80"/>
@@ -1408,7 +1409,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pentru executarea navigației în siguranță pe vreme rea vor fi luați în considerare următorii factori:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAO-zU-JA0">
                                                         <rect key="frame" x="55" y="8" width="296" height="64"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -1427,8 +1428,15 @@
                                                     <constraint firstItem="uAO-zU-JA0" firstAttribute="leading" secondItem="AMi-jB-4ey" secondAttribute="trailing" constant="8" id="zrq-12-EhF"/>
                                                 </constraints>
                                             </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ezD-CY-2l5">
+                                                <rect key="frame" x="8" y="96" width="359" height="150"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="O0K-gx-YcY"/>
+                                                </constraints>
+                                            </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7o-eE-25e">
-                                                <rect key="frame" x="8" y="112" width="359" height="70"/>
+                                                <rect key="frame" x="8" y="254" width="359" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE0-rD-6Mk">
                                                         <rect key="frame" x="8" y="8" width="30" height="54"/>
@@ -1437,7 +1445,7 @@
                                                             <constraint firstAttribute="width" constant="30" id="jE7-du-JFz"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IZi-MT-zEf" userLabel="separator">
@@ -1450,7 +1458,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="analiza forței și direcției vântului, a alurilor corecte, în funcție de suprafața velica și comportarea navei." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DZ-Ri-pGK">
                                                         <rect key="frame" x="55" y="8" width="296" height="54"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -1474,7 +1482,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1RC-Bw-Iuo">
-                                                <rect key="frame" x="8" y="190" width="359" height="70"/>
+                                                <rect key="frame" x="8" y="332" width="359" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rob-Kn-knW">
                                                         <rect key="frame" x="8" y="8" width="30" height="54"/>
@@ -1483,7 +1491,7 @@
                                                             <constraint firstAttribute="width" constant="30" id="qtQ-DA-Mrs"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fc3-zE-8ft" userLabel="separator">
@@ -1496,7 +1504,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="verificarea instalațiilor de ancorare și remorcare, pentru utilizarea lor în situații neprevăzute." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5v-M8-VH2">
                                                         <rect key="frame" x="55" y="8" width="296" height="54"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -1520,7 +1528,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Izr-wY-her">
-                                                <rect key="frame" x="8" y="268" width="359" height="70"/>
+                                                <rect key="frame" x="8" y="410" width="359" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAJ-jQ-oQc">
                                                         <rect key="frame" x="8" y="8" width="30" height="54"/>
@@ -1529,7 +1537,7 @@
                                                             <constraint firstAttribute="width" constant="30" id="khb-Tn-JJM"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ogt-dt-s3v" userLabel="separator">
@@ -1542,7 +1550,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="analiza posibilităților de utilizare a mijloacelor colective de salvare în situații neprevăzute." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbR-OF-TbU">
                                                         <rect key="frame" x="55" y="8" width="296" height="54"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -1566,7 +1574,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mzl-WF-OOb">
-                                                <rect key="frame" x="8" y="346" width="359" height="70"/>
+                                                <rect key="frame" x="8" y="488" width="359" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBN-zQ-UVW">
                                                         <rect key="frame" x="8" y="8" width="30" height="54"/>
@@ -1575,7 +1583,7 @@
                                                             <constraint firstAttribute="width" constant="30" id="8BT-tb-hnj"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KuK-nH-YhR" userLabel="separator">
@@ -1588,7 +1596,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="analiza condițiilor de navigație pe vreme rea, ținându-se cont de vânt." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrS-xq-N9v">
                                                         <rect key="frame" x="57" y="8" width="294" height="54"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -1620,13 +1628,16 @@
                                             <constraint firstAttribute="trailing" secondItem="mzl-WF-OOb" secondAttribute="trailing" constant="8" id="DXY-Ls-Kdo"/>
                                             <constraint firstItem="Izr-wY-her" firstAttribute="leading" secondItem="f4O-k3-eg5" secondAttribute="leading" constant="8" id="Gt0-dF-U7C"/>
                                             <constraint firstAttribute="trailing" secondItem="LSa-Q0-D0A" secondAttribute="trailing" constant="8" id="HPX-Wl-P09"/>
+                                            <constraint firstItem="g7o-eE-25e" firstAttribute="top" secondItem="ezD-CY-2l5" secondAttribute="bottom" constant="8" id="Ind-Au-Cx6"/>
                                             <constraint firstItem="g7o-eE-25e" firstAttribute="leading" secondItem="f4O-k3-eg5" secondAttribute="leading" constant="8" id="KwN-ag-zBa"/>
+                                            <constraint firstItem="ezD-CY-2l5" firstAttribute="leading" secondItem="f4O-k3-eg5" secondAttribute="leading" constant="8" id="MkS-r4-pUy"/>
                                             <constraint firstItem="1RC-Bw-Iuo" firstAttribute="leading" secondItem="f4O-k3-eg5" secondAttribute="leading" constant="8" id="RgY-Ko-XeW"/>
                                             <constraint firstItem="1RC-Bw-Iuo" firstAttribute="top" secondItem="g7o-eE-25e" secondAttribute="bottom" constant="8" id="TPs-JZ-hWM"/>
                                             <constraint firstItem="LSa-Q0-D0A" firstAttribute="leading" secondItem="f4O-k3-eg5" secondAttribute="leading" constant="8" id="b2V-8v-5bJ"/>
-                                            <constraint firstItem="g7o-eE-25e" firstAttribute="top" secondItem="LSa-Q0-D0A" secondAttribute="bottom" constant="24" id="gad-Hx-YmW"/>
+                                            <constraint firstItem="ezD-CY-2l5" firstAttribute="top" secondItem="LSa-Q0-D0A" secondAttribute="bottom" constant="8" id="fpv-6f-7Kg"/>
                                             <constraint firstAttribute="trailing" secondItem="1RC-Bw-Iuo" secondAttribute="trailing" constant="8" id="kmA-zq-0UE"/>
                                             <constraint firstItem="mzl-WF-OOb" firstAttribute="top" secondItem="Izr-wY-her" secondAttribute="bottom" constant="8" id="n3E-n4-7rL"/>
+                                            <constraint firstAttribute="trailing" secondItem="ezD-CY-2l5" secondAttribute="trailing" constant="8" id="qQo-i2-qiU"/>
                                             <constraint firstAttribute="bottom" secondItem="mzl-WF-OOb" secondAttribute="bottom" constant="8" id="uAW-lI-1bz"/>
                                             <constraint firstItem="mzl-WF-OOb" firstAttribute="leading" secondItem="f4O-k3-eg5" secondAttribute="leading" constant="8" id="ytd-Z9-O9L"/>
                                             <constraint firstAttribute="trailing" secondItem="g7o-eE-25e" secondAttribute="trailing" constant="8" id="zgp-8r-bIY"/>
@@ -1673,6 +1684,8 @@
                         <outlet property="dAnswerHeightConstraint" destination="uC6-ke-a56" id="4zX-dd-D5g"/>
                         <outlet property="dAnswerLabel" destination="LrS-xq-N9v" id="D5A-Yu-14K"/>
                         <outlet property="dAnswerView" destination="mzl-WF-OOb" id="VSD-Uq-kw2"/>
+                        <outlet property="imageView" destination="ezD-CY-2l5" id="C5J-sr-5Up"/>
+                        <outlet property="imageViewHeightConstraint" destination="O0K-gx-YcY" id="Yt9-Tg-5JU"/>
                         <outlet property="questionHeightConstraint" destination="k8M-b4-0wW" id="O9o-JN-gAQ"/>
                         <outlet property="questionLabel" destination="uAO-zU-JA0" id="g6m-IV-AiZ"/>
                         <outlet property="questionView" destination="LSa-Q0-D0A" id="Pum-18-eyp"/>
@@ -1689,6 +1702,9 @@
         <image name="help_transparent" width="50" height="50"/>
         <image name="paper_boats" width="1180.6666259765625" height="694.33331298828125"/>
         <image name="play" width="66.666664123535156" height="77"/>
+        <namedColor name="text_color">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
