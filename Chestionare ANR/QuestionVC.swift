@@ -13,13 +13,19 @@ class QuestionVC: UIViewController {
     var isCommercialShowed = false;
     var category:String?;
     
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var questionHeightConstraint: NSLayoutConstraint!;
     @IBOutlet weak var containerView: UIView!
     
+    @IBOutlet weak var skipButton: UIView!
+    @IBOutlet weak var nextButton: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad();
+        
+        skipButton.layer.cornerRadius = 10;
+        nextButton.layer.cornerRadius = 10;
+    
+        skipButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (skipClicked (_:))));
+        nextButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (nextClicked (_:))));
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -82,6 +88,14 @@ class QuestionVC: UIViewController {
 //        }
         
    }
+    
+    @IBAction func skipClicked(_ sender: UIView) {
+        print("skip");
+    }
+    
+    @IBAction func nextClicked(_ sender: UIView) {
+        print("next");
+    }
 
     
     @IBAction func backClicked(_ sender: Any) {
