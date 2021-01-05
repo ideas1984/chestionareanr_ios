@@ -12,6 +12,9 @@ class OneQuestionVC: UIViewController {
     
 //    var mainController: MainViewController!
     
+    weak var ansertSelectedDelegate: AnswerSelectedDelegate?
+    var selectedAnswer:AnswerEnum = AnswerEnum.NONE_SELECTED
+    
     @IBOutlet weak var questionView: UIView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var questionHeightConstraint: NSLayoutConstraint!
@@ -45,6 +48,10 @@ class OneQuestionVC: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var imageViewHeightConstraint: NSLayoutConstraint!
     
+    public enum AnswerEnum {
+        case A_SELECTED, B_SELECTED, C_SELECTED, D_SELECTED, NONE_SELECTED
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad();
         
@@ -69,12 +76,6 @@ class OneQuestionVC: UIViewController {
         questionLabel.text = question.name;
         questionLabel.font = qFont;
         
-        
-//        if let path = Bundle.main.url(forResource: "anexe", withExtension: "png") {
-//            imageView.image = UIImage();
-//        } else {
-//
-//        }
         
         if let filePath = Bundle.main.path(forResource: "image" + String(question.id), ofType: "png"), let image = UIImage(contentsOfFile: filePath) {
             imageViewHeightConstraint.constant = 150;
@@ -114,25 +115,43 @@ class OneQuestionVC: UIViewController {
             c7.constant = 0;
         }
 
-        
-        
         view.layoutIfNeeded();
     }
     
     @IBAction func answerAClicked(_ sender: UIView) {
-        print("AAA");
+        if(selectedAnswer != AnswerEnum.A_SELECTED) {
+            selectedAnswer = AnswerEnum.A_SELECTED;
+        } else {
+            selectedAnswer = AnswerEnum.NONE_SELECTED;
+        }
+        ansertSelectedDelegate?.answerSelected(selectedAnswer);
     }
     
     @IBAction func answerBClicked(_ sender: UIView) {
-        print("BBB");
+        if(selectedAnswer != AnswerEnum.B_SELECTED) {
+            selectedAnswer = AnswerEnum.B_SELECTED;
+        } else {
+            selectedAnswer = AnswerEnum.NONE_SELECTED;
+        }
+        ansertSelectedDelegate?.answerSelected(selectedAnswer);
     }
     
     @IBAction func answerCClicked(_ sender: UIView) {
-        print("CCC");
+        if(selectedAnswer != AnswerEnum.C_SELECTED) {
+            selectedAnswer = AnswerEnum.C_SELECTED;
+        } else {
+            selectedAnswer = AnswerEnum.NONE_SELECTED;
+        }
+        ansertSelectedDelegate?.answerSelected(selectedAnswer);
     }
     
     @IBAction func answerDClicked(_ sender: UIView) {
-        print("DDD");
+        if(selectedAnswer != AnswerEnum.D_SELECTED) {
+            selectedAnswer = AnswerEnum.D_SELECTED;
+        } else {
+            selectedAnswer = AnswerEnum.NONE_SELECTED;
+        }
+        ansertSelectedDelegate?.answerSelected(selectedAnswer);
     }
     
 

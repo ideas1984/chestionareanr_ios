@@ -183,6 +183,7 @@
 		078BEE3D2539027E00A6B31F /* questions.xml in Resources */ = {isa = PBXBuildFile; fileRef = 078BEE3C2539027E00A6B31F /* questions.xml */; };
 		078BEE402539028C00A6B31F /* questions_test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 078BEE3F2539028C00A6B31F /* questions_test.xml */; };
 		078BEE442539036700A6B31F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BEE432539036700A6B31F /* Question.swift */; };
+		078C2E9825A51A390063E36B /* AnswerSelectedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C2E9725A51A390063E36B /* AnswerSelectedDelegate.swift */; };
 		078D01152592AE9500F7021E /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D01142592AE9500F7021E /* QuestionVC.swift */; };
 		078DC00A24C4E6FC00512D0A /* LearningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00924C4E6FC00512D0A /* LearningVC.swift */; };
 		078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00B24D8A2B000512D0A /* ArrowButton.swift */; };
@@ -389,6 +390,7 @@
 		078BEE3C2539027E00A6B31F /* questions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = questions.xml; sourceTree = "<group>"; };
 		078BEE3F2539028C00A6B31F /* questions_test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = questions_test.xml; sourceTree = "<group>"; };
 		078BEE432539036700A6B31F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		078C2E9725A51A390063E36B /* AnswerSelectedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerSelectedDelegate.swift; sourceTree = "<group>"; };
 		078D01142592AE9500F7021E /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
 		078DC00924C4E6FC00512D0A /* LearningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningVC.swift; sourceTree = "<group>"; };
 		078DC00B24D8A2B000512D0A /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
@@ -612,6 +614,14 @@
 			name = util;
 			sourceTree = "<group>";
 		};
+		078C2E9625A51A190063E36B /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				078C2E9725A51A390063E36B /* AnswerSelectedDelegate.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
 		07C8C71E2537A441002F12FD /* xml */ = {
 			isa = PBXGroup;
 			children = (
@@ -682,6 +692,7 @@
 		07F514ED249D74A1001681D8 /* Chestionare ANR */ = {
 			isa = PBXGroup;
 			children = (
+				078C2E9625A51A190063E36B /* delegate */,
 				078B1307259D325A00F17735 /* image */,
 				078B452F2586C26000477694 /* util */,
 				07D664D4256B065100C10811 /* pdf */,
@@ -971,6 +982,7 @@
 				078B45312586C2A600477694 /* AppUtility.swift in Sources */,
 				078BEE2F2538F8C000A6B31F /* Book.swift in Sources */,
 				07F514F1249D74A6001681D8 /* MainViewController.swift in Sources */,
+				078C2E9825A51A390063E36B /* AnswerSelectedDelegate.swift in Sources */,
 				07F514EF249D74A6001681D8 /* AppDelegate.swift in Sources */,
 				07FD8D2024AA96F50065E024 /* CustomButton.swift in Sources */,
 				07F1920025973C6000878D5E /* OneQuestionVC.swift in Sources */,

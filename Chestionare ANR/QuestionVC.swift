@@ -8,7 +8,7 @@
 
 import UIKit
 
-class QuestionVC: UIViewController {
+class QuestionVC: UIViewController, AnswerSelectedDelegate {
     
     var isCommercialShowed = false;
     var category:String?;
@@ -34,6 +34,7 @@ class QuestionVC: UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
         let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
         addViewControllerAsChildViewController(childViewController: viewController);
+        viewController.ansertSelectedDelegate = self;
         
         view.layoutIfNeeded();//very important here. do not erase this
         
@@ -88,6 +89,11 @@ class QuestionVC: UIViewController {
 //        }
         
    }
+    
+    func answerSelected(_ answer: OneQuestionVC.AnswerEnum) {
+        print("ANSWER=",answer);
+    }
+    
     
     @IBAction func skipClicked(_ sender: UIView) {
         print("skip");
