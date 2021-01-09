@@ -15,6 +15,10 @@ class OneQuestionVC: UIViewController {
     weak var ansertSelectedDelegate: AnswerSelectedDelegate?
     var selectedAnswer:AnswerEnum = AnswerEnum.NONE_SELECTED
     
+    let selectedColor = UIColor(red: 1, green: 0.62, blue: 0.61, alpha: 1);
+    let notSelectedColor = UIColor.white;
+
+    
     @IBOutlet weak var questionView: UIView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var questionHeightConstraint: NSLayoutConstraint!
@@ -125,6 +129,7 @@ class OneQuestionVC: UIViewController {
             selectedAnswer = AnswerEnum.NONE_SELECTED;
         }
         ansertSelectedDelegate?.answerSelected(selectedAnswer);
+        updateUI(selectedAnswer);
     }
     
     @IBAction func answerBClicked(_ sender: UIView) {
@@ -134,6 +139,7 @@ class OneQuestionVC: UIViewController {
             selectedAnswer = AnswerEnum.NONE_SELECTED;
         }
         ansertSelectedDelegate?.answerSelected(selectedAnswer);
+        updateUI(selectedAnswer);
     }
     
     @IBAction func answerCClicked(_ sender: UIView) {
@@ -143,6 +149,7 @@ class OneQuestionVC: UIViewController {
             selectedAnswer = AnswerEnum.NONE_SELECTED;
         }
         ansertSelectedDelegate?.answerSelected(selectedAnswer);
+        updateUI(selectedAnswer);
     }
     
     @IBAction func answerDClicked(_ sender: UIView) {
@@ -152,6 +159,41 @@ class OneQuestionVC: UIViewController {
             selectedAnswer = AnswerEnum.NONE_SELECTED;
         }
         ansertSelectedDelegate?.answerSelected(selectedAnswer);
+        updateUI(selectedAnswer);
+    }
+    
+    func updateUI(_ selectedAnswer: OneQuestionVC.AnswerEnum) {
+        switch selectedAnswer {
+        case .A_SELECTED:
+            aAnswerView.backgroundColor = selectedColor;
+            bAnswerView.backgroundColor = notSelectedColor;
+            cAnswerView.backgroundColor = notSelectedColor;
+            dAnswerView.backgroundColor = notSelectedColor;
+            break;
+        case .B_SELECTED:
+            aAnswerView.backgroundColor = notSelectedColor;
+            bAnswerView.backgroundColor = selectedColor;
+            cAnswerView.backgroundColor = notSelectedColor;
+            dAnswerView.backgroundColor = notSelectedColor;
+            break;
+        case .C_SELECTED:
+            aAnswerView.backgroundColor = notSelectedColor;
+            bAnswerView.backgroundColor = notSelectedColor;
+            cAnswerView.backgroundColor = selectedColor;
+            dAnswerView.backgroundColor = notSelectedColor;
+            break;
+        case .D_SELECTED:
+            aAnswerView.backgroundColor = notSelectedColor;
+            bAnswerView.backgroundColor = notSelectedColor;
+            cAnswerView.backgroundColor = notSelectedColor;
+            dAnswerView.backgroundColor = selectedColor;
+            break;
+        case .NONE_SELECTED:
+            aAnswerView.backgroundColor = notSelectedColor;
+            bAnswerView.backgroundColor = notSelectedColor;
+            cAnswerView.backgroundColor = notSelectedColor;
+            dAnswerView.backgroundColor = notSelectedColor;
+        }
     }
     
 
