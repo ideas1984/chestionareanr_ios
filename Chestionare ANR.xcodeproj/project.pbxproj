@@ -185,7 +185,7 @@
 		078BEE402539028C00A6B31F /* questions_test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 078BEE3F2539028C00A6B31F /* questions_test.xml */; };
 		078BEE442539036700A6B31F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BEE432539036700A6B31F /* Question.swift */; };
 		078C2E9825A51A390063E36B /* AnswerSelectedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C2E9725A51A390063E36B /* AnswerSelectedDelegate.swift */; };
-		078D01152592AE9500F7021E /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D01142592AE9500F7021E /* QuestionVC.swift */; };
+		078D01152592AE9500F7021E /* ExamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D01142592AE9500F7021E /* ExamVC.swift */; };
 		078DC00A24C4E6FC00512D0A /* LearningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00924C4E6FC00512D0A /* LearningVC.swift */; };
 		078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00B24D8A2B000512D0A /* ArrowButton.swift */; };
 		078DC00E24D8C41600512D0A /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00D24D8C41600512D0A /* TestButton.swift */; };
@@ -394,7 +394,7 @@
 		078BEE3F2539028C00A6B31F /* questions_test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = questions_test.xml; sourceTree = "<group>"; };
 		078BEE432539036700A6B31F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		078C2E9725A51A390063E36B /* AnswerSelectedDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerSelectedDelegate.swift; sourceTree = "<group>"; };
-		078D01142592AE9500F7021E /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
+		078D01142592AE9500F7021E /* ExamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamVC.swift; sourceTree = "<group>"; };
 		078DC00924C4E6FC00512D0A /* LearningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningVC.swift; sourceTree = "<group>"; };
 		078DC00B24D8A2B000512D0A /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
 		078DC00D24D8C41600512D0A /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
@@ -710,7 +710,7 @@
 				07F514F7249D755D001681D8 /* LaunchScreen.storyboard */,
 				07F514FA249D755D001681D8 /* Info.plist */,
 				07F514F0249D74A6001681D8 /* MainViewController.swift */,
-				078D01142592AE9500F7021E /* QuestionVC.swift */,
+				078D01142592AE9500F7021E /* ExamVC.swift */,
 				07E7719824A01FB200292287 /* QuestionnaireVC.swift */,
 				07E7719A24A01FEB00292287 /* MainMenuVC.swift */,
 				078DC00924C4E6FC00512D0A /* LearningVC.swift */,
@@ -997,7 +997,7 @@
 				078BEE442539036700A6B31F /* Question.swift in Sources */,
 				0701B62325AA20DC005E85F7 /* Const.swift in Sources */,
 				07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */,
-				078D01152592AE9500F7021E /* QuestionVC.swift in Sources */,
+				078D01152592AE9500F7021E /* ExamVC.swift in Sources */,
 				078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */,
 				07E7719924A01FB200292287 /* QuestionnaireVC.swift in Sources */,
 				07E7719B24A01FEB00292287 /* MainMenuVC.swift in Sources */,

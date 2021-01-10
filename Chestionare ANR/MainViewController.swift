@@ -44,9 +44,26 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
-        XMLUtil.instance;
+//        XMLUtil.instance;
         
-        print("viewDidLoad");
+        var students = ["Ben", "Ivy", "Jordell"];
+        
+        print(students.count);
+        students.remove(at: 2);
+        print(students.count);
+//
+//        for element in students {
+//          print(element)
+//        }
+//        print("-------");
+
+//        students.remove(at: 0);
+//
+//        for element in students {
+//          print(element)
+//        }
+        
+        
         
         mainMenuVC.view.isHidden = false;
         visibleVC = mainMenuVC;
@@ -57,8 +74,6 @@ class MainViewController: UIViewController {
         super.viewWillAppear(animated);
         
         commercialTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeCommercial), userInfo: nil, repeats: true);
-        
-        print("viewWillAppear111");
         
         AppUtility.lockOrientation(.portrait, andRotateTo: .portrait);
         
@@ -121,7 +136,7 @@ class MainViewController: UIViewController {
     
     public func startTest(_ buttonName: String) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        let vc = storyboard.instantiateViewController(withIdentifier: "QuestionViewController") as! QuestionVC;
+        let vc = storyboard.instantiateViewController(withIdentifier: "QuestionViewController") as! ExamVC;
         
         if (buttonName == "categoria_d") {
             vc.category = Const.CATEGORY_D;

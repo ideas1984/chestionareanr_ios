@@ -22,6 +22,7 @@ class OneQuestionVC: UIViewController {
     @IBOutlet weak var questionView: UIView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var questionHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var questionNumberLabel: UILabel!
     
     
     @IBOutlet weak var aAnswerView: UIView!
@@ -52,8 +53,8 @@ class OneQuestionVC: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var imageViewHeightConstraint: NSLayoutConstraint!
     
-    public enum AnswerEnum {
-        case A_SELECTED, B_SELECTED, C_SELECTED, D_SELECTED, NONE_SELECTED
+    public enum AnswerEnum : Int {
+        case A_SELECTED = 1, B_SELECTED = 2, C_SELECTED = 3, D_SELECTED = 4, NONE_SELECTED = -1
     }
     
     override func viewDidLoad() {
@@ -73,12 +74,13 @@ class OneQuestionVC: UIViewController {
     }
     
     
-    public func setQuestion(_ question: Question) {
+    public func setQuestion(_ question: Question, andNumber questionNumber: Int) {
         let qFont = UIFont(name: "Helvetica", size: 20.0);
         
         questionHeightConstraint.constant = heightForView(text:question.name, font: qFont!, width: self.view.frame.width - 79) + 16;
         questionLabel.text = question.name;
         questionLabel.font = qFont;
+        questionNumberLabel.text = String(questionNumber);
         
         
         if let filePath = Bundle.main.path(forResource: "image" + String(question.id), ofType: "png"), let image = UIImage(contentsOfFile: filePath) {

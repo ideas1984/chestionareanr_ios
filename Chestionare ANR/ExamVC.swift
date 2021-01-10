@@ -8,20 +8,27 @@
 
 import UIKit
 
-class QuestionVC: UIViewController, AnswerSelectedDelegate {
+class ExamVC: UIViewController, AnswerSelectedDelegate {
+    
+    public enum ViewState {
+        case NONE, COMMERCIAL_SHOWED, QUESTION_DISPLAYED
+    }
     
     struct TestState {
-        var questions: [Question];
+        var questions: [Question] = [];
         var skipped: [Int] = [];
         var currentQuestionIdx = 0;
         var goodAnswers = 0;
         var badAnswers = 0;
+        var originalIndexes: [Int:Int] = [:];
     }
     
     
-    var testState: TestState?;
-    var isCommercialShowed = false;
+    var testState = TestState();
+    var viewState: ViewState = ViewState.NONE;
     var category:Int?;
+    var selectedAnswer: OneQuestionVC.AnswerEnum = OneQuestionVC.AnswerEnum.NONE_SELECTED;
+    var childVC : OneQuestionVC?;
     
     @IBOutlet weak var containerView: UIView!
     
@@ -40,54 +47,111 @@ class QuestionVC: UIViewController, AnswerSelectedDelegate {
         skipButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (skipClicked (_:))));
         nextButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (nextClicked (_:))));
         
-        skipButton.isUserInteractionEnabled = false;
+        //        testState = TestState(questions: XMLUtil.instance.getRandomQuestions(fromCategory: category!));
         
+        testState.questions = XMLUtil.instance.getRandomQuestions(fromCategory: category!);
         
-        testState = TestState(questions: XMLUtil.instance.getRandomQuestions(fromCategory: category!));
+        for index in 0...testState.questions.count - 1 {
+            testState.originalIndexes[testState.questions[index].id] = index + 1;
+        }
+        
+        changeUIState(toButton: nextButton, false);
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
-//        if(!isCommercialShowed) {
-//            isCommercialShowed = true;
-//            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-//            let vc = storyboard.instantiateViewController(withIdentifier: "commercial_vc") as! CommercialVC;
-//            vc.modalPresentationStyle = .fullScreen;
-//            present(vc, animated: false, completion: nil);
-//        } else {
+        if(viewState == ViewState.NONE) {
+            viewState = ViewState.COMMERCIAL_SHOWED;
             let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-            let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
-            addViewControllerAsChildViewController(childViewController: viewController);
-            viewController.ansertSelectedDelegate = self;
+            let vc = storyboard.instantiateViewController(withIdentifier: "commercial_vc") as! CommercialVC;
+            vc.modalPresentationStyle = .fullScreen;
+            present(vc, animated: false, completion: nil);
+        } else if(viewState == ViewState.COMMERCIAL_SHOWED) {
+            viewState = ViewState.QUESTION_DISPLAYED;
+            //            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            //            let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
+            //            addViewControllerAsChildViewController(childViewController: viewController);
+            //            viewController.ansertSelectedDelegate = self;
+            //
+            //            view.layoutIfNeeded();//very important here. do not erase this
+            //
+            //            viewController.setQuestion((testState?.questions[testState!.currentQuestionIdx])!);
+            //
+            //            remainingQuestionsLabel.text = String(testState!.questions.count - testState!.goodAnswers - testState!.badAnswers);
+            //            goodAnswersLabel.text = String(testState!.goodAnswers);
+            //            badAnswersLabel.text = String(testState!.badAnswers);
             
-            view.layoutIfNeeded();//very important here. do not erase this
+            showQuestion(questionIndex: testState.currentQuestionIdx);
             
             
-            viewController.setQuestion((testState?.questions[testState!.currentQuestionIdx])!);
-            
-            remainingQuestionsLabel.text = String(testState!.questions.count - testState!.goodAnswers - testState!.badAnswers);
-            goodAnswersLabel.text = String(testState!.goodAnswers);
-            badAnswersLabel.text = String(testState!.badAnswers);
-            
-            
-//            viewController.setQuestion(getDummyQuestion());
-//        }
+            //            viewController.setQuestion(getDummyQuestion());
+        }
         
     }
     
     
     func answerSelected(_ answer: OneQuestionVC.AnswerEnum) {
-        print("ANSWER=",answer);
+        selectedAnswer = answer;
+        if(answer == OneQuestionVC.AnswerEnum.NONE_SELECTED) {
+            changeUIState(toButton: nextButton, false);
+        } else {
+            changeUIState(toButton: nextButton, true);
+        }
     }
     
     
     @IBAction func skipClicked(_ sender: UIView) {
-        print("skip");
+        if(testState.currentQuestionIdx == testState.questions.count - 1) {
+            testState.currentQuestionIdx = 0;
+        } else {
+            testState.currentQuestionIdx += 1;
+        }
+        showQuestion(questionIndex: testState.currentQuestionIdx);
     }
     
     @IBAction func nextClicked(_ sender: UIView) {
-        print("next");
+        if(testState.questions[testState.currentQuestionIdx].correctAnswerId == selectedAnswer.rawValue) {
+            testState.goodAnswers += 1;
+        } else {
+            testState.badAnswers += 1;
+        }
+        
+        testState.questions.remove(at: testState.currentQuestionIdx);
+        
+        if(testState.questions.isEmpty) {
+            print("end test");
+            // close test
+        } else {
+            if(testState.currentQuestionIdx >= testState.questions.count) {
+                testState.currentQuestionIdx = 0;
+            }
+            showQuestion(questionIndex: testState.currentQuestionIdx);
+        }
+    }
+    
+    private func showQuestion(questionIndex index: Int) {
+        
+        removePreviousChildViewControllerIfAny();
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
+        addViewControllerAsChildViewController(childViewController: viewController);
+        viewController.ansertSelectedDelegate = self;
+        
+        view.layoutIfNeeded();//very important here. do not erase this
+        
+        let originalQuestionIndex = testState.originalIndexes[testState.questions[index].id]!;
+        viewController.setQuestion(testState.questions[index], andNumber: originalQuestionIndex);
+        
+        remainingQuestionsLabel.text = String(testState.questions.count);
+        goodAnswersLabel.text = String(testState.goodAnswers);
+        badAnswersLabel.text = String(testState.badAnswers);
+        
+        answerSelected(OneQuestionVC.AnswerEnum.NONE_SELECTED);
+        if(testState.questions.count == 1) {
+            changeUIState(toButton: skipButton, false);
+        }
     }
     
     
@@ -99,7 +163,8 @@ class QuestionVC: UIViewController, AnswerSelectedDelegate {
         }
     }
     
-    private func addViewControllerAsChildViewController(childViewController: UIViewController) {
+    private func addViewControllerAsChildViewController(childViewController: OneQuestionVC) {
+        childVC = childViewController;
         addChild(childViewController);
         containerView.addSubview(childViewController.view);
         childViewController.view.frame = containerView.bounds;
@@ -107,7 +172,25 @@ class QuestionVC: UIViewController, AnswerSelectedDelegate {
         childViewController.didMove(toParent: self);
     }
     
+    private func removePreviousChildViewControllerIfAny() {
+        if(childVC != nil) {
+            childVC!.ansertSelectedDelegate = nil;
+            childVC!.willMove(toParent: nil);
+            childVC!.view.removeFromSuperview();
+            childVC!.removeFromParent();
+        }
+    }
     
+    
+    private func changeUIState(toButton button: UIView, _ enabled: Bool) {
+        if(enabled) {
+            button.isUserInteractionEnabled = true;
+            button.backgroundColor = UIColor.white;
+        } else {
+            button.isUserInteractionEnabled = false;
+            button.backgroundColor = UIColor(named: "disable_color");
+        }
+    }
     
     
     private func getDummyQuestion() -> Question {
@@ -133,8 +216,5 @@ class QuestionVC: UIViewController, AnswerSelectedDelegate {
         
         return question;
     }
-    
-    
-    
     
 }
