@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0701B62325AA20DC005E85F7 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701B62225AA20DC005E85F7 /* Const.swift */; };
 		0760E6882569E3FD00C51497 /* PDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E6872569E3FD00C51497 /* PDFViewerVC.swift */; };
 		078B13B4259D348800F17735 /* image2069.png in Resources */ = {isa = PBXBuildFile; fileRef = 078B130E259D347100F17735 /* image2069.png */; };
 		078B13B5259D348800F17735 /* image2153.png in Resources */ = {isa = PBXBuildFile; fileRef = 078B130F259D347100F17735 /* image2153.png */; };
@@ -188,6 +189,7 @@
 		078DC00A24C4E6FC00512D0A /* LearningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00924C4E6FC00512D0A /* LearningVC.swift */; };
 		078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00B24D8A2B000512D0A /* ArrowButton.swift */; };
 		078DC00E24D8C41600512D0A /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00D24D8C41600512D0A /* TestButton.swift */; };
+		0799463925AB533000920B1B /* questions_test_one_question.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0799463825AB533000920B1B /* questions_test_one_question.xml */; };
 		079EE99F259BE1AD004D89A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F514F5249D755D001681D8 /* Assets.xcassets */; };
 		07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C8C71F2537A462002F12FD /* XMLUtil.swift */; };
 		07C8C7242537AB12002F12FD /* Books.xml in Resources */ = {isa = PBXBuildFile; fileRef = 07C8C7232537AB12002F12FD /* Books.xml */; };
@@ -214,6 +216,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0701B62225AA20DC005E85F7 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		0760E6872569E3FD00C51497 /* PDFViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerVC.swift; sourceTree = "<group>"; };
 		078B130E259D347100F17735 /* image2069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2069.png; sourceTree = "<group>"; };
 		078B130F259D347100F17735 /* image2153.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2153.png; sourceTree = "<group>"; };
@@ -395,6 +398,7 @@
 		078DC00924C4E6FC00512D0A /* LearningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningVC.swift; sourceTree = "<group>"; };
 		078DC00B24D8A2B000512D0A /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
 		078DC00D24D8C41600512D0A /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
+		0799463825AB533000920B1B /* questions_test_one_question.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = questions_test_one_question.xml; sourceTree = "<group>"; };
 		07C8C71F2537A462002F12FD /* XMLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLUtil.swift; sourceTree = "<group>"; };
 		07C8C7232537AB12002F12FD /* Books.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Books.xml; sourceTree = "<group>"; };
 		07D664ED256B0F2700C10811 /* anexe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anexe.pdf; sourceTree = "<group>"; };
@@ -610,6 +614,7 @@
 			isa = PBXGroup;
 			children = (
 				078B45302586C2A600477694 /* AppUtility.swift */,
+				0701B62225AA20DC005E85F7 /* Const.swift */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -635,6 +640,7 @@
 				078BEE392539027700A6B31F /* hints.xml */,
 				078BEE3C2539027E00A6B31F /* questions.xml */,
 				07C8C7232537AB12002F12FD /* Books.xml */,
+				0799463825AB533000920B1B /* questions_test_one_question.xml */,
 			);
 			path = xml;
 			sourceTree = "<group>";
@@ -699,11 +705,11 @@
 				07C8C71E2537A441002F12FD /* xml */,
 				07FD8D1E24AA96B10065E024 /* ui */,
 				07F514EE249D74A5001681D8 /* AppDelegate.swift */,
-				07F514F0249D74A6001681D8 /* MainViewController.swift */,
 				07F514F2249D74A9001681D8 /* Main.storyboard */,
 				07F514F5249D755D001681D8 /* Assets.xcassets */,
 				07F514F7249D755D001681D8 /* LaunchScreen.storyboard */,
 				07F514FA249D755D001681D8 /* Info.plist */,
+				07F514F0249D74A6001681D8 /* MainViewController.swift */,
 				078D01142592AE9500F7021E /* QuestionVC.swift */,
 				07E7719824A01FB200292287 /* QuestionnaireVC.swift */,
 				07E7719A24A01FEB00292287 /* MainMenuVC.swift */,
@@ -911,6 +917,7 @@
 				078B1448259D348800F17735 /* image1084.png in Resources */,
 				078B13EB259D348800F17735 /* image2267.png in Resources */,
 				07D664EE256B0F2700C10811 /* anexe.pdf in Resources */,
+				0799463925AB533000920B1B /* questions_test_one_question.xml in Resources */,
 				078B1458259D348800F17735 /* image2130.png in Resources */,
 				078B142B259D348800F17735 /* image1176.png in Resources */,
 				078B144E259D348800F17735 /* image1106.png in Resources */,
@@ -988,6 +995,7 @@
 				07F1920025973C6000878D5E /* OneQuestionVC.swift in Sources */,
 				078BEE34253901BC00A6B31F /* BooksParser.swift in Sources */,
 				078BEE442539036700A6B31F /* Question.swift in Sources */,
+				0701B62325AA20DC005E85F7 /* Const.swift in Sources */,
 				07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */,
 				078D01152592AE9500F7021E /* QuestionVC.swift in Sources */,
 				078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */,

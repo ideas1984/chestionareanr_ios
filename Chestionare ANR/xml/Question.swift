@@ -17,5 +17,4 @@ struct Question {
     var answers = [Int: String]();
     var correctAnswerId: Int;
     var hints = [Int]();
-    
 }

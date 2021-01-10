@@ -1,0 +1,15 @@
+<questions>
+    
+    <question id="1092">
+        <name>Ce semnificaţie are semnalul alăturat?</name>
+        <category>1,2</category>
+        <subcategory>1</subcategory>
+        <image>image1092</image>
+        <answer id="1">obligaţia de a reduce viteza.</answer>
+        <answer id="2">sunt impuse restricţii de navigaţie; informaţi-vă.</answer>
+        <answer id="3">obligaţia de a se opri în condiţiile prevăzute în R.N.D.</answer>
+        <correct_answer>2</correct_answer>
+        <hint/>
+    </question>
+    
+</questions>

@@ -1363,8 +1363,11 @@
                     </view>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="badAnswersLabel" destination="ndj-Wy-BVl" id="9t1-P8-kmn"/>
                         <outlet property="containerView" destination="YL2-wI-nOu" id="HFP-eL-uKi"/>
+                        <outlet property="goodAnswersLabel" destination="rvK-J3-Kb8" id="mK0-jX-DhY"/>
                         <outlet property="nextButton" destination="Nas-xG-tLE" id="VbS-FD-Hmc"/>
+                        <outlet property="remainingQuestionsLabel" destination="F1b-hG-HCt" id="TRU-u2-XQI"/>
                         <outlet property="skipButton" destination="PBu-2S-gHe" id="BXw-yU-9Q3"/>
                     </connections>
                 </viewController>

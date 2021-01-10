@@ -9,7 +9,7 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
     @IBOutlet weak var commercialImageView: UIImageView!
     @IBOutlet weak var containerView: UIView!;
     @IBOutlet weak var backButton: UIButton!
@@ -41,10 +41,10 @@ class MainViewController: UIViewController {
         self.addViewControllerAsChildViewController(childViewController: viewController)
         return viewController;
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad();
-//        XMLUtil.instance;
+        XMLUtil.instance;
         
         print("viewDidLoad");
         
@@ -59,12 +59,12 @@ class MainViewController: UIViewController {
         commercialTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeCommercial), userInfo: nil, repeats: true);
         
         print("viewWillAppear111");
-       
+        
         AppUtility.lockOrientation(.portrait, andRotateTo: .portrait);
         
         commercialImageView.image =  UIImage(named: "reclama01");
         commercialImageView.contentMode = UIView.ContentMode.scaleToFill;
-   }
+    }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated);
@@ -96,33 +96,43 @@ class MainViewController: UIViewController {
         visibleVC = mainMenuVC;
         backButton.isHidden = true;
     }
-
+    
     
     public func mainMenuClicked(_ buttonName: String) {
-        print("button name=" + buttonName);
         switch buttonName {
-            case "chestionare_anr":
-                backButton.isHidden = false;
-                if(visibleVC != nil) {
-                    visibleVC.view.isHidden = true;
-                }
-                questionnaireVC.view.isHidden = false;
-                visibleVC = questionnaireVC;
-            case "mediu_de_invatare":
-                backButton.isHidden = false;
-                if(visibleVC != nil) {
-                    visibleVC.view.isHidden = true;
-                }
-                learningVC.view.isHidden = false;
-                visibleVC = learningVC;
-            default:
-                print("default");
+        case "chestionare_anr":
+            backButton.isHidden = false;
+            if(visibleVC != nil) {
+                visibleVC.view.isHidden = true;
+            }
+            questionnaireVC.view.isHidden = false;
+            visibleVC = questionnaireVC;
+        case "mediu_de_invatare":
+            backButton.isHidden = false;
+            if(visibleVC != nil) {
+                visibleVC.view.isHidden = true;
+            }
+            learningVC.view.isHidden = false;
+            visibleVC = learningVC;
+        default:
+            print("default");
         }
     }
     
     public func startTest(_ buttonName: String) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
         let vc = storyboard.instantiateViewController(withIdentifier: "QuestionViewController") as! QuestionVC;
+        
+        if (buttonName == "categoria_d") {
+            vc.category = Const.CATEGORY_D;
+        } else if(buttonName == "categoria_diferenta_d") {
+            vc.category = Const.CATEGORY_DIFERENTA_D;
+        } else if(buttonName == "categoria_c") {
+            vc.category = Const.CATEGORY_C;
+        } else if(buttonName == "categoria_diferenta_c") {
+            vc.category = Const.CATEGORY_DIFERENTA_C;
+        }
+        
         vc.modalPresentationStyle = .fullScreen;
         present(vc, animated: false, completion: nil);
     }

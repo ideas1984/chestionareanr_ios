@@ -38,7 +38,7 @@ class QuestionsParser: NSObject, XMLParserDelegate {
         }
     }
     
-    
+    // start element event
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
         
         if elementName == "question" {
@@ -57,7 +57,7 @@ class QuestionsParser: NSObject, XMLParserDelegate {
         self.elementName = elementName;
     }
     
-    // 2
+    // end element event
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         if elementName == "question" {
             let question = Question(id: id, name: name, category: category,subcategory: subcategory,image: image,answers: answers, correctAnswerId: correctAnswerId,hints: hints);
@@ -67,7 +67,8 @@ class QuestionsParser: NSObject, XMLParserDelegate {
     
     // 3
     func parser(_ parser: XMLParser, foundCharacters string: String) {
-        let data = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+        let data = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines);
+        
         
         if (!data.isEmpty) {
             if self.elementName == "name" {
@@ -79,7 +80,11 @@ class QuestionsParser: NSObject, XMLParserDelegate {
             } else if self.elementName == "subcategory" {
                 image += data;
             } else if self.elementName == "answer" {
-                answers[answerId] = data;
+                if(answers[answerId] != nil) {
+                    answers[answerId] = answers[answerId]! + data;
+                } else {
+                    answers[answerId] = data;
+                }
             } else if self.elementName == "correct_answer" {
                 correctAnswerId = Int(data)!;
             } else if self.elementName == "hint" {
