@@ -67,28 +67,29 @@ class QuestionsParser: NSObject, XMLParserDelegate {
     
     // 3
     func parser(_ parser: XMLParser, foundCharacters string: String) {
-        let data = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines);
+        let trimmed = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines);
         
-        
-        if (!data.isEmpty) {
+        if (!trimmed.isEmpty) {
             if self.elementName == "name" {
-                name += data;
+                let noNewLines = string.trimmingCharacters(in: CharacterSet.newlines);
+                name += noNewLines;
             } else if self.elementName == "category" {
-                category = data.components(separatedBy: ",").map{Int($0)!};
+                category = trimmed.components(separatedBy: ",").map{Int($0)!};
             } else if self.elementName == "subcategory" {
-                subcategory = (data as NSString).integerValue;
+                subcategory = (trimmed as NSString).integerValue;
             } else if self.elementName == "subcategory" {
-                image += data;
+                image += trimmed;
             } else if self.elementName == "answer" {
+                let noNewLines = string.trimmingCharacters(in: CharacterSet.newlines);
                 if(answers[answerId] != nil) {
-                    answers[answerId] = answers[answerId]! + data;
+                    answers[answerId] = answers[answerId]! + noNewLines;
                 } else {
-                    answers[answerId] = data;
+                    answers[answerId] = noNewLines;
                 }
             } else if self.elementName == "correct_answer" {
-                correctAnswerId = Int(data)!;
+                correctAnswerId = Int(trimmed)!;
             } else if self.elementName == "hint" {
-                hints = data.components(separatedBy: ",").map{Int($0)!};
+                hints = trimmed.components(separatedBy: ",").map{Int($0)!};
             }
         }
     }

@@ -189,7 +189,7 @@
 		078DC00A24C4E6FC00512D0A /* LearningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00924C4E6FC00512D0A /* LearningVC.swift */; };
 		078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00B24D8A2B000512D0A /* ArrowButton.swift */; };
 		078DC00E24D8C41600512D0A /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00D24D8C41600512D0A /* TestButton.swift */; };
-		0799463925AB533000920B1B /* questions_test_one_question.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0799463825AB533000920B1B /* questions_test_one_question.xml */; };
+		0799463925AB533000920B1B /* questions_one_question.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0799463825AB533000920B1B /* questions_one_question.xml */; };
 		079EE99F259BE1AD004D89A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F514F5249D755D001681D8 /* Assets.xcassets */; };
 		07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C8C71F2537A462002F12FD /* XMLUtil.swift */; };
 		07C8C7242537AB12002F12FD /* Books.xml in Resources */ = {isa = PBXBuildFile; fileRef = 07C8C7232537AB12002F12FD /* Books.xml */; };
@@ -398,7 +398,7 @@
 		078DC00924C4E6FC00512D0A /* LearningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningVC.swift; sourceTree = "<group>"; };
 		078DC00B24D8A2B000512D0A /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
 		078DC00D24D8C41600512D0A /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
-		0799463825AB533000920B1B /* questions_test_one_question.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = questions_test_one_question.xml; sourceTree = "<group>"; };
+		0799463825AB533000920B1B /* questions_one_question.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = questions_one_question.xml; sourceTree = "<group>"; };
 		07C8C71F2537A462002F12FD /* XMLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLUtil.swift; sourceTree = "<group>"; };
 		07C8C7232537AB12002F12FD /* Books.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Books.xml; sourceTree = "<group>"; };
 		07D664ED256B0F2700C10811 /* anexe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anexe.pdf; sourceTree = "<group>"; };
@@ -640,7 +640,7 @@
 				078BEE392539027700A6B31F /* hints.xml */,
 				078BEE3C2539027E00A6B31F /* questions.xml */,
 				07C8C7232537AB12002F12FD /* Books.xml */,
-				0799463825AB533000920B1B /* questions_test_one_question.xml */,
+				0799463825AB533000920B1B /* questions_one_question.xml */,
 			);
 			path = xml;
 			sourceTree = "<group>";
@@ -917,7 +917,7 @@
 				078B1448259D348800F17735 /* image1084.png in Resources */,
 				078B13EB259D348800F17735 /* image2267.png in Resources */,
 				07D664EE256B0F2700C10811 /* anexe.pdf in Resources */,
-				0799463925AB533000920B1B /* questions_test_one_question.xml in Resources */,
+				0799463925AB533000920B1B /* questions_one_question.xml in Resources */,
 				078B1458259D348800F17735 /* image2130.png in Resources */,
 				078B142B259D348800F17735 /* image1176.png in Resources */,
 				078B144E259D348800F17735 /* image1106.png in Resources */,

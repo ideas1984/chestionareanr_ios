@@ -1,0 +1,15 @@
+<questions>
+    
+    <question id="1079">
+        <name>Care este forma, culoarea şi care sunt caracteristicile unei geamanduri* pentru stânga?</name>
+        <category>1,2</category>
+        <subcategory>1</subcategory>
+        <image/>
+        <answer id="1">de formă sferică piturată* în negru-roşu-negru-roşu, lumina de culoare albă intermitentă.</answer>
+        <answer id="2">de formă conică piturată în verde, lumina de culoare verde intermitentă.</answer>
+        <answer id="3">de formă cilindrică piturată în roşu lumina de culoare roşie intermitentă.</answer>
+        <correct_answer>2</correct_answer>
+        <hint>101,1,161</hint>
+    </question>
+    
+</questions>

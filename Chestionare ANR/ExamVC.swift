@@ -25,21 +25,24 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     
     
     var testState = TestState();
-    var viewState: ViewState = ViewState.NONE;
+    var viewState: ViewState = ViewState.COMMERCIAL_SHOWED;
     var category:Int?;
     var selectedAnswer: OneQuestionVC.AnswerEnum = OneQuestionVC.AnswerEnum.NONE_SELECTED;
     var childVC : OneQuestionVC?;
     
     @IBOutlet weak var containerView: UIView!
-    
     @IBOutlet weak var skipButton: UIView!
     @IBOutlet weak var nextButton: UIView!
     @IBOutlet weak var remainingQuestionsLabel: UILabel!
     @IBOutlet weak var goodAnswersLabel: UILabel!
     @IBOutlet weak var badAnswersLabel: UILabel!
+    @IBOutlet weak var helpButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad();
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(self.didEnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil);
+        NotificationCenter.default.addObserver(self, selector: #selector(self.willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil);
         
         skipButton.layer.cornerRadius = 10;
         nextButton.layer.cornerRadius = 10;
@@ -69,25 +72,43 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
             present(vc, animated: false, completion: nil);
         } else if(viewState == ViewState.COMMERCIAL_SHOWED) {
             viewState = ViewState.QUESTION_DISPLAYED;
-            //            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-            //            let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
-            //            addViewControllerAsChildViewController(childViewController: viewController);
-            //            viewController.ansertSelectedDelegate = self;
-            //
-            //            view.layoutIfNeeded();//very important here. do not erase this
-            //
-            //            viewController.setQuestion((testState?.questions[testState!.currentQuestionIdx])!);
-            //
-            //            remainingQuestionsLabel.text = String(testState!.questions.count - testState!.goodAnswers - testState!.badAnswers);
-            //            goodAnswersLabel.text = String(testState!.goodAnswers);
-            //            badAnswersLabel.text = String(testState!.badAnswers);
             
             showQuestion(questionIndex: testState.currentQuestionIdx);
             
+            animateHelpButton();
             
             //            viewController.setQuestion(getDummyQuestion());
         }
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self);
+    }
+    
+    @objc func willEnterForeground() {
+        animateHelpButton();
         
+//        DispatchQueue.main.async { [weak self] in
+//            self?.helpButton.alpha = 1;
+//            self?.animateHelpButton();
+//        }
+    }
+    
+    @objc func didEnterBackground() {}
+    
+    private func animateHelpButton() {
+        if(testState.questions[testState.currentQuestionIdx].hints.count > 0) {
+            helpButton.alpha = 1;
+            UIView.animate(withDuration: 1,
+                           delay: 0.5,
+                           options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat],
+                           animations: {
+                            self.helpButton.alpha = 0.1;
+                           },
+                           completion: nil);
+        } else {
+            helpButton.isHidden = true;
+        }
     }
     
     
@@ -161,6 +182,12 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
         } else {
             self.dismiss(animated: true, completion: nil)
         }
+    }
+    
+    @IBAction func helpClicked(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let vc = storyboard.instantiateViewController(withIdentifier: "commercial_vc") as! CommercialVC;
+        present(vc, animated: false, completion: nil);
     }
     
     private func addViewControllerAsChildViewController(childViewController: OneQuestionVC) {

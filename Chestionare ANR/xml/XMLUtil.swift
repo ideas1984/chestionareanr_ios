@@ -22,7 +22,7 @@ class XMLUtil : NSObject, XMLParserDelegate {
         //        print(books);
         
         questions = QuestionsParser().questions;
-//        print(questions);
+        print(questions);
     }
     
     func getRandomQuestions(fromCategory category: Int) -> [Question] {

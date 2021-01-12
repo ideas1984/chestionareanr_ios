@@ -1157,6 +1157,9 @@
                                             <constraint firstAttribute="width" constant="50" id="6yW-Fc-nAH"/>
                                         </constraints>
                                         <state key="normal" image="help_transparent"/>
+                                        <connections>
+                                            <action selector="helpClicked:" destination="cN5-oK-smh" eventType="touchUpInside" id="l2k-0E-KgU"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timp rămas: 00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbc-9w-RBh">
                                         <rect key="frame" x="66" y="8" width="243" height="54"/>
@@ -1366,6 +1369,7 @@
                         <outlet property="badAnswersLabel" destination="ndj-Wy-BVl" id="9t1-P8-kmn"/>
                         <outlet property="containerView" destination="YL2-wI-nOu" id="HFP-eL-uKi"/>
                         <outlet property="goodAnswersLabel" destination="rvK-J3-Kb8" id="mK0-jX-DhY"/>
+                        <outlet property="helpButton" destination="PpW-cb-INk" id="z0g-5u-m97"/>
                         <outlet property="nextButton" destination="Nas-xG-tLE" id="VbS-FD-Hmc"/>
                         <outlet property="remainingQuestionsLabel" destination="F1b-hG-HCt" id="TRU-u2-XQI"/>
                         <outlet property="skipButton" destination="PBu-2S-gHe" id="BXw-yU-9Q3"/>
