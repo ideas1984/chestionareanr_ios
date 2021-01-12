@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0701B62325AA20DC005E85F7 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701B62225AA20DC005E85F7 /* Const.swift */; };
+		073A044B25AE61AD001322D5 /* HintsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A044A25AE61AD001322D5 /* HintsVC.swift */; };
 		0760E6882569E3FD00C51497 /* PDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E6872569E3FD00C51497 /* PDFViewerVC.swift */; };
 		078B13B4259D348800F17735 /* image2069.png in Resources */ = {isa = PBXBuildFile; fileRef = 078B130E259D347100F17735 /* image2069.png */; };
 		078B13B5259D348800F17735 /* image2153.png in Resources */ = {isa = PBXBuildFile; fileRef = 078B130F259D347100F17735 /* image2153.png */; };
@@ -217,6 +218,7 @@
 
 /* Begin PBXFileReference section */
 		0701B62225AA20DC005E85F7 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		073A044A25AE61AD001322D5 /* HintsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsVC.swift; sourceTree = "<group>"; };
 		0760E6872569E3FD00C51497 /* PDFViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerVC.swift; sourceTree = "<group>"; };
 		078B130E259D347100F17735 /* image2069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2069.png; sourceTree = "<group>"; };
 		078B130F259D347100F17735 /* image2153.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2153.png; sourceTree = "<group>"; };
@@ -717,6 +719,7 @@
 				07F191FF25973C6000878D5E /* OneQuestionVC.swift */,
 				0760E6872569E3FD00C51497 /* PDFViewerVC.swift */,
 				07DF3ADE258D714700E1BC76 /* CommercialVC.swift */,
+				073A044A25AE61AD001322D5 /* HintsVC.swift */,
 			);
 			path = "Chestionare ANR";
 			sourceTree = "<group>";
@@ -996,6 +999,7 @@
 				078BEE34253901BC00A6B31F /* BooksParser.swift in Sources */,
 				078BEE442539036700A6B31F /* Question.swift in Sources */,
 				0701B62325AA20DC005E85F7 /* Const.swift in Sources */,
+				073A044B25AE61AD001322D5 /* HintsVC.swift in Sources */,
 				07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */,
 				078D01152592AE9500F7021E /* ExamVC.swift in Sources */,
 				078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */,

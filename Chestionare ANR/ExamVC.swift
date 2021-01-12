@@ -41,6 +41,9 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     override func viewDidLoad() {
         super.viewDidLoad();
         
+        self.definesPresentationContext = true;
+
+        
         NotificationCenter.default.addObserver(self, selector: #selector(self.didEnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil);
         NotificationCenter.default.addObserver(self, selector: #selector(self.willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil);
         
@@ -97,18 +100,18 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     @objc func didEnterBackground() {}
     
     private func animateHelpButton() {
-        if(testState.questions[testState.currentQuestionIdx].hints.count > 0) {
+//        if(testState.questions[testState.currentQuestionIdx].hints.count > 0) {
             helpButton.alpha = 1;
             UIView.animate(withDuration: 1,
                            delay: 0.5,
-                           options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat],
+                           options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat, UIView.AnimationOptions.allowUserInteraction],
                            animations: {
                             self.helpButton.alpha = 0.1;
                            },
                            completion: nil);
-        } else {
-            helpButton.isHidden = true;
-        }
+//        } else {
+//            helpButton.isHidden = true;
+//        }
     }
     
     
@@ -186,7 +189,9 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     
     @IBAction func helpClicked(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        let vc = storyboard.instantiateViewController(withIdentifier: "commercial_vc") as! CommercialVC;
+        let vc = storyboard.instantiateViewController(withIdentifier: "hints_vc") as! HintsVC;
+        vc.modalPresentationStyle = .overCurrentContext;
+        vc.modalTransitionStyle = .crossDissolve;
         present(vc, animated: false, completion: nil);
     }
     

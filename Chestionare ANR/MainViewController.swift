@@ -44,7 +44,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
-        XMLUtil.instance;
+        //        XMLUtil.instance;
         
         var students = ["Ben", "Ivy", "Jordell"];
         

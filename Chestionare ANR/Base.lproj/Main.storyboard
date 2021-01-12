@@ -1113,6 +1113,33 @@
             </objects>
             <point key="canvasLocation" x="-826" y="1770"/>
         </scene>
+        <!--HintsVC-->
+        <scene sceneID="WQ6-pa-KWo">
+            <objects>
+                <viewController storyboardIdentifier="hints_vc" id="0Tz-Cz-jc4" customClass="HintsVC" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S4B-kp-cX5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsa-oy-PTc" userLabel="Container">
+                                <rect key="frame" x="40" y="89.5" width="334" height="717"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DsB-92-7dF"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fsa-oy-PTc" firstAttribute="centerX" secondItem="S4B-kp-cX5" secondAttribute="centerX" id="9U2-Un-MT1"/>
+                            <constraint firstItem="fsa-oy-PTc" firstAttribute="height" secondItem="S4B-kp-cX5" secondAttribute="height" multiplier="0.8" id="JUx-uh-G1w"/>
+                            <constraint firstItem="fsa-oy-PTc" firstAttribute="centerY" secondItem="S4B-kp-cX5" secondAttribute="centerY" id="On3-3C-B00"/>
+                            <constraint firstItem="fsa-oy-PTc" firstAttribute="width" secondItem="S4B-kp-cX5" secondAttribute="width" multiplier="0.806763" id="iUU-yo-1ee"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YRg-B2-lDW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-155" y="1770"/>
+        </scene>
         <!--ViewerVC-->
         <scene sceneID="yiM-eF-Pyr">
             <objects>
@@ -1733,6 +1760,9 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
