@@ -189,9 +189,9 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     
     @IBAction func helpClicked(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        let vc = storyboard.instantiateViewController(withIdentifier: "hints_vc") as! HintsVC;
-        vc.modalPresentationStyle = .overCurrentContext;
-        vc.modalTransitionStyle = .crossDissolve;
+        let vc = storyboard.instantiateViewController(withIdentifier: "hints_vc1") as! HintsVC1;
+//        vc.modalPresentationStyle = .overCurrentContext;
+//        vc.modalTransitionStyle = .crossDissolve;
         present(vc, animated: false, completion: nil);
     }
     
