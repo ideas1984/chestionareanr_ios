@@ -14,6 +14,7 @@ class XMLUtil : NSObject, XMLParserDelegate {
     
     //    var books: [Book] = [];
     var questions: [Question] = [];
+    var hints = [Int:Hint]();
     
     private override init() {
         super.init();
@@ -22,7 +23,8 @@ class XMLUtil : NSObject, XMLParserDelegate {
         //        print(books);
         
         questions = QuestionsParser().questions;
-        print(questions);
+        hints = HintsParser().hints;
+//        print(hints);
     }
     
     func getRandomQuestions(fromCategory category: Int) -> [Question] {

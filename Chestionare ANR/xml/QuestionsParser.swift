@@ -65,7 +65,7 @@ class QuestionsParser: NSObject, XMLParserDelegate {
         }
     }
     
-    // 3
+    // parse content
     func parser(_ parser: XMLParser, foundCharacters string: String) {
         let trimmed = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines);
         

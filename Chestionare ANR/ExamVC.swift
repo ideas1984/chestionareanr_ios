@@ -29,7 +29,10 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     var category:Int?;
     var selectedAnswer: OneQuestionVC.AnswerEnum = OneQuestionVC.AnswerEnum.NONE_SELECTED;
     var childVC : OneQuestionVC?;
+    var startTestDate:Date?;
+    var timeLeftCalculatorTimer: Timer?;
     
+    @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var skipButton: UIView!
     @IBOutlet weak var nextButton: UIView!
@@ -76,12 +79,20 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
         } else if(viewState == ViewState.COMMERCIAL_SHOWED) {
             viewState = ViewState.QUESTION_DISPLAYED;
             
+            startTestDate = Date();
+            timeLeftCalculatorTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimeLeft), userInfo: nil, repeats: true);
+            
             showQuestion(questionIndex: testState.currentQuestionIdx);
             
             animateHelpButton();
             
             //            viewController.setQuestion(getDummyQuestion());
         }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated);
+        timeLeftCalculatorTimer?.invalidate();
     }
     
     deinit {
@@ -154,6 +165,28 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
         }
     }
     
+    @objc func updateTimeLeft() {
+//        let imageName =  "reclama0\(getRandomNumber())";
+//        commercialImageView.image =  UIImage(named: imageName);
+        
+        
+        let difference = Int(Date().timeIntervalSince(startTestDate!).rounded());
+        let totalTime = AppUtility.instance.categoryInfoMap[category!]?.time;
+        let timeLeft = totalTime! - difference;
+        
+        let minutes = timeLeft / 60 < 10 ? "0\(timeLeft / 60)" : "\(timeLeft / 60)";
+        let seconds = timeLeft % 60 < 10 ? "0\(timeLeft % 60)" : "\(timeLeft % 60)";
+        
+        timeLabel.text = "Timp rămas: " + minutes + ":" + seconds;
+
+        print("minutes=", minutes);
+        print("seconds=", seconds);
+        print("difference=", difference);
+        print("timeleft=", timeLeft);
+        print("----------")
+        
+    }
+    
     private func showQuestion(questionIndex index: Int) {
         
         removePreviousChildViewControllerIfAny();
@@ -189,9 +222,10 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     
     @IBAction func helpClicked(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        let vc = storyboard.instantiateViewController(withIdentifier: "hints_vc1") as! HintsVC1;
+        let vc = storyboard.instantiateViewController(withIdentifier: "hints_vc") as! HintsVC;
 //        vc.modalPresentationStyle = .overCurrentContext;
 //        vc.modalTransitionStyle = .crossDissolve;
+        vc.hints = testState.questions[testState.currentQuestionIdx].hints;
         present(vc, animated: false, completion: nil);
     }
     

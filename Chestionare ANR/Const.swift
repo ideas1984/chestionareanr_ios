@@ -22,9 +22,4 @@ struct Const {
     static let SUBCATEGORY_MARINARIE_C: Int = 6;
     static let SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_C: Int = 7;
     
-    
-//    struct INFO_D {
-//        static let width: Int = 100
-//        static let height:Int = 100
-//    }
 }

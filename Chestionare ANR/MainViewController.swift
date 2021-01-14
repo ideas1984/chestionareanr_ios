@@ -46,23 +46,6 @@ class MainViewController: UIViewController {
         super.viewDidLoad();
         //        XMLUtil.instance;
         
-        var students = ["Ben", "Ivy", "Jordell"];
-        
-        print(students.count);
-        students.remove(at: 2);
-        print(students.count);
-//
-//        for element in students {
-//          print(element)
-//        }
-//        print("-------");
-
-//        students.remove(at: 0);
-//
-//        for element in students {
-//          print(element)
-//        }
-        
         
         
         mainMenuVC.view.isHidden = false;
