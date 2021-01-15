@@ -535,6 +535,117 @@
             </objects>
             <point key="canvasLocation" x="-153" y="188"/>
         </scene>
+        <!--Test ResultVC-->
+        <scene sceneID="fNU-rI-HOE">
+            <objects>
+                <viewController storyboardIdentifier="test_result_vc" id="uZd-sL-67c" customClass="TestResultVC" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pdx-Mf-n4B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testul a luat sfârşit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcL-AO-JHA">
+                                <rect key="frame" x="20" y="58" width="374" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="VxW-ro-Zgd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apreciază aplicația" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Daf-VZ-xfY">
+                                <rect key="frame" x="24" y="424" width="366" height="60"/>
+                                <color key="backgroundColor" red="0.9139220118522644" green="0.33049160242080688" blue="0.40819001197814941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="WQc-wz-lWJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ouo-1W-IgN">
+                                <rect key="frame" x="38" y="113" width="338" height="1"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="KaL-w1-a0c"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rezultatul testului:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8d-JE-4XC">
+                                <rect key="frame" x="20" y="134" width="183" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="LuQ-Qv-9Z7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADMIS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK6-RG-1Rb">
+                                <rect key="frame" x="211" y="134" width="183" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="jHK-j9-43g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raspunsuri corecte: 24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsL-lc-8PQ">
+                                <rect key="frame" x="38" y="212" width="338" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="HqT-0G-GNA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3E-W9-rt9">
+                                <rect key="frame" x="24" y="288" width="366" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="sx8-Vv-rKH"/>
+                                </constraints>
+                                <string key="text">Dacă sunteți de părere că această aplicație vă este de ajutor, va rugăm să ne apreciați efortul cu un review de 5 stele. Mulțumim!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NhW-w9-dBa"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Daf-VZ-xfY" firstAttribute="leading" secondItem="NhW-w9-dBa" secondAttribute="leading" constant="24" id="6EQ-8W-Qqq"/>
+                            <constraint firstItem="NhW-w9-dBa" firstAttribute="trailing" secondItem="PK6-RG-1Rb" secondAttribute="trailing" constant="20" id="6XP-UT-mEr"/>
+                            <constraint firstItem="Ouo-1W-IgN" firstAttribute="leading" secondItem="NhW-w9-dBa" secondAttribute="leading" constant="38" id="7il-Xn-Y0L"/>
+                            <constraint firstItem="e3E-W9-rt9" firstAttribute="leading" secondItem="NhW-w9-dBa" secondAttribute="leading" constant="24" id="8pY-Ft-COF"/>
+                            <constraint firstItem="NhW-w9-dBa" firstAttribute="trailing" secondItem="lsL-lc-8PQ" secondAttribute="trailing" constant="38" id="9dx-aa-jpc"/>
+                            <constraint firstItem="Ouo-1W-IgN" firstAttribute="top" secondItem="rcL-AO-JHA" secondAttribute="bottom" constant="1" id="AGj-xh-UUk"/>
+                            <constraint firstItem="u8d-JE-4XC" firstAttribute="width" secondItem="PK6-RG-1Rb" secondAttribute="width" id="Ltp-oQ-im7"/>
+                            <constraint firstItem="u8d-JE-4XC" firstAttribute="top" secondItem="Ouo-1W-IgN" secondAttribute="bottom" constant="20" id="Qt6-fS-Chv"/>
+                            <constraint firstItem="PK6-RG-1Rb" firstAttribute="leading" secondItem="u8d-JE-4XC" secondAttribute="trailing" constant="8" id="QzF-DX-Gb6"/>
+                            <constraint firstItem="NhW-w9-dBa" firstAttribute="trailing" secondItem="rcL-AO-JHA" secondAttribute="trailing" constant="20" id="Su3-Bh-6aT"/>
+                            <constraint firstItem="NhW-w9-dBa" firstAttribute="trailing" secondItem="Ouo-1W-IgN" secondAttribute="trailing" constant="38" id="Vff-p9-JVJ"/>
+                            <constraint firstItem="NhW-w9-dBa" firstAttribute="trailing" secondItem="Daf-VZ-xfY" secondAttribute="trailing" constant="24" id="VkW-lK-hNZ"/>
+                            <constraint firstItem="Daf-VZ-xfY" firstAttribute="top" secondItem="e3E-W9-rt9" secondAttribute="bottom" constant="24" id="WZb-KN-2Tm"/>
+                            <constraint firstItem="lsL-lc-8PQ" firstAttribute="leading" secondItem="NhW-w9-dBa" secondAttribute="leading" constant="38" id="buk-Fr-icc"/>
+                            <constraint firstItem="PK6-RG-1Rb" firstAttribute="top" secondItem="Ouo-1W-IgN" secondAttribute="bottom" constant="20" id="h2u-QX-hZX"/>
+                            <constraint firstItem="NhW-w9-dBa" firstAttribute="trailing" secondItem="e3E-W9-rt9" secondAttribute="trailing" constant="24" id="hYO-8R-pl7"/>
+                            <constraint firstItem="rcL-AO-JHA" firstAttribute="top" secondItem="NhW-w9-dBa" secondAttribute="top" constant="14" id="jYx-zP-f31"/>
+                            <constraint firstItem="u8d-JE-4XC" firstAttribute="leading" secondItem="NhW-w9-dBa" secondAttribute="leading" constant="20" id="plp-5i-inK"/>
+                            <constraint firstItem="rcL-AO-JHA" firstAttribute="leading" secondItem="NhW-w9-dBa" secondAttribute="leading" constant="20" id="tGp-B9-bOq"/>
+                            <constraint firstItem="e3E-W9-rt9" firstAttribute="top" secondItem="lsL-lc-8PQ" secondAttribute="bottom" constant="8" id="wbW-X6-7AM"/>
+                            <constraint firstItem="lsL-lc-8PQ" firstAttribute="top" secondItem="u8d-JE-4XC" secondAttribute="bottom" constant="8" symbolic="YES" id="xXV-IJ-Cdi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLabel" destination="e3E-W9-rt9" id="R2r-oY-7Yt"/>
+                        <outlet property="eventButton" destination="Daf-VZ-xfY" id="bFO-9w-3zm"/>
+                        <outlet property="goodAnswersLabel" destination="lsL-lc-8PQ" id="SSK-xp-sHf"/>
+                        <outlet property="testResultlabel" destination="PK6-RG-1Rb" id="caL-4f-zOR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3uc-71-KgT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2546.376811594203" y="264.50892857142856"/>
+        </scene>
         <!--Main MenuVC-->
         <scene sceneID="aKO-K4-kks">
             <objects>
@@ -1069,7 +1180,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-826" y="315"/>
+            <point key="canvasLocation" x="-857" y="283"/>
         </scene>
         <!--CommercialVC-->
         <scene sceneID="QLA-YA-iTc">
@@ -1111,7 +1222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HxQ-KV-woU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-826" y="1770"/>
+            <point key="canvasLocation" x="1825" y="876"/>
         </scene>
         <!--HintsVC-->
         <scene sceneID="zsU-XJ-hS7">
@@ -1179,7 +1290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YkR-l5-1gw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-826.08695652173924" y="2439.5089285714284"/>
+            <point key="canvasLocation" x="1009" y="876"/>
         </scene>
         <!--ViewerVC-->
         <scene sceneID="yiM-eF-Pyr">
@@ -1194,7 +1305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bh5-dB-Jt0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-142" y="924"/>
+            <point key="canvasLocation" x="-125" y="876"/>
         </scene>
         <!--ExamVC-->
         <scene sceneID="QQ0-Ax-k8b">
@@ -1446,7 +1557,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aRi-zJ-0Xf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-827.03703703703695" y="1107.5"/>
+            <point key="canvasLocation" x="1305" y="-509"/>
         </scene>
         <!--One QuestionVC-->
         <scene sceneID="cPQ-4B-Xdm">
@@ -1770,7 +1881,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Asy-pV-XaG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1482.4000000000001" y="1107.7961019490256"/>
+            <point key="canvasLocation" x="1304" y="188"/>
         </scene>
     </scenes>
     <resources>

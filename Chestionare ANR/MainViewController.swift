@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, TestResultProtocol {
     
     @IBOutlet weak var commercialImageView: UIImageView!
     @IBOutlet weak var containerView: UIView!;
@@ -39,6 +39,13 @@ class MainViewController: UIViewController {
         var viewController = storyboard.instantiateViewController(withIdentifier: "LearningViewController") as! LearningVC;
         viewController.setMainController(self);
         self.addViewControllerAsChildViewController(childViewController: viewController)
+        return viewController;
+    }()
+    
+    lazy var testResultVC: TestResultVC = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        var viewController = storyboard.instantiateViewController(withIdentifier: "test_result_vc") as! TestResultVC;
+        self.addViewControllerAsChildViewController(childViewController: viewController);
         return viewController;
     }()
     
@@ -120,6 +127,7 @@ class MainViewController: UIViewController {
     public func startTest(_ buttonName: String) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
         let vc = storyboard.instantiateViewController(withIdentifier: "QuestionViewController") as! ExamVC;
+        vc.testResultdelegate = self;
         
         if (buttonName == "categoria_d") {
             vc.category = Const.CATEGORY_D;
@@ -135,7 +143,10 @@ class MainViewController: UIViewController {
         present(vc, animated: false, completion: nil);
     }
     
-    
+    func testFinished(withResult result: TestResult, goodAnswers andGoodAnswers: Int) {
+        testResultVC.view.isHidden = false;
+        visibleVC = testResultVC;
+    }
     
     
     private func addViewControllerAsChildViewController(childViewController: UIViewController) {

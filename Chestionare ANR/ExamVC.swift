@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExamVC: UIViewController, AnswerSelectedDelegate {
+class ExamVC: UIViewController, AnswerSelectedProtocol {
     
     public enum ViewState {
         case NONE, COMMERCIAL_SHOWED, QUESTION_DISPLAYED
@@ -32,6 +32,8 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     var startTestDate:Date?;
     var timeLeftCalculatorTimer: Timer?;
     
+    weak var testResultdelegate: TestResultProtocol?
+    
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var skipButton: UIView!
@@ -45,7 +47,7 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
         super.viewDidLoad();
         
         self.definesPresentationContext = true;
-
+        
         
         NotificationCenter.default.addObserver(self, selector: #selector(self.didEnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil);
         NotificationCenter.default.addObserver(self, selector: #selector(self.willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil);
@@ -102,27 +104,27 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     @objc func willEnterForeground() {
         animateHelpButton();
         
-//        DispatchQueue.main.async { [weak self] in
-//            self?.helpButton.alpha = 1;
-//            self?.animateHelpButton();
-//        }
+        //        DispatchQueue.main.async { [weak self] in
+        //            self?.helpButton.alpha = 1;
+        //            self?.animateHelpButton();
+        //        }
     }
     
     @objc func didEnterBackground() {}
     
     private func animateHelpButton() {
-//        if(testState.questions[testState.currentQuestionIdx].hints.count > 0) {
-            helpButton.alpha = 1;
-            UIView.animate(withDuration: 1,
-                           delay: 0.5,
-                           options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat, UIView.AnimationOptions.allowUserInteraction],
-                           animations: {
-                            self.helpButton.alpha = 0.1;
-                           },
-                           completion: nil);
-//        } else {
-//            helpButton.isHidden = true;
-//        }
+        //        if(testState.questions[testState.currentQuestionIdx].hints.count > 0) {
+        helpButton.alpha = 1;
+        UIView.animate(withDuration: 1,
+                       delay: 0.5,
+                       options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat, UIView.AnimationOptions.allowUserInteraction],
+                       animations: {
+                        self.helpButton.alpha = 0.1;
+                       },
+                       completion: nil);
+        //        } else {
+        //            helpButton.isHidden = true;
+        //        }
     }
     
     
@@ -154,22 +156,34 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
         
         testState.questions.remove(at: testState.currentQuestionIdx);
         
-        if(testState.questions.isEmpty) {
-            print("end test");
-            // close test
+        if(testFailed()) {
+            dismiss(animated: true, completion: {
+                self.testResultdelegate?.testFinished(withResult: TestResult.FAIL_NO_NECCESARY_ANSWERS, goodAnswers: self.testState.goodAnswers);
+            });
         } else {
-            if(testState.currentQuestionIdx >= testState.questions.count) {
-                testState.currentQuestionIdx = 0;
+            if(testState.questions.isEmpty) { // no more questions
+                dismiss(animated: true, completion: {
+                    self.testResultdelegate?.testFinished(withResult: TestResult.PASS, goodAnswers: self.testState.goodAnswers);
+                });
+            } else {
+                if(testState.currentQuestionIdx >= testState.questions.count) {
+                    testState.currentQuestionIdx = 0;
+                }
+                showQuestion(questionIndex: testState.currentQuestionIdx);
             }
-            showQuestion(questionIndex: testState.currentQuestionIdx);
         }
     }
     
+    
+    private func testFailed() -> Bool {
+        let badAnswersAllowed = AppUtility.instance.categoryInfoMap[category!]?.badAnswersAllowed();
+        if(testState.badAnswers >= badAnswersAllowed!) {
+            return true;
+        }
+        return false;
+    }
+    
     @objc func updateTimeLeft() {
-//        let imageName =  "reclama0\(getRandomNumber())";
-//        commercialImageView.image =  UIImage(named: imageName);
-        
-        
         let difference = Int(Date().timeIntervalSince(startTestDate!).rounded());
         let totalTime = AppUtility.instance.categoryInfoMap[category!]?.time;
         let timeLeft = totalTime! - difference;
@@ -178,13 +192,19 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
         let seconds = timeLeft % 60 < 10 ? "0\(timeLeft % 60)" : "\(timeLeft % 60)";
         
         timeLabel.text = "Timp rămas: " + minutes + ":" + seconds;
-
-        print("minutes=", minutes);
-        print("seconds=", seconds);
-        print("difference=", difference);
-        print("timeleft=", timeLeft);
-        print("----------")
         
+        if(timeLeft <= 0) {
+            let passScore = AppUtility.instance.categoryInfoMap[category!]?.passScore;
+            if(testState.goodAnswers >= passScore!) {
+                dismiss(animated: true, completion: {
+                    self.testResultdelegate?.testFinished(withResult: TestResult.PASS, goodAnswers: self.testState.goodAnswers);
+                });
+            } else {
+                dismiss(animated: true, completion: {
+                    self.testResultdelegate?.testFinished(withResult: TestResult.FAIL_TIME_EXPIRED, goodAnswers: self.testState.goodAnswers);
+                });
+            }
+        }
     }
     
     private func showQuestion(questionIndex index: Int) {
@@ -223,8 +243,8 @@ class ExamVC: UIViewController, AnswerSelectedDelegate {
     @IBAction func helpClicked(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
         let vc = storyboard.instantiateViewController(withIdentifier: "hints_vc") as! HintsVC;
-//        vc.modalPresentationStyle = .overCurrentContext;
-//        vc.modalTransitionStyle = .crossDissolve;
+        //        vc.modalPresentationStyle = .overCurrentContext;
+        //        vc.modalTransitionStyle = .crossDissolve;
         vc.hints = testState.questions[testState.currentQuestionIdx].hints;
         present(vc, animated: false, completion: nil);
     }

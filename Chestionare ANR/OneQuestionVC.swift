@@ -12,7 +12,7 @@ class OneQuestionVC: UIViewController {
     
 //    var mainController: MainViewController!
     
-    weak var ansertSelectedDelegate: AnswerSelectedDelegate?
+    weak var ansertSelectedDelegate: AnswerSelectedProtocol?
     var selectedAnswer:AnswerEnum = AnswerEnum.NONE_SELECTED
     
     let selectedColor = UIColor(red: 1, green: 0.62, blue: 0.61, alpha: 1);
