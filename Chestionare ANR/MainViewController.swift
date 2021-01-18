@@ -144,6 +144,10 @@ class MainViewController: UIViewController, TestResultProtocol {
     }
     
     func testFinished(withResult result: TestResult, goodAnswers andGoodAnswers: Int) {
+        backButton.isHidden = false;
+        if(visibleVC != nil) {
+            visibleVC.view.isHidden = true;
+        }
         testResultVC.view.isHidden = false;
         visibleVC = testResultVC;
     }
