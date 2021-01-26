@@ -54,10 +54,29 @@ class MainViewController: UIViewController, TestResultProtocol {
         //        XMLUtil.instance;
         
         
-        
         mainMenuVC.view.isHidden = false;
         visibleVC = mainMenuVC;
         backButton.isHidden = true;
+        
+        
+//        CoreDataManager.shared.resetCoreData();
+        
+//        print(CoreDataManager.shared.loadWrongAnswers().count);
+        
+//        for wrongAnswer in CoreDataManager.shared.loadWrongAnswers() {
+//            print("\(wrongAnswer.id)");
+//        }
+        
+        for wrongAnswer in CoreDataManager.shared.loadWrongAnswers() {
+            print("\(wrongAnswer.id)");
+        }
+        
+        
+//        CoreDataManager.shared.saveWrongQuestion(questionId: 1, wrongAnswerId: 101);
+//        CoreDataManager.shared.saveWrongQuestion(questionId: 2, wrongAnswerId: 102);
+//        CoreDataManager.shared.saveWrongQuestion(questionId: 3, wrongAnswerId: 103);
+//        CoreDataManager.shared.saveWrongQuestion(questionId: 4, wrongAnswerId: 104);
+//        CoreDataManager.shared.saveWrongQuestion(questionId: 5, wrongAnswerId: 105);
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -143,12 +162,14 @@ class MainViewController: UIViewController, TestResultProtocol {
         present(vc, animated: false, completion: nil);
     }
     
-    func testFinished(withResult result: TestResult, goodAnswers andGoodAnswers: Int) {
+    func testFinished(withResult result: TestResult, andGoodAnswers goodAnswers: Int) {
         backButton.isHidden = false;
         if(visibleVC != nil) {
             visibleVC.view.isHidden = true;
         }
         testResultVC.view.isHidden = false;
+        testResultVC.testResult = result;
+        testResultVC.goodAnswers = goodAnswers;
         visibleVC = testResultVC;
     }
     

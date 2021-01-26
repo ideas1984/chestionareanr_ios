@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0701B62325AA20DC005E85F7 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701B62225AA20DC005E85F7 /* Const.swift */; };
 		070741BE25AF7EF0004B144A /* HintsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070741BD25AF7EF0004B144A /* HintsVC.swift */; };
+		073A29CC25B7892A00488833 /* ChestionareANR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 073A29CA25B7892A00488833 /* ChestionareANR.xcdatamodeld */; };
+		073A29CF25B78B8600488833 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A29CE25B78B8600488833 /* CoreDataManager.swift */; };
 		0760E6882569E3FD00C51497 /* PDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E6872569E3FD00C51497 /* PDFViewerVC.swift */; };
 		078B13B4259D348800F17735 /* image2069.png in Resources */ = {isa = PBXBuildFile; fileRef = 078B130E259D347100F17735 /* image2069.png */; };
 		078B13B5259D348800F17735 /* image2153.png in Resources */ = {isa = PBXBuildFile; fileRef = 078B130F259D347100F17735 /* image2153.png */; };
@@ -220,6 +222,8 @@
 /* Begin PBXFileReference section */
 		0701B62225AA20DC005E85F7 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		070741BD25AF7EF0004B144A /* HintsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsVC.swift; sourceTree = "<group>"; };
+		073A29CB25B7892A00488833 /* ChestionareANR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChestionareANR.xcdatamodel; sourceTree = "<group>"; };
+		073A29CE25B78B8600488833 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		0760E6872569E3FD00C51497 /* PDFViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerVC.swift; sourceTree = "<group>"; };
 		078B130E259D347100F17735 /* image2069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2069.png; sourceTree = "<group>"; };
 		078B130F259D347100F17735 /* image2153.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2153.png; sourceTree = "<group>"; };
@@ -441,6 +445,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		073A29D225B78C7600488833 /* persistence */ = {
+			isa = PBXGroup;
+			children = (
+				073A29CE25B78B8600488833 /* CoreDataManager.swift */,
+			);
+			path = persistence;
+			sourceTree = "<group>";
+		};
 		078B1307259D325A00F17735 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -686,6 +698,7 @@
 		07F514E2249D7496001681D8 = {
 			isa = PBXGroup;
 			children = (
+				073A29CA25B7892A00488833 /* ChestionareANR.xcdatamodeld */,
 				07F514ED249D74A1001681D8 /* Chestionare ANR */,
 				07F514EC249D74A0001681D8 /* Products */,
 			);
@@ -702,6 +715,7 @@
 		07F514ED249D74A1001681D8 /* Chestionare ANR */ = {
 			isa = PBXGroup;
 			children = (
+				073A29D225B78C7600488833 /* persistence */,
 				078C2E9625A51A190063E36B /* delegate */,
 				078B1307259D325A00F17735 /* image */,
 				078B452F2586C26000477694 /* util */,
@@ -999,6 +1013,7 @@
 				07F1920025973C6000878D5E /* OneQuestionVC.swift in Sources */,
 				078BEE442539036700A6B31F /* Question.swift in Sources */,
 				0701B62325AA20DC005E85F7 /* Const.swift in Sources */,
+				073A29CC25B7892A00488833 /* ChestionareANR.xcdatamodeld in Sources */,
 				070741BE25AF7EF0004B144A /* HintsVC.swift in Sources */,
 				07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */,
 				078D01152592AE9500F7021E /* ExamVC.swift in Sources */,
@@ -1009,6 +1024,7 @@
 				078DC00A24C4E6FC00512D0A /* LearningVC.swift in Sources */,
 				078BEE2C2538F79C00A6B31F /* QuestionsParser.swift in Sources */,
 				07FA88D725B24089006787F9 /* TestResult.swift in Sources */,
+				073A29CF25B78B8600488833 /* CoreDataManager.swift in Sources */,
 				0760E6882569E3FD00C51497 /* PDFViewerVC.swift in Sources */,
 				079D56AC25AF96C400440426 /* Hint.swift in Sources */,
 				079D56AF25AF977100440426 /* HintsParser.swift in Sources */,
@@ -1217,6 +1233,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		073A29CA25B7892A00488833 /* ChestionareANR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				073A29CB25B7892A00488833 /* ChestionareANR.xcdatamodel */,
+			);
+			currentVersion = 073A29CB25B7892A00488833 /* ChestionareANR.xcdatamodel */;
+			path = ChestionareANR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 07F514E3249D7497001681D8 /* Project object */;
 }

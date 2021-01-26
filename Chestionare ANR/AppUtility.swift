@@ -27,7 +27,7 @@ class AppUtility:NSObject{
     private override init() {
         super.init();
 
-        categoryInfoMap[Const.CATEGORY_D] = CategoryInfo(totalQuestions: 26, passScore: 22, time: 10);
+        categoryInfoMap[Const.CATEGORY_D] = CategoryInfo(totalQuestions: 26, passScore: 22, time: 3600);
         categoryInfoMap[Const.CATEGORY_DIFERENTA_D] = CategoryInfo(totalQuestions: 10, passScore: 8, time: 1200);
         categoryInfoMap[Const.CATEGORY_C] = CategoryInfo(totalQuestions: 26, passScore: 22, time: 3600);
         categoryInfoMap[Const.CATEGORY_DIFERENTA_C] = CategoryInfo(totalQuestions: 10, passScore: 8, time: 1200);

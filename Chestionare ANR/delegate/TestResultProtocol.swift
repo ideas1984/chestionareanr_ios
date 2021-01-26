@@ -7,6 +7,6 @@
 //
 
 protocol TestResultProtocol: class {
-    func testFinished(withResult result: TestResult, goodAnswers andGoodAnswers: Int);
+    func testFinished(withResult result: TestResult, andGoodAnswers goodAnswers: Int);
 }
 

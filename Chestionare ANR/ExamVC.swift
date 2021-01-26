@@ -152,18 +152,19 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             testState.goodAnswers += 1;
         } else {
             testState.badAnswers += 1;
+            CoreDataManager.shared.saveWrongQuestion(questionId: testState.questions[testState.currentQuestionIdx].id, wrongAnswerId: selectedAnswer.rawValue);
         }
         
         testState.questions.remove(at: testState.currentQuestionIdx);
         
         if(testFailed()) {
             dismiss(animated: true, completion: {
-                self.testResultdelegate?.testFinished(withResult: TestResult.FAIL_NO_NECCESARY_ANSWERS, goodAnswers: self.testState.goodAnswers);
+                self.testResultdelegate?.testFinished(withResult: TestResult.FAIL_NO_NECCESARY_ANSWERS, andGoodAnswers: self.testState.goodAnswers);
             });
         } else {
             if(testState.questions.isEmpty) { // no more questions
                 dismiss(animated: true, completion: {
-                    self.testResultdelegate?.testFinished(withResult: TestResult.PASS, goodAnswers: self.testState.goodAnswers);
+                    self.testResultdelegate?.testFinished(withResult: TestResult.PASS, andGoodAnswers: self.testState.goodAnswers);
                 });
             } else {
                 if(testState.currentQuestionIdx >= testState.questions.count) {
@@ -177,7 +178,7 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     
     private func testFailed() -> Bool {
         let badAnswersAllowed = AppUtility.instance.categoryInfoMap[category!]?.badAnswersAllowed();
-        if(testState.badAnswers >= badAnswersAllowed!) {
+        if(testState.badAnswers > badAnswersAllowed!) {
             return true;
         }
         return false;
@@ -197,11 +198,11 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             let passScore = AppUtility.instance.categoryInfoMap[category!]?.passScore;
             if(testState.goodAnswers >= passScore!) {
                 dismiss(animated: true, completion: {
-                    self.testResultdelegate?.testFinished(withResult: TestResult.PASS, goodAnswers: self.testState.goodAnswers);
+                    self.testResultdelegate?.testFinished(withResult: TestResult.PASS, andGoodAnswers: self.testState.goodAnswers);
                 });
             } else {
                 dismiss(animated: true, completion: {
-                    self.testResultdelegate?.testFinished(withResult: TestResult.FAIL_TIME_EXPIRED, goodAnswers: self.testState.goodAnswers);
+                    self.testResultdelegate?.testFinished(withResult: TestResult.FAIL_TIME_EXPIRED, andGoodAnswers: self.testState.goodAnswers);
                 });
             }
         }
