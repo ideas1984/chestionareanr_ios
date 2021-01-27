@@ -13,7 +13,16 @@ class XMLUtil : NSObject, XMLParserDelegate {
     static let instance = XMLUtil();
     
     //    var books: [Book] = [];
-    var questions: [Question] = [];
+    var allQuestions: [Question] = [];
+    
+    var regulamentNavigatieDQuestions: [Question] = [];
+    var marinarieDQuestions: [Question] = [];
+    var conducereaSiManevrareaDQuestions: [Question] = [];
+    var colregCQuestions: [Question] = [];
+    var navigatieMaritimaCQuestions: [Question] = [];
+    var marinarieCQuestions: [Question] = [];
+    var conducereaSiManevrareaCQuestions: [Question] = [];
+    
     var hints = [Int:Hint]();
     
     private override init() {
@@ -22,50 +31,22 @@ class XMLUtil : NSObject, XMLParserDelegate {
         //        books = BooksParser().books;
         //        print(books);
         
-        questions = QuestionsParser().questions;
+        let questionParser = QuestionsParser();
+        
+        allQuestions = questionParser.questions;
+        regulamentNavigatieDQuestions = questionParser.regulamentNavigatieDQuestions;
+        marinarieDQuestions = questionParser.marinarieDQuestions;
+        conducereaSiManevrareaDQuestions = questionParser.conducereaSiManevrareaDQuestions;
+        colregCQuestions = questionParser.colregCQuestions;
+        navigatieMaritimaCQuestions = questionParser.navigatieMaritimaCQuestions;
+        marinarieCQuestions = questionParser.marinarieCQuestions;
+        conducereaSiManevrareaCQuestions = questionParser.conducereaSiManevrareaCQuestions;
+        
         hints = HintsParser().hints;
 //        print(hints);
     }
     
     func getRandomQuestions(fromCategory category: Int) -> [Question] {
-        
-        var regulamentNavigatieDQuestions: [Question] = [];
-        var marinarieDQuestions: [Question] = [];
-        var conducereaSiManevrareaDQuestions: [Question] = [];
-        var colregCQuestions: [Question] = [];
-        var navigatieMaritimaCQuestions: [Question] = [];
-        var marinarieCQuestions: [Question] = [];
-        var conducereaSiManevrareaCQuestions: [Question] = [];
-        
-        for item in questions {
-            switch item.subcategory {
-            case Const.SUBCATEGORY_REGULAMENT_NAVIGATIE_D:
-                regulamentNavigatieDQuestions.append(item);
-                break;
-            case Const.SUBCATEGORY_MARINARIE_D:
-                marinarieDQuestions.append(item);
-                break;
-            case Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_D:
-                conducereaSiManevrareaDQuestions.append(item);
-                break;
-            case Const.SUBCATEGORY_COLREG_C:
-                colregCQuestions.append(item);
-                break;
-            case Const.SUBCATEGORY_NAVIGATIE_MARITIMA_C:
-                navigatieMaritimaCQuestions.append(item);
-                break;
-            case Const.SUBCATEGORY_MARINARIE_C:
-                marinarieCQuestions.append(item);
-                break;
-            case Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_C:
-                conducereaSiManevrareaCQuestions.append(item);
-                break;
-            default:
-                print();
-            }
-        }
-        
-        
         var randomQuestions: [Question] = [];
         
         switch category {

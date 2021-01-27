@@ -11,6 +11,17 @@ import UIKit
 class QuestionsParser: NSObject, XMLParserDelegate {
     
     var questions: [Question] = [];
+    
+    var regulamentNavigatieDQuestions: [Question] = [];
+    var marinarieDQuestions: [Question] = [];
+    var conducereaSiManevrareaDQuestions: [Question] = [];
+    var colregCQuestions: [Question] = [];
+    var navigatieMaritimaCQuestions: [Question] = [];
+    var marinarieCQuestions: [Question] = [];
+    var conducereaSiManevrareaCQuestions: [Question] = [];
+    
+    
+    
     var elementName: String = String();
     var answerId = Int();
     
@@ -62,6 +73,33 @@ class QuestionsParser: NSObject, XMLParserDelegate {
         if elementName == "question" {
             let question = Question(id: id, name: name, category: category,subcategory: subcategory,image: image,answers: answers, correctAnswerId: correctAnswerId,hints: hints);
             questions.append(question);
+            
+            
+            switch subcategory {
+            case Const.SUBCATEGORY_REGULAMENT_NAVIGATIE_D:
+                regulamentNavigatieDQuestions.append(question);
+                break;
+            case Const.SUBCATEGORY_MARINARIE_D:
+                marinarieDQuestions.append(question);
+                break;
+            case Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_D:
+                conducereaSiManevrareaDQuestions.append(question);
+                break;
+            case Const.SUBCATEGORY_COLREG_C:
+                colregCQuestions.append(question);
+                break;
+            case Const.SUBCATEGORY_NAVIGATIE_MARITIMA_C:
+                navigatieMaritimaCQuestions.append(question);
+                break;
+            case Const.SUBCATEGORY_MARINARIE_C:
+                marinarieCQuestions.append(question);
+                break;
+            case Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_C:
+                conducereaSiManevrareaCQuestions.append(question);
+                break;
+            default:
+                print("No subcategory found for questionid=\(id)" );
+            }
         }
     }
     

@@ -17,46 +17,21 @@ class MainViewController: UIViewController, TestResultProtocol {
     var commercialTimer: Timer?;
     var lastRandom = 0;
     
-    lazy var mainMenuVC: MainMenuVC = {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        var viewController = storyboard.instantiateViewController(withIdentifier: "MainMenuVC") as! MainMenuVC;
-        viewController.setMainController(self);
-        self.addViewControllerAsChildViewController(childViewController: viewController)
-        return viewController;
-    }()
+//    lazy var mainMenuVC: MainMenuVC = {
+//        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+//        var viewController = storyboard.instantiateViewController(withIdentifier: "MainMenuVC") as! MainMenuVC;
+//        viewController.setMainController(self);
+//        self.addViewControllerAsChildViewController(childViewController: viewController)
+//        return viewController;
+//    }()
     
-    lazy var questionnaireVC: QuestionnaireVC = {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        var viewController = storyboard.instantiateViewController(withIdentifier: "QuestionaireViewController") as! QuestionnaireVC;
-        viewController.setMainController(self);
-        self.addViewControllerAsChildViewController(childViewController: viewController)
-        return viewController;
-    }()
-    
-    
-    lazy var learningVC: LearningVC = {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        var viewController = storyboard.instantiateViewController(withIdentifier: "LearningViewController") as! LearningVC;
-        viewController.setMainController(self);
-        self.addViewControllerAsChildViewController(childViewController: viewController)
-        return viewController;
-    }()
-    
-    lazy var testResultVC: TestResultVC = {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        var viewController = storyboard.instantiateViewController(withIdentifier: "test_result_vc") as! TestResultVC;
-        self.addViewControllerAsChildViewController(childViewController: viewController);
-        return viewController;
-    }()
     
     override func viewDidLoad() {
         super.viewDidLoad();
         //        XMLUtil.instance;
         
         
-        mainMenuVC.view.isHidden = false;
-        visibleVC = mainMenuVC;
-        backButton.isHidden = true;
+        openMainMenuViewController();
         
         
 //        CoreDataManager.shared.resetCoreData();
@@ -112,13 +87,7 @@ class MainViewController: UIViewController, TestResultProtocol {
     
     
     @IBAction func backClicked(_ sender: Any) {
-        if(visibleVC != nil) {
-            visibleVC.view.isHidden = true;
-        }
-        
-        mainMenuVC.view.isHidden = false;
-        visibleVC = mainMenuVC;
-        backButton.isHidden = true;
+        openMainMenuViewController();
     }
     
     
@@ -126,18 +95,28 @@ class MainViewController: UIViewController, TestResultProtocol {
         switch buttonName {
         case "chestionare_anr":
             backButton.isHidden = false;
-            if(visibleVC != nil) {
-                visibleVC.view.isHidden = true;
-            }
-            questionnaireVC.view.isHidden = false;
+            
+            removeExistingViewController();
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            let questionnaireVC = storyboard.instantiateViewController(withIdentifier: "QuestionaireViewController") as! QuestionnaireVC;
+            questionnaireVC.setMainController(self);
+            self.addViewControllerAsChildViewController(childViewController: questionnaireVC);
+            
             visibleVC = questionnaireVC;
+            
         case "mediu_de_invatare":
             backButton.isHidden = false;
-            if(visibleVC != nil) {
-                visibleVC.view.isHidden = true;
-            }
-            learningVC.view.isHidden = false;
+            
+            removeExistingViewController();
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            let learningVC = storyboard.instantiateViewController(withIdentifier: "LearningViewController") as! LearningVC;
+            learningVC.setMainController(self);
+            self.addViewControllerAsChildViewController(childViewController: learningVC);
+            
             visibleVC = learningVC;
+            
         default:
             print("default");
         }
@@ -164,15 +143,38 @@ class MainViewController: UIViewController, TestResultProtocol {
     
     func testFinished(withResult result: TestResult, andGoodAnswers goodAnswers: Int) {
         backButton.isHidden = false;
-        if(visibleVC != nil) {
-            visibleVC.view.isHidden = true;
-        }
-        testResultVC.view.isHidden = false;
+        
+        removeExistingViewController();
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let testResultVC = storyboard.instantiateViewController(withIdentifier: "test_result_vc") as! TestResultVC;
         testResultVC.testResult = result;
         testResultVC.goodAnswers = goodAnswers;
+        self.addViewControllerAsChildViewController(childViewController: testResultVC);
+        
         visibleVC = testResultVC;
     }
     
+    private func openMainMenuViewController() {
+        removeExistingViewController();
+        
+        backButton.isHidden = true;
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let mainMenu = storyboard.instantiateViewController(withIdentifier: "MainMenuVC") as! MainMenuVC;
+        mainMenu.setMainController(self);
+        self.addViewControllerAsChildViewController(childViewController: mainMenu);
+        
+        visibleVC = mainMenu;
+    }
+    
+    private func removeExistingViewController() {
+        if(visibleVC != nil) {
+            visibleVC.view.removeFromSuperview();
+            visibleVC.removeFromParent();
+            visibleVC.dismiss(animated: false, completion: nil);
+        }
+    }
     
     private func addViewControllerAsChildViewController(childViewController: UIViewController) {
         addChild(childViewController);
