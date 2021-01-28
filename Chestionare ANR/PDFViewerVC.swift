@@ -11,6 +11,8 @@ import PDFKit
 
 class PDFViewerVC: UIViewController {
     
+    public var fileName:String?;
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
        
@@ -24,7 +26,7 @@ class PDFViewerVC: UIViewController {
         if #available(iOS 11.0, *) {
             let pdfViewer = PDFView();
             
-            if let path = Bundle.main.url(forResource: "anexe", withExtension: "pdf") {
+            if let path = Bundle.main.url(forResource: fileName!, withExtension: "pdf") {
                 pdfViewer.document = PDFDocument(url: path);
             }
             

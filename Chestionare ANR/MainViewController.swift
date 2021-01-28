@@ -111,11 +111,23 @@ class MainViewController: UIViewController, TestResultProtocol {
             removeExistingViewController();
             
             let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-            let learningVC = storyboard.instantiateViewController(withIdentifier: "LearningViewController") as! LearningVC;
+            let learningVC = storyboard.instantiateViewController(withIdentifier: "learning_menu_vc") as! LearningMenuVC;
             learningVC.setMainController(self);
             self.addViewControllerAsChildViewController(childViewController: learningVC);
             
             visibleVC = learningVC;
+            
+        case "indicatoare_si_semnale":
+            backButton.isHidden = false;
+            
+            removeExistingViewController();
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            let signsAndSignalsVC = storyboard.instantiateViewController(withIdentifier: "signs_and_signals_vc") as! SignsAndSignalsVC;
+            signsAndSignalsVC.setMainController(self);
+            self.addViewControllerAsChildViewController(childViewController: signsAndSignalsVC);
+            
+            visibleVC = signsAndSignalsVC;
             
         default:
             print("default");
