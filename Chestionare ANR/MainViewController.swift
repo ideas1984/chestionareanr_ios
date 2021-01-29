@@ -180,6 +180,38 @@ class MainViewController: UIViewController, TestResultProtocol {
         visibleVC = mainMenu;
     }
     
+    public func learningSubcategorySelected(subcategory subgategory: String) {
+        removeExistingViewController();
+        
+        backButton.isHidden = false;
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let learningDetailsVC = storyboard.instantiateViewController(withIdentifier: "learning_details_vc") as! LearningDetailsVC;
+        
+        switch subgategory {
+            case "but_nav_dunare":
+                print("but_nav_dunare");
+            case "but_marinarie_d":
+                print("but_marinarie_d");
+            case "but_conducerea_manevrarea_d":
+                print("but_conducerea_manevrarea_d");
+            case "but_colreg":
+                print("but_colreg");
+            case "but_mavigatie_maritima":
+                print("but_mavigatie_maritima");
+            case "but_marinarie_c":
+                print("but_marinarie_c");
+            case "but_conducerea_manevrarea_c":
+                print("but conducerea si manevrarea c");
+            default:
+                print("unknown subcategory selected");
+        }
+        
+        self.addViewControllerAsChildViewController(childViewController: learningDetailsVC);
+        
+        visibleVC = learningDetailsVC;
+    }
+    
     private func removeExistingViewController() {
         if(visibleVC != nil) {
             visibleVC.view.removeFromSuperview();
