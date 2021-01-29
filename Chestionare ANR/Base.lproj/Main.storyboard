@@ -2344,60 +2344,51 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regulament de navigație pe Dunăre" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ajt-5J-BG8">
-                                <rect key="frame" x="20" y="58" width="374" height="80"/>
+                                <rect key="frame" x="20" y="56" width="374" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="cj1-yC-QgT"/>
+                                    <constraint firstAttribute="height" constant="70" id="cj1-yC-QgT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wzA-rH-zc8">
-                                <rect key="frame" x="38" y="139" width="338" height="1"/>
+                                <rect key="frame" x="38" y="134" width="338" height="1"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Ps3-rr-0jO"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detalii referitoare la categoria aleasă:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GYs-sV-Asi">
-                                <rect key="frame" x="20" y="160" width="386" height="70"/>
+                                <rect key="frame" x="16" y="151" width="382" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="sPv-yd-qsD"/>
+                                    <constraint firstAttribute="height" constant="50" id="sPv-yd-qsD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 177 întrebări" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXA-6k-5rK">
-                                <rect key="frame" x="38" y="238" width="338" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="A2l-TE-DrW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 36 întrebări parcurse din totalul de 177" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="On7-e4-Cfe">
-                                <rect key="frame" x="38" y="286" width="338" height="40"/>
+                                <rect key="frame" x="38" y="253" width="338" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="AJT-El-NFE"/>
+                                    <constraint firstAttribute="height" constant="20" id="AJT-El-NFE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- progres 20.34%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGW-mX-ZmJ">
-                                <rect key="frame" x="38" y="334" width="338" height="40"/>
+                                <rect key="frame" x="38" y="289" width="338" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="sSt-OY-E1a"/>
+                                    <constraint firstAttribute="height" constant="20" id="sSt-OY-E1a"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ITm-nr-lcH">
-                                <rect key="frame" x="38" y="404" width="338" height="60"/>
+                                <rect key="frame" x="38" y="339" width="338" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continuă pregătirea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yf7-OI-4vw">
                                         <rect key="frame" x="8" y="8" width="322" height="44"/>
@@ -2416,9 +2407,18 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* pentru resetarea mediului de învățare accesați secțiunea Setări a aplicației" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alm-sO-bzd">
-                                <rect key="frame" x="20" y="477" width="374" height="80"/>
+                                <rect key="frame" x="16" y="412" width="382" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="T6Y-qh-7F0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 177 de îintrebări" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXI-rl-hTQ">
+                                <rect key="frame" x="38" y="217" width="338" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="7p8-HD-wuA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2429,34 +2429,31 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="On7-e4-Cfe" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="38" id="0ZH-MO-MiP"/>
-                            <constraint firstItem="wzA-rH-zc8" firstAttribute="top" secondItem="Ajt-5J-BG8" secondAttribute="bottom" constant="1" id="3dz-dP-qXG"/>
-                            <constraint firstItem="On7-e4-Cfe" firstAttribute="top" secondItem="iXA-6k-5rK" secondAttribute="bottom" constant="8" symbolic="YES" id="54J-bR-dzx"/>
-                            <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="iXA-6k-5rK" secondAttribute="trailing" constant="38" id="8h3-eo-dmx"/>
+                            <constraint firstItem="wzA-rH-zc8" firstAttribute="top" secondItem="Ajt-5J-BG8" secondAttribute="bottom" constant="8" id="3dz-dP-qXG"/>
+                            <constraint firstItem="xXI-rl-hTQ" firstAttribute="top" secondItem="GYs-sV-Asi" secondAttribute="bottom" constant="16" id="72n-7h-8DT"/>
+                            <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="xXI-rl-hTQ" secondAttribute="trailing" constant="38" id="77G-x7-gJP"/>
                             <constraint firstItem="ITm-nr-lcH" firstAttribute="top" secondItem="eGW-mX-ZmJ" secondAttribute="bottom" constant="30" id="AoK-Ua-woz"/>
+                            <constraint firstItem="On7-e4-Cfe" firstAttribute="top" secondItem="xXI-rl-hTQ" secondAttribute="bottom" constant="16" id="H6F-SQ-hIv"/>
                             <constraint firstItem="eGW-mX-ZmJ" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="38" id="Io6-eX-PRc"/>
                             <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="ITm-nr-lcH" secondAttribute="trailing" constant="38" id="LHQ-6J-2WC"/>
                             <constraint firstItem="Ajt-5J-BG8" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="20" id="LxH-Ao-m0v"/>
                             <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="Ajt-5J-BG8" secondAttribute="trailing" constant="20" id="RIP-iS-fPz"/>
                             <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="On7-e4-Cfe" secondAttribute="trailing" constant="38" id="TGq-kW-6jy"/>
-                            <constraint firstItem="iXA-6k-5rK" firstAttribute="top" secondItem="GYs-sV-Asi" secondAttribute="bottom" constant="8" symbolic="YES" id="Xkc-UE-Kei"/>
-                            <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="alm-sO-bzd" secondAttribute="trailing" constant="20" id="iVO-OS-gg6"/>
-                            <constraint firstItem="GYs-sV-Asi" firstAttribute="top" secondItem="wzA-rH-zc8" secondAttribute="bottom" constant="20" id="lci-GD-aPj"/>
+                            <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="alm-sO-bzd" secondAttribute="trailing" constant="16" id="iVO-OS-gg6"/>
+                            <constraint firstItem="GYs-sV-Asi" firstAttribute="top" secondItem="wzA-rH-zc8" secondAttribute="bottom" constant="16" id="lci-GD-aPj"/>
                             <constraint firstItem="ITm-nr-lcH" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="38" id="m9E-Z2-MCT"/>
                             <constraint firstItem="alm-sO-bzd" firstAttribute="top" secondItem="ITm-nr-lcH" secondAttribute="bottom" constant="13" id="mJS-LY-EtZ"/>
                             <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="eGW-mX-ZmJ" secondAttribute="trailing" constant="38" id="mZS-oI-qGC"/>
-                            <constraint firstItem="alm-sO-bzd" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="20" id="oCl-QJ-saR"/>
+                            <constraint firstItem="alm-sO-bzd" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="16" id="oCl-QJ-saR"/>
                             <constraint firstItem="wzA-rH-zc8" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="38" id="oeW-wk-cf6"/>
-                            <constraint firstItem="iXA-6k-5rK" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="38" id="phs-gA-jaT"/>
-                            <constraint firstItem="GYs-sV-Asi" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="20" id="tCH-vo-G9M"/>
-                            <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="GYs-sV-Asi" secondAttribute="trailing" constant="8" id="taP-f8-Ztg"/>
-                            <constraint firstItem="Ajt-5J-BG8" firstAttribute="top" secondItem="p29-fO-I6Y" secondAttribute="top" constant="14" id="tpb-QV-ppZ"/>
-                            <constraint firstItem="eGW-mX-ZmJ" firstAttribute="top" secondItem="On7-e4-Cfe" secondAttribute="bottom" constant="8" symbolic="YES" id="x8O-Hu-f0a"/>
+                            <constraint firstItem="xXI-rl-hTQ" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="38" id="qy4-2x-4MR"/>
+                            <constraint firstItem="GYs-sV-Asi" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="16" id="tCH-vo-G9M"/>
+                            <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="GYs-sV-Asi" secondAttribute="trailing" constant="16" id="taP-f8-Ztg"/>
+                            <constraint firstItem="Ajt-5J-BG8" firstAttribute="top" secondItem="p29-fO-I6Y" secondAttribute="top" constant="12" id="tpb-QV-ppZ"/>
+                            <constraint firstItem="eGW-mX-ZmJ" firstAttribute="top" secondItem="On7-e4-Cfe" secondAttribute="bottom" constant="16" id="x8O-Hu-f0a"/>
                             <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="wzA-rH-zc8" secondAttribute="trailing" constant="38" id="xFU-B5-u7r"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="goodAnswersLabel" destination="iXA-6k-5rK" id="vnP-jC-Jfi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w98-pQ-bry" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
