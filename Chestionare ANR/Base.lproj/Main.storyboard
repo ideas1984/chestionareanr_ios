@@ -1305,7 +1305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bh5-dB-Jt0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-125" y="876"/>
+            <point key="canvasLocation" x="767" y="976"/>
         </scene>
         <!--ExamVC-->
         <scene sceneID="QQ0-Ax-k8b">
@@ -2359,7 +2359,7 @@
                                     <constraint firstAttribute="height" constant="1" id="Ps3-rr-0jO"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detalii referitoare la categoria aleasă:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GYs-sV-Asi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detalii referitoare la categoria aleasă:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GYs-sV-Asi">
                                 <rect key="frame" x="16" y="151" width="382" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -2369,26 +2369,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 36 întrebări parcurse din totalul de 177" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="On7-e4-Cfe">
-                                <rect key="frame" x="38" y="253" width="338" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="AJT-El-NFE"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 177 de întrebări" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXI-rl-hTQ">
+                                <rect key="frame" x="38" y="217" width="338" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 36 întrebări parcurse din totalul de 177" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="On7-e4-Cfe">
+                                <rect key="frame" x="38" y="253" width="338" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- progres 20.34%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGW-mX-ZmJ">
-                                <rect key="frame" x="38" y="289" width="338" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="sSt-OY-E1a"/>
-                                </constraints>
+                                <rect key="frame" x="38" y="289.5" width="338" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ITm-nr-lcH">
-                                <rect key="frame" x="38" y="339" width="338" height="60"/>
+                                <rect key="frame" x="38" y="339.5" width="338" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continuă pregătirea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yf7-OI-4vw">
                                         <rect key="frame" x="8" y="8" width="322" height="44"/>
@@ -2405,20 +2405,14 @@
                                     <constraint firstItem="Yf7-OI-4vw" firstAttribute="leading" secondItem="ITm-nr-lcH" secondAttribute="leading" constant="8" id="lMK-Km-8fW"/>
                                     <constraint firstAttribute="height" constant="60" id="uuE-2H-vPo"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5B2-Hb-IhH" appends="YES" id="JWR-TK-yAm"/>
+                                </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* pentru resetarea mediului de învățare accesați secțiunea Setări a aplicației" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alm-sO-bzd">
-                                <rect key="frame" x="16" y="412" width="382" height="80"/>
+                                <rect key="frame" x="16" y="412.5" width="382" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="T6Y-qh-7F0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 177 de îintrebări" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXI-rl-hTQ">
-                                <rect key="frame" x="38" y="217" width="338" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="7p8-HD-wuA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2454,10 +2448,22 @@
                             <constraint firstItem="p29-fO-I6Y" firstAttribute="trailing" secondItem="wzA-rH-zc8" secondAttribute="trailing" constant="38" id="xFU-B5-u7r"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonLabel" destination="Yf7-OI-4vw" id="65v-Xp-JGM"/>
+                        <outlet property="percentageCoveredLabel" destination="eGW-mX-ZmJ" id="qR6-Jb-iWZ"/>
+                        <outlet property="titleLabel" destination="Ajt-5J-BG8" id="Xck-T6-Ezb"/>
+                        <outlet property="totalCoveredLabel" destination="On7-e4-Cfe" id="gEz-mj-Fdp"/>
+                        <outlet property="totalQuestionsLabel" destination="xXI-rl-hTQ" id="YDN-fH-j9t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w98-pQ-bry" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5B2-Hb-IhH">
+                    <connections>
+                        <action selector="startContinueClicked:" destination="T50-l4-yLs" id="PNJ-QO-4tx"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="734.78260869565224" y="875.89285714285711"/>
+            <point key="canvasLocation" x="-155" y="977"/>
         </scene>
     </scenes>
     <resources>

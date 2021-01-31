@@ -22,4 +22,13 @@ struct Const {
     static let SUBCATEGORY_MARINARIE_C: Int = 6;
     static let SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_C: Int = 7;
     
+    
+    static let KEY_COVERED_SUBCATEGORY_1: String = "covered_subcategory_1";
+    static let KEY_COVERED_SUBCATEGORY_2: String = "covered_subcategory_2";
+    static let KEY_COVERED_SUBCATEGORY_3: String = "covered_subcategory_3";
+    static let KEY_COVERED_SUBCATEGORY_4: String = "covered_subcategory_4";
+    static let KEY_COVERED_SUBCATEGORY_5: String = "covered_subcategory_5";
+    static let KEY_COVERED_SUBCATEGORY_6: String = "covered_subcategory_6";
+    static let KEY_COVERED_SUBCATEGORY_7: String = "covered_subcategory_7";
+    
 }

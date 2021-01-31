@@ -87,7 +87,11 @@ class MainViewController: UIViewController, TestResultProtocol {
     
     
     @IBAction func backClicked(_ sender: Any) {
-        openMainMenuViewController();
+        if(visibleVC is LearningDetailsVC) {
+            openLearningMenuViewController();
+        } else {
+            openMainMenuViewController();
+        }
     }
     
     
@@ -106,16 +110,7 @@ class MainViewController: UIViewController, TestResultProtocol {
             visibleVC = questionnaireVC;
             
         case "mediu_de_invatare":
-            backButton.isHidden = false;
-            
-            removeExistingViewController();
-            
-            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-            let learningVC = storyboard.instantiateViewController(withIdentifier: "learning_menu_vc") as! LearningMenuVC;
-            learningVC.setMainController(self);
-            self.addViewControllerAsChildViewController(childViewController: learningVC);
-            
-            visibleVC = learningVC;
+            openLearningMenuViewController();
             
         case "indicatoare_si_semnale":
             backButton.isHidden = false;
@@ -167,6 +162,19 @@ class MainViewController: UIViewController, TestResultProtocol {
         visibleVC = testResultVC;
     }
     
+    private func openLearningMenuViewController() {
+        backButton.isHidden = false;
+        
+        removeExistingViewController();
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let learningVC = storyboard.instantiateViewController(withIdentifier: "learning_menu_vc") as! LearningMenuVC;
+        learningVC.setMainController(self);
+        self.addViewControllerAsChildViewController(childViewController: learningVC);
+        
+        visibleVC = learningVC;
+    }
+    
     private func openMainMenuViewController() {
         removeExistingViewController();
         
@@ -190,19 +198,19 @@ class MainViewController: UIViewController, TestResultProtocol {
         
         switch subgategory {
             case "but_nav_dunare":
-                print("but_nav_dunare");
+                learningDetailsVC.subcategory = Const.SUBCATEGORY_REGULAMENT_NAVIGATIE_D;
             case "but_marinarie_d":
-                print("but_marinarie_d");
+                learningDetailsVC.subcategory = Const.SUBCATEGORY_MARINARIE_D;
             case "but_conducerea_manevrarea_d":
-                print("but_conducerea_manevrarea_d");
+                learningDetailsVC.subcategory = Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_D;
             case "but_colreg":
-                print("but_colreg");
+                learningDetailsVC.subcategory = Const.SUBCATEGORY_COLREG_C;
             case "but_mavigatie_maritima":
-                print("but_mavigatie_maritima");
+                learningDetailsVC.subcategory = Const.SUBCATEGORY_NAVIGATIE_MARITIMA_C;
             case "but_marinarie_c":
-                print("but_marinarie_c");
+                learningDetailsVC.subcategory = Const.SUBCATEGORY_MARINARIE_C;
             case "but_conducerea_manevrarea_c":
-                print("but conducerea si manevrarea c");
+                learningDetailsVC.subcategory = Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_C;
             default:
                 print("unknown subcategory selected");
         }
