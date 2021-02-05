@@ -21,16 +21,15 @@ class LearningDetailsVC: UIViewController {
     
     var subcategory: Int?;
     
-    override func viewDidLoad() {
-        super.viewDidLoad();
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated);
         
         let defaults = UserDefaults.standard;
         
-        defaults.set(2, forKey: "covered_subcategory_1");
-        
-        
         var totalCovered:Int = 0;
         var totalSubcategoryQuestions:Int = 0;
+        
+//        UserDefaults.standard.set(0, forKey: Const.getKey(forSubcategory: 1));
         
         switch subcategory! {
             case Const.SUBCATEGORY_REGULAMENT_NAVIGATIE_D:
@@ -79,6 +78,10 @@ class LearningDetailsVC: UIViewController {
                 print();
         }
         
+        if(totalCovered > 0) {
+            totalCovered += 1;
+        }
+        
         let percentage:Double = Double(100*totalCovered)/Double(totalSubcategoryQuestions);
         
         totalQuestionsLabel.text = "- \(totalSubcategoryQuestions) de întrebări";
@@ -94,7 +97,11 @@ class LearningDetailsVC: UIViewController {
     }
     
     @IBAction func startContinueClicked(_ sender: UITapGestureRecognizer) {
-
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let learningViewController = storyboard.instantiateViewController(withIdentifier: "learning_vc") as! LearningVC;
+        learningViewController.modalPresentationStyle = .fullScreen;
+        learningViewController.subcategory = subcategory;
+        present(learningViewController, animated: true, completion: nil);
     }
     
 }

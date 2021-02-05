@@ -190,6 +190,7 @@
 		078DC00A24C4E6FC00512D0A /* LearningMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00924C4E6FC00512D0A /* LearningMenuVC.swift */; };
 		078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00B24D8A2B000512D0A /* ArrowButton.swift */; };
 		078DC00E24D8C41600512D0A /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00D24D8C41600512D0A /* TestButton.swift */; };
+		079581D725CCA87900723F35 /* LegislationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079581D625CCA87900723F35 /* LegislationVC.swift */; };
 		0798AC3C25C4BC58000CED89 /* LearningDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798AC3B25C4BC58000CED89 /* LearningDetailsVC.swift */; };
 		0799463925AB533000920B1B /* questions_one_question.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0799463825AB533000920B1B /* questions_one_question.xml */; };
 		079D56AC25AF96C400440426 /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079D56AB25AF96C400440426 /* Hint.swift */; };
@@ -211,6 +212,7 @@
 		07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF3ADE258D714700E1BC76 /* CommercialVC.swift */; };
 		07E7719924A01FB200292287 /* QuestionnaireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7719824A01FB200292287 /* QuestionnaireVC.swift */; };
 		07E7719B24A01FEB00292287 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7719A24A01FEB00292287 /* MainMenuVC.swift */; };
+		07EEAD4F25CDEAE200EF98BA /* HistoryAndReportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EEAD4E25CDEAE200EF98BA /* HistoryAndReportsVC.swift */; };
 		07F1920025973C6000878D5E /* OneQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F191FF25973C6000878D5E /* OneQuestionVC.swift */; };
 		07F514EF249D74A6001681D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F514EE249D74A5001681D8 /* AppDelegate.swift */; };
 		07F514F1249D74A6001681D8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F514F0249D74A6001681D8 /* MainViewController.swift */; };
@@ -406,6 +408,7 @@
 		078DC00924C4E6FC00512D0A /* LearningMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningMenuVC.swift; sourceTree = "<group>"; };
 		078DC00B24D8A2B000512D0A /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
 		078DC00D24D8C41600512D0A /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
+		079581D625CCA87900723F35 /* LegislationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislationVC.swift; sourceTree = "<group>"; };
 		0798AC3B25C4BC58000CED89 /* LearningDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningDetailsVC.swift; sourceTree = "<group>"; };
 		0799463825AB533000920B1B /* questions_one_question.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = questions_one_question.xml; sourceTree = "<group>"; };
 		079D56AB25AF96C400440426 /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
@@ -426,6 +429,7 @@
 		07DF3ADE258D714700E1BC76 /* CommercialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialVC.swift; sourceTree = "<group>"; };
 		07E7719824A01FB200292287 /* QuestionnaireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireVC.swift; sourceTree = "<group>"; };
 		07E7719A24A01FEB00292287 /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		07EEAD4E25CDEAE200EF98BA /* HistoryAndReportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryAndReportsVC.swift; sourceTree = "<group>"; };
 		07F191FF25973C6000878D5E /* OneQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneQuestionVC.swift; sourceTree = "<group>"; };
 		07F514EB249D74A0001681D8 /* Chestionare ANR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chestionare ANR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F514EE249D74A5001681D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -735,6 +739,8 @@
 				07F514FA249D755D001681D8 /* Info.plist */,
 				07F514F0249D74A6001681D8 /* MainViewController.swift */,
 				078D01142592AE9500F7021E /* ExamVC.swift */,
+				079581D625CCA87900723F35 /* LegislationVC.swift */,
+				07EEAD4E25CDEAE200EF98BA /* HistoryAndReportsVC.swift */,
 				078DC00924C4E6FC00512D0A /* LearningMenuVC.swift */,
 				0798AC3B25C4BC58000CED89 /* LearningDetailsVC.swift */,
 				0762FC2225C37D1B00352DBB /* LearningVC.swift */,
@@ -1019,6 +1025,7 @@
 				07F514EF249D74A6001681D8 /* AppDelegate.swift in Sources */,
 				07FA88CE25B2280E006787F9 /* TestResultVC.swift in Sources */,
 				07FD8D2024AA96F50065E024 /* CustomButton.swift in Sources */,
+				079581D725CCA87900723F35 /* LegislationVC.swift in Sources */,
 				07F1920025973C6000878D5E /* OneQuestionVC.swift in Sources */,
 				0798AC3C25C4BC58000CED89 /* LearningDetailsVC.swift in Sources */,
 				078BEE442539036700A6B31F /* Question.swift in Sources */,
@@ -1030,6 +1037,7 @@
 				07DF3ADF258D714700E1BC76 /* CommercialVC.swift in Sources */,
 				078D01152592AE9500F7021E /* ExamVC.swift in Sources */,
 				078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */,
+				07EEAD4F25CDEAE200EF98BA /* HistoryAndReportsVC.swift in Sources */,
 				07E7719924A01FB200292287 /* QuestionnaireVC.swift in Sources */,
 				07E7719B24A01FEB00292287 /* MainMenuVC.swift in Sources */,
 				07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */,

@@ -119,10 +119,31 @@ class MainViewController: UIViewController, TestResultProtocol {
             
             let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
             let signsAndSignalsVC = storyboard.instantiateViewController(withIdentifier: "signs_and_signals_vc") as! SignsAndSignalsVC;
-            signsAndSignalsVC.setMainController(self);
             self.addViewControllerAsChildViewController(childViewController: signsAndSignalsVC);
             
             visibleVC = signsAndSignalsVC;
+            
+        case "legislatie":
+            backButton.isHidden = false;
+            
+            removeExistingViewController();
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            let legislationVC = storyboard.instantiateViewController(withIdentifier: "legislation_vc") as! LegislationVC;
+            self.addViewControllerAsChildViewController(childViewController: legislationVC);
+            
+            visibleVC = legislationVC;
+            
+        case "istoric_si_rapoarte":
+            backButton.isHidden = false;
+            
+            removeExistingViewController();
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            let historyAndReportsVC = storyboard.instantiateViewController(withIdentifier: "history_and_reports_vc") as! HistoryAndReportsVC;
+            self.addViewControllerAsChildViewController(childViewController: historyAndReportsVC);
+            
+            visibleVC = historyAndReportsVC;
             
         default:
             print("default");

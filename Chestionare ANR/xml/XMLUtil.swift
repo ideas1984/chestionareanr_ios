@@ -91,9 +91,26 @@ class XMLUtil : NSObject, XMLParserDelegate {
         
         return randomQuestions;
     }
+    
+    public func getQuestions(fromSubcategory subcategory: Int) -> [Question] {
+        if(Const.SUBCATEGORY_REGULAMENT_NAVIGATIE_D == subcategory) {
+            return regulamentNavigatieDQuestions;
+        } else if(Const.SUBCATEGORY_MARINARIE_D == subcategory) {
+            return marinarieDQuestions;
+        } else if(Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_D == subcategory) {
+            return conducereaSiManevrareaDQuestions;
+        } else if(Const.SUBCATEGORY_COLREG_C == subcategory) {
+            return colregCQuestions;
+        } else if(Const.SUBCATEGORY_NAVIGATIE_MARITIMA_C == subcategory) {
+            return navigatieMaritimaCQuestions;
+        } else if(Const.SUBCATEGORY_MARINARIE_C == subcategory) {
+            return marinarieCQuestions;
+        } else if(Const.SUBCATEGORY_CONDUCEREA_SI_MANEVRAREA_C == subcategory) {
+            return conducereaSiManevrareaCQuestions;
+        }
         
-    
-    
+        return [];
+    }
     
 }
 

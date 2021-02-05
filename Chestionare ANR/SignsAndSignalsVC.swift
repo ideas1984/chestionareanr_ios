@@ -10,8 +10,6 @@ import UIKit
 
 class SignsAndSignalsVC: UIViewController {
     
-    var mainController: MainViewController!
-
     @IBAction func buttonTapped(_ sender: UITapGestureRecognizer) {
         
         
@@ -32,16 +30,7 @@ class SignsAndSignalsVC: UIViewController {
             print("no button recognized");
         }
         
-        mainController.present(pdfVC, animated: true, completion: nil);
-    }
-        
-    
-    @IBAction func menuClicked(_ sender: CustomButton) {
-        mainController.mainMenuClicked(sender.accessibilityIdentifier!)
-    }
-    
-    public func setMainController(_ mainController: MainViewController) {
-        self.mainController = mainController;
+        present(pdfVC, animated: true, completion: nil);
     }
     
     override func viewDidLoad() {
