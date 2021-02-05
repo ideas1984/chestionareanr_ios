@@ -30,21 +30,19 @@ class MainViewController: UIViewController, TestResultProtocol {
         super.viewDidLoad();
         //        XMLUtil.instance;
         
-        
         openMainMenuViewController();
         
         
+        
 //        CoreDataManager.shared.resetCoreData();
-        
+    
 //        print(CoreDataManager.shared.loadWrongAnswers().count);
-        
 //        for wrongAnswer in CoreDataManager.shared.loadWrongAnswers() {
 //            print("\(wrongAnswer.id)");
 //        }
-        
-        for wrongAnswer in CoreDataManager.shared.loadWrongAnswers() {
-            print("\(wrongAnswer.id)");
-        }
+//        for wrongAnswer in CoreDataManager.shared.loadWrongAnswers() {
+//            print("\(wrongAnswer.id)");
+//        }
         
         
 //        CoreDataManager.shared.saveWrongQuestion(questionId: 1, wrongAnswerId: 101);
@@ -170,6 +168,9 @@ class MainViewController: UIViewController, TestResultProtocol {
     }
     
     func testFinished(withResult result: TestResult, andGoodAnswers goodAnswers: Int) {
+        
+        CoreDataManager.shared.saveTestResult(result: result);
+        
         backButton.isHidden = false;
         
         removeExistingViewController();

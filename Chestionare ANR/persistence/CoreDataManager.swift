@@ -31,6 +31,8 @@ class CoreDataManager {
         return persistentContainer.newBackgroundContext();
     }
     
+    
+    // WrongAnswer
     func saveWrongQuestion(questionId: Int, wrongAnswerId: Int) {
         let context = CoreDataManager.shared.backgroundContext();
         
@@ -73,6 +75,36 @@ class CoreDataManager {
         }
     }
     
+    
+    // TestResult
+    func saveTestResult(result: TestResult) {
+        let context = CoreDataManager.shared.backgroundContext();
+        
+        context.perform {
+            let testResultDB = TestResultDB(entity: TestResultDB.entity(), insertInto: context);
+            testResultDB.timestamp = Date();
+            testResultDB.result = Int16(result.rawValue);
+            do {
+                try context.save();
+            }  catch {
+                debugPrint("Cannot save context for TestResult with result=\(result) and error=\(error)");
+            }
+        }
+    }
+    
+    func loadTestResults() -> [TestResultDB] {
+        let mainContext = CoreDataManager.shared.mainContext;
+        let fetchRequest: NSFetchRequest<TestResultDB> = TestResultDB.fetchRequest();
+        do {
+            var results = try mainContext.fetch(fetchRequest);
+            results.sort(by: { $0.timestamp! < $1.timestamp! });
+            return results;
+        }
+        catch {
+            debugPrint(error);
+        }
+        return [];
+    }
     
     public func resetCoreData() {
         // get all entities and loop over them

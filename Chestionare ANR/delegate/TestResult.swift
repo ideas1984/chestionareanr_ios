@@ -6,6 +6,6 @@
 //  Copyright © 2021 NavyMasters. All rights reserved.
 //
 
-enum TestResult {
-    case PASS, FAIL_NO_NECCESARY_ANSWERS, FAIL_TIME_EXPIRED
+enum TestResult : Int {
+    case PASS = 1, FAIL_NO_NECCESARY_ANSWERS = 2, FAIL_TIME_EXPIRED = 3
 }

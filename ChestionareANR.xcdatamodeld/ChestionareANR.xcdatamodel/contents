@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TestResultDB" representedClassName="TestResultDB" syncable="YES" codeGenerationType="class">
+        <attribute name="result" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
     <entity name="WrongAnswer" representedClassName="WrongAnswer" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -7,5 +11,6 @@
     </entity>
     <elements>
         <element name="WrongAnswer" positionX="-16823.52679443359" positionY="-15167.15480041504" width="128" height="74"/>
+        <element name="TestResultDB" positionX="-16821" positionY="-15147" width="128" height="59"/>
     </elements>
 </model>
