@@ -16,9 +16,8 @@ class QuestionnaireVC: UIViewController {
         super.viewDidLoad()
     }
     
-
-    @IBAction func startTestClicked(_ sender: CustomButton) {
-        mainController.startTest(sender.accessibilityIdentifier!);
+    @IBAction func buttonClicked(_ sender: UITapGestureRecognizer) {
+        mainController.startTest((sender.view?.accessibilityIdentifier!.description)!);
     }
     
     
@@ -26,14 +25,4 @@ class QuestionnaireVC: UIViewController {
         self.mainController = mainController;
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

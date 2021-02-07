@@ -15,26 +15,13 @@ class MainMenuVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
     }
-
     
-    @IBAction func menuClicked(_ sender: CustomButton) {
-        mainController.mainMenuClicked(sender.accessibilityIdentifier!);
+    @IBAction func buttonClicked(_ sender: UITapGestureRecognizer) {
+        mainController.mainMenuClicked((sender.view?.accessibilityIdentifier!.description)!);
     }
     
     public func setMainController(_ mainController: MainViewController) {
         self.mainController = mainController;
     }
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

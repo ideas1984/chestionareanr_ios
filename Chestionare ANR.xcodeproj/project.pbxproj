@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0701B62325AA20DC005E85F7 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0701B62225AA20DC005E85F7 /* Const.swift */; };
 		070741BE25AF7EF0004B144A /* HintsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070741BD25AF7EF0004B144A /* HintsVC.swift */; };
+		070D5EB025D009990097299C /* ANRButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D5EAF25D009990097299C /* ANRButton.swift */; };
 		073A29CC25B7892A00488833 /* ChestionareANR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 073A29CA25B7892A00488833 /* ChestionareANR.xcdatamodeld */; };
 		073A29CF25B78B8600488833 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A29CE25B78B8600488833 /* CoreDataManager.swift */; };
 		0760E6882569E3FD00C51497 /* PDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760E6872569E3FD00C51497 /* PDFViewerVC.swift */; };
@@ -228,6 +229,7 @@
 /* Begin PBXFileReference section */
 		0701B62225AA20DC005E85F7 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		070741BD25AF7EF0004B144A /* HintsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsVC.swift; sourceTree = "<group>"; };
+		070D5EAF25D009990097299C /* ANRButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANRButton.swift; sourceTree = "<group>"; };
 		073A29CB25B7892A00488833 /* ChestionareANR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChestionareANR.xcdatamodel; sourceTree = "<group>"; };
 		073A29CE25B78B8600488833 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		0760E6872569E3FD00C51497 /* PDFViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerVC.swift; sourceTree = "<group>"; };
@@ -765,6 +767,7 @@
 				07FD8D1F24AA96F50065E024 /* CustomButton.swift */,
 				078DC00B24D8A2B000512D0A /* ArrowButton.swift */,
 				078DC00D24D8C41600512D0A /* TestButton.swift */,
+				070D5EAF25D009990097299C /* ANRButton.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -1043,6 +1046,7 @@
 				07EEAD4F25CDEAE200EF98BA /* HistoryAndReportsVC.swift in Sources */,
 				07E7719924A01FB200292287 /* QuestionnaireVC.swift in Sources */,
 				07E7719B24A01FEB00292287 /* MainMenuVC.swift in Sources */,
+				070D5EB025D009990097299C /* ANRButton.swift in Sources */,
 				07D5440925CF2E8C006A23A9 /* SettingsVC.swift in Sources */,
 				07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */,
 				078DC00A24C4E6FC00512D0A /* LearningMenuVC.swift in Sources */,
