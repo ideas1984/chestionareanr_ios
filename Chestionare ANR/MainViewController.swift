@@ -143,6 +143,17 @@ class MainViewController: UIViewController, TestResultProtocol {
             
             visibleVC = historyAndReportsVC;
             
+        case "setari":
+            backButton.isHidden = false;
+            
+            removeExistingViewController();
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            let settingsViewController = storyboard.instantiateViewController(withIdentifier: "settings_vc") as! SettingsVC;
+            self.addViewControllerAsChildViewController(childViewController: settingsViewController);
+            
+            visibleVC = settingsViewController;
+            
         default:
             print("default");
         }

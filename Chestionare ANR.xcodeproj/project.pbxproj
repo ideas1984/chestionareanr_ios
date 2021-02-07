@@ -198,6 +198,7 @@
 		079EE99F259BE1AD004D89A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F514F5249D755D001681D8 /* Assets.xcassets */; };
 		07ABCD7B25C34766002E340E /* SignsAndSignalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABCD7A25C34766002E340E /* SignsAndSignalsVC.swift */; };
 		07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C8C71F2537A462002F12FD /* XMLUtil.swift */; };
+		07D5440925CF2E8C006A23A9 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5440825CF2E8C006A23A9 /* SettingsVC.swift */; };
 		07D664EE256B0F2700C10811 /* anexe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664ED256B0F2700C10811 /* anexe.pdf */; };
 		07D664F2256B11CC00C10811 /* partea_a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664F1256B11CC00C10811 /* partea_a.pdf */; };
 		07D664FB256B149200C10811 /* partea_b_sectiunea_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664FA256B149200C10811 /* partea_b_sectiunea_1.pdf */; };
@@ -415,6 +416,7 @@
 		079D56AE25AF977100440426 /* HintsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsParser.swift; sourceTree = "<group>"; };
 		07ABCD7A25C34766002E340E /* SignsAndSignalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsAndSignalsVC.swift; sourceTree = "<group>"; };
 		07C8C71F2537A462002F12FD /* XMLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLUtil.swift; sourceTree = "<group>"; };
+		07D5440825CF2E8C006A23A9 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		07D664ED256B0F2700C10811 /* anexe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anexe.pdf; sourceTree = "<group>"; };
 		07D664F1256B11CC00C10811 /* partea_a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = partea_a.pdf; sourceTree = "<group>"; };
 		07D664FA256B149200C10811 /* partea_b_sectiunea_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = partea_b_sectiunea_1.pdf; sourceTree = "<group>"; };
@@ -749,6 +751,7 @@
 				07E7719A24A01FEB00292287 /* MainMenuVC.swift */,
 				07ABCD7A25C34766002E340E /* SignsAndSignalsVC.swift */,
 				0760E6872569E3FD00C51497 /* PDFViewerVC.swift */,
+				07D5440825CF2E8C006A23A9 /* SettingsVC.swift */,
 				07DF3ADE258D714700E1BC76 /* CommercialVC.swift */,
 				070741BD25AF7EF0004B144A /* HintsVC.swift */,
 				07FA88CD25B2280E006787F9 /* TestResultVC.swift */,
@@ -1040,6 +1043,7 @@
 				07EEAD4F25CDEAE200EF98BA /* HistoryAndReportsVC.swift in Sources */,
 				07E7719924A01FB200292287 /* QuestionnaireVC.swift in Sources */,
 				07E7719B24A01FEB00292287 /* MainMenuVC.swift in Sources */,
+				07D5440925CF2E8C006A23A9 /* SettingsVC.swift in Sources */,
 				07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */,
 				078DC00A24C4E6FC00512D0A /* LearningMenuVC.swift in Sources */,
 				078BEE2C2538F79C00A6B31F /* QuestionsParser.swift in Sources */,
