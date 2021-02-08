@@ -75,7 +75,10 @@ class OneQuestionVC: UIViewController {
     
     
     public func setQuestion(_ question: Question, andNumber questionNumber: Int) {
-        let qFont = UIFont(name: "Helvetica", size: 20.0);
+        
+        let fontSize = UserDefaults.standard.integer(forKey: Const.KEY_FONT_SIZE);
+        
+        let qFont = UIFont(name: "Helvetica", size: CGFloat(fontSize + 4));
         
         questionHeightConstraint.constant = heightForView(text:question.name, font: qFont!, width: self.view.frame.width - 79) + 16;
         questionLabel.text = question.name;
@@ -92,7 +95,7 @@ class OneQuestionVC: UIViewController {
         }
         
         
-        let aFont = UIFont(name: "Helvetica", size: 16.0);
+        let aFont = UIFont(name: "Helvetica", size: CGFloat(fontSize));
         
         aAnswerHeightConstraint.constant = heightForView(text:question.answers[1]!, font: aFont!, width: self.view.frame.width - 79) + 16;
         aAnswerLabel.text = question.answers[1];

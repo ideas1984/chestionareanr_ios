@@ -10,14 +10,14 @@ import UIKit
 
 class SettingsVC: UIViewController {
     
-    @IBOutlet weak var fontButton12: ANRButton!
-    @IBOutlet weak var fontButton14: ANRButton!
-    @IBOutlet weak var fontButton16: ANRButton!
-    @IBOutlet weak var fontButton18: ANRButton!
+    @IBOutlet weak var fontButton12: ANRRadioButton!
+    @IBOutlet weak var fontButton14: ANRRadioButton!
+    @IBOutlet weak var fontButton16: ANRRadioButton!
+    @IBOutlet weak var fontButton18: ANRRadioButton!
     
     
-    @IBOutlet weak var showAnswerButtonYes: ANRButton!
-    @IBOutlet weak var showAnswerButtonNo: ANRButton!
+    @IBOutlet weak var showAnswerButtonYes: ANRRadioButton!
+    @IBOutlet weak var showAnswerButtonNo: ANRRadioButton!
     
     @IBOutlet weak var resetLearningButton: ANRButton!
     @IBOutlet weak var resetAllButton: ANRButton!

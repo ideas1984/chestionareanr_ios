@@ -24,7 +24,7 @@
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0h4-JR-2KP">
                                 <rect key="frame" x="0.0" y="232" width="414" height="548"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" name="background_1"/>
                                 <accessibility key="accessibilityConfiguration" label="ContainerView"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTZ-NY-kDA" userLabel="back button">
@@ -610,7 +610,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NhW-w9-dBa"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="Daf-VZ-xfY" firstAttribute="leading" secondItem="NhW-w9-dBa" secondAttribute="leading" constant="24" id="6EQ-8W-Qqq"/>
                             <constraint firstItem="NhW-w9-dBa" firstAttribute="trailing" secondItem="PK6-RG-1Rb" secondAttribute="trailing" constant="20" id="6XP-UT-mEr"/>
@@ -1544,7 +1544,7 @@
                                                 </connections>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="1x4-bs-PT8" secondAttribute="trailing" constant="12" id="0Co-EU-DB7"/>
                                             <constraint firstItem="mME-hG-nGu" firstAttribute="leading" secondItem="c03-dA-S9x" secondAttribute="leading" constant="12" id="0d8-dz-HJk"/>
@@ -2940,7 +2940,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="p29-fO-I6Y"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="On7-e4-Cfe" firstAttribute="leading" secondItem="p29-fO-I6Y" secondAttribute="leading" constant="38" id="0ZH-MO-MiP"/>
                             <constraint firstItem="wzA-rH-zc8" firstAttribute="top" secondItem="Ajt-5J-BG8" secondAttribute="bottom" constant="8" id="3dz-dP-qXG"/>
@@ -3485,7 +3485,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4p-Is-sH3" userLabel="12" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4p-Is-sH3" userLabel="12" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="109" width="74" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZw-g9-yHv">
@@ -3504,7 +3504,7 @@
                                                     <constraint firstItem="vZw-g9-yHv" firstAttribute="top" secondItem="i4p-Is-sH3" secondAttribute="top" constant="4" id="rwR-fx-ZM9"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-uy-m2C" userLabel="14" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-uy-m2C" userLabel="14" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="106" y="109" width="73.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGD-Ow-Ehh">
@@ -3522,7 +3522,7 @@
                                                     <constraint firstItem="QGD-Ow-Ehh" firstAttribute="top" secondItem="8ba-uy-m2C" secondAttribute="top" constant="4" id="zov-I5-XgL"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iCf-1s-E6C" userLabel="16" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iCf-1s-E6C" userLabel="16" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="195.5" y="109" width="74" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgR-3k-Pyb">
@@ -3540,7 +3540,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="kgR-3k-Pyb" secondAttribute="trailing" constant="4" id="yZ4-7L-XP2"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-Wo-hOK" userLabel="18" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-Wo-hOK" userLabel="18" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="285.5" y="109" width="73.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLZ-lE-xOV">
@@ -3571,7 +3571,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-pJ-cHc" userLabel="Da" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-pJ-cHc" userLabel="Da" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="269.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Da" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwf-nF-Tmj">
@@ -3593,7 +3593,7 @@
                                                     <outletCollection property="gestureRecognizers" destination="4V5-Mg-cSL" appends="YES" id="i60-Oh-Krj"/>
                                                 </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dy3-t3-waS" userLabel="Nu" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dy3-t3-waS" userLabel="Nu" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="195.5" y="269.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whS-sb-1W4">
@@ -3787,7 +3787,7 @@
         <image name="settings" width="40" height="40"/>
         <image name="together" width="40" height="40"/>
         <namedColor name="background_1">
-            <color red="0.94999998807907104" green="0.79699999094009399" blue="0.7770000696182251" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="text_color">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
