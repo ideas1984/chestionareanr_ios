@@ -20,7 +20,8 @@ class ANRRadioButton: UIView {
         self.checked = checked;
         
         if(checked) {
-            self.backgroundColor = UIColor(named: "button_enabled") ;
+//            self.backgroundColor = UIColor(named: "button_enabled") ;
+            self.backgroundColor = UIColor.white;
             self.layer.cornerRadius = 10;
             self.layer.shadowColor = UIColor.black.cgColor;
             self.layer.shadowRadius = 4;

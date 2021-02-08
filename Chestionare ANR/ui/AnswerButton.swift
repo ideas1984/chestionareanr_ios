@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Answerbutton: UIView {
+class AnswerButton: UIView {
     
-    private var selected = true;
+    private var selected = false;
 
     override func didMoveToWindow() {
         

@@ -12,11 +12,8 @@ class OneQuestionVC: UIViewController {
     
 //    var mainController: MainViewController!
     
-    weak var ansertSelectedDelegate: AnswerSelectedProtocol?
-    var selectedAnswer:AnswerEnum = AnswerEnum.NONE_SELECTED
-    
-    let selectedColor = UIColor(red: 1, green: 0.62, blue: 0.61, alpha: 1);
-    let notSelectedColor = UIColor.white;
+    weak var ansertSelectedDelegate: AnswerSelectedProtocol?;
+    var selectedAnswer:AnswerEnum = AnswerEnum.NONE_SELECTED;
 
     
     @IBOutlet weak var questionView: UIView!
@@ -25,19 +22,19 @@ class OneQuestionVC: UIViewController {
     @IBOutlet weak var questionNumberLabel: UILabel!
     
     
-    @IBOutlet weak var aAnswerView: UIView!
+    @IBOutlet weak var aAnswerView: AnswerButton!
     @IBOutlet weak var aAnswerLabel: UILabel!
     @IBOutlet weak var aAnswerHeightConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var bAnswerView: UIView!
+    @IBOutlet weak var bAnswerView: AnswerButton!
     @IBOutlet weak var bAnswerLabel: UILabel!
     @IBOutlet weak var bAnswerHeightConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var cAnswerView: UIView!
+    @IBOutlet weak var cAnswerView: AnswerButton!
     @IBOutlet weak var cAnswerLabel: UILabel!
     @IBOutlet weak var cAnswerHeightConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var dAnswerView: UIView!
+    @IBOutlet weak var dAnswerView: AnswerButton!
     @IBOutlet weak var dAnswerLabel: UILabel!
     @IBOutlet weak var dAnswerHeightConstraint: NSLayoutConstraint!
     
@@ -60,12 +57,11 @@ class OneQuestionVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         
-        questionView.layer.cornerRadius = 10;
-        aAnswerView.layer.cornerRadius = 10;
-        bAnswerView.layer.cornerRadius = 10;
-        cAnswerView.layer.cornerRadius = 10;
-        dAnswerView.layer.cornerRadius = 10;
-        
+//        questionView.layer.cornerRadius = 10;
+        questionView.layer.shadowColor = UIColor.black.cgColor;
+        questionView.layer.shadowRadius = 4;
+        questionView.layer.shadowOpacity = 1;
+        questionView.layer.shadowOffset = CGSize(width: 0, height: 0);
         
         aAnswerView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (answerAClicked (_:))));
         bAnswerView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (answerBClicked (_:))));
@@ -170,34 +166,34 @@ class OneQuestionVC: UIViewController {
     func updateUI(_ selectedAnswer: OneQuestionVC.AnswerEnum) {
         switch selectedAnswer {
         case .A_SELECTED:
-            aAnswerView.backgroundColor = selectedColor;
-            bAnswerView.backgroundColor = notSelectedColor;
-            cAnswerView.backgroundColor = notSelectedColor;
-            dAnswerView.backgroundColor = notSelectedColor;
+            aAnswerView.setSelected(true);
+            bAnswerView.setSelected(false);
+            cAnswerView.setSelected(false);
+            dAnswerView.setSelected(false);
             break;
         case .B_SELECTED:
-            aAnswerView.backgroundColor = notSelectedColor;
-            bAnswerView.backgroundColor = selectedColor;
-            cAnswerView.backgroundColor = notSelectedColor;
-            dAnswerView.backgroundColor = notSelectedColor;
+            aAnswerView.setSelected(false);
+            bAnswerView.setSelected(true);
+            cAnswerView.setSelected(false);
+            dAnswerView.setSelected(false);
             break;
         case .C_SELECTED:
-            aAnswerView.backgroundColor = notSelectedColor;
-            bAnswerView.backgroundColor = notSelectedColor;
-            cAnswerView.backgroundColor = selectedColor;
-            dAnswerView.backgroundColor = notSelectedColor;
+            aAnswerView.setSelected(false);
+            bAnswerView.setSelected(false);
+            cAnswerView.setSelected(true);
+            dAnswerView.setSelected(false);
             break;
         case .D_SELECTED:
-            aAnswerView.backgroundColor = notSelectedColor;
-            bAnswerView.backgroundColor = notSelectedColor;
-            cAnswerView.backgroundColor = notSelectedColor;
-            dAnswerView.backgroundColor = selectedColor;
+            aAnswerView.setSelected(false);
+            bAnswerView.setSelected(false);
+            cAnswerView.setSelected(false);
+            dAnswerView.setSelected(true);
             break;
         case .NONE_SELECTED:
-            aAnswerView.backgroundColor = notSelectedColor;
-            bAnswerView.backgroundColor = notSelectedColor;
-            cAnswerView.backgroundColor = notSelectedColor;
-            dAnswerView.backgroundColor = notSelectedColor;
+            aAnswerView.setSelected(false);
+            bAnswerView.setSelected(false);
+            cAnswerView.setSelected(false);
+            dAnswerView.setSelected(false);
         }
     }
     

@@ -154,6 +154,17 @@ class MainViewController: UIViewController, TestResultProtocol {
             
             visibleVC = settingsViewController;
             
+        case "contact":
+            backButton.isHidden = false;
+            
+            removeExistingViewController();
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+            let contactViewController = storyboard.instantiateViewController(withIdentifier: "contact_vc") as! ContactVC;
+            self.addViewControllerAsChildViewController(childViewController: contactViewController);
+            
+            visibleVC = contactViewController;
+            
         default:
             print("default");
         }
