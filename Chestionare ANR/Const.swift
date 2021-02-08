@@ -31,6 +31,10 @@ struct Const {
     static let KEY_COVERED_SUBCATEGORY_6: String = "covered_subcategory_6";
     static let KEY_COVERED_SUBCATEGORY_7: String = "covered_subcategory_7";
     
+    static let DEFAULTS_CREATED: String = "defaults_created";
+    static let KEY_FONT_SIZE: String = "font_size";
+    static let KEY_SHOW_CORRECT_ANSWER: String = "show_correct_answer";
+    
     public static func getKey(forSubcategory subcategory: Int) -> String {
         if(SUBCATEGORY_REGULAMENT_NAVIGATIE_D == subcategory) {
             return KEY_COVERED_SUBCATEGORY_1;

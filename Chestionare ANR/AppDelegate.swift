@@ -16,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        
+        setDefaults();
+        
+        return true;
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -46,6 +49,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
         return self.orientationLock;
+    }
+    
+    private func setDefaults() {
+        let defaults = UserDefaults.standard;
+        
+        if(!defaults.bool(forKey: Const.DEFAULTS_CREATED)) {
+            defaults.setValue(16, forKey: Const.KEY_FONT_SIZE);
+            defaults.setValue(true, forKey: Const.KEY_SHOW_CORRECT_ANSWER);
+            defaults.setValue(true, forKey: Const.DEFAULTS_CREATED);
+        }
     }
 
 }

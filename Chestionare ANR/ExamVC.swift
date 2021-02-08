@@ -36,8 +36,8 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var containerView: UIView!
-    @IBOutlet weak var skipButton: UIView!
-    @IBOutlet weak var nextButton: UIView!
+    @IBOutlet weak var skipButton: ANRButton!
+    @IBOutlet weak var nextButton: ANRButton!
     @IBOutlet weak var remainingQuestionsLabel: UILabel!
     @IBOutlet weak var goodAnswersLabel: UILabel!
     @IBOutlet weak var badAnswersLabel: UILabel!
@@ -52,9 +52,6 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
         NotificationCenter.default.addObserver(self, selector: #selector(self.didEnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil);
         NotificationCenter.default.addObserver(self, selector: #selector(self.willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil);
         
-        skipButton.layer.cornerRadius = 10;
-        nextButton.layer.cornerRadius = 10;
-        
         skipButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (skipClicked (_:))));
         nextButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (nextClicked (_:))));
         
@@ -66,7 +63,7 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             testState.originalIndexes[testState.questions[index].id] = index + 1;
         }
         
-        changeUIState(toButton: nextButton, false);
+        nextButton.setEnabled(false);
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -131,9 +128,9 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     func answerSelected(_ answer: OneQuestionVC.AnswerEnum) {
         selectedAnswer = answer;
         if(answer == OneQuestionVC.AnswerEnum.NONE_SELECTED) {
-            changeUIState(toButton: nextButton, false);
+            nextButton.setEnabled(false);
         } else {
-            changeUIState(toButton: nextButton, true);
+            nextButton.setEnabled(true);
         }
     }
     
@@ -228,7 +225,7 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
         
         answerSelected(OneQuestionVC.AnswerEnum.NONE_SELECTED);
         if(testState.questions.count == 1) {
-            changeUIState(toButton: skipButton, false);
+            skipButton.setEnabled(false);
         }
     }
     
@@ -265,17 +262,6 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             childVC!.willMove(toParent: nil);
             childVC!.view.removeFromSuperview();
             childVC!.removeFromParent();
-        }
-    }
-    
-    
-    private func changeUIState(toButton button: UIView, _ enabled: Bool) {
-        if(enabled) {
-            button.isUserInteractionEnabled = true;
-            button.backgroundColor = UIColor.white;
-        } else {
-            button.isUserInteractionEnabled = false;
-            button.backgroundColor = UIColor(named: "disable_color");
         }
     }
     

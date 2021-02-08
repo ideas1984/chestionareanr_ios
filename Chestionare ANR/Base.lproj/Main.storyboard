@@ -1026,7 +1026,7 @@
                                                     <constraint firstAttribute="height" constant="2" id="DZg-i4-4HR"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j00-Oe-lLo">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j00-Oe-lLo" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="66" width="343" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vezi întrebările greșite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGz-Ac-AGx">
@@ -1981,7 +1981,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZe-CJ-AFg" userLabel="control footer">
                                 <rect key="frame" x="0.0" y="597" width="375" height="70"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBu-2S-gHe" userLabel="skip">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBu-2S-gHe" userLabel="skip button" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                         <rect key="frame" x="8" y="8" width="171.5" height="54"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amână" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0M-G5-CHJ">
@@ -1999,7 +1999,7 @@
                                             <constraint firstItem="e0M-G5-CHJ" firstAttribute="leading" secondItem="PBu-2S-gHe" secondAttribute="leading" constant="8" id="wcm-fo-pwi"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nas-xG-tLE" userLabel="next">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nas-xG-tLE" userLabel="next button" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                         <rect key="frame" x="195.5" y="8" width="171.5" height="54"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Următoarea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvj-BX-8nf">
@@ -2033,7 +2033,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wwh-Oh-dlS"/>
-                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="YL2-wI-nOu" firstAttribute="leading" secondItem="Wwh-Oh-dlS" secondAttribute="leading" id="1wG-f7-cyI"/>
                             <constraint firstItem="rZe-CJ-AFg" firstAttribute="trailing" secondItem="Wwh-Oh-dlS" secondAttribute="trailing" id="4O2-u1-AZI"/>
@@ -3485,7 +3485,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4p-Is-sH3" userLabel="12">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4p-Is-sH3" userLabel="12" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="109" width="74" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZw-g9-yHv">
@@ -3504,7 +3504,7 @@
                                                     <constraint firstItem="vZw-g9-yHv" firstAttribute="top" secondItem="i4p-Is-sH3" secondAttribute="top" constant="4" id="rwR-fx-ZM9"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-uy-m2C" userLabel="14">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-uy-m2C" userLabel="14" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="106" y="109" width="73.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGD-Ow-Ehh">
@@ -3522,7 +3522,7 @@
                                                     <constraint firstItem="QGD-Ow-Ehh" firstAttribute="top" secondItem="8ba-uy-m2C" secondAttribute="top" constant="4" id="zov-I5-XgL"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iCf-1s-E6C" userLabel="16">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iCf-1s-E6C" userLabel="16" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="195.5" y="109" width="74" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgR-3k-Pyb">
@@ -3540,7 +3540,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="kgR-3k-Pyb" secondAttribute="trailing" constant="4" id="yZ4-7L-XP2"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-Wo-hOK" userLabel="18">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-Wo-hOK" userLabel="18" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="285.5" y="109" width="73.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLZ-lE-xOV">
@@ -3571,7 +3571,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-pJ-cHc" userLabel="Da">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-pJ-cHc" userLabel="Da" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="269.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Da" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwf-nF-Tmj">
@@ -3593,7 +3593,7 @@
                                                     <outletCollection property="gestureRecognizers" destination="4V5-Mg-cSL" appends="YES" id="i60-Oh-Krj"/>
                                                 </connections>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dy3-t3-waS" userLabel="Nu">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dy3-t3-waS" userLabel="Nu" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="195.5" y="269.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whS-sb-1W4">
@@ -3625,7 +3625,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FVU-Nq-3L9">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FVU-Nq-3L9" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="392.5" width="343" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resetează mediul de învățare" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-IV-QHb">
@@ -3657,7 +3657,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ys3-lD-Vio">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ys3-lD-Vio" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="507.5" width="343" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resetează" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JR-FQ-Zet">
@@ -3754,6 +3754,16 @@
                         </constraints>
                     </view>
                     <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="fontButton12" destination="i4p-Is-sH3" id="PhB-gX-m1b"/>
+                        <outlet property="fontButton14" destination="8ba-uy-m2C" id="kJa-Sa-hvt"/>
+                        <outlet property="fontButton16" destination="iCf-1s-E6C" id="Uom-Cy-BKv"/>
+                        <outlet property="fontButton18" destination="k5E-Wo-hOK" id="DJQ-1W-b1P"/>
+                        <outlet property="resetAllButton" destination="ys3-lD-Vio" id="G0e-kk-DNT"/>
+                        <outlet property="resetLearningButton" destination="FVU-Nq-3L9" id="YP3-aU-yCA"/>
+                        <outlet property="showAnswerButtonNo" destination="dy3-t3-waS" id="hcM-Hp-NV1"/>
+                        <outlet property="showAnswerButtonYes" destination="xSy-pJ-cHc" id="P8U-Ga-eol"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhI-XG-pds" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="4V5-Mg-cSL"/>
@@ -3776,6 +3786,9 @@
         <image name="sail" width="40" height="40"/>
         <image name="settings" width="40" height="40"/>
         <image name="together" width="40" height="40"/>
+        <namedColor name="background_1">
+            <color red="0.94999998807907104" green="0.79699999094009399" blue="0.7770000696182251" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="text_color">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
