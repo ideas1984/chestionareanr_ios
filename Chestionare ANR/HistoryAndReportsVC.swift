@@ -29,8 +29,6 @@ class HistoryAndReportsVC: UIViewController {
             return result.result == TestResult.PASS.rawValue;
         }.count;
         
-        print(Double(100*allGood)/Double(allCount));
-        
         let allPercentage:Double = Double(100*allGood)/Double(allCount);
         
         if(allCount == 0) {
@@ -63,6 +61,10 @@ class HistoryAndReportsVC: UIViewController {
     
     
     @IBAction func showWrongAnswers(_ sender: UITapGestureRecognizer) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let reviewBadAnswersVC = storyboard.instantiateViewController(withIdentifier: "review_bad_answers_vc") as! ReviewBadAnswersVC;
+        reviewBadAnswersVC.modalPresentationStyle = .fullScreen;
+        present(reviewBadAnswersVC, animated: false, completion: nil);
     }
     
     

@@ -200,6 +200,7 @@
 		079D56AF25AF977100440426 /* HintsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079D56AE25AF977100440426 /* HintsParser.swift */; };
 		079EE99F259BE1AD004D89A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F514F5249D755D001681D8 /* Assets.xcassets */; };
 		07ABCD7B25C34766002E340E /* SignsAndSignalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABCD7A25C34766002E340E /* SignsAndSignalsVC.swift */; };
+		07B1B99925D32D9B000ECA39 /* ReviewBadAnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1B99825D32D9B000ECA39 /* ReviewBadAnswersVC.swift */; };
 		07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C8C71F2537A462002F12FD /* XMLUtil.swift */; };
 		07D5440925CF2E8C006A23A9 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5440825CF2E8C006A23A9 /* SettingsVC.swift */; };
 		07D664EE256B0F2700C10811 /* anexe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664ED256B0F2700C10811 /* anexe.pdf */; };
@@ -421,6 +422,7 @@
 		079D56AB25AF96C400440426 /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
 		079D56AE25AF977100440426 /* HintsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsParser.swift; sourceTree = "<group>"; };
 		07ABCD7A25C34766002E340E /* SignsAndSignalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsAndSignalsVC.swift; sourceTree = "<group>"; };
+		07B1B99825D32D9B000ECA39 /* ReviewBadAnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewBadAnswersVC.swift; sourceTree = "<group>"; };
 		07C8C71F2537A462002F12FD /* XMLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLUtil.swift; sourceTree = "<group>"; };
 		07D5440825CF2E8C006A23A9 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		07D664ED256B0F2700C10811 /* anexe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anexe.pdf; sourceTree = "<group>"; };
@@ -747,12 +749,13 @@
 				07F514FA249D755D001681D8 /* Info.plist */,
 				07F514F0249D74A6001681D8 /* MainViewController.swift */,
 				078D01142592AE9500F7021E /* ExamVC.swift */,
+				0762FC2225C37D1B00352DBB /* LearningVC.swift */,
+				07B1B99825D32D9B000ECA39 /* ReviewBadAnswersVC.swift */,
 				079581D625CCA87900723F35 /* LegislationVC.swift */,
 				077E5CA625D1F3CC004F9D53 /* ContactVC.swift */,
 				07EEAD4E25CDEAE200EF98BA /* HistoryAndReportsVC.swift */,
 				078DC00924C4E6FC00512D0A /* LearningMenuVC.swift */,
 				0798AC3B25C4BC58000CED89 /* LearningDetailsVC.swift */,
-				0762FC2225C37D1B00352DBB /* LearningVC.swift */,
 				07F191FF25973C6000878D5E /* OneQuestionVC.swift */,
 				07E7719824A01FB200292287 /* QuestionnaireVC.swift */,
 				07E7719A24A01FEB00292287 /* MainMenuVC.swift */,
@@ -1055,6 +1058,7 @@
 				077E5CA725D1F3CC004F9D53 /* ContactVC.swift in Sources */,
 				077E5CA025D1EBD3004F9D53 /* ANRRadioButton.swift in Sources */,
 				070D5EB025D009990097299C /* ANRButton.swift in Sources */,
+				07B1B99925D32D9B000ECA39 /* ReviewBadAnswersVC.swift in Sources */,
 				077E5CA425D1EEB4004F9D53 /* AnswerButton.swift in Sources */,
 				07D5440925CF2E8C006A23A9 /* SettingsVC.swift in Sources */,
 				07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */,

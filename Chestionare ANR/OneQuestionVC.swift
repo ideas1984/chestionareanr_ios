@@ -60,7 +60,7 @@ class OneQuestionVC: UIViewController {
 //        questionView.layer.cornerRadius = 10;
         questionView.layer.shadowColor = UIColor.black.cgColor;
         questionView.layer.shadowRadius = 4;
-        questionView.layer.shadowOpacity = 1;
+        questionView.layer.shadowOpacity = 0.6;
         questionView.layer.shadowOffset = CGSize(width: 0, height: 0);
         
         aAnswerView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (answerAClicked (_:))));
