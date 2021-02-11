@@ -3772,14 +3772,14 @@
             <objects>
                 <viewController storyboardIdentifier="contact_vc" id="hWU-Rg-RkH" customClass="ContactVC" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="jdh-Wc-4jL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhn-56-5c4">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="806"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPy-OA-VN0" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="261"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navy Masters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWr-wJ-6c0">
                                                 <rect key="frame" x="16" y="10" width="343" height="30"/>
@@ -3787,15 +3787,22 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqg-dY-lBA">
+                                                <rect key="frame" x="8" y="48" width="359" height="430"/>
+                                                <mutableString key="text">Aplicația „Chestionare ANR” reprezintă o resursă educațională  ce are rolul de a ușura și eficientiza învățarea în vederea pregătirii pentru obținerea „Certificatului internațional de conducător de ambarcațiune de agrement clasa D și/sau clasa C”. Obiectivul principal al aplicației este de a oferi studenților posibilitatea de a-și testa cunoștințele, (dobândite după ce au urmat cursurile școlilor de specialitate) în condiții de examen.  Obiectivele secundare sunt creșterea accesibilității procesului de învățare (fiind la un touch distanță de a începe să înveți/ exersezi în orice clipă, în orice loc, aplicația funcționând și fără acces la internet) și îmbogățirea vocabularului prin asimilarea de termeni noi, dar și prin înțelegerea corectă (conform dicționarului) a termenilor din întrebări. Prin apăsarea butonului „Help me”, reprezentat printr-un colac de salvare în colțul din dreapta sus, se accesează definiția termenilor evidențiați cu „*”. Pentru a înțelege în profunzime, termenii care conțin în definiția lor alți termeni specifici marinărești sunt evidențiați (scriși cu litere mari și boldate) și explicați de asemenea, iar termenii cărora trebuie să li se acorde o atenție aparte sunt evidențiați prin scriere boldată.</mutableString>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dV5-Kf-wSc" userLabel="separator1">
-                                                <rect key="frame" x="0.0" y="56" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="486" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Nnh-1w-f5Y"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8hL-2N-Q8C" userLabel="but_semnalizarea_vizuala">
-                                                <rect key="frame" x="0.0" y="57" width="375" height="50"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8hL-2N-Q8C" userLabel="but_address">
+                                                <rect key="frame" x="0.0" y="487" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="București" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="l8A-We-ZiS">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -3813,7 +3820,7 @@
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="but_semnalizarea_vizuala">
+                                                <accessibility key="accessibilityConfiguration" identifier="but_address">
                                                     <bool key="isElement" value="YES"/>
                                                 </accessibility>
                                                 <gestureRecognizers/>
@@ -3832,14 +3839,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOZ-Ef-PhN" userLabel="separator2">
-                                                <rect key="frame" x="0.0" y="107" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="537" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="5Rs-5D-I9v"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1X-0i-91J" userLabel="but_semnale_sonore">
-                                                <rect key="frame" x="0.0" y="108" width="375" height="50"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1X-0i-91J" userLabel="but_phone">
+                                                <rect key="frame" x="0.0" y="538" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+40787646111" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="nSk-89-hGr">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -3857,7 +3864,7 @@
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="but_semnale_sonore">
+                                                <accessibility key="accessibilityConfiguration" identifier="but_phone">
                                                     <bool key="isElement" value="YES"/>
                                                 </accessibility>
                                                 <gestureRecognizers/>
@@ -3876,14 +3883,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUH-wy-9cD" userLabel="separator3">
-                                                <rect key="frame" x="0.0" y="158" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="588" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="tiW-6R-lEc"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ee-Lk-gVf" userLabel="but_semnale_care_servesc_reglementarii">
-                                                <rect key="frame" x="0.0" y="159" width="375" height="50"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ee-Lk-gVf" userLabel="but_email">
+                                                <rect key="frame" x="0.0" y="589" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="office@navymasters.ro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="dY3-KB-qzV">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -3901,7 +3908,7 @@
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="but_semnale_care_servesc_reglementarii">
+                                                <accessibility key="accessibilityConfiguration" identifier="but_email">
                                                     <bool key="isElement" value="YES"/>
                                                 </accessibility>
                                                 <gestureRecognizers/>
@@ -3920,16 +3927,16 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJA-QH-oBs" userLabel="separator4">
-                                                <rect key="frame" x="0.0" y="209" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="639" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="oNs-02-kTT"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TTE-X6-uLg" userLabel="but_balizarea_caii_navigabile">
-                                                <rect key="frame" x="0.0" y="210" width="375" height="50"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TTE-X6-uLg" userLabel="but_www">
+                                                <rect key="frame" x="0.0" y="640" width="375" height="50"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://www.navymasters.ro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="VlN-zO-3rh">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.navymasters.ro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="VlN-zO-3rh">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -3945,7 +3952,7 @@
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="but_balizarea_caii_navigabile">
+                                                <accessibility key="accessibilityConfiguration" identifier="but_www">
                                                     <bool key="isElement" value="YES"/>
                                                 </accessibility>
                                                 <gestureRecognizers/>
@@ -3964,7 +3971,7 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wV6-kC-2Nd" userLabel="separator5">
-                                                <rect key="frame" x="0.0" y="260" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="690" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="c5F-0A-OAx"/>
@@ -3980,11 +3987,14 @@
                                             <constraint firstItem="sUH-wy-9cD" firstAttribute="top" secondItem="E1X-0i-91J" secondAttribute="bottom" id="7Hm-FK-qtx"/>
                                             <constraint firstAttribute="trailing" secondItem="TTE-X6-uLg" secondAttribute="trailing" id="7Zf-Xw-E0S"/>
                                             <constraint firstItem="QJA-QH-oBs" firstAttribute="leading" secondItem="aPy-OA-VN0" secondAttribute="leading" id="8nJ-PI-yff"/>
+                                            <constraint firstAttribute="trailing" secondItem="fqg-dY-lBA" secondAttribute="trailing" constant="8" id="99E-nL-JMS"/>
+                                            <constraint firstItem="dV5-Kf-wSc" firstAttribute="top" secondItem="fqg-dY-lBA" secondAttribute="bottom" constant="8" id="9iZ-pA-6ts"/>
                                             <constraint firstAttribute="trailing" secondItem="dV5-Kf-wSc" secondAttribute="trailing" id="AVI-nq-Gph"/>
                                             <constraint firstItem="2ee-Lk-gVf" firstAttribute="leading" secondItem="aPy-OA-VN0" secondAttribute="leading" id="DwM-Tg-BYn"/>
                                             <constraint firstAttribute="bottom" secondItem="wV6-kC-2Nd" secondAttribute="bottom" id="Fei-fb-q5i"/>
                                             <constraint firstItem="E1X-0i-91J" firstAttribute="leading" secondItem="aPy-OA-VN0" secondAttribute="leading" id="GvE-iU-E6T"/>
-                                            <constraint firstItem="dV5-Kf-wSc" firstAttribute="top" secondItem="uWr-wJ-6c0" secondAttribute="bottom" constant="16" id="K8t-9n-ayN"/>
+                                            <constraint firstItem="fqg-dY-lBA" firstAttribute="leading" secondItem="aPy-OA-VN0" secondAttribute="leading" constant="8" id="LSM-mI-a3y"/>
+                                            <constraint firstItem="fqg-dY-lBA" firstAttribute="top" secondItem="uWr-wJ-6c0" secondAttribute="bottom" constant="8" symbolic="YES" id="LjF-7i-ffs"/>
                                             <constraint firstAttribute="trailing" secondItem="8hL-2N-Q8C" secondAttribute="trailing" id="M01-IW-w4f"/>
                                             <constraint firstItem="E1X-0i-91J" firstAttribute="top" secondItem="lOZ-Ef-PhN" secondAttribute="bottom" id="Mqh-os-HFN"/>
                                             <constraint firstItem="dV5-Kf-wSc" firstAttribute="leading" secondItem="aPy-OA-VN0" secondAttribute="leading" id="PhJ-s9-wDZ"/>
@@ -4026,7 +4036,7 @@
                             <constraint firstItem="bhn-56-5c4" firstAttribute="leading" secondItem="775-qb-78r" secondAttribute="leading" id="pMU-IX-Bob"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="375" height="667"/>
+                    <size key="freeformSize" width="375" height="850"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTx-pF-NH0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="EYg-9G-v2N">
@@ -4050,7 +4060,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3347" y="195"/>
+            <point key="canvasLocation" x="3304" y="249"/>
         </scene>
         <!--Review Bad AnswersVC-->
         <scene sceneID="oG8-J2-nRz">

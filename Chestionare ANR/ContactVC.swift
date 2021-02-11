@@ -7,32 +7,64 @@
 //
 
 import UIKit
+import MapKit
 
 class ContactVC: UIViewController {
     
     @IBAction func buttonTapped(_ sender: UITapGestureRecognizer) {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-        let pdfVC = storyboard.instantiateViewController(withIdentifier: "PDFViewerVC") as! PDFViewerVC;
-        pdfVC.modalPresentationStyle = .fullScreen;
         
         switch sender.view?.accessibilityIdentifier?.description {
-            case "but_semnalizarea_vizuala":
-                pdfVC.fileName = "semnalizarea_vizuala_a_navelor";
-            case "but_semnale_sonore":
-                pdfVC.fileName = "semnale _sonore";
-            case "but_semnale_care_servesc_reglementarii":
-                pdfVC.fileName = "semnale_care_servesc_reglementării_navigatiei_pe_calea_navigabila";
-            case "but_balizarea_caii_navigabile":
-                pdfVC.fileName = "balizarea_caii_navigabile";
+        case "but_address":
+            openMaps();
+        case "but_phone":
+            makeACall();
+        case "but_email":
+            opneEmail();
+        case "but_www":
+            openWebPage();
         default:
             print("no button recognized");
         }
-        
-        present(pdfVC, animated: true, completion: nil);
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    private func openMaps() {
+        //        let source = MKMapItem(placemark: MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: lat, longitude: lng)))
+        //        source.name = "Source"
+        
+        let destination = MKMapItem(placemark: MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: 44.259848134225955, longitude: 26.05501047319706)))
+        destination.name = "Destination"
+        
+        MKMapItem.openMaps(with: [/*source,*/ destination], launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving])
     }
-
+    
+    private func makeACall() {
+        if let url = URL(string: "tel://" + "+40787646111") {
+          if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url)
+          } else {
+            UIApplication.shared.openURL(url)
+          }
+        }
+    }
+    
+    private func opneEmail() {
+        let email = "navymasters@yahoo.com"
+        if let url = URL(string: "mailto:\(email)") {
+          if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url)
+          } else {
+            UIApplication.shared.openURL(url)
+          }
+        }
+    }
+    
+    private func openWebPage() {
+        if let url = URL(string: "https://www.navymasters.ro") {
+          if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url)
+          } else {
+            UIApplication.shared.openURL(url)
+          }
+        }
+    }
 }
