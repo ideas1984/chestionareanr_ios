@@ -83,8 +83,6 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             
             showQuestion(questionIndex: testState.currentQuestionIdx);
             
-            animateHelpButton();
-            
             //            viewController.setQuestion(getDummyQuestion());
         }
     }
@@ -110,18 +108,19 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     @objc func didEnterBackground() {}
     
     private func animateHelpButton() {
-        //        if(testState.questions[testState.currentQuestionIdx].hints.count > 0) {
-        helpButton.alpha = 1;
-        UIView.animate(withDuration: 1,
-                       delay: 0.5,
-                       options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat, UIView.AnimationOptions.allowUserInteraction],
-                       animations: {
-                        self.helpButton.alpha = 0.1;
-                       },
-                       completion: nil);
-        //        } else {
-        //            helpButton.isHidden = true;
-        //        }
+        if(testState.questions[testState.currentQuestionIdx].hints.count > 0) {
+            helpButton.isHidden = false;
+            helpButton.alpha = 1;
+            UIView.animate(withDuration: 1,
+                           delay: 0.5,
+                           options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat, UIView.AnimationOptions.allowUserInteraction],
+                           animations: {
+                            self.helpButton.alpha = 0.1;
+                           },
+                           completion: nil);
+        } else {
+            helpButton.isHidden = true;
+        }
     }
     
     
@@ -227,6 +226,8 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
         if(testState.questions.count == 1) {
             skipButton.setEnabled(false);
         }
+        
+        animateHelpButton();
     }
     
     

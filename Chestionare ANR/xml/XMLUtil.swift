@@ -11,9 +11,8 @@ import Foundation
 class XMLUtil : NSObject, XMLParserDelegate {
     
     static let instance = XMLUtil();
-    
-    //    var books: [Book] = [];
-    var allQuestions: [Question] = [];
+
+    var questionsDict = [Int: Question]();
     
     var regulamentNavigatieDQuestions: [Question] = [];
     var marinarieDQuestions: [Question] = [];
@@ -28,12 +27,9 @@ class XMLUtil : NSObject, XMLParserDelegate {
     private override init() {
         super.init();
         
-        //        books = BooksParser().books;
-        //        print(books);
-        
         let questionParser = QuestionsParser();
         
-        allQuestions = questionParser.questions;
+        questionsDict = questionParser.questionsDict;
         regulamentNavigatieDQuestions = questionParser.regulamentNavigatieDQuestions;
         marinarieDQuestions = questionParser.marinarieDQuestions;
         conducereaSiManevrareaDQuestions = questionParser.conducereaSiManevrareaDQuestions;
@@ -110,6 +106,10 @@ class XMLUtil : NSObject, XMLParserDelegate {
         }
         
         return [];
+    }
+    
+    public func getQuestion(withID questionID: Int) -> Question {
+        return questionsDict[questionID]!;
     }
     
 }

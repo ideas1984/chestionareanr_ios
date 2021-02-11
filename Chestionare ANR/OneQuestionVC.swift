@@ -166,39 +166,39 @@ class OneQuestionVC: UIViewController {
     func updateUI(_ selectedAnswer: OneQuestionVC.AnswerEnum) {
         switch selectedAnswer {
         case .A_SELECTED:
-            aAnswerView.setSelected(true);
-            bAnswerView.setSelected(false);
-            cAnswerView.setSelected(false);
-            dAnswerView.setSelected(false);
+            aAnswerView.setState(AnswerButton.ButtonState.SELECTED);
+            bAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            cAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            dAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
             break;
         case .B_SELECTED:
-            aAnswerView.setSelected(false);
-            bAnswerView.setSelected(true);
-            cAnswerView.setSelected(false);
-            dAnswerView.setSelected(false);
+            aAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            bAnswerView.setState(AnswerButton.ButtonState.SELECTED);
+            cAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            dAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
             break;
         case .C_SELECTED:
-            aAnswerView.setSelected(false);
-            bAnswerView.setSelected(false);
-            cAnswerView.setSelected(true);
-            dAnswerView.setSelected(false);
+            aAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            bAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            cAnswerView.setState(AnswerButton.ButtonState.SELECTED);
+            dAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
             break;
         case .D_SELECTED:
-            aAnswerView.setSelected(false);
-            bAnswerView.setSelected(false);
-            cAnswerView.setSelected(false);
-            dAnswerView.setSelected(true);
+            aAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            bAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            cAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            dAnswerView.setState(AnswerButton.ButtonState.SELECTED);
             break;
         case .NONE_SELECTED:
-            aAnswerView.setSelected(false);
-            bAnswerView.setSelected(false);
-            cAnswerView.setSelected(false);
-            dAnswerView.setSelected(false);
+            aAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            bAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            cAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
+            dAnswerView.setState(AnswerButton.ButtonState.DEFAULT);
         }
     }
     
 
-    func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat{
+    func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat {
         let label:UILabel = UILabel(frame: CGRect(x:0, y:0, width:width, height:CGFloat.greatestFiniteMagnitude));
         label.numberOfLines = 0;
         label.lineBreakMode = NSLineBreakMode.byWordWrapping;
@@ -207,6 +207,30 @@ class OneQuestionVC: UIViewController {
 
         label.sizeToFit();
         return label.frame.height;
+    }
+    
+    // only for review questions
+    public func display(correctAnswer goodAnswerID: Int, andWrongAnswer wrongAnswerID: Int) {
+        getAnswerButton(ofID: goodAnswerID)?.setState(AnswerButton.ButtonState.CORRECT_ANSWER);
+        getAnswerButton(ofID: wrongAnswerID)?.setState(AnswerButton.ButtonState.WRONG_ANSWER);
+        aAnswerView.isUserInteractionEnabled = false;
+        bAnswerView.isUserInteractionEnabled = false;
+        cAnswerView.isUserInteractionEnabled = false;
+        dAnswerView.isUserInteractionEnabled = false;
+    }
+    
+    private func getAnswerButton(ofID answerID: Int) -> AnswerButton? {
+        if(AnswerEnum.A_SELECTED.rawValue == answerID) {
+            return aAnswerView;
+        } else if(AnswerEnum.B_SELECTED.rawValue == answerID) {
+            return bAnswerView;
+        } else if(AnswerEnum.C_SELECTED.rawValue == answerID) {
+            return cAnswerView;
+        } else if(AnswerEnum.D_SELECTED.rawValue == answerID) {
+            return dAnswerView;
+        }
+        
+        return nil;
     }
 
 }

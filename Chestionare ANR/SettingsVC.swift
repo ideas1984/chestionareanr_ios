@@ -37,7 +37,7 @@ class SettingsVC: UIViewController {
         
         resetLearningButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (resetLearningClicked (_:))));
 
-        resetLearningButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (resetAllClicked (_:))));
+        resetAllButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (resetAllClicked (_:))));
     }
     
     @IBAction func changeFontClicked(_ sender: UITapGestureRecognizer) {

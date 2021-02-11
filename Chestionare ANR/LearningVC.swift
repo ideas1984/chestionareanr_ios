@@ -24,7 +24,6 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
     
     @IBOutlet weak var containerView: UIView!
     
-    
     struct State {
         var questions: [Question] = [];
         var currentQuestionIdx = 0;
@@ -40,13 +39,8 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
         
         self.definesPresentationContext = true;
         
-        
         NotificationCenter.default.addObserver(self, selector: #selector(self.didEnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil);
         NotificationCenter.default.addObserver(self, selector: #selector(self.willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil);
-        
-        previousButton.layer.cornerRadius = 10;
-        verifyButton.layer.cornerRadius = 10;
-        nextButton.layer.cornerRadius = 10;
         
         previousButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (previousClicked (_:))));
         verifyButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (verifyClicked (_:))));
@@ -55,18 +49,13 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
         state = State(questions: XMLUtil.instance.getQuestions(fromSubcategory: subcategory!));
         state.currentQuestionIdx = UserDefaults.standard.integer(forKey: Const.getKey(forSubcategory: subcategory!));
                 
-        showQuestion(atIndex: state.currentQuestionIdx);
     }
     
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
 
-//        showQuestion(questionIndex: testState.currentQuestionIdx);
-            
-        animateHelpButton();
-            
-            //            viewController.setQuestion(getDummyQuestion());
+        showQuestion(atIndex: state.currentQuestionIdx); // call it here on view will appear
     }
     
     
@@ -125,6 +114,7 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
     
     private func animateHelpButton() {
         if(state.questions[state.currentQuestionIdx].hints.count > 0) {
+            helpButton.isHidden = false;
             helpButton.alpha = 1;
             UIView.animate(withDuration: 1,
                            delay: 0.5,
@@ -189,6 +179,8 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
         if(questionIndex > UserDefaults.standard.integer(forKey: Const.getKey(forSubcategory: subcategory!))) {
             UserDefaults.standard.set(questionIndex, forKey: Const.getKey(forSubcategory: subcategory!));
         }
+        
+        animateHelpButton();
     }
     
     private func addViewControllerAsChildViewController(childViewController: OneQuestionVC) {

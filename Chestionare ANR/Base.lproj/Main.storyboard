@@ -4273,8 +4273,10 @@
                     <connections>
                         <outlet property="containerView" destination="9qd-vA-37q" id="hNL-f0-Tkf"/>
                         <outlet property="deleteButton" destination="NrB-QI-zbr" id="MBa-iY-1Wj"/>
+                        <outlet property="helpButton" destination="2t8-fs-WPn" id="sSb-Qj-HtP"/>
                         <outlet property="nextButton" destination="QYF-4l-J2c" id="Hx0-lD-Xoq"/>
                         <outlet property="previousButton" destination="TcK-DZ-wIm" id="tWx-B9-IYI"/>
+                        <outlet property="questionIndexLabel" destination="uK0-fQ-sIl" id="UN7-wM-VPA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Opr-zD-h1z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

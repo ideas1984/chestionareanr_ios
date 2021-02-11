@@ -10,7 +10,7 @@ import UIKit
 
 class QuestionsParser: NSObject, XMLParserDelegate {
     
-    var questions: [Question] = [];
+    var questionsDict = [Int: Question]();
     
     var regulamentNavigatieDQuestions: [Question] = [];
     var marinarieDQuestions: [Question] = [];
@@ -72,7 +72,7 @@ class QuestionsParser: NSObject, XMLParserDelegate {
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         if elementName == "question" {
             let question = Question(id: id, name: name, category: category,subcategory: subcategory,image: image,answers: answers, correctAnswerId: correctAnswerId,hints: hints);
-            questions.append(question);
+            questionsDict[id] = question;
             
             
             switch subcategory {
