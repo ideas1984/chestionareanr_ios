@@ -16,20 +16,18 @@ class TestResultVC: UIViewController {
     @IBOutlet weak var testResultlabel: UILabel!
     @IBOutlet weak var goodAnswersLabel: UILabel!
     @IBOutlet weak var buttonLabel: UILabel!
-    @IBOutlet weak var eventButton: UILabel!
+    @IBOutlet weak var eventButton: UIView!
+    @IBOutlet weak var eventButtonLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        eventButton.layer.cornerRadius = 10;
-        eventButton.isUserInteractionEnabled = true;
         
         if(testResult == TestResult.PASS) {
             testResultlabel.text = "ADMIS";
             testResultlabel.textColor = UIColor.green;
             goodAnswersLabel.text = "Raspunsuri corecte: \(goodAnswers!)";
             buttonLabel.text = "Dacă sunteți de părere că această aplicație vă este de ajutor, va rugăm să ne apreciați efortul cu un review de 5 stele. Mulțumim!";
-            eventButton.text = "Apreciază aplicația";
+            eventButtonLabel.text = "Apreciază aplicația";
             eventButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (createReview (_:))));
         } else {
             testResultlabel.text = "RESPINS";
@@ -40,7 +38,7 @@ class TestResultVC: UIViewController {
                 goodAnswersLabel.text = "Timpul a expirat";
             }
             buttonLabel.text = "Întrebările greșite pot fi revizuite în secțiunea Istoric și Rapoarte";
-            eventButton.text = "Vezi întrebările greșite";
+            eventButtonLabel.text = "Vezi întrebările greșite";
             eventButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (viewWrongAnswers (_:))));
         }
     }
@@ -50,7 +48,10 @@ class TestResultVC: UIViewController {
     }
     
     @IBAction func viewWrongAnswers(_ sender: UIView) {
-        print("viewWrongAnswers");
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+        let reviewBadAnswersVC = storyboard.instantiateViewController(withIdentifier: "review_bad_answers_vc") as! ReviewBadAnswersVC;
+        reviewBadAnswersVC.modalPresentationStyle = .fullScreen;
+        present(reviewBadAnswersVC, animated: false, completion: nil);
     }
 
 }
