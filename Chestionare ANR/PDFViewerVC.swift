@@ -65,7 +65,7 @@ class PDFViewerVC: UIViewController {
             
         }
         
-        let backButton = UIImageView(image: UIImage(named: "back.png"));
+        let backButton = UIImageView(image: UIImage(named: "back_1.png"));
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         backButton.isUserInteractionEnabled = true;
         backButton.addGestureRecognizer(tapGestureRecognizer);

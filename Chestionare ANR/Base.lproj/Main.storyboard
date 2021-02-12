@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="width" constant="50" id="PDh-Hk-0G0"/>
                                     <constraint firstAttribute="height" constant="50" id="Xat-E2-l37"/>
                                 </constraints>
-                                <state key="normal" image="back"/>
+                                <state key="normal" image="back_1"/>
                                 <connections>
                                     <action selector="backClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="thK-wS-E8c"/>
                                 </connections>
@@ -484,7 +484,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Evr-sc-hyL"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="Vt6-5E-IMw" firstAttribute="height" secondItem="lQv-qa-LXY" secondAttribute="height" priority="250" id="Uep-46-gZK"/>
                             <constraint firstItem="m4O-Va-YeT" firstAttribute="top" secondItem="Evr-sc-hyL" secondAttribute="top" id="WQC-KB-k2n"/>
@@ -837,7 +837,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yYg-9x-qPl"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="dTa-TS-dYl" firstAttribute="height" secondItem="NEG-Qc-8Hn" secondAttribute="height" priority="250" id="8zm-aq-l17"/>
                             <constraint firstItem="RaZ-5D-syP" firstAttribute="leading" secondItem="yYg-9x-qPl" secondAttribute="leading" id="LVW-Js-g3P"/>
@@ -1126,7 +1126,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hnh-Rq-f90"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="9E7-ey-tVt" firstAttribute="trailing" secondItem="hnh-Rq-f90" secondAttribute="trailing" id="0iq-IO-Xaq"/>
                             <constraint firstItem="OuP-Ha-ZZC" firstAttribute="width" secondItem="oxB-GH-TiI" secondAttribute="width" id="Aad-ra-cLf"/>
@@ -1542,7 +1542,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pFs-94-wHc"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="5w6-nd-d2l" firstAttribute="trailing" secondItem="pFs-94-wHc" secondAttribute="trailing" id="0jt-Tp-eot"/>
                             <constraint firstItem="c03-dA-S9x" firstAttribute="height" secondItem="UHi-Rp-huy" secondAttribute="height" priority="250" id="5Bq-Ir-lQh"/>
@@ -1618,7 +1618,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HxQ-KV-woU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2381" y="1747"/>
+            <point key="canvasLocation" x="6687" y="-510"/>
         </scene>
         <!--HintsVC-->
         <scene sceneID="zsU-XJ-hS7">
@@ -1686,7 +1686,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YkR-l5-1gw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1603" y="1746"/>
+            <point key="canvasLocation" x="7419" y="-511"/>
         </scene>
         <!--PDFViewerVC-->
         <scene sceneID="yiM-eF-Pyr">
@@ -1720,7 +1720,7 @@
                                             <constraint firstAttribute="height" constant="50" id="Jl6-vl-SiP"/>
                                             <constraint firstAttribute="width" constant="50" id="N3b-bg-FaE"/>
                                         </constraints>
-                                        <state key="normal" image="back"/>
+                                        <state key="normal" image="back_1"/>
                                         <connections>
                                             <action selector="backClicked:" destination="cN5-oK-smh" eventType="touchUpInside" id="1GQ-Ud-7Pm"/>
                                         </connections>
@@ -2236,7 +2236,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LsW-lZ-MGi"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="f4O-k3-eg5" firstAttribute="height" secondItem="4Rg-w1-dE5" secondAttribute="height" priority="250" id="5e7-KK-cVQ"/>
                             <constraint firstItem="wQ4-kv-XSE" firstAttribute="bottom" secondItem="LsW-lZ-MGi" secondAttribute="bottom" id="6zo-Vs-Kdj"/>
@@ -2528,7 +2528,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9NN-v2-RD8"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="tG0-Ry-cBP" firstAttribute="bottom" secondItem="9NN-v2-RD8" secondAttribute="bottom" id="0gc-04-Zr1"/>
                             <constraint firstItem="tG0-Ry-cBP" firstAttribute="trailing" secondItem="9NN-v2-RD8" secondAttribute="trailing" id="EKL-3o-uxU"/>
@@ -2581,7 +2581,7 @@
                                             <constraint firstAttribute="width" constant="50" id="Yj4-w3-WrE"/>
                                             <constraint firstAttribute="height" constant="50" id="hR0-g3-e12"/>
                                         </constraints>
-                                        <state key="normal" image="back"/>
+                                        <state key="normal" image="back_1"/>
                                         <connections>
                                             <action selector="backClicked:" destination="Rnd-ie-jjV" eventType="touchUpInside" id="NMS-AQ-uzc"/>
                                         </connections>
@@ -3166,7 +3166,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7w8-aE-iT9"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="ffb-zT-sGu" firstAttribute="width" secondItem="f0O-5X-lAU" secondAttribute="width" id="1Bh-QR-VSd"/>
                             <constraint firstItem="fXO-os-7yy" firstAttribute="bottom" secondItem="7w8-aE-iT9" secondAttribute="bottom" id="IBm-6q-B9k"/>
@@ -3502,7 +3502,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wTD-4c-wAG"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="f4b-iP-pAD" firstAttribute="width" secondItem="1vn-i7-jYh" secondAttribute="width" id="6BH-DC-f1n"/>
                             <constraint firstItem="US6-ya-iGB" firstAttribute="bottom" secondItem="wTD-4c-wAG" secondAttribute="bottom" id="8Bq-B6-cgY"/>
@@ -3788,7 +3788,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="775-qb-78r"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="bhn-56-5c4" firstAttribute="trailing" secondItem="775-qb-78r" secondAttribute="trailing" id="1tF-g4-kTQ"/>
                             <constraint firstItem="bhn-56-5c4" firstAttribute="bottom" secondItem="775-qb-78r" secondAttribute="bottom" id="3zt-dK-n67"/>
@@ -3841,7 +3841,7 @@
                                             <constraint firstAttribute="height" constant="50" id="4Qf-lA-ARe"/>
                                             <constraint firstAttribute="width" constant="50" id="jha-pS-3Th"/>
                                         </constraints>
-                                        <state key="normal" image="back"/>
+                                        <state key="normal" image="back_1"/>
                                         <connections>
                                             <action selector="backClicked:" destination="iKc-Rc-lbp" eventType="touchUpInside" id="IcL-4P-TTT"/>
                                         </connections>
@@ -4169,7 +4169,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EfW-Pu-udQ"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="background_1"/>
                         <constraints>
                             <constraint firstItem="NZb-9z-O2Y" firstAttribute="top" secondItem="EfW-Pu-udQ" secondAttribute="top" id="91B-rp-JIK"/>
                             <constraint firstItem="86U-QO-crN" firstAttribute="width" secondItem="6Wh-J0-1bY" secondAttribute="width" id="Fcm-MW-QyC"/>
@@ -4341,7 +4341,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back" width="162.66667175292969" height="170.33332824707031"/>
+        <image name="back_1" width="512" height="512"/>
         <image name="book" width="40" height="40"/>
         <image name="capitan" width="40" height="40"/>
         <image name="close" width="40" height="40"/>
