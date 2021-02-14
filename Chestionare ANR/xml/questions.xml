@@ -1,7 +1,6 @@
 <questions>
 
 	<question id="1001">
-
 		<name>Intervalul între sunetele care compun "o serie de sunete foarte scurte" este de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -11,11 +10,9 @@
 		<answer id="3">circa ¼ s.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1002">
-
 		<name>Pentru a evita un pericol iminent, conducătorii trebuie să ia toate măsurile cerute de împrejurări, chiar dacă se îndepărtează de la dispoziţiile R.N.D.</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -25,11 +22,9 @@
 		<answer id="3">numai pentru a salva nava*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1003">
-
 		<name>În caz de accident care pune în pericol persoanele care se găsesc la bord, conducătorul trebuie:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -39,11 +34,9 @@
 		<answer id="3">să ceară ajutor navelor* care navigă în apropiere.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,173</hint>
-
 	</question>
 
 	<question id="1004">
-
 		<name>Ce se înţelege prin termenul "zi" întrebuinţat în R.N.D.?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -53,11 +46,9 @@
 		<answer id="3">perioada cuprinsă între răsăritul şi apusul soarelui.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1005">
-
 		<name>Toate navele* fluviale trebuie să aibă mărci care indică linia maximă de încărcare?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -67,11 +58,9 @@
 		<answer id="3">nu este prevăzut expres în R.N.D.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1006">
-
 		<name>Durata unui sunet lung este de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -81,11 +70,9 @@
 		<answer id="3">circa 4 secunde.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1007">
-
 		<name>Conducătorii navelor* remorcate trebuie să se conformeze ordinelor conducătorului convoiului?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -95,11 +82,9 @@
 		<answer id="3">numai în cazuri speciale.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1008">
-
 		<name>"Bordul liber" este:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -109,11 +94,9 @@
 		<answer id="3">distanţa măsurată între planul de încărcare maximă şi suprafaţa punţii superioare în punctul ei cel mai de jos, sau în lipsa punţii, punctul cel mai jos al părţii superioare a bordului fix.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>167,58</hint>
-
 	</question>
 
 	<question id="1009">
-
 		<name>Ce se înţelege prin "navă" în sensul R.N.D.?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -123,11 +106,9 @@
 		<answer id="3">navele maritime, fluviale, aparatele plutitoare, plute, nave militare etc.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1010">
-
 		<name>Ce se înţelege prin termenul de "în staţionare" folosit în R.N.D.?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -137,11 +118,9 @@
 		<answer id="3">navă, un material plutitor asamblat sau o instalaţie plutitoare atunci când este, în mod direct sau indirect ancorată sau legată la mal.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1011">
-
 		<name>Care sunt îndatoririle altor persoane care se găsesc la bordul navei*:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -151,11 +130,9 @@
 		<answer id="3">nu este prevăzut expres în R.N.D.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1012">
-
 		<name>Orice conducător de navă*, dacă constată avarierea unei instalaţii de semnalizare (stingerea unei lumini, deplasarea unei geamanduri*, distrugerea unui semnal, etc.) este obligat:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -165,11 +142,9 @@
 		<answer id="3">să anunţe prin orice mijloc întreprinderea care are în administraţie întreţinerea şi semnalizarea căii navigabile.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,101,173,161</hint>
-
 	</question>
 
 	<question id="1013">
-
 		<name>Ce se înţelege prin "marş"* în sensul R.N.D.:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -179,11 +154,9 @@
 		<answer id="3">navă când nu este ancorată sau legată.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>134,145,81</hint>
-
 	</question>
 
 	<question id="1014">
-
 		<name>Navele* de pasageri pot transporta un număr de pasageri corespunzător:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -193,11 +166,9 @@
 		<answer id="3">autorizaţiei organelor competente.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1015">
-
 		<name>Ce se înţelege prin termenul de “noapte” în sensul R.N.D.?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -207,11 +178,9 @@
 		<answer id="3">nu este prevăzut în R.N.D.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1016">
-
 		<name>Durata unui sunet scurt este de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -221,11 +190,9 @@
 		<answer id="3">circa ¼ secundă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1017">
-
 		<name>Scări de pescaj* poartă navele* care au pescajul de cel puţin:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -235,11 +202,9 @@
 		<answer id="3">1,20 m.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>167,145,58</hint>
-
 	</question>
 
 	<question id="1018">
-
 		<name>Ce se înţelege prin “ambarcaţiune mică”, în sensul Regulamentului de Navigaţie pe Dunăre?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -249,11 +214,9 @@
 		<answer id="3">nave a căror lungime şi lăţime ale corpului sunt mai mici de 15 m şi respectiv, 3,50 m sau al căror deplasament maxim este mai mic de 10 t, cu excepţia bacurilor, navelor care remorchează, împing sau duc cuplate nave, în afară de ambarcaţiuni mici.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1019">
-
 		<name>Ce se înţelege prin “serie de sunete foarte scurte“?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -263,11 +226,9 @@
 		<answer id="3">serie de cel puţin 7 sunete cu o durată de ⅓ de secundă fiecare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1020">
-
 		<name>În scopul evitării de a pune în pericol viaţa persoanelor sau de a provoca pagube altor nave*, conducătorii pot lua toate măsurile de precauţie, chiar dacă nu sunt prevăzute dispoziţii speciale în Regulamentul de Navigaţie pe Dunăre?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -277,11 +238,9 @@
 		<answer id="3">numai pentru a salva echipajul.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1021">
-
 		<name>Ce obligaţii aveţi dacă sunteţi conducătorul unei nave* şi vă găsiţi în apropierea altei nave avariate, ale cărei persoane sunt în pericol sau nava poate deveni un obstacol pentru navigaţie?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -291,11 +250,9 @@
 		<answer id="3">anunţaţi cea mai apropiată căpitănie de port*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,173</hint>
-
 	</question>
 
 	<question id="1022">
-
 		<name>Zona 1 a căii navigabile corespunde unei înălţimi aparente a valurilor de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -305,11 +262,9 @@
 		<answer id="3">2 m.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1023">
-
 		<name>Zona a 3-a a căii navigabile corespunde unei înălţimi aparente a valurilor de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -319,11 +274,9 @@
 		<answer id="3">0,6 m.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1024">
-
 		<name>Zona a 2-a a căii navigabile corespunde unei înălţimi aparente a valurilor de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -333,11 +286,9 @@
 		<answer id="3">2 m.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1025">
-
 		<name>Ce se înţelege prin termenul “navă care pescuieşte*”?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -347,11 +298,9 @@
 		<answer id="3">navă care pescuieşte cu cârlige sau alte unelte de pescuit, care nu-şi reduce capacitatea de manevră*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>150,145,62,147</hint>
-
 	</question>
 
 	<question id="1026">
-
 		<name>Ce se înţelege prin termenul “serie de bătăi de clopot“?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -361,11 +310,9 @@
 		<answer id="3">înseamnă patru lovituri de clopot.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1027">
-
 		<name>Cum pot fi folosite luminile şi proiectoarele?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -375,11 +322,9 @@
 		<answer id="3">nu se precizează folosirea lor în R.N.D.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1028">
-
 		<name>Care este intensitatea şi arcul de orizont la care poate fi văzută o lumină albă din pupa* unei nave*?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -389,11 +334,9 @@
 		<answer id="3">obişnuită, 135°.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145,177</hint>
-
 	</question>
 
 	<question id="1029">
-
 		<name>Ce lumini poartă navele* ce navighează cu vele*?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -403,11 +346,9 @@
 		<answer id="3">două lumini albe obişnuite la prova.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,240,105,168,26,197,40,143,211</hint>
-
 	</question>
 
 	<question id="1030">
-
 		<name>Ce lumini trebuie să poarte, noaptea, ambarcaţiunile mici autopropulsate, a căror lungime a corpului nu depăşeşte 20 m, care remorchează sau duc în cuplu ambarcaţiuni mici?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -417,11 +358,9 @@
 		<answer id="3">luminile unei ambarcaţiuni mici autopropulsate ce navighează izolat şi a cărei lungime nu depaşeşte 20 m.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1031">
-
 		<name>Ce lumini pot să poarte noaptea, ambarcaţiunile mici autopropulsate, ce nu depăşesc 7 m, în marş*?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -431,11 +370,9 @@
 		<answer id="3">luminile unei* nave autopropulsate în marş*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,134</hint>
-
 	</question>
 
 	<question id="1032">
-
 		<name>Ambarcaţiunea mică legată la mal, noaptea, cu excepţia bărcilor de serviciu ale navelor* trebuie să poarte:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -445,11 +382,9 @@
 		<answer id="3">lumină albă obişnuită dispusă la cel puţin 3 m deasupra liniei de încărcare maximă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1033">
-
 		<name>Plasele sau alte unelte de pescuit ale navelor* care pescuiesc, ziua întinse în apropierea şenalului* şi care pot prezenta o piedică pentru navigaţie, vor fi semnalizate cu:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -459,11 +394,9 @@
 		<answer id="3">orice obiecte plutitoare, în număr suficient, pentru a indica poziţia lor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,204,101,165,161</hint>
-
 	</question>
 
 	<question id="1034">
-
 		<name>Luminile din imaginea de mai jos sunt purtate noaptea de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -473,11 +406,9 @@
 		<answer id="3">un convoi împins în staţionare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>134,176</hint>
-
 	</question>
 
 	<question id="1035">
-
 		<name>Ce lumini trebuie să aibă o ambarcaţiune mică cu rame, noaptea în marş*?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -487,11 +418,9 @@
 		<answer id="3">lumină albă obişnuită, vizibilă pe un arc de orizont de 225°.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>134,145</hint>
-
 	</question>
 
 	<question id="1036">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -501,11 +430,9 @@
 		<answer id="3">permiterea de a staţiona în afara semnalului indicat.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1037">
-
 		<name>Luminile de mai jos sunt purtate noaptea de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -515,11 +442,9 @@
 		<answer id="3">macara plutitoare în lucru.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,177,134</hint>
-
 	</question>
 
 	<question id="1038">
-
 		<name>Imaginea de mai jos reprezintă:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -529,11 +454,9 @@
 		<answer id="3">luminile unui convoi împins în marş noaptea văzute din prova.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145,134,176</hint>
-
 	</question>
 
 	<question id="1039">
-
 		<name>Luminile din imaginea de mai jos sunt purtate noaptea de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -543,11 +466,9 @@
 		<answer id="3">nava autopropulsată izolată în marş văzută din prova.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145,176,134</hint>
-
 	</question>
 
 	<question id="1040">
-
 		<name>Ce lumini trebuie să poarte navele cu vele* în marş* şi unde ?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -557,11 +478,9 @@
 		<answer id="3">două lumini obişnuite sau clare suprapuse vizibile din toate părţile din care lumina superioară trebuie să fie roşie, iar lumina inferioară verde. Aceste lumini trebuie să fie dispuse, într-un loc corespunzător în partea superioară sau în vârful catargului la distanţă de cel puţin 1 m una de cealaltă. Luminile din borduri verde şi roşu şi lumina albă de pupa*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>149,134,176,177</hint>
-
 	</question>
 
 	<question id="1041">
-
 		<name>Ce indică semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -571,11 +490,9 @@
 		<answer id="3">puncte periculoase în şenal*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1042">
-
 		<name>Luminile din figura alăturată sunt văzute noaptea la:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -585,11 +502,9 @@
 		<answer id="3">pupa unui împingător ce navighează izolat.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>177,145,134</hint>
-
 	</question>
 
 	<question id="1043">
-
 		<name>O navă* care navighează cu vele* folosind în acelaşi timp şi motor, ziua în marş*, trebuie să poarte:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -599,11 +514,9 @@
 		<answer id="3">un con negru cu vârful în sus dispus la cel puţin 3 m deasupra liniei de maximă încărcare, astfel încât să fie vizibil în toate părţile.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,149,134</hint>
-
 	</question>
 
 	<question id="1044">
-
 		<name>Semnalizarea prevăzută pentru noapte la nave* trebuie să fie purtată, în plus, şi ziua, în condiţii de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -613,11 +526,9 @@
 		<answer id="3">răniţi sau bolnavi la bord.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1045">
-
 		<name>Care este semnalizarea suplimentară a navelor* de supraveghere fluvială ziua în marş* în exercitarea atribuţiunilor lor:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -627,11 +538,9 @@
 		<answer id="3">ziua arborează o flamură albă în centrul căreia se găseşte un romb alb încadrat cu un chenar albastru şi arată o lumină albastră intermitentă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145,134</hint>
-
 	</question>
 
 	<question id="1046">
-
 		<name>Emiterea de către o navă* a unui semnal fonic lung pe vizibilitate bună are semnificaţia de:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -641,11 +550,9 @@
 		<answer id="3">semnal premergător intenţiei de a depăşi.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1047">
-
 		<name>Care este culoarea, forma şi care sunt caracteristicile unei geamanduri* de bifurcaţie?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -655,11 +562,9 @@
 		<answer id="3">de forma sferică vopsită (piturată) în roşu-negru-roşu-negru, lumină de culoare albă intermitentă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>101,1,161</hint>
-
 	</question>
 
 	<question id="1048">
-
 		<name>Care sunt caracteristicile luminii de coastă (far) de bifurcaţie?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -669,11 +574,9 @@
 		<answer id="3">suport de culoare albă, lumină albă fixă, un disc piturat roşu-negru-roşu-negru.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>1</hint>
-
 	</question>
 
 	<question id="1049">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -683,11 +586,9 @@
 		<answer id="3">interzice staţionarea în şenal*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1050">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -697,11 +598,9 @@
 		<answer id="3">obligă navele să efectueze înscrucişări numai prin tribord.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,204,237,25</hint>
-
 	</question>
 
 	<question id="1051">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -711,11 +610,9 @@
 		<answer id="3">adăncimea apei este limitată.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1052">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -725,11 +622,9 @@
 		<answer id="3">Traversare hidrocentrală electrică.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1053">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -739,11 +634,9 @@
 		<answer id="3">obligaţia de a nu se angaja în calea principală sau de a nu traversa.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1054">
-
 		<name>Care dintre cele două semnale de mai jos crează obligaţii conducătorilor de nave?*</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -753,11 +646,9 @@
 		<answer id="3">nici unul.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1055">
-
 		<name>Atunci când o navă* este în pericol şi vrea să ceară ajutor, poate emite semnale sonore?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -767,11 +658,9 @@
 		<answer id="3">nu este prevăzut în Regulamentul de Navigaţie pe Dunăre.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1056">
-
 		<name>Şcondrii* pentru dreapta au culoarea:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -781,11 +670,9 @@
 		<answer id="3">roşie.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>201</hint>
-
 	</question>
 
 	<question id="1057">
-
 		<name>Ce indică semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -795,11 +682,9 @@
 		<answer id="3">jalon de aliniament dreapta.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1058">
-
 		<name>Ce semnificaţie are semnalul de mai jos:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -809,11 +694,9 @@
 		<answer id="3">interzice provocarea de valuri sau efecte de sugere*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>221</hint>
-
 	</question>
 
 	<question id="1059">
-
 		<name>Ce semnificaţie are semnalul de mai jos:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -823,11 +706,9 @@
 		<answer id="3">viteza curentului este mai mare de 12 km/h.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1060">
-
 		<name>Ce semnificaţie are semnalul de mai jos:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -837,11 +718,9 @@
 		<answer id="3">recomandarea de a se îndepărta de malul drept (stâng) în direcţia arătată până la 10 m.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1061">
-
 		<name>Care dintre cele două semnale de mai jos reprezintă semnalul de interzicere?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -851,11 +730,9 @@
 		<answer id="3">atât semnalul A 1 cît şi semnalul E 1.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1062">
-
 		<name>Se pot folosi lumini şi semnale ce nu sunt prevăzute în R.N.D.?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -865,11 +742,9 @@
 		<answer id="3">da, numai în sectorul Dunării maritime.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1063">
-
 		<name>Pe întregul parcurs navigabil al fluviului, şenalul* este balizat* după sistemul:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -879,11 +754,9 @@
 		<answer id="3">lateral şi cardinal.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>204,29</hint>
-
 	</question>
 
 	<question id="1064">
-
 		<name>Ce semnificaţie au semnalele de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -893,11 +766,9 @@
 		<answer id="3">nici o semnificaţie.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1065">
-
 		<name>Priviţi semnalul de mai jos. Ce semnificaţie are?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -907,11 +778,9 @@
 		<answer id="3">interzice depăşirea numai între convoaie.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1066">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -921,11 +790,9 @@
 		<answer id="3">obligă navele de a se îndrepta spre partea şenalului care se găseşte la tribord*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>204,25,237</hint>
-
 	</question>
 
 	<question id="1067">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -935,11 +802,9 @@
 		<answer id="3">recomandarea de a se ţine în spaţiul indicat.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1068">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -949,11 +814,9 @@
 		<answer id="3">calea urmată este considerată ca afluent al căii întâlnite.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1069">
-
 		<name>Priviţi cele două semnale de mai jos. Care este semnalul de obligaţie?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -963,11 +826,9 @@
 		<answer id="3">nici unul.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1070">
-
 		<name>Atunci când o navă* aflată în pericol vrea să ceară ajutor, ea poate să emită:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -977,11 +838,9 @@
 		<answer id="3">“o serie de sunete de clopot” sau “sunete lungi” cu alte mijloace acustice repetate.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1071">
-
 		<name>Nava* care emite, “serie de sunete foarte scurte” ce semnalizează?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -991,11 +850,9 @@
 		<answer id="3">este în pericol iminent de abordaj*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145,2</hint>
-
 	</question>
 
 	<question id="1072">
-
 		<name>Şcondrii* pentru stânga au culoarea:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1005,11 +862,9 @@
 		<answer id="3">roşie.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>201</hint>
-
 	</question>
 
 	<question id="1073">
-
 		<name>Ce semnificaţie are semnalul alăturat:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1019,11 +874,9 @@
 		<answer id="3">jalon de aliniament dreapta.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1074">
-
 		<name>Priviţi semnalul de mai jos. Ce semnificaţie are?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1033,11 +886,9 @@
 		<answer id="3">interzice orice deplasare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1075">
-
 		<name>Priviţi imaginea de mai jos. Ce semnificaţie are?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1047,11 +898,9 @@
 		<answer id="3">intertice trecerea în afara spaţiului indicat.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1076">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1061,11 +910,9 @@
 		<answer id="3">interzice emiterea semnalelor fonice.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1077">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1075,11 +922,9 @@
 		<answer id="3">trecerea recomandată în ambele sensuri.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1078">
-
 		<name>Care dinte cele două semnale de mai jos este semnal de indicaţie:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1089,11 +934,9 @@
 		<answer id="3">ambele semnale.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1079">
-
 		<name>Care este forma, culoarea şi care sunt caracteristicile unei geamanduri* pentru stânga?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1103,11 +946,9 @@
 		<answer id="3">de formă cilindrică piturată în roşu lumina de culoare roşie intermitentă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>101,1,161</hint>
-
 	</question>
 
 	<question id="1080">
-
 		<name>Ce semnificaţie au semnalele din desenul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1117,11 +958,9 @@
 		<answer id="3">nici o semnificaţie.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1081">
-
 		<name>Priviţi semnalul alăturat. Ce semnificaţie are?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1131,11 +970,9 @@
 		<answer id="3">interzice depăşirea numai dintre convoaie.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1082">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1145,11 +982,9 @@
 		<answer id="3">obligă navele de a se îndrepta spre partea şenalului care se găseşte la tribord*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145,204,25,237</hint>
-
 	</question>
 
 	<question id="1083">
-
 		<name>Care dintre obligaţiile de mai jos, vă revin când sunteţi de cart* la comanda unei nave în marş* şi întâlniţi semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1159,11 +994,9 @@
 		<answer id="3">nu aveţi nici o obligaţie, întrucât semnalul indică prioritate de trecere pentru dumneavoastră.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>63,134,82</hint>
-
 	</question>
 
 	<question id="1084">
-
 		<name>Ce semnificaţie generală are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1173,11 +1006,9 @@
 		<answer id="3">interzicere de trecere.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1085">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1187,11 +1018,9 @@
 		<answer id="3">calea urmată e considerată ca afluent a căii întâlnite.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1086">
-
 		<name>Care dintre cele două semnale alăturate este semnalul de indicaţie?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1201,11 +1030,9 @@
 		<answer id="3">nici unul.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1087">
-
 		<name>Cum semnalizează noaptea navele* care sunt în pericol şi cer ajutor?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1215,11 +1042,9 @@
 		<answer id="3">agită o lumină indiferent de culoare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1088">
-
 		<name>Geamandurile* de culoare verde cu lumină verde intermitentă balizează*:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1229,11 +1054,9 @@
 		<answer id="3">pericolele de navigaţie situate în şenal.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>101,29,204,161</hint>
-
 	</question>
 
 	<question id="1089">
-
 		<name>Lumina de coastă (far) de pe malul stâng, are următoarele caracteristici:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1243,11 +1066,9 @@
 		<answer id="3">suport de culoare albă, cu lumină de culoare roşie intermitentă şi un panou de formă rombică, piturat jumătate negru la partea superioară şi jumătate alb la partea inferioară.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>1</hint>
-
 	</question>
 
 	<question id="1090">
-
 		<name>Ce indică semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1257,11 +1078,9 @@
 		<answer id="3">puncte periculoase în şenal*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1091">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1271,11 +1090,9 @@
 		<answer id="3">obligaţia de a încrucişa şenalul la tribord.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>204,237</hint>
-
 	</question>
 
 	<question id="1092">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1285,11 +1102,9 @@
 		<answer id="3">obligaţia de a se opri în condiţiile prevăzute în R.N.D.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1093">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1299,11 +1114,9 @@
 		<answer id="3">bac.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1094">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1313,11 +1126,9 @@
 		<answer id="3">punct public de alimentare cu apă potabilă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1095">
-
 		<name>Geamandurile* luminoase şi neluminoase, şcondrii* şi jaloanele pentru dreapta sau pentru stânga, în principiu ce marchează?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1327,11 +1138,9 @@
 		<answer id="3">pericolele de la malul respectiv.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>101,201,204,161</hint>
-
 	</question>
 
 	<question id="1096">
-
 		<name>Lumina de coastă (far) de pe malul drept şi lumina de coastă (far) de pe malul stâng în principiu indică:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1341,11 +1150,9 @@
 		<answer id="3">direcţia şenalului în raport cu pericolele de la maluri.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1097">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1355,11 +1162,9 @@
 		<answer id="3">indică locuri periculoase pentru întoarcerea navelor*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>9,145</hint>
-
 	</question>
 
 	<question id="1098">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1369,11 +1174,9 @@
 		<answer id="3">obligă navele de a opri în condiţiile prevăzute în Regulamentul de Navigaţie pe Dunăre.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1099">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1383,11 +1186,9 @@
 		<answer id="3">telefon public.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>173</hint>
-
 	</question>
 
 	<question id="1100">
-
 		<name>Navele* care sunt în pericol şi cer ajutor, ce semnal vizual arată ziua?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1397,11 +1198,9 @@
 		<answer id="3">agită circular un balon* roşu.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,165,30</hint>
-
 	</question>
 
 	<question id="1101">
-
 		<name>Ce semnificaţie au geamandurile* de culoare roşie cu lumina roşie intermitentă?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1411,11 +1210,9 @@
 		<answer id="3">balizează pericolele de navigaţie situate în şenal.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>101,204,29,161</hint>
-
 	</question>
 
 	<question id="1102">
-
 		<name>Lumina de coastă (far) de pe malul drept are următoarele caracteristici:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1425,11 +1222,9 @@
 		<answer id="3">suport de culoare albă, lumină de culoare roşie intermitentă şi un panou pătrat verde mărginit de două benzi orizontale albe.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1103">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1439,11 +1234,9 @@
 		<answer id="3">interzice de a încrucişa şenalul la babord.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,204,25</hint>
-
 	</question>
 
 	<question id="1104">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1453,11 +1246,9 @@
 		<answer id="3">lăţimea pasei de trecere sau a şenalului este limitată.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>161,204</hint>
-
 	</question>
 
 	<question id="1105">
-
 		<name>Ce semnificaţie are semnalul alăturat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1467,11 +1258,9 @@
 		<answer id="3">reţea de înală tensiune.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1106">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1481,11 +1270,9 @@
 		<answer id="3">sfârşitul unei interziceri sau a unei obligaţii valabilă pentru un singur sens de navigaţie sau sfârşitul unei restricţii.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1107">
-
 		<name>Ce semnificaţie au geamandurile* luminoase şi neluminoase, şcondrii* şi jaloanele de joncţiune şi de bifurcaţie?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1495,11 +1282,9 @@
 		<answer id="3">Semnalizează joncţiunea şi bifurcaţia şenalului şi în afară de aceasta balizează pericolele de navigaţie din şenal.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>101,201,204,29,161</hint>
-
 	</question>
 
 	<question id="1108">
-
 		<name>În principiu semnalele de mai jos indică:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1509,11 +1294,9 @@
 		<answer id="3">direcţia pericolelor de navigaţie în raport cu malurile.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1109">
-
 		<name>Două panouri suprapuse, de forma şi culoarea din figura de mai jos, indică?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1523,11 +1306,9 @@
 		<answer id="3">încrucişarea şi depăşirea sunt interzise.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1110">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1537,11 +1318,9 @@
 		<answer id="3">indică direcţia unde se găsesc locuri sigure pentru staţionarea navelor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1111">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1551,11 +1330,9 @@
 		<answer id="3">obligaţia de a păstra o vigilenţă deosebită.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1112">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1565,11 +1342,9 @@
 		<answer id="3">trecerea recomandată în ambele sensuri.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1113">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1579,11 +1354,9 @@
 		<answer id="3">loc de întoarcere.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1114">
-
 		<name>Care din cele două semnale de mai jos crează obligaţii pentru conducătorii de nave*?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1593,11 +1366,9 @@
 		<answer id="3">nici unul.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1115">
-
 		<name>Care este forma, culoarea şi care sunt caracteristicile luminii unei geamanduri* pentru dreapta?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1607,11 +1378,9 @@
 		<answer id="3">de formă cilindrică, piturată în roşu, lumina de culoare roşie intermitentă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>101,1,161</hint>
-
 	</question>
 
 	<question id="1116">
-
 		<name>Jaloanele de aliniament indică:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1621,11 +1390,9 @@
 		<answer id="3">începutul sau sfârşitul traversării şenalului*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>204</hint>
-
 	</question>
 
 	<question id="1117">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1635,11 +1402,9 @@
 		<answer id="3">interzicerea de întâlnire şi depăşire.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1118">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1649,11 +1414,9 @@
 		<answer id="3">obligă navele de a efectua încrucişarea în zona unde este amplasat semnalul.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,204,25</hint>
-
 	</question>
 
 	<question id="1119">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1663,11 +1426,9 @@
 		<answer id="3">Asiguraţi-vă! Sunt depuneri masive.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1120">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1677,11 +1438,9 @@
 		<answer id="3">indică direcţia unde se recomandă staţionarea.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1121">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1691,11 +1450,9 @@
 		<answer id="3">obligaţia de a nu se angaja în calea principală sau de a nu traversa.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1122">
-
 		<name>Care dintre cele două semnale crează obligaţii pentru conducătorii de nave*?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1705,11 +1462,9 @@
 		<answer id="3">ambele semnale.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1123">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1719,11 +1474,9 @@
 		<answer id="3">interzicerea navigaţiei navelor nepropulsate.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1124">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1733,11 +1486,9 @@
 		<answer id="3">interzicerea navigaţiei pentru toate ambarcaţiuni de sport şi agrement.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1125">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1747,11 +1498,9 @@
 		<answer id="3">interzicerea oricăror nave* de a tracta persoane care practică schiul nautic.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1126">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1761,11 +1510,9 @@
 		<answer id="3">interzicerea staţionării navelor cu vele.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>149</hint>
-
 	</question>
 
 	<question id="1127">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1775,11 +1522,9 @@
 		<answer id="3">interzicerea navigaţiei navelor* care nu sunt autopropulsate şi nici cu vele.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>204,145</hint>
-
 	</question>
 
 	<question id="1128">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1789,11 +1534,9 @@
 		<answer id="3">permiterea navigaţiei pentru navele autopropulsate.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1129">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1803,11 +1546,9 @@
 		<answer id="3">zona indicată staţionării navelor de sport şi agrement.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1130">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1817,11 +1558,9 @@
 		<answer id="3">permiterea navigaţiei navelor* ce tractează persoane care practică schiul nautic.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1131">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1831,11 +1570,9 @@
 		<answer id="3">permiterea practicării sporturilor nautice.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>149</hint>
-
 	</question>
 
 	<question id="1132">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1845,11 +1582,9 @@
 		<answer id="3">permiterea de staţionare a navelor cu rame pe partea unde este amplasat semnalul.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,149</hint>
-
 	</question>
 
 	<question id="1133">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1859,11 +1594,9 @@
 		<answer id="3">oprirea la 1000 m.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1134">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1873,11 +1606,9 @@
 		<answer id="3">ancorarea interzisă</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1135">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1887,11 +1618,9 @@
 		<answer id="3">punct vamal.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1136">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1901,11 +1630,9 @@
 		<answer id="3">interzisă practicarea surfingului.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>240,105,168,26,197,40,143,211</hint>
-
 	</question>
 
 	<question id="1137">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1915,11 +1642,9 @@
 		<answer id="3">interzicerea de întâlnire a şalupelor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1138">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1929,11 +1654,9 @@
 		<answer id="3">interzicerea de a ridica pe mal ambarcaţiuni.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1139">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1943,11 +1666,9 @@
 		<answer id="3">recomandarea de a intra în legătură radiotelefonică.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1140">
-
 		<name>Ce semnificaţie au semnalele luminoase din imaginea de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1957,11 +1678,9 @@
 		<answer id="3">obligaţia navelor care navighează pe calea afluentă să schimbe drumul în caz de nevoie.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,82,173</hint>
-
 	</question>
 
 	<question id="1141">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1971,11 +1690,9 @@
 		<answer id="3">interzice legarea în zona ambelor maluri.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1142">
-
 		<name>Ambarcaţiunile mici care navighează izolat şi convoaiele remorcate sau formaţiile în cuplu compuse numai din ambarcaţiuni mici, sunt obligate:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1985,11 +1702,9 @@
 		<answer id="3">să navigheze numai ziua.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,173</hint>
-
 	</question>
 
 	<question id="1143">
-
 		<name>Toate navele* trebuie să treacă în timpul cel mai scurt posibil trecerile înguste?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -1999,11 +1714,9 @@
 		<answer id="3">da.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1144">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2013,11 +1726,9 @@
 		<answer id="3">obligaţia de a staţiona pe partea căii unde este amplasat semnalul.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1145">
-
 		<name>Cine cedează drumul* în cazul întâlnirii dintre două ambarcaţiuni mici? (Din care una este autopropulsată şi cealaltă nepropulsată)</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2027,11 +1738,9 @@
 		<answer id="3">ambele, după ce în prealabil sau înţeles prin semnale.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>82</hint>
-
 	</question>
 
 	<question id="1146">
-
 		<name>Ce semnificaţie au semnalele de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2041,11 +1750,9 @@
 		<answer id="3">interzice ancorarea şi de a se lăsa să se târască ancore în zona ambelor maluri.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="1147">
-
 		<name>Amonte* pe calea navigabilă este sensul:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2055,11 +1762,9 @@
 		<answer id="3">de la un mal la celălalt.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>8</hint>
-
 	</question>
 
 	<question id="1148">
-
 		<name>Este interzis a se angaja cu o navă* în intervalele dintre unităţile unui convoi remorcat?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2069,11 +1774,9 @@
 		<answer id="3">nu este prevăzut în Regulament.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1149">
-
 		<name>Unde este interzis de a se instala plase sau alte unelte de pescuit?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2083,11 +1786,9 @@
 		<answer id="3">în şenalul* navigabil.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>11,204</hint>
-
 	</question>
 
 	<question id="1150">
-
 		<name>Când nu se aplică interdicţia de a se lăsa să se târască ancore, parâme* sau lanţuri?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2097,11 +1798,9 @@
 		<answer id="3">când şenalul* are o lăţime absolut suficientă, iar adâncimile trec de 6 m.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,204</hint>
-
 	</question>
 
 	<question id="1151">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2111,11 +1810,9 @@
 		<answer id="3">interzicerea staţionării pe lungimea indicată în metri.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1152">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2125,11 +1822,9 @@
 		<answer id="3">lăţimea minimă a locurilor de staţionare în metri.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1153">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2139,11 +1834,9 @@
 		<answer id="3">recomandarea de a naviga cu numărul de unităţi în dana indicată.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,80</hint>
-
 	</question>
 
 	<question id="1154">
-
 		<name>Ce semnificaţie are semnalul din imaginea alăturată?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2153,11 +1846,9 @@
 		<answer id="3">zona de staţionare rezervată navelor fără echipaj cu excepţia navelor care trebuie să poarte ziua conul albastru sau roşu.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1155">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2167,11 +1858,9 @@
 		<answer id="3">zona de staţionare rezervată navelor fără echipaj care trebuie să poarte ziua conul albastru.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1156">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2181,11 +1870,9 @@
 		<answer id="3">autorizaţia de staţionare a navelor fără echipaj care trebuie să poarte ziua conul roşu</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1157">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2195,11 +1882,9 @@
 		<answer id="3">autorizaţia de staţionare a navelor cu echipaj care trebuie să poarte ziua conul albastru.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1158">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2209,11 +1894,9 @@
 		<answer id="3">autorizaţia de staţionare a navelor cu echipaj care trebuie să poarte ziua conul albastru.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1159">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2223,11 +1906,9 @@
 		<answer id="3">zona de staţionare rezervată navelor cu echipaj care trebuie să poarte ziua conul roşu.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1160">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2237,11 +1918,9 @@
 		<answer id="3">autorizaţia de staţionare a navelor cu echipaj şi fără echipaj care trebuie să poarte ziua conul albastru sau roşu.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1161">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2251,11 +1930,9 @@
 		<answer id="3">autorizaţia de staţionare a navelor cu echipaj şi fără echipaj care transportă materiale explozibile.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1162">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2265,11 +1942,9 @@
 		<answer id="3">autorizaţia de staţionare a navelor cu echipaj şi fără echipaj care transportă materiale inflamabile.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1163">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2279,11 +1954,9 @@
 		<answer id="3">interzicerea temporară de ieşire din bazin. Navele care doresc să iasă din bazin trebuie să aştepte într-un loc potrivit în aşa fel încât să nu jeneze mişcarea navelor care intră.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1164">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2293,11 +1966,9 @@
 		<answer id="3">permiterea navelor* care doresc să iasă din bazin de a înainta până în zona de ieşire din bazin.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1165">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2307,11 +1978,9 @@
 		<answer id="3">interzicerea de a folosi canalul indicat.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1166">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2321,11 +1990,9 @@
 		<answer id="3">interzicerea de a lăsa la apă sau de a ridica pe mal ambarcaţiuni cu lungimea mai mare de 15 m.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1167">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2335,11 +2002,9 @@
 		<answer id="3">obligaţia de a folosi scândura cu velă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>240,105,168,26,197,40,143,211</hint>
-
 	</question>
 
 	<question id="1168">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2349,11 +2014,9 @@
 		<answer id="3">interzicerea temporară de ieşire din bazin. Navele care doresc să iasă din bazin trebuie să aştepte în locurile desemnate în acest scop.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1169">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2363,11 +2026,9 @@
 		<answer id="3">permiterea navelor* care ies din bazin să înainteze până la acest semnal.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1170">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2377,11 +2038,9 @@
 		<answer id="3">zona permisă pentru navigaţia cu viteză mare tuturor navelor*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="1171">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2391,11 +2050,9 @@
 		<answer id="3">zona rezervată descărcării vehiculelor.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1172">
-
 		<name>Ce semnificaţie are semnalul de mai jos?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2405,11 +2062,9 @@
 		<answer id="3">doc pentru staţionarea bacurilor care nu navighează liber.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1173">
-
 		<name>Geamnadura* din figura de mai jos marchează:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2419,11 +2074,9 @@
 		<answer id="3">locul de staţionare în raport cu limita dreaptă a şenalului.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>101,204,2,161</hint>
-
 	</question>
 
 	<question id="1174">
-
 		<name>Geamnadura* din figura de mai jos marchează:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2433,11 +2086,9 @@
 		<answer id="3">locurile de staţionare în raport cu limita stânga a şenalului.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>101,204,2,161</hint>
-
 	</question>
 
 	<question id="1175">
-
 		<name>Ce semnificaţie are semnalul alăturat arborat la staţiile semaforice de pe Dunărea Maritimă?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2447,11 +2098,9 @@
 		<answer id="3">vreau să comunic cu dumneavoastră.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1176">
-
 		<name>Ce semnificaţie are flamura de mai jos arborată la catargul staţiei semaforice Ceatal Ismail?</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2461,11 +2110,9 @@
 		<answer id="3">curent puternic pe canalul Sulina.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="1177">
-
 		<name>Scări de pescaj* poartă navele* care au pescajul de cel puțin:</name>
 		<category>1,2</category>
 		<subcategory>1</subcategory>
@@ -2475,12 +2122,10 @@
 		<answer id="3">1,20 m.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,167,58</hint>
-
 	</question>
 
 
 	<question id="2001">
-
 		<name>Ambarcațiunile pot avea propulsie cu rame și vele?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2490,11 +2135,9 @@
 		<answer id="3">ambarcațiunile nu au propulsie proprie.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2002">
-
 		<name>Arborada* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2504,11 +2147,9 @@
 		<answer id="3">un stâlp vertical, așezat în planul diametral al navei și fixat de osatura* de rezistență a navei.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>16,17,105,42,131,130,242,240,156,242,40,226,168,112,98,246,247,26,143,211,96,162,195,217,227,91,202,97,163,57,166,88,241,229,121,150,197,66,59,60,85,84,77,68,236,239,172,118,76,32,31</hint>
-
 	</question>
 
 	<question id="2003">
-
 		<name>Arboretul* este partea superioară a catargului*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2518,11 +2159,9 @@
 		<answer id="3">nu face parte din catarg.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>18,17</hint>
-
 	</question>
 
 	<question id="2004">
-
 		<name>Asupra unui corp scufundat în apă acționează:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2532,11 +2171,9 @@
 		<answer id="3">forța determinată de greutatea corpului.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2005">
-
 		<name>Bandula* este un element component al instalației de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2546,11 +2183,9 @@
 		<answer id="3">propulsie.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>34,197</hint>
-
 	</question>
 
 	<question id="2006">
-
 		<name>Barbetele* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2560,11 +2195,9 @@
 		<answer id="3">capete de parâmă fixate la prova* și la pupa* bărcii.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>35,75,158,45,24,216,100,176,177</hint>
-
 	</question>
 
 	<question id="2007">
-
 		<name>Barca de serviciu se folosește la:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2574,11 +2207,9 @@
 		<answer id="3">nu există barcă de serviciu.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>179,173</hint>
-
 	</question>
 
 	<question id="2008">
-
 		<name>Boțurile* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2588,11 +2219,9 @@
 		<answer id="3">știfturi* de siguranță ale unei chei de împreunare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>44,215,102,45,24,216,100,158</hint>
-
 	</question>
 
 	<question id="2009">
-
 		<name>Când se spune despre o navă* că are asieta* dreaptă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2602,11 +2231,9 @@
 		<answer id="3">dacă o nava înclinată longitudinal are pescajul pupa egal cu pescajul prova.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>21,167,15,14,58,145,176,177</hint>
-
 	</question>
 
 	<question id="2010">
-
 		<name>Când se spune despre o navă* că este aprovată*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2616,11 +2243,9 @@
 		<answer id="3">dacă o navă înclinată longitudinal are pescajul prova egal cu pescajul pupa.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>14,167,58,145,176,177</hint>
-
 	</question>
 
 	<question id="2011">
-
 		<name>Când se spune despre o navă* că este apupată*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2630,11 +2255,9 @@
 		<answer id="3">dacă o navă înclinată longitudinal are pescajul pupa egal cu pescajul prova.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>15,167,58,145,176,177</hint>
-
 	</question>
 
 	<question id="2012">
-
 		<name>Când se spune despre o navă* că este canarisită*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2644,11 +2267,9 @@
 		<answer id="3">dacă o navă bandată* nu revine la poziția inițială și continuă să navigheze înclinată.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>53,167,33,19,58,145,176,177</hint>
-
 	</question>
 
 	<question id="2013">
-
 		<name>Când un cârlig se agață de un ocheț* sau un inel de punte întotdeauna se așează:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2658,11 +2279,9 @@
 		<answer id="3">nu are importanță.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>154</hint>
-
 	</question>
 
 	<question id="2014">
-
 		<name>Caracteristicile parâmelor* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2672,11 +2291,9 @@
 		<answer id="3">grosimea, flotabilitatea, greutatea, elasticitatea, asieta*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,21,15,14</hint>
-
 	</question>
 
 	<question id="2015">
-
 		<name>Care din următoarele parâme* au în interior o inimă vegetală, pentru protecția acestora?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2686,11 +2303,9 @@
 		<answer id="3">parâmele metalice.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2016">
-
 		<name>Care dintre afirmațiile de mai jos este adevărată?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2700,11 +2315,9 @@
 		<answer id="3">tacheții sunt piese metalice de ghidare a parâmelor cu minimum de frecare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>223,245,158,72</hint>
-
 	</question>
 
 	<question id="2017">
-
 		<name>Care dintre afirmațiile de mai jos este adevărată?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2714,11 +2327,9 @@
 		<answer id="3">turnichetiții sunt piese metalice pentru agățat lanțuri, parâme vegetale și sârme.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>238,209,245,158</hint>
-
 	</question>
 
 	<question id="2018">
-
 		<name>Care dintre afirmațiile de mai jos este falsă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2728,11 +2339,9 @@
 		<answer id="3">viteza navei se măsoară cu anemometrul*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,141,13,145</hint>
-
 	</question>
 
 	<question id="2019">
-
 		<name>Care dintre cârligele de mai jos sunt agățate corect de ocheți* și de inele?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2742,11 +2351,9 @@
 		<answer id="3">ambele figuri.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>154</hint>
-
 	</question>
 
 	<question id="2020">
-
 		<name>Care dintre enunțurile de mai jos este adevărat?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2756,11 +2363,9 @@
 		<answer id="3">cu ajutorul ambarcațiunilor nu se poate face transportul personalului la navă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="2021">
-
 		<name>Care dintre enunțurile de mai jos este adevărat?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2770,11 +2375,9 @@
 		<answer id="3">cu ajutorul ambarcațiunilor nu se poate face transportul furtunelor de alimentare cu apă de la o navă la alta.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="2022">
-
 		<name>Care dintre enunțurile de mai jos este adevărat?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2784,11 +2387,9 @@
 		<answer id="3">cu ajutorul ambarcatiunlor nu se poate face piturarea* bordajului* în exterior.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>1,43,145</hint>
-
 	</question>
 
 	<question id="2023">
-
 		<name>Care dintre enunțurile de mai jos este adevărat?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2798,11 +2399,9 @@
 		<answer id="3">cu ajutorul ambarcațiunilor nu se poate face transportul personalului la navă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>1,43,145</hint>
-
 	</question>
 
 	<question id="2024">
-
 		<name>Care dintre figurile de mai jos reprezintă noduri* tip "cap alungit"?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2812,11 +2411,9 @@
 		<answer id="3">C. Figura 3.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2025">
-
 		<name>Care dintre figurile de mai jos reprezintă noduri* tip "nucă dublă"?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2826,11 +2423,9 @@
 		<answer id="3">Figura 3.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2026">
-
 		<name>Care dintre figurile de mai jos reprezintă noduri* tip "nucă simplă"?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2840,11 +2435,9 @@
 		<answer id="3">Figura 3.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2027">
-
 		<name>Care dintre imaginile următoare reprezintă o matisire* lungă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2854,11 +2447,9 @@
 		<answer id="3">c.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>138</hint>
-
 	</question>
 
 	<question id="2028">
-
 		<name>Care dintre imaginile următoare reprezintă un somar*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2868,11 +2459,9 @@
 		<answer id="3">c.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>209,238</hint>
-
 	</question>
 
 	<question id="2029">
-
 		<name>Care este legătura navei* numită spring* prova* sau pupa*:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2882,11 +2471,9 @@
 		<answer id="3">3.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>213,176,177,145</hint>
-
 	</question>
 
 	<question id="2030">
-
 		<name>Care este legătura navei* numită traversa prova* sau pupa:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2896,11 +2483,9 @@
 		<answer id="3">3.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>235,145</hint>
-
 	</question>
 
 	<question id="2031">
-
 		<name>Care este partea de mijloc a unui catarg*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2910,11 +2495,9 @@
 		<answer id="3">arboretul*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>17,95,18,74,94,162,163,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,20,96,227,91,202,97,229</hint>
-
 	</question>
 
 	<question id="2032">
-
 		<name>Care este partea inferioară a unui catarg*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2924,11 +2507,9 @@
 		<answer id="3">arboretul*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>17,95,18,74,94,162,163,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,20,96,227,91,202,97,229</hint>
-
 	</question>
 
 	<question id="2033">
-
 		<name>Care este partea superioară a unui catarg*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2938,11 +2519,9 @@
 		<answer id="3">arboretul*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>17,95,18,74,94,162,163,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,20,96,227,91,202,97,229</hint>
-
 	</question>
 
 	<question id="2034">
-
 		<name>Care este rolul unei ancore*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2952,11 +2531,9 @@
 		<answer id="3">de fixare a navei față de fundul apei.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>10,145</hint>
-
 	</question>
 
 	<question id="2035">
-
 		<name>Care este rolul unei elice*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2966,11 +2543,9 @@
 		<answer id="3">de fixare a navei față de fundul apei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>253,145</hint>
-
 	</question>
 
 	<question id="2036">
-
 		<name>Care sunt elementele de legătură dintre ancoră și corpul navei*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2980,11 +2555,9 @@
 		<answer id="3">puțul de lanț*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>216,158,178,145</hint>
-
 	</question>
 
 	<question id="2037">
-
 		<name>Care sunt manevrele curente* de la bordul navei*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -2994,11 +2567,9 @@
 		<answer id="3">fungile*, brațele*, scotele*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>130,217,195,162,91,46,202,143,166,88,241,121,105,20,240,168,26,197,40,226,57,16,42,17,242,112,98,246,247,211,131,96,227,97,163,229,114</hint>
-
 	</question>
 
 	<question id="2038">
-
 		<name>Carlinga* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3008,11 +2579,9 @@
 		<answer id="3">un element de osatură longitudinal, situat pe fundul navei.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>59,156,66,60,85,84,77,68,236,239,172,118,76,32,31</hint>
-
 	</question>
 
 	<question id="2039">
-
 		<name>Cârma* reprezintă un element component al instalației de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3022,11 +2591,9 @@
 		<answer id="3">încărcare-descărcare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>61,120,230,251,247,64,23</hint>
-
 	</question>
 
 	<question id="2040">
-
 		<name>Catargul* face parte din:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3036,11 +2603,9 @@
 		<answer id="3">instalația de încărcare-descărcare a navei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>17,112,16,131,130,26,162,195,217,227,91,202,143,40,105,226,168,163,57,42,166,241,229,211,197,242,98,121,246,247,96,240,97,88</hint>
-
 	</question>
 
 	<question id="2041">
-
 		<name>Ce este caliorna*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3050,11 +2615,9 @@
 		<answer id="3">un palanc format dintr-o macara fixă prin care trece o parâmă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>52,129,158,180,56,199</hint>
-
 	</question>
 
 	<question id="2042">
-
 		<name>Ce este cangea* unei bărci?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3064,11 +2627,9 @@
 		<answer id="3">un făraș îngust cu marginile înalte pentru scos apă afară din barcă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>54,177</hint>
-
 	</question>
 
 	<question id="2043">
-
 		<name>Ce este capelatura* navei?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3078,11 +2639,9 @@
 		<answer id="3">locul unde manevrele fixe se fixează pe arbori* și accesoriile necesare legării.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>57,131,130,17,26,150,162,195,217,227,40,105,226,168,163,57,16,42,166,88,241,229,143,211,197,242,112,98,121,246,247,130,96,240,91,202,97</hint>
-
 	</question>
 
 	<question id="2044">
-
 		<name>Ce este cruceta*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3092,11 +2651,9 @@
 		<answer id="3">manevra mobilă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>74,17,95,130,162,163,94,195,57,16,42,105,242,40,226,168,112,98,246,247,26,211,197,131,20,96,227,97,229,91,202,143</hint>
-
 	</question>
 
 	<question id="2045">
-
 		<name>Ce este deplasamentul navei*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3106,11 +2663,9 @@
 		<answer id="3">deplasarea navei pe o anumită direcție dată.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="2046">
-
 		<name>Ce este flotabilitatea?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3120,11 +2675,9 @@
 		<answer id="3">proprietatea navei de a-și schimba direcția mișcării.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,167,58</hint>
-
 	</question>
 
 	<question id="2047">
-
 		<name>Ce este gabia*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3134,12 +2687,10 @@
 		<answer id="3">manevra mobilă*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>94,130,95,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,20,96,162,227,91,202,97,163,229,74</hint>
-
 	</question>
 
 
 	<question id="2048">
-
 		<name>Ce este garlinul*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3149,11 +2700,9 @@
 		<answer id="3">lanțană subțire de 7-8mm folosită la înfășurări și patronari* de parâme groase.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>99,126,158,164,139,145</hint>
-
 	</question>
 
 	<question id="2049">
-
 		<name>Ce este ghiordelul*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3163,11 +2712,9 @@
 		<answer id="3">un element component al bărcii.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>104</hint>
-
 	</question>
 
 	<question id="2050">
-
 		<name>Ce este grandeea*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3177,11 +2724,9 @@
 		<answer id="3">lanțană subțire de 7-8mm folosită la înfășurări și patronari* de parâme groase.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>110,126,158,164,227,145,139</hint>
-
 	</question>
 
 	<question id="2051">
-
 		<name>Ce este ispolul*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3191,11 +2736,9 @@
 		<answer id="3">un element component al bărcii.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>123</hint>
-
 	</question>
 
 	<question id="2052">
-
 		<name>Ce este lusinul*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3205,11 +2748,9 @@
 		<answer id="3">parâmă* cu grosimea de 15-40mm folosită la bandulă* sau la pavilion*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>128,126,139,164,158,34,65,205,222,139,197</hint>
-
 	</question>
 
 	<question id="2053">
-
 		<name>Ce este matagonul*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3219,11 +2760,9 @@
 		<answer id="3">un element componenet al instalației de propulsie.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>135,131,26,150,162,195,217,227,40,105,226,168,163,57,16,42,166,88,241,229,143,211,197,17,242,112,98,121,246,247,130,96,240,91,202,143,97</hint>
-
 	</question>
 
 	<question id="2054">
-
 		<name>Ce este merlinul*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3233,11 +2772,9 @@
 		<answer id="3">lanțană subțire de 7-8mm folosită la înfășurări și patronari* de parâme groase.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>139,126,158,164,139</hint>
-
 	</question>
 
 	<question id="2055">
-
 		<name>Ce este o bandulă*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3247,11 +2784,9 @@
 		<answer id="3">un element component al instalației de incărcare-descărcare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>34,197,100</hint>
-
 	</question>
 
 	<question id="2056">
-
 		<name>Ce este o rașchetă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3261,11 +2796,9 @@
 		<answer id="3">un mecanism de punte.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2057">
-
 		<name>Ce este o saulă*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3275,11 +2808,9 @@
 		<answer id="3">lanțană subțire de 7-8mm.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>197,126,158</hint>
-
 	</question>
 
 	<question id="2058">
-
 		<name>Ce este picul prova*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3289,11 +2820,9 @@
 		<answer id="3">compartimentul de coliziune situat între etravă* și primul perete transversal etanș.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>168,84,85,26,197,40,105,226,143,211</hint>
-
 	</question>
 
 	<question id="2059">
-
 		<name>Ce este picul pupa*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3303,11 +2832,9 @@
 		<answer id="3">compartimentul de coliziune situat între etravă* și primul perete transversal etanș.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>168,84,85,26,197,40,105,226,143,211</hint>
-
 	</question>
 
 	<question id="2060">
-
 		<name>Ce este reprezentat în imaginea de mai jos?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3317,11 +2844,9 @@
 		<answer id="3">patronare* cu autostrângere.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>199,201,158,164,56,180,139</hint>
-
 	</question>
 
 	<question id="2061">
-
 		<name>Ce este reprezentat în imaginea de mai jos?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3331,11 +2856,9 @@
 		<answer id="3">patronare* cu autostrângere.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>199,201,158,164,56,180,139</hint>
-
 	</question>
 
 	<question id="2062">
-
 		<name>Ce este saula*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3345,11 +2868,9 @@
 		<answer id="3">parâmă cu grosimea de 15-40mm folosită la bandulă* sau la pavilion*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>197,126,158,34,165,197</hint>
-
 	</question>
 
 	<question id="2063">
-
 		<name>Ce este un catarg*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3359,11 +2880,9 @@
 		<answer id="3">un stâlp vertical, așezat în planul diametral al navei și fixat de osatura* de rezistență a navei.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>17,105,42,131,130,242,240,156,112,98,96,26,162,195,217,227,97,163,57,16,166,121,229,150,88,241,91,202,246,247,226,168,197,40,143,211,66,59,60,85,84,77,68,236,239,172,118,76,32,31</hint>
-
 	</question>
 
 	<question id="2064">
-
 		<name>Ce este verga*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3373,11 +2892,9 @@
 		<answer id="3">manevră curentă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>242,17,236,130,246,247,26,40,105,226,168,143,211,91,202</hint>
-
 	</question>
 
 	<question id="2065">
-
 		<name>Ce înseamnă "a mațagoni*"?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3387,11 +2904,9 @@
 		<answer id="3">a ciocăni tablă vopsită cu un ciocan special.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>136,135</hint>
-
 	</question>
 
 	<question id="2066">
-
 		<name>Ce reprezintă cheile de lanț?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3401,11 +2916,9 @@
 		<answer id="3">tronsoane din lanțul de ancoră, de o anumită lungime.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2067">
-
 		<name>Ce reprezintă elasticitatea unei parâme*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3415,11 +2928,9 @@
 		<answer id="3">sarcina la care parâma se rupe.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2068">
-
 		<name>Ce reprezintă fexibilitatea unei parâme*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3429,11 +2940,9 @@
 		<answer id="3">sarcina la care parâma se rupe.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2069">
-
 		<name>Ce reprezintă imaginile de mai jos?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3443,11 +2952,9 @@
 		<answer id="3">turnicheți*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>223,24,238,100,209</hint>
-
 	</question>
 
 	<question id="2070">
-
 		<name>Ce reprezintă inerția navei*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3457,11 +2964,9 @@
 		<answer id="3">capacitatea navei de a-și schimba direcția de deplasare sub influența cârmei* și a elicelor.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,134,61,251,247</hint>
-
 	</question>
 
 	<question id="2071">
-
 		<name>Ce reprezintă manevrele fixe*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3471,11 +2976,9 @@
 		<answer id="3">toate parâmele mobile*, cu ajutorul cărora se manevrează vergile*, velele*, bărcile și diferite greutăți la bord.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>131,16,130,242,240,26,150,162,195,217,227,40,105,226,168,163,57,42,166,88,241,229,143,211,197,17,112,98,121,246,247,96,91,202,97,20,158</hint>
-
 	</question>
 
 	<question id="2072">
-
 		<name>Ce reprezintă manevrele mobile*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3485,11 +2988,9 @@
 		<answer id="3">toate parâmele mobile, cu ajutorul cărora se manevrează vergile*, velele*, bărcile și diferite greutăți la bord.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>130,16,242,240,91,202,143,17,105,42,40,226,168,112,98,246,247,26,211,197,131,96,162,195,217,227,97,163,57,166,88,241,229,121</hint>
-
 	</question>
 
 	<question id="2073">
-
 		<name>Ce reprezintă nescufundabilitarea?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3499,11 +3000,9 @@
 		<answer id="3">capacitatea navei de a-și continua deplasarea după schimbarea regimului de marș* al mașinilor.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,134</hint>
-
 	</question>
 
 	<question id="2074">
-
 		<name>Ce reprezintă viteza navei*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3513,11 +3012,9 @@
 		<answer id="3">capacitatea navei de a-și schimbă direcția de deplasare sub influența cârmei* și a elicelor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,134,61,251,247</hint>
-
 	</question>
 
 	<question id="2075">
-
 		<name>Ce se află pe fundul bărcii?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3527,11 +3024,9 @@
 		<answer id="3">copastia*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>117,72</hint>
-
 	</question>
 
 	<question id="2076">
-
 		<name>Ce sunt ambarcațiunile?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3541,11 +3036,9 @@
 		<answer id="3">nave mici și foarte mici, care se deplasează pe apă cu ajutorul altor nave.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145,148</hint>
-
 	</question>
 
 	<question id="2077">
-
 		<name>Ce sunt barbetele*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3555,11 +3048,9 @@
 		<answer id="3">piese demontabile, care se fixează în pupa bărcii cu ajutorul balamalelor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>35,158,75,176,177</hint>
-
 	</question>
 
 	<question id="2078">
-
 		<name>Ce sunt nările* de punte?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3569,11 +3060,9 @@
 		<answer id="3">sunt dispozitive de blocare a lanțului de ancoră față de corpul navei, pentru situațiile de marș* sau ancorare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>144,43,36,178,244,49,145</hint>
-
 	</question>
 
 	<question id="2079">
-
 		<name>Ce sunt parâmele* de cânepă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3583,11 +3072,9 @@
 		<answer id="3">parâme vegetale confecționate din frunzele unui cactus.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2080">
-
 		<name>Ce sunt parâmele* de manila?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3597,11 +3084,9 @@
 		<answer id="3">parâme vegetale confecționate din frunzele unui cactus.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2081">
-
 		<name>Ce sunt parâmele* de sizal?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3611,11 +3096,9 @@
 		<answer id="3">parâme vegetale confecționate din frunzele unui cactus.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2082">
-
 		<name>Ce sunt rufurile*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3625,11 +3108,9 @@
 		<answer id="3">suprastructuri ale navei, ce nu se extind pe toată lățimea ei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>190,145</hint>
-
 	</question>
 
 	<question id="2083">
-
 		<name>Ce sunt sarturile* navei?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3639,11 +3120,9 @@
 		<answer id="3">accesorii de punte,cu ajutorul cărora se dau gașe* la mal.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>195,131,17,130,100,57,16,42,105,242,226,168,112,98,246,247,211,197,96,97,163,166,88,241,229,121,240,26,150,162,217,227,40,91,202,143</hint>
-
 	</question>
 
 	<question id="2084">
-
 		<name>Ce sunt straiurile* navei?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3653,11 +3132,9 @@
 		<answer id="3">manevre fixe, ce susțin arborii în plan logitudinal, spre prova.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>217,130,17,131,26,150,162,195,227,40,105,226,168,163,57,16,42,166,88,241,229,143,211,197,242,112,98,121,246,247,96,240,91,202,97,20</hint>
-
 	</question>
 
 	<question id="2085">
-
 		<name>Ce tip de ancoră* este ancora Amiralitate?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3667,11 +3144,9 @@
 		<answer id="3">cu fus nearticulat.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>10,103</hint>
-
 	</question>
 
 	<question id="2086">
-
 		<name>Ce tip de ancoră* este ancora Hall?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3681,11 +3156,9 @@
 		<answer id="3">cu fus nearticulat.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>10,103</hint>
-
 	</question>
 
 	<question id="2087">
-
 		<name>Chila* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3695,11 +3168,9 @@
 		<answer id="3">element de rezistență dispus în planul cuplului maestru*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>66,76,85,84</hint>
-
 	</question>
 
 	<question id="2088">
-
 		<name>Coastele* reprezintă elemente de construcție ale navei dispuse în planul:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3709,11 +3180,9 @@
 		<answer id="3">transversal.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>68,76</hint>
-
 	</question>
 
 	<question id="2089">
-
 		<name>Coastele* se mai numesc și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3723,11 +3192,9 @@
 		<answer id="3">crevace*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>68,77,59,76</hint>
-
 	</question>
 
 	<question id="2090">
-
 		<name>Coloana este partea inferioară a catargului*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3737,11 +3204,9 @@
 		<answer id="3">nu face parte din catarg.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>17</hint>
-
 	</question>
 
 	<question id="2091">
-
 		<name>Cum se clasifică bărcile după felul propulsiei?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3751,11 +3216,9 @@
 		<answer id="3">cu prova* ascuțită și cu prova dreapta.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>240,176,105,168,26,197,40,143,211</hint>
-
 	</question>
 
 	<question id="2092">
-
 		<name>Cum se clasifică bărcile după numărul de rame?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3765,11 +3228,9 @@
 		<answer id="3">7+1, 3+1, 5+1.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>240,105,168,26,197,40,143,211</hint>
-
 	</question>
 
 	<question id="2093">
-
 		<name>Cum se mai numește catargul* prova* la navele moderne?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3779,11 +3240,9 @@
 		<answer id="3">capelatură*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>17,57,176</hint>
-
 	</question>
 
 	<question id="2094">
-
 		<name>Cum se mai numește catargul* pupa* la navele moderne?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3793,11 +3252,9 @@
 		<answer id="3">capelatură*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>17,57,177</hint>
-
 	</question>
 
 	<question id="2095">
-
 		<name>Cum se măsoară greutatea unei parâme*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3807,11 +3264,9 @@
 		<answer id="3">prin măsurarea greutății în kilograme a unui metru liniar din parâma respectivă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2096">
-
 		<name>Cum se măsoară grosimea unei parâme*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3821,11 +3276,9 @@
 		<answer id="3">prin măsurarea greutății în kilograme a unui metru liniar din parâma respectivă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2097">
-
 		<name>Cum se măsoară rezistență unei parâme*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3835,11 +3288,9 @@
 		<answer id="3">prin măsurarea greutății în kilograme a unui metru liniar din parâma respectivă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2098">
-
 		<name>Cum se numesc bărcile care au prova și pupa ascuțite?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3849,11 +3300,9 @@
 		<answer id="3">cuter*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>122,27,78,240,194,248,105,168,42,26,197,112,98,40,226,131,130,17,96,143,211,162,195,217,227,91,202,97,163,57,16,166,88,241,242,229,121</hint>
-
 	</question>
 
 	<question id="2099">
-
 		<name>Cum se numesc coastele* bărcii?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3863,11 +3312,9 @@
 		<answer id="3">osaturi*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>68,87,76,156,66,59,60,85,84,77,68,236,239,172,118,32,31</hint>
-
 	</question>
 
 	<question id="2100">
-
 		<name>Cum se numește arborele* înclinat fixat spre prova* navei care se întâlnește la navele cu vele*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3877,11 +3324,9 @@
 		<answer id="3">artimon*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>17,176,240,42,105,168,26,197,40,143,211,112,98,131,130,17,96,162,195,217,227,91,202,97,226,163,57,16,166,88,241,242,121,246,247,240,229</hint>
-
 	</question>
 
 	<question id="2101">
-
 		<name>Cum se numește înclinarea navei* în jurul unui ax longitudinal?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3891,11 +3336,9 @@
 		<answer id="3">ruliu*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>225,33,191,145</hint>
-
 	</question>
 
 	<question id="2102">
-
 		<name>Cum se numește înclinarea navei care se produce în jurul unui ax transversal?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3905,11 +3348,9 @@
 		<answer id="3">banda*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>21,225,33,15,14</hint>
-
 	</question>
 
 	<question id="2103">
-
 		<name>Cum se numește mișcarea oscilatorie provocată de inclinările longitudinale?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3919,11 +3360,9 @@
 		<answer id="3">asietă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>191,225,21,15,14</hint>
-
 	</question>
 
 	<question id="2104">
-
 		<name>Cum se numește mișcarea oscilatorie provocată de înclinările transversale?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3933,11 +3372,9 @@
 		<answer id="3">ruliu*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>225,33,191</hint>
-
 	</question>
 
 	<question id="2105">
-
 		<name>Cum se numește structura de rezistență a bărcii?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3947,11 +3384,9 @@
 		<answer id="3">osatura* bărcii.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>43,85,156,66,59,60,85,84,77,68,236,239,172,118,76,32,31</hint>
-
 	</question>
 
 	<question id="2106">
-
 		<name>Cum se numește vârful catargului*, în limbaj marinăresc?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3961,11 +3396,9 @@
 		<answer id="3">gabie*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>17,132,94,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,20,96,162,227,91,202,97,163,229</hint>
-
 	</question>
 
 	<question id="2107">
-
 		<name>Cum sunt dispuse banchetele* într-o barcă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3975,11 +3408,9 @@
 		<answer id="3">transversal.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>31,32</hint>
-
 	</question>
 
 	<question id="2108">
-
 		<name>Cum sunt dispuse bancurile* într-o barcă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -3989,11 +3420,9 @@
 		<answer id="3">transversal.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>32,31</hint>
-
 	</question>
 
 	<question id="2109">
-
 		<name>Cum trebuie să se rotească cârma*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4003,11 +3432,9 @@
 		<answer id="3">într-un singur bord.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>61,230,64,251,247</hint>
-
 	</question>
 
 	<question id="2110">
-
 		<name>Curățenia mare se execută:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4017,11 +3444,9 @@
 		<answer id="3">lunar.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="2111">
-
 		<name>Curățenia mică se execută:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4031,11 +3456,9 @@
 		<answer id="3">zilnic.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2112">
-
 		<name>Din ce sunt confecționate parâmele* sintetice?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4045,11 +3468,9 @@
 		<answer id="3">din fire de capron, relon, nailon, polipropilenă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2113">
-
 		<name>Din ce sunt confecționate parâmele* vegetale?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4059,11 +3480,9 @@
 		<answer id="3">din fire de capron, relon, nailon, polipropilenă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2114">
-
 		<name>Din ce sunt confetionate parâmele* metalice?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4073,11 +3492,9 @@
 		<answer id="3">din fire de capron, relon, nailon, polipropilenă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2115">
-
 		<name>Din punct de vedere al materialului folosit la confecționarea parâmelor*, una din categoriile incluse în această clasificare o reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4087,11 +3504,9 @@
 		<answer id="3">parâmele simple (lanțane*).</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,99,126</hint>
-
 	</question>
 
 	<question id="2116">
-
 		<name>Din punct de vedere al modului de confecționare al parâmelor*, una din categoriile incluse în acesta clasificare o reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4101,11 +3516,9 @@
 		<answer id="3">parâmele sintetice.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2117">
-
 		<name>Echea* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4115,11 +3528,9 @@
 		<answer id="3">partea de cârma ce se află deasupra liniei de plutire.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>251,61,251,247</hint>
-
 	</question>
 
 	<question id="2118">
-
 		<name>Elementele componenete ale unei ancore sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4129,11 +3540,9 @@
 		<answer id="3">stopa* de lanț, lanțul de ancorare și tubul de ghidare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>144,10,244,216</hint>
-
 	</question>
 
 	<question id="2119">
-
 		<name>Elementele structurale ale unei parâme* sintetice sau vegetale sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4143,11 +3552,9 @@
 		<answer id="3">firul, sfilața, șuvița, lanțana, cordon, carlinga*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,205,222,126,99,100,59</hint>
-
 	</question>
 
 	<question id="2120">
-
 		<name>Elementul de bază din structura oricărei parâme* este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4157,11 +3564,9 @@
 		<answer id="3">lanțana*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,222,126</hint>
-
 	</question>
 
 	<question id="2121">
-
 		<name>Elice* este un element component al instalației de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4171,11 +3576,9 @@
 		<answer id="3">propulsie.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>253</hint>
-
 	</question>
 
 	<question id="2122">
-
 		<name>Etrava* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4185,11 +3588,9 @@
 		<answer id="3">prelungirea chilei în pupa*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>85,66,84,176,177,237,25</hint>
-
 	</question>
 
 	<question id="2123">
-
 		<name>Gabierul* este partea de mijloc a unui catarg*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4199,11 +3600,9 @@
 		<answer id="3">nu face parte din catarg.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>95,17,74,94,162,163,195,57,16,42,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,20,96,227,91,202,97,229</hint>
-
 	</question>
 
 	<question id="2124">
-
 		<name>Greementul* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4213,11 +3612,9 @@
 		<answer id="3">un stâlp vertical, așezat în planul diametral al navei* și fixat de osatura* de rezistență a navei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>112,17,105,42,131,130,242,240,156,26,162,195,217,227,91,202,143,40,226,168,163,57,16,166,241,229,211,197,98,121,246,247,96,97,88,150,130,97,66,59,60,85,84,77,68,236,239,172,118,76,32,31</hint>
-
 	</question>
 
 	<question id="2125">
-
 		<name>Gruiele* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4227,11 +3624,9 @@
 		<answer id="3">instalații care servesc pentru lansarea la apă, ridicarea, așezarea și păstrarea la post a ambarcațiunilor de salvare.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>114,145</hint>
-
 	</question>
 
 	<question id="2126">
-
 		<name>Imaginea de mai jos reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4241,11 +3636,9 @@
 		<answer id="3">secțiune printr-o parâmă sintetică.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2127">
-
 		<name>Imaginea de mai jos reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4255,11 +3648,9 @@
 		<answer id="3">bintă*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>223,209,24,100</hint>
-
 	</question>
 
 	<question id="2128">
-
 		<name>Imaginea de mai jos reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4269,11 +3660,9 @@
 		<answer id="3">bintă*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>223,209,24,100</hint>
-
 	</question>
 
 	<question id="2129">
-
 		<name>Imaginea de mai jos reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4283,11 +3672,9 @@
 		<answer id="3">turnicheți*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>223,238,209</hint>
-
 	</question>
 
 	<question id="2130">
-
 		<name>Imaginea de mai jos reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4297,11 +3684,9 @@
 		<answer id="3">întinzatoare de sart*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>154,187,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2131">
-
 		<name>Imaginea de mai jos reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4311,11 +3696,9 @@
 		<answer id="3">întinzatoare de sart*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>154,187,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2132">
-
 		<name>În cadrul accesoriilor de punte intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4325,11 +3708,9 @@
 		<answer id="3">bocaporții*, minginiile*, cheia de ancora*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>223,41,24,238,195,244,39,140,10,100,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2133">
-
 		<name>În categoria accesoriilor unei bărci intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4339,11 +3720,9 @@
 		<answer id="3">perii de sârmă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>135</hint>
-
 	</question>
 
 	<question id="2134">
-
 		<name>În categoria accesoriilor unei bărci intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4353,11 +3732,9 @@
 		<answer id="3">banchetele*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>157,31,32</hint>
-
 	</question>
 
 	<question id="2135">
-
 		<name>În categoria accesoriilor unei bărci intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4367,11 +3744,9 @@
 		<answer id="3">puntirile.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>32,61,251,247,31</hint>
-
 	</question>
 
 	<question id="2136">
-
 		<name>În categoria accesoriilor unei bărci intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4381,11 +3756,9 @@
 		<answer id="3">apărătoarele.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>198,72</hint>
-
 	</question>
 
 	<question id="2137">
-
 		<name>În categoria nodurilor* speciale intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4395,11 +3768,9 @@
 		<answer id="3">nodul de scaun, nodul de ancoră.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,34,197</hint>
-
 	</question>
 
 	<question id="2138">
-
 		<name>În categoria obiectelor de armament destinate pentru navigație din inventarul bărcii intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4409,11 +3780,9 @@
 		<answer id="3">compasul de barcă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>104</hint>
-
 	</question>
 
 	<question id="2139">
-
 		<name>În categoria obiectelor de armament destinate pentru navigație și semnalizare din inventarul bărcii intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4423,11 +3792,9 @@
 		<answer id="3">ispol*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>123</hint>
-
 	</question>
 
 	<question id="2140">
-
 		<name>În categoria obiectelor de armament destinate pentru navigație și semnalizare din inventarul bărcii intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4437,11 +3804,9 @@
 		<answer id="3">veste de salvare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>165</hint>
-
 	</question>
 
 	<question id="2141">
-
 		<name>În categoria obiectelor de armament destinate pentru navigație și semnalizare din inventarul bărcii intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4451,11 +3816,9 @@
 		<answer id="3">ghiordelul*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>38,165,104</hint>
-
 	</question>
 
 	<question id="2142">
-
 		<name>În categoria obiectelor de armament destinate pentru salvare echipaj în inventarul bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4465,11 +3828,9 @@
 		<answer id="3">ispolul*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>123</hint>
-
 	</question>
 
 	<question id="2143">
-
 		<name>În categoria obiectelor de armament destinate pentru salvare în inventarul bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4479,11 +3840,9 @@
 		<answer id="3">ispolul*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>133,123</hint>
-
 	</question>
 
 	<question id="2144">
-
 		<name>În categoria obiectelor de armament destinate pentru salvare în inventarul bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4493,11 +3852,9 @@
 		<answer id="3">compasul de barcă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>104</hint>
-
 	</question>
 
 	<question id="2145">
-
 		<name>În categoria obiectelor de armament destinate pentru salvarea personalului în inventarul bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4507,11 +3864,9 @@
 		<answer id="3">felinar de vânt.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>133</hint>
-
 	</question>
 
 	<question id="2146">
-
 		<name>În categoria obiectelor de armament destinate pentru vitalitatea bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4521,11 +3876,9 @@
 		<answer id="3">veste de salvare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>104</hint>
-
 	</question>
 
 	<question id="2147">
-
 		<name>În categoria obiectelor de armament destinate pentru vitalitatea bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4535,11 +3888,9 @@
 		<answer id="3">ciocanul.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>165,123</hint>
-
 	</question>
 
 	<question id="2148">
-
 		<name>În categoria obiectelor de armament destinate pentru vitalitatea bărcii  intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4549,11 +3900,9 @@
 		<answer id="3">centuri de salvare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>38,165</hint>
-
 	</question>
 
 	<question id="2149">
-
 		<name>În categoria obiectelor de armament destinate pentru vitalitatea bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4563,11 +3912,9 @@
 		<answer id="3">compasul de barcă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2150">
-
 		<name>În categoria obiectelor de armament destinate pentru vitalitatea bărcii intră și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4577,11 +3924,9 @@
 		<answer id="3">felinar de vânt.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>133</hint>
-
 	</question>
 
 	<question id="2151">
-
 		<name>În categoria propulsoarelor intră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4591,11 +3936,9 @@
 		<answer id="3">cârma, timona*, mașina cârmei.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>252,253,17,230,61,251,247,64,251</hint>
-
 	</question>
 
 	<question id="2152">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4605,11 +3948,9 @@
 		<answer id="3">patronare* cusută.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>157,164,139</hint>
-
 	</question>
 
 	<question id="2153">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4619,11 +3960,9 @@
 		<answer id="3">patronare* cusută.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>157,164,139</hint>
-
 	</question>
 
 	<question id="2154">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4633,11 +3972,9 @@
 		<answer id="3">macaraua alunecătoare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2155">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4647,11 +3984,9 @@
 		<answer id="3">macaraua alunecătoare.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2156">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4661,11 +3996,9 @@
 		<answer id="3">macaraua alunecătoare.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2157">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4675,11 +4008,9 @@
 		<answer id="3">caliorna*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>129,52,180,56,199</hint>
-
 	</question>
 
 	<question id="2158">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4689,11 +4020,9 @@
 		<answer id="3">caliorna*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>129,52,180,56,199</hint>
-
 	</question>
 
 	<question id="2159">
-
 		<name>În figura de mai jos este prezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4703,11 +4032,9 @@
 		<answer id="3">caliornă*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>129,52,180,56,199</hint>
-
 	</question>
 
 	<question id="2160">
-
 		<name>În figura de mai jos s-au reprezentat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4717,11 +4044,9 @@
 		<answer id="3">palancuri mecanice.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>129,238,180,56,199</hint>
-
 	</question>
 
 	<question id="2161">
-
 		<name>În figura de mai jos sunt prezentate:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4731,11 +4056,9 @@
 		<answer id="3">paiete* împletite.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>1,67,157</hint>
-
 	</question>
 
 	<question id="2162">
-
 		<name>În figura de mai jos, chila* este notată cu:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4745,11 +4068,9 @@
 		<answer id="3">1.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>66,85,84</hint>
-
 	</question>
 
 	<question id="2163">
-
 		<name>În figura de mai jos, corpul macaralei este simbolizat cu:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4759,11 +4080,9 @@
 		<answer id="3">3.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2164">
-
 		<name>În figura de mai jos, cu "1" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4773,11 +4092,9 @@
 		<answer id="3">electromotor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>49,179,244</hint>
-
 	</question>
 
 	<question id="2165">
-
 		<name>În figura de mai jos, cu "1" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4787,11 +4104,9 @@
 		<answer id="3">axiometrul*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>61,230,23,251,247,64</hint>
-
 	</question>
 
 	<question id="2166">
-
 		<name>În figura de mai jos, cu "1" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4801,11 +4116,9 @@
 		<answer id="3">vinciul* de ancoră.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>144,244,49</hint>
-
 	</question>
 
 	<question id="2167">
-
 		<name>În figura de mai jos, cu "10" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4815,11 +4128,9 @@
 		<answer id="3">puțul de lanț*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,178</hint>
-
 	</question>
 
 	<question id="2168">
-
 		<name>În figura de mai jos, cu "2" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4829,11 +4140,9 @@
 		<answer id="3">electromotor.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>49,178,244</hint>
-
 	</question>
 
 	<question id="2169">
-
 		<name>În figura de mai jos, cu "2" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4843,11 +4152,9 @@
 		<answer id="3">axiometrul*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>230,23,64,251</hint>
-
 	</question>
 
 	<question id="2170">
-
 		<name>În figura de mai jos, cu "2" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4857,11 +4164,9 @@
 		<answer id="3">vinciul* de ancoră.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>244,49</hint>
-
 	</question>
 
 	<question id="2171">
-
 		<name>În figura de mai jos, cu "3" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4871,11 +4176,9 @@
 		<answer id="3">electromotor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>49,102,45,24,216,100,244</hint>
-
 	</question>
 
 	<question id="2172">
-
 		<name>În figura de mai jos, cu "3" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4885,11 +4188,9 @@
 		<answer id="3">axiometrul*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>61,23,251,247</hint>
-
 	</question>
 
 	<question id="2173">
-
 		<name>În figura de mai jos, cu "3" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4899,11 +4200,9 @@
 		<answer id="3">ghidajele de lanț.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>144,244,49</hint>
-
 	</question>
 
 	<question id="2174">
-
 		<name>În figura de mai jos, cu "4" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4913,11 +4212,9 @@
 		<answer id="3">electromotorul.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>49,10,244</hint>
-
 	</question>
 
 	<question id="2175">
-
 		<name>În figura de mai jos, cu "4" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4927,11 +4224,9 @@
 		<answer id="3">axiometrul*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>23</hint>
-
 	</question>
 
 	<question id="2176">
-
 		<name>În figura de mai jos, cu "4" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4941,11 +4236,9 @@
 		<answer id="3">stopa* de lanț.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>144,244,216,49</hint>
-
 	</question>
 
 	<question id="2177">
-
 		<name>În figura de mai jos, cu "5" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4955,11 +4248,9 @@
 		<answer id="3">electromotor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>49,244</hint>
-
 	</question>
 
 	<question id="2178">
-
 		<name>În figura de mai jos, cu "5" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4969,11 +4260,9 @@
 		<answer id="3">cârma*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>61,251,247</hint>
-
 	</question>
 
 	<question id="2179">
-
 		<name>În figura de mai jos, cu "5" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4983,11 +4272,9 @@
 		<answer id="3">stopa* de lanț.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>244,216,49</hint>
-
 	</question>
 
 	<question id="2180">
-
 		<name>În figura de mai jos, cu "6" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -4997,11 +4284,9 @@
 		<answer id="3">electromotor.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>49,10,244</hint>
-
 	</question>
 
 	<question id="2181">
-
 		<name>În figura de mai jos, cu "6" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5011,11 +4296,9 @@
 		<answer id="3">transmisia de control.</answer>
 		<correct_answer>3</correct_answer>
 		<hint></hint>
-
 	</question>
 
 	<question id="2182">
-
 		<name>În figura de mai jos, cu "6" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5025,11 +4308,9 @@
 		<answer id="3">stopa* de lanț.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>244,216</hint>
-
 	</question>
 
 	<question id="2183">
-
 		<name>In figura de mai jos, cu "7" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5039,11 +4320,9 @@
 		<answer id="3">electromotor.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>144,10</hint>
-
 	</question>
 
 	<question id="2184">
-
 		<name>În figura de mai jos, cu "7" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5053,11 +4332,9 @@
 		<answer id="3">cârma*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>23,61,251,247</hint>
-
 	</question>
 
 	<question id="2185">
-
 		<name>În figura de mai jos, cu "7" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5067,11 +4344,9 @@
 		<answer id="3">putul de lant*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>144,178</hint>
-
 	</question>
 
 	<question id="2186">
-
 		<name>În figura de mai jos, cu "8" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5081,11 +4356,9 @@
 		<answer id="3">cârma*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>23,61,251,247</hint>
-
 	</question>
 
 	<question id="2187">
-
 		<name>În figura de mai jos, cu "8" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5095,11 +4368,9 @@
 		<answer id="3">puțul de lanț*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>144,178</hint>
-
 	</question>
 
 	<question id="2188">
-
 		<name>În figura de mai jos, cu "9" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5109,11 +4380,9 @@
 		<answer id="3">cârma*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>61,251,247</hint>
-
 	</question>
 
 	<question id="2189">
-
 		<name>În figura de mai jos, cu "9" s-a notat:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5123,11 +4392,9 @@
 		<answer id="3">puțul de lanț*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>144,178</hint>
-
 	</question>
 
 	<question id="2190">
-
 		<name>În figura de mai jos, saula "țin-te bine"* este notată cu:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5137,11 +4404,9 @@
 		<answer id="3">22.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>198</hint>
-
 	</question>
 
 	<question id="2191">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5151,11 +4416,9 @@
 		<answer id="3">volta la tachet*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>245,64,24,223,100</hint>
-
 	</question>
 
 	<question id="2192">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5165,11 +4428,9 @@
 		<answer id="3">volta la tachet*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>245,64,24,223,100</hint>
-
 	</question>
 
 	<question id="2193">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5179,11 +4440,9 @@
 		<answer id="3">volta la tachet*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>245,64,24,223,100</hint>
-
 	</question>
 
 	<question id="2194">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5193,11 +4452,9 @@
 		<answer id="3">matisirea unui ochi* de parâmă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>138,100,158</hint>
-
 	</question>
 
 	<question id="2195">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5207,11 +4464,9 @@
 		<answer id="3">matisirea unui ochi* de parâmă*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>138,100,158</hint>
-
 	</question>
 
 	<question id="2196">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5221,11 +4476,9 @@
 		<answer id="3">matisirea unui ochi* de parâmă*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>138,100,158</hint>
-
 	</question>
 
 	<question id="2197">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5235,11 +4488,9 @@
 		<answer id="3">legătură rotundă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2198">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5249,11 +4500,9 @@
 		<answer id="3">legătură rotundă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2199">
-
 		<name>În imaginea de mai jos este prezentată:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5263,11 +4512,9 @@
 		<answer id="3">legătură rotundă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2200">
-
 		<name>Instalația de acostare și legare:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5277,11 +4524,9 @@
 		<answer id="3">reprezintă un ansamblu de piese și mecanisme cu ajutorul cărora se asigură nava în locul voit și într-o poziție aleasă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="2201">
-
 		<name>Instalația de ancorare a navei reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5291,11 +4536,9 @@
 		<answer id="3">instalația cu care se realizează fixarea într-o poziție bine determinată a navei.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>106</hint>
-
 	</question>
 
 	<question id="2202">
-
 		<name>Instalația de ancorare:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5305,11 +4548,9 @@
 		<answer id="3">reprezintă un ansamblu de piese și mecanisme cu ajutorul cărora se asigură nava în locul voit și într-o poziție aleasă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint></hint>
-
 	</question>
 
 	<question id="2203">
-
 		<name>Instalația de guvernare* a navei reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5319,12 +4560,9 @@
 		<answer id="3">instalația cu care se realizează fixarea într-o poziție bine determinată a navei.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>120,106,230,64,251,23</hint>
-
-
 	</question>
 
 	<question id="2204">
-
 		<name>Instalația de guvernare*:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5334,11 +4572,9 @@
 		<answer id="3">reprezintă un ansamblu de piese și mecanisme destinate pentru a realiza deplasarea navei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>120,82,230,64,251,23</hint>
-
 	</question>
 
 	<question id="2205">
-
 		<name>Instalația de propulsie a navei:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5348,11 +4584,9 @@
 		<answer id="3">reprezintă un ansamblu de piese și mecanisme cu ajutorul cărora se asigură nava în locul voit și într-o poziție aleasă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>161</hint>
-
 	</question>
 
 	<question id="2206">
-
 		<name>La ce folosește un palanc* dublu?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5362,11 +4596,9 @@
 		<answer id="3">pentru ridicarea greutăților și la instalațiile de gruire*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>129,130,91,114,180,56,199,202,143</hint>
-
 	</question>
 
 	<question id="2207">
-
 		<name>La ce folosește un palanc* simplu?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5376,11 +4608,9 @@
 		<answer id="3">pentru ridicarea greutăților și la instalațiile cu gruie*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>129,130,91,114,180,56,199,202,143</hint>
-
 	</question>
 
 	<question id="2208">
-
 		<name>La ce se folosește o caliornă*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5390,11 +4620,9 @@
 		<answer id="3">este o parte componentă în instalațiile de ridicare ale navei.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>52,91,130,91,202,143</hint>
-
 	</question>
 
 	<question id="2209">
-
 		<name>La ce servesc orificile de pe fundul unei bărci?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5404,11 +4632,9 @@
 		<answer id="3">la introducerea prin ele a unui șurub de fund.</answer>
 		<correct_answer>2</correct_answer>
 		<hint></hint>
-
 	</question>
 
 	<question id="2210">
-
 		<name>La ce sunt folosite parâmele* de bumbac?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5418,11 +4644,9 @@
 		<answer id="3">la confecționarea saulelor* la ambarcațiuni sport și de agrement.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158,130,16,30,157,197,91,202,143,17,105,42,242,40,226,168,112,98,246,247,26,211,131,130,96,162,195,217,227,97,163,57,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2211">
-
 		<name>La ce sunt folosite parâmele* de cânepă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5432,12 +4656,9 @@
 		<answer id="3">la confecționarea saulelor* la ambarcațiuni sport și de agrement.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,130,16,30,157,197,91,202,143,17,105,42,242,40,226,168,112,98,246,247,26,211,131,130,96,162,195,217,227,97,163,57,166,88,241,229,121,240</hint>
-
-
 	</question>
 
 	<question id="2212">
-
 		<name>La ce sunt folosite parâmele* de cocos?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5447,12 +4668,9 @@
 		<answer id="3">la confecționarea saulelor* la ambarcațiuni sport și de agrement.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,130,16,30,157,197,91,202,143,17,105,42,242,40,226,168,112,98,246,247,26,211,131,130,96,162,195,217,227,97,163,57,166,88,241,229,121,240</hint>
-
-
 	</question>
 
 	<question id="2213">
-
 		<name>La navele fluviale instalația auxiliară de guvernare* trebuie să asigure punerea cârmei bandă*, dintr-un bord în altul:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5462,11 +4680,9 @@
 		<answer id="3">în maxim 30 secunde, de la 40 grade într-un bord, la 35 grade în celălalt bord.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>120,61,230,64,251,23,251,247</hint>
-
 	</question>
 
 	<question id="2214">
-
 		<name>La navele fluviale, instalația principală de guvernare* trebuie să asigure punerea cârmei bandă*, dintr-un bord în altul.</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5476,11 +4692,9 @@
 		<answer id="3">în maxim 30 secunde, de la 40 grade într-un bord, la 35 grade în celălalt bord.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>120,61,230,64,251,23,251,247</hint>
-
 	</question>
 
 	<question id="2215">
-
 		<name>La parâmele* metalice, prin diametrul secțiunii se măsoară:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5490,11 +4704,9 @@
 		<answer id="3">rezistența.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2216">
-
 		<name>La parâmele vegetale și sintetice circumferința ei reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5504,11 +4716,9 @@
 		<answer id="3">rezistența.</answer>
 		<correct_answer>2</correct_answer>
 		<hint></hint>
-
 	</question>
 
 	<question id="2217">
-
 		<name>Macaralele în marinarie sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5518,11 +4728,9 @@
 		<answer id="3">instalații compuse dintr-un ansanmblu de grinzi metalice sudate sau nituite aflate pe nave.</answer>
 		<correct_answer>1</correct_answer>
 		<hint></hint>
-
 	</question>
 
 	<question id="2218">
-
 		<name>Macaraua alunecătoare este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5532,11 +4740,9 @@
 		<answer id="3">macara care alunecă pe un pod rulant.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2219">
-
 		<name>Mai multe cordoane răsucite formează:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5546,11 +4752,9 @@
 		<answer id="3">lanțană*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>99,126</hint>
-
 	</question>
 
 	<question id="2220">
-
 		<name>Mai multe fire răsucite între ele formează:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5560,11 +4764,9 @@
 		<answer id="3">sfilață*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>222,126,205</hint>
-
 	</question>
 
 	<question id="2221">
-
 		<name>Mai multe parâme* simple formează:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5574,11 +4776,9 @@
 		<answer id="3">lanțană*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,99,126</hint>
-
 	</question>
 
 	<question id="2222">
-
 		<name>Mai multe sfilațe*, răsucite între ele, formează:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5588,11 +4788,9 @@
 		<answer id="3">un cordon.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>205,222,126</hint>
-
 	</question>
 
 	<question id="2223">
-
 		<name>Mai multe șuvițe* răsucite între le formează:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5602,11 +4800,9 @@
 		<answer id="3">lanțană*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>222,99,126</hint>
-
 	</question>
 
 	<question id="2224">
-
 		<name>Mandarul* dublu este format din:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5616,11 +4812,9 @@
 		<answer id="3">două macarale mobile și un curent care are un capăt fix și celălalt trăgător.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2225">
-
 		<name>Mandarul* dublu este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5630,11 +4824,9 @@
 		<answer id="3">un palanc* format din două macarale și un curent.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2226">
-
 		<name>Mandarul* dublu se folosește pentru:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5644,11 +4836,9 @@
 		<answer id="3">ridicarea obiectelor foarte grele de la bord.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2227">
-
 		<name>Mandarul* simplu este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5658,11 +4848,9 @@
 		<answer id="3">dispozitiv de ridicat alcătuit dintr-o macara mobilă prin care trece un curent.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2228">
-
 		<name>Mandarul* simplu este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5672,11 +4860,9 @@
 		<answer id="3">rolă de susținere a unei macarale.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2229">
-
 		<name>Mandarul* simplu se folosește pentru:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5686,11 +4872,9 @@
 		<answer id="3">ridicarea obiectelor foarte grele de la bord.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>129,180,56,199</hint>
-
 	</question>
 
 	<question id="2230">
-
 		<name>Mațagonirea* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5700,11 +4884,9 @@
 		<answer id="3">operațiunea de aplicare a grundului pe suprafețe curățate de rugină.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>136,92,135</hint>
-
 	</question>
 
 	<question id="2231">
-
 		<name>Nodul* de ancoră este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5714,11 +4896,9 @@
 		<answer id="3">de cârlig.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2232">
-
 		<name>Nodul* de capelatură* este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5728,11 +4908,9 @@
 		<answer id="3">special.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,57</hint>
-
 	</question>
 
 	<question id="2233">
-
 		<name>Nodul* de gripie este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5742,11 +4920,9 @@
 		<answer id="3">special.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2234">
-
 		<name>Nodul* de pescar este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5756,11 +4932,9 @@
 		<answer id="3">de cârlig.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2235">
-
 		<name>Nodul* de scaun este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5770,11 +4944,9 @@
 		<answer id="3">de cârlig.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2236">
-
 		<name>Nodul* de schela este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5784,11 +4956,9 @@
 		<answer id="3">special.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2237">
-
 		<name>Nodul* de văcar este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5798,11 +4968,9 @@
 		<answer id="3">de cârlig.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2238">
-
 		<name>Nodul* gură de știucă este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5812,11 +4980,9 @@
 		<answer id="3">de cârlig.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2239">
-
 		<name>Nodul* laț este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5826,11 +4992,9 @@
 		<answer id="3">de cârlig.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2240">
-
 		<name>Nodul* picior de câine este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5840,11 +5004,9 @@
 		<answer id="3">special.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2241">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5854,11 +5016,9 @@
 		<answer id="3">laț.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2242">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5868,11 +5028,9 @@
 		<answer id="3">de împreunare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2243">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5882,11 +5040,9 @@
 		<answer id="3">laț.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2244">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5896,11 +5052,9 @@
 		<answer id="3">ochi.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2245">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5910,11 +5064,9 @@
 		<answer id="3">de înnăditură.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2246">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5924,11 +5076,9 @@
 		<answer id="3">de înnăditură.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2247">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5938,11 +5088,9 @@
 		<answer id="3">ochi.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2248">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5952,11 +5100,9 @@
 		<answer id="3">ochi.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2249">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5966,11 +5112,9 @@
 		<answer id="3">ochi.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2250">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5980,11 +5124,9 @@
 		<answer id="3">ochi.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153,201,202</hint>
-
 	</question>
 
 	<question id="2251">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -5994,11 +5136,9 @@
 		<answer id="3">ochi.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,201</hint>
-
 	</question>
 
 	<question id="2252">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6008,11 +5148,9 @@
 		<answer id="3">foarfece.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153,202,10</hint>
-
 	</question>
 
 	<question id="2253">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6022,11 +5160,9 @@
 		<answer id="3">ochi.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,201,202</hint>
-
 	</question>
 
 	<question id="2254">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6036,11 +5172,9 @@
 		<answer id="3">de scaun.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153,202</hint>
-
 	</question>
 
 	<question id="2255">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6050,11 +5184,9 @@
 		<answer id="3">gură de știucă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,202</hint>
-
 	</question>
 
 	<question id="2256">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6064,11 +5196,9 @@
 		<answer id="3">de scaun.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2257">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6078,11 +5208,9 @@
 		<answer id="3">de gripie*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,34,113,197,56,180,199</hint>
-
 	</question>
 
 	<question id="2258">
-
 		<name>Nodul* prezentat in imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6092,11 +5220,9 @@
 		<answer id="3">de gripie*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153,34,113,197,56,180,199</hint>
-
 	</question>
 
 	<question id="2259">
-
 		<name>Nodul* prezentat in imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6106,11 +5232,9 @@
 		<answer id="3">de gripie*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,34,113,197,56,180,199</hint>
-
 	</question>
 
 	<question id="2260">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6120,11 +5244,9 @@
 		<answer id="3">de capelatură*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,113,195,57,56,180,199,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2261">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6134,11 +5256,9 @@
 		<answer id="3">de capelatură*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,113,195,57,56,180,199,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2262">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6148,11 +5268,9 @@
 		<answer id="3">de capelatură*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2263">
-
 		<name>Nodul* prezentat în imaginea de mai jos este un nod:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6162,11 +5280,9 @@
 		<answer id="3">de ancoră.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2264">
-
 		<name>Nodurile* de cârlig sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6176,11 +5292,9 @@
 		<answer id="3">nodurile folosite la fixarea unui capăt de parâmă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153,158</hint>
-
 	</question>
 
 	<question id="2265">
-
 		<name>Nodurile* de împreunare  sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6190,11 +5304,9 @@
 		<answer id="3">nodurile folosite la fixarea unui capăt de parâmă.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,145,158</hint>
-
 	</question>
 
 	<question id="2266">
-
 		<name>Nodurile* de legătură sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6204,11 +5316,9 @@
 		<answer id="3">nodurile folosite la fixarea unui capăt de parâma.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,158</hint>
-
 	</question>
 
 	<question id="2267">
-
 		<name>Nodurile* prezentate în imaginea de mai jos sunt noduri:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6218,11 +5328,9 @@
 		<answer id="3">de scaun.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2268">
-
 		<name>Obiectele din alamă și bronz se piturează*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6232,11 +5340,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>1</hint>
-
 	</question>
 
 	<question id="2269">
-
 		<name>Palancurile* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6246,11 +5352,9 @@
 		<answer id="3">ansamble alcătuite din mai multe bigi* sau cranice* folosite la ridicarea de greutăți și deschiderea capacelor de magazii.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>129,180,40,73,56,199,158</hint>
-
 	</question>
 
 	<question id="2270">
-
 		<name>Parâmele* de bumbac sunt folosite la confecționarea baloanelor* și paietelor*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6260,11 +5364,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>30,157,158</hint>
-
 	</question>
 
 	<question id="2271">
-
 		<name>Parâmele* de bumbac sunt folosite la confecționarea manevrelor curente*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6274,11 +5376,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,130,91,202,143</hint>
-
 	</question>
 
 	<question id="2272">
-
 		<name>Parâmele* de bumbac sunt folosite la confecționarea saulelor* la ambarcațiuni sport și de agrement?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6288,11 +5388,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,197</hint>
-
 	</question>
 
 	<question id="2273">
-
 		<name>Parâmele* de cânepă sunt confecționate din fire de cânepă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6302,11 +5400,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153</hint>
-
 	</question>
 
 	<question id="2274">
-
 		<name>Parâmele* de cânepă sunt folosite la confecționarea baloanelor* și paietelor*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6316,11 +5412,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,30,157</hint>
-
 	</question>
 
 	<question id="2275">
-
 		<name>Parâmele* de cânepă sunt folosite la confecționarea manevrelor curente*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6330,11 +5424,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,130,91,202,143</hint>
-
 	</question>
 
 	<question id="2276">
-
 		<name>Parâmele* de cânepă sunt folosite la confecționarea saulelor* la ambarcațiuni sport și de agrement?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6344,11 +5436,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,197</hint>
-
 	</question>
 
 	<question id="2277">
-
 		<name>Parâmele* de cocos sunt folosite la confecționarea baloanelor* și paietelor*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6358,11 +5448,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,30,157</hint>
-
 	</question>
 
 	<question id="2278">
-
 		<name>Parâmele* de cocos sunt folosite la confecționarea manevrelor curente*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6372,11 +5460,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,130,91,202,143</hint>
-
 	</question>
 
 	<question id="2279">
-
 		<name>Parâmele* de manila sunt confecționate din fibrele unui bananier?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6386,11 +5472,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2280">
-
 		<name>Parâmele* de manila sunt confecționate din fire de cânepă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6400,11 +5484,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2281">
-
 		<name>Parâmele* de sizal sunt confecționate din fire de cânepă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6414,11 +5496,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2282">
-
 		<name>Parâmele* de sizal sunt confecționate din frunzele unui cactus?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6428,11 +5508,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2283">
-
 		<name>Parâmele* metalice de 6x12 sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6442,11 +5520,9 @@
 		<answer id="3">flexibile.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2284">
-
 		<name>Parâmele* metalice de 6x19 sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6456,11 +5532,9 @@
 		<answer id="3">flexibile.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2285">
-
 		<name>Parâmele* metalice de 6x24 sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6470,11 +5544,9 @@
 		<answer id="3">flexibile.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2286">
-
 		<name>Parâmele* metalice de 6x37 sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6484,11 +5556,9 @@
 		<answer id="3">flexibile.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2287">
-
 		<name>Parâmele* metalice de 6x61 sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6498,11 +5568,9 @@
 		<answer id="3">flexibile.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2288">
-
 		<name>Parâmele* metalice de 6x7 sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6512,11 +5580,9 @@
 		<answer id="3">flexibile.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2289">
-
 		<name>Parâmele* metalice flexibile se folosesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6526,11 +5592,9 @@
 		<answer id="3">la curenții bigilor*, la palancuri*, la remorci.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158,26,131,40,129,105,226,168,143,211,197,131,26,150,162,195,217,227,163,57,16,42,166,88,241,229,17,242,112,98,121,246,247,130,96,240,91,202,143,97</hint>
-
 	</question>
 
 	<question id="2290">
-
 		<name>Parâmele* metalice rigide se folosesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6540,11 +5604,9 @@
 		<answer id="3">la curenții bigilor*, la palancuri*, la remorci.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,26,131,40,129,105,226,168,143,211,197,131,26,150,162,195,217,227,163,57,16,42,166,88,241,229,17,242,112,98,121,246,247,130,96,240,91,202,143,97</hint>
-
 	</question>
 
 	<question id="2291">
-
 		<name>Parâmele* metalice se împart în trei categorii astfel:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6554,11 +5616,9 @@
 		<answer id="3">parâme semirigide, parâme semiflexibile, parâme flexibile.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2292">
-
 		<name>Parâmele* metalice semirigide se folosesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6568,11 +5628,9 @@
 		<answer id="3">la curenții bigilor*, la palancuri*, la remorci</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,26,131,40,129,105,226,168,143,211,197,131,26,150,162,195,217,227,163,57,16,42,166,88,241,229,17,242,112,98,121,246,247,130,96,240,91,202,143,97</hint>
-
 	</question>
 
 	<question id="2293">
-
 		<name>Parâmele* răsucite se numesc și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6582,11 +5640,9 @@
 		<answer id="3">gașe*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,99,126,100</hint>
-
 	</question>
 
 	<question id="2294">
-
 		<name>Parâmele* simple se numesc și:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6596,11 +5652,9 @@
 		<answer id="3">cordoane.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,99,126</hint>
-
 	</question>
 
 	<question id="2295">
-
 		<name>Parâmele* sintetice trebuie ferite de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6610,11 +5664,9 @@
 		<answer id="3">nu trebuie aplicate măsuri speciale.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2296">
-
 		<name>Parâmele* de cânepă sunt confectionaste din fibrele unui bananier?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6624,11 +5676,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2297">
-
 		<name>Părțile componente ale unei elice* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6638,11 +5688,9 @@
 		<answer id="3">babale*, parâme*, turnicheți*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>253,24,158,238,100,209,10</hint>
-
 	</question>
 
 	<question id="2298">
-
 		<name>Părțile componente ale unui catarg* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6652,11 +5700,9 @@
 		<answer id="3">butuc și crucetă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>17,95,18,74,94,162,163,195,57,16,42,17,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,20,96,227,91,202,97,229</hint>
-
 	</question>
 
 	<question id="2299">
-
 		<name>Păstrarea parâmelor* vegetale se face ferindu-se de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6666,11 +5712,9 @@
 		<answer id="3">nu trebuie măsuri speciale pentru păstrare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2300">
-
 		<name>Pataraținele* navei* susțin arborii* înspre prova*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6680,11 +5724,9 @@
 		<answer id="3">nu.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>162,163,145,17,176</hint>
-
 	</question>
 
 	<question id="2301">
-
 		<name>Patronarea* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6694,11 +5736,9 @@
 		<answer id="3">punerea unei rodanțe* la gașe* cu scopul de protecție a acesteia.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>164,240,197,187,100,139,105,168,26,197,40,143,211</hint>
-
 	</question>
 
 	<question id="2302">
-
 		<name>Pe o navă* pot există mai multe catarge* pentru montarea luminilor de semnalizare?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6708,11 +5748,9 @@
 		<answer id="3">da.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>145,17</hint>
-
 	</question>
 
 	<question id="2303">
-
 		<name>Pentru ca o nava* să pluteasa în stare de echilibru este necesar ca:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6722,11 +5760,9 @@
 		<answer id="3">centrul de greutate a navei și centrul de carenă să fie unic.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145,58</hint>
-
 	</question>
 
 	<question id="2304">
-
 		<name>Pentru că o nava* să plutească în stare de echilibru este necesar ca:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6736,11 +5772,9 @@
 		<answer id="3">greutatea apei deslocuite de navă să fie mai mare decât greutatea navei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 	<question id="2305">
-
 		<name>Piturarea* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6750,11 +5784,9 @@
 		<answer id="3">operațiunea de aplicare a vopselei peste suprafețe grunduite.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>1</hint>
-
 	</question>
 
 	<question id="2306">
-
 		<name>Prin ce se transmite puterea motorului principal de propulsie la propulsor?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6764,11 +5796,9 @@
 		<answer id="3">bulbul navei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>253,254</hint>
-
 	</question>
 
 	<question id="2307">
-
 		<name>Principiul lui Arhimede se aplică:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6778,11 +5808,9 @@
 		<answer id="3">oricărui corp scufundat în apă.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2308">
-
 		<name>Rodanțele* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6792,11 +5820,9 @@
 		<answer id="3">dispozitive de vitalitate.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>187,100</hint>
-
 	</question>
 
 	<question id="2309">
-
 		<name>Sabordurile* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6806,11 +5832,9 @@
 		<answer id="3">deschideri în punte destinate pentru iluminarea și aerisirea compartimentului mașini, căldări.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>193,43</hint>
-
 	</question>
 
 	<question id="2310">
-
 		<name>Sarcina la care parâma* se rupe reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6820,11 +5844,9 @@
 		<answer id="3">rezistența parâmei.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2311">
-
 		<name>Sarturile* navei susțin arborii* in plan longitudinal.</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6834,11 +5856,9 @@
 		<answer id="3">nu.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>195,17,57,16,42,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2312">
-
 		<name>Saula "țin-te bine"* se întâlnește la:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6848,11 +5868,9 @@
 		<answer id="3">bărcile de serviciu și bărcile de salvare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>198</hint>
-
 	</question>
 
 	<question id="2313">
-
 		<name>Se poate da a două mâna de vopsea dacă nu s-a uscat primul strat de vopsea?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6862,11 +5880,9 @@
 		<answer id="3">nu contează.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2314">
-
 		<name>Straiurile* navei susțin arborii* in plan longitudinal?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6876,11 +5892,9 @@
 		<answer id="3">nu.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>195,17,57,16,42,105,242,40,226,168,112,98,246,247,26,143,211,197,131,130,96,162,217,227,91,202,97,163,166,88,241,229,121,240</hint>
-
 	</question>
 
 	<question id="2315">
-
 		<name>Stringherii* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6890,11 +5904,9 @@
 		<answer id="3">un element de osatură longitudinal, situat pe fundul navei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>77,156,43,66,59,60,85,84,77,68,236,239,172,118,76,32,31</hint>
-
 	</question>
 
 	<question id="2316">
-
 		<name>Sunt elemente componente ale instalației de ancorare:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6904,11 +5916,9 @@
 		<answer id="3">vinciuri de balansină*, balansina și cârlig de sarcină.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>216,244,144,24,158,238,26,100,40,105,226,168,143,211,197</hint>
-
 	</question>
 
 	<question id="2317">
-
 		<name>Sunt elemente componente ale instalației de ancorare:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6918,11 +5928,9 @@
 		<answer id="3">straiurile*, sarturile* și pataraținele*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>91,46,217,194,162,242,114,226,168,246,247,26,143,211,197,40,105,166,88,241,121,20,240,57,16,42,17,112,98,131,130,96,227,202,97,163,166,88,241,229,121,240,163</hint>
-
 	</question>
 
 	<question id="2318">
-
 		<name>Sunt noduri* de cârlig:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6932,11 +5940,9 @@
 		<answer id="3">nodul gură de știucă, nodul de remorcă, nodul de cârlig.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,201</hint>
-
 	</question>
 
 	<question id="2319">
-
 		<name>Sunt noduri* de împreunare:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6946,11 +5952,9 @@
 		<answer id="3">lațul, foarfecele, nodul de scotă*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>153,202</hint>
-
 	</question>
 
 	<question id="2320">
-
 		<name>Sunt noduri* de legătură:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6960,12 +5964,10 @@
 		<answer id="3">nodul gură de știucă, nodul de remorcă, nodul de cârlig.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>153,201</hint>
-
 	</question>
 
 
 	<question id="2321">
-
 		<name>Sunt noduri* de legătură:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6975,11 +5977,9 @@
 		<answer id="3">lațul, foarfecele, nodul de scotă*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>153,202</hint>
-
 	</question>
 
 	<question id="2322">
-
 		<name>Sunt parâme* metalice flexibile, parâmele de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -6989,11 +5989,9 @@
 		<answer id="3">6x7 și 6x19.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2323">
-
 		<name>Tambuchirile* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7003,11 +6001,9 @@
 		<answer id="3">deschideri în punte destinate pentru iluminarea și aerisirea compartimentului mașini, căldări.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>224</hint>
-
 	</question>
 
 	<question id="2324">
-
 		<name>Timona* reprezintă un element component al instalației de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7017,11 +6013,9 @@
 		<answer id="3">ancorare.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>230,120,64,251,23</hint>
-
 	</question>
 
 	<question id="2325">
-
 		<name>Umezeală alterează parâmele* vegetale?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7031,11 +6025,9 @@
 		<answer id="3">uneori.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2326">
-
 		<name>Unde se află puntirile bărcii?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7045,11 +6037,9 @@
 		<answer id="3">pe fundul bărcii.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>177,176</hint>
-
 	</question>
 
 	<question id="2327">
-
 		<name>Unde se fixează cârma* unei bărci?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7059,11 +6049,9 @@
 		<answer id="3">în tribord*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>61,177,176,237,251,247</hint>
-
 	</question>
 
 	<question id="2328">
-
 		<name>Unde stau persoanele transportate în barcă?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7073,11 +6061,9 @@
 		<answer id="3">în prova* bărcii.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>176</hint>
-
 	</question>
 
 	<question id="2329">
-
 		<name>Varangele* reprezintă elemente de construcție ale navei* dispuse în planul:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7087,11 +6073,9 @@
 		<answer id="3">transversal.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>239,145</hint>
-
 	</question>
 
 	<question id="2330">
-
 		<name>Voltele* în cadrul lucrărilor de matelotaj* sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7101,11 +6085,9 @@
 		<answer id="3">întoarceri ale navelor* sub acțiunea vântului.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>245,137,153,158,145</hint>
-
 	</question>
 
 	<question id="2331">
-
 		<name>Voltele* se pot face la:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7115,11 +6097,9 @@
 		<answer id="3">baba, galion*, goling*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>245,24,223,64,238,209,98,109,100,17,96,97</hint>
-
 	</question>
 
 	<question id="2332">
-
 		<name>Adâncimea apei se măsoară cu:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7129,11 +6109,9 @@
 		<answer id="3">barometrul.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>127,210,197</hint>
-
 	</question>
 
 	<question id="2333">
-
 		<name>Aparatoarele gașelor* mici la parâme* se numesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7143,11 +6121,9 @@
 		<answer id="3">binte*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>100,115,187,24,158</hint>
-
 	</question>
 
 	<question id="2334">
-
 		<name>Ancora cu patru brațe este folosită:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7157,11 +6133,9 @@
 		<answer id="3">la mare, în ape de adâncime medie.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2335">
-
 		<name>Barbetele* sunt bucăți de parâmă* fixate la prova* și pupa* bărcii și servesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7171,11 +6145,9 @@
 		<answer id="3">pentru legare sau remorcat.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>35,5,75,176,177</hint>
-
 	</question>
 
 	<question id="2336">
-
 		<name>Babalele* sunt piese metalice din fontă sau oțel, simple sau duble și servesc pentru:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7185,11 +6157,9 @@
 		<answer id="3">luarea voltelor* cu parâme*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>24,11,245,100,145,158</hint>
-
 	</question>
 
 	<question id="2337">
-
 		<name>Care este elementul de bază la structura oricărui tip de parâmă*:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7199,11 +6169,9 @@
 		<answer id="3">garlinul*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,126,99</hint>
-
 	</question>
 
 	<question id="2338">
-
 		<name>Cablurile fixate de cârmă*, cu ajutorul cărora se guvernează, se numesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7213,11 +6181,9 @@
 		<answer id="3">pene.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>61,251,247</hint>
-
 	</question>
 
 	<question id="2339">
-
 		<name>Cârma* se compune din:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7227,11 +6193,9 @@
 		<answer id="3">pană și damă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>61,79,251,247</hint>
-
 	</question>
 
 	<question id="2340">
-
 		<name>Capacitatea parâmei* de a se îndoi, fără a-și modifica structura interioară, reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7241,11 +6205,9 @@
 		<answer id="3">rezistența paramei.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2341">
-
 		<name>Ce se înțelege prin "bătaia parâmei*":</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7255,11 +6217,9 @@
 		<answer id="3">operațiunea prin care firele sunt răsucite.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>158,219,50,116</hint>
-
 	</question>
 
 	<question id="2342">
-
 		<name>Ce se înțelege prin "pieptănarea parâmei*":</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7269,11 +6229,9 @@
 		<answer id="3">operațiunea prin care firele sunt răsucite.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,219,50,116</hint>
-
 	</question>
 
 	<question id="2343">
-
 		<name>Ce se înțelege prin "toarcerea parâmei*":</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7283,11 +6241,9 @@
 		<answer id="3">operațiunea prin care firele sunt răsucite.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158,219,50,116</hint>
-
 	</question>
 
 	<question id="2344">
-
 		<name>Ce înțelegeți prin graparea ancorei:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7297,11 +6253,9 @@
 		<answer id="3">ancora s-a agățat într-un corp dur pe fundul apei.</answer>
 		<correct_answer>2</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2345">
-
 		<name>Ce reprezintă un cui de strapazan*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7311,11 +6265,9 @@
 		<answer id="3">un cui de lemn așezat la prova* de care se leagă barca.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>218,43,79,176</hint>
-
 	</question>
 
 	<question id="2346">
-
 		<name>Ce reprezintă voltele*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7325,11 +6277,9 @@
 		<answer id="3">ochiurile făcute de o parâmă semirigidă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>245,158</hint>
-
 	</question>
 
 	<question id="2347">
-
 		<name>Ce reprezintă patronarea* unei parâme*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7339,11 +6289,9 @@
 		<answer id="3">eliminarea unei porțiuni uzate.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>164,139,158</hint>
-
 	</question>
 
 	<question id="2348">
-
 		<name>Ce trebuie verificat la primirea parâmelor* vegetale la bord?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7353,11 +6301,9 @@
 		<answer id="3">să nu fie îndoite.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158</hint>
-
 	</question>
 
 	<question id="2349">
-
 		<name>Dacă o parâmă* intră în compunerea altei parâme, mai groase, aceasta va purta denumirea de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7367,11 +6313,9 @@
 		<answer id="3">cordon*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>158,126,99,255</hint>
-
 	</question>
 
 	<question id="2350">
-
 		<name>Dama* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7381,11 +6325,9 @@
 		<answer id="3">locul în care se întâlnesc filele de bordaj cu copastia*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>79,43,72</hint>
-
 	</question>
 
 	<question id="2351">
-
 		<name>Dispozitivele de construcție specială, fixate în bordaj*, cu rol de ghidare a parâmei*, se numesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7395,11 +6337,9 @@
 		<answer id="3">tacheți*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>43,187,223,209,238</hint>
-
 	</question>
 
 	<question id="2352">
-
 		<name>Dispozitivele de construcție specială, fixate în punte, cu rol de ghidare a parâmei*, se numesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7409,11 +6349,9 @@
 		<answer id="3">tacheți*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>43,187,223,209,238</hint>
-
 	</question>
 
 	<question id="2353">
-
 		<name>Elementele de osatură* transversale, fixate pe chilă* la intervale egale, se numesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7423,11 +6361,9 @@
 		<answer id="3">traverse*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>156,224,87,68,236,66,59,60,85,84,77,239,172,118,76,32,31</hint>
-
 	</question>
 
 	<question id="2354">
-
 		<name>Etamboul* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7437,11 +6373,9 @@
 		<answer id="3">prelungirea chilei în pupa*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>84,66,85,84,237,25,176,177</hint>
-
 	</question>
 
 	<question id="2355">
-
 		<name>Fiecare rând de scânduri sau de table al învelișului (bordajului*) exterior se numește:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7451,11 +6385,9 @@
 		<answer id="3">filă*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>43,236,72,87</hint>
-
 	</question>
 
 	<question id="2356">
-
 		<name>În general, o ancoră* se compune din următoarele părți:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7465,11 +6397,9 @@
 		<answer id="3">inel, traversă, brațe și pană.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>10,251</hint>
-
 	</question>
 
 	<question id="2357">
-
 		<name>În cazul unei rame, pana reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7479,11 +6409,9 @@
 		<answer id="3">partea lată în formă de lopată.</answer>
 		<correct_answer>3</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2358">
-
 		<name>În cazul unei ancore*, diamantul este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7493,11 +6421,9 @@
 		<answer id="3">locul de împreunare a brațelor cu fusul.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>10</hint>
-
 	</question>
 
 	<question id="2359">
-
 		<name>La ce folosește podul* în cazul zalei de ancoră:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7507,11 +6433,9 @@
 		<answer id="3">mărește rezistența la întindere și împiedică încurcarea.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>256,144</hint>
-
 	</question>
 
 	<question id="2360">
-
 		<name>La navele* mici, locul babalelor* poate fi luat de:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7521,11 +6445,9 @@
 		<answer id="3">turnicheți*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>24,233,223,238,100,145</hint>
-
 	</question>
 
 	<question id="2361">
-
 		<name>La ce folosește operațiunea de matisire*?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7535,11 +6457,9 @@
 		<answer id="3">sporirea rezistenței la rupere a parâmei.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>138,158,100</hint>
-
 	</question>
 
 	<question id="2362">
-
 		<name>Locul de îmbinare a filelor* se numește:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7549,11 +6469,9 @@
 		<answer id="3">bintă*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>87,117,24,100</hint>
-
 	</question>
 
 	<question id="2363">
-
 		<name>O babă* simplă, formată dintr-o singură coloană prevăzută cu traversă se numește:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7563,11 +6481,9 @@
 		<answer id="3">bintă*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>24,233,238,100</hint>
-
 	</question>
 
 	<question id="2364">
-
 		<name>Orificiul rotund prin care trece axul cârmei* se numește:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7577,11 +6493,9 @@
 		<answer id="3">etambreu*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>61,214,85,251,247</hint>
-
 	</question>
 
 	<question id="2365">
-
 		<name>Parâma* obținută din răsucirea a trei șuvițe* se numește:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7591,11 +6505,9 @@
 		<answer id="3">parâmă simplă sau cordon.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>158,222,126,99</hint>
-
 	</question>
 
 	<question id="2366">
-
 		<name>Piesa de rezistenta situata in extremitatea prova*, constituind o prelungire a chilei*, se numeste:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7605,11 +6517,9 @@
 		<answer id="3">carlinga*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>66,59,85,84,176</hint>
-
 	</question>
 
 	<question id="2367">
-
 		<name>Piesa fundamentală de rezistență a oricărei nave*, situată în plan diametral, de la prova* la pupa*, se numește:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7619,11 +6529,9 @@
 		<answer id="3">etambou*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>66,85,84,84,145,176</hint>
-
 	</question>
 
 	<question id="2368">
-
 		<name>Piesele metalice de ghidare a parâmelor* eliminând frecarea se numesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7633,11 +6541,9 @@
 		<answer id="3">turnicheți*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>24,238,100,158</hint>
-
 	</question>
 
 	<question id="2369">
-
 		<name>Piesele metalice mai mici, care servesc la luarea voltelor* cu parâme* mai subțiri, se numesc:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7647,11 +6553,9 @@
 		<answer id="3">turnicheți*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>245,223,233,238,158</hint>
-
 	</question>
 
 	<question id="2370">
-
 		<name>Cum se măsoară calibrul lanțului de ancoră?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7661,11 +6565,9 @@
 		<answer id="3">lățimea maximă a zalei la exterior.</answer>
 		<correct_answer>1</correct_answer>
 		<hint/>
-
 	</question>
 
 	<question id="2371">
-
 		<name>Părțile componente ale unei macarale sunt:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7675,11 +6577,9 @@
 		<answer id="3">căpățâna, raiul, spiraiul*.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>56,180,199,56,212</hint>
-
 	</question>
 
 	<question id="2372">
-
 		<name>Pescajul* navei* reprezintă:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7689,11 +6589,9 @@
 		<answer id="3">distanța măsurată pe verticală, de la linia de baza până la linia de plutire.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>167,76,58,145</hint>
-
 	</question>
 
 	<question id="2373">
-
 		<name>Un observator care stă pe puntea navei* cu fața spre prova*, are în dreapta:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7703,11 +6601,9 @@
 		<answer id="3">cuplul maestru*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>176,25,237,76,145</hint>
-
 	</question>
 
 	<question id="2374">
-
 		<name>Raiul* unei macarale este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7717,11 +6613,9 @@
 		<answer id="3">piesă de susținere a macaralei.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>180,56,199</hint>
-
 	</question>
 
 	<question id="2375">
-
 		<name>Viteza unei ambarcațiuni se măsoară cu:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7731,11 +6625,9 @@
 		<answer id="3">lochul*.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>210,127</hint>
-
 	</question>
 
 	<question id="2376">
-
 		<name>Unde se păstrează parâmele* pentru uzul curent?</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7745,11 +6637,9 @@
 		<answer id="3">într-un cofferdam*.</answer>
 		<correct_answer>2</correct_answer>
 		<hint>70,158</hint>
-
 	</question>
 
 	<question id="2377">
-
 		<name>Sbirul* unei macarale este:</name>
 		<category>1</category>
 		<subcategory>2</subcategory>
@@ -7759,12 +6649,10 @@
 		<answer id="3">piesă de susținere a macaralei.</answer>
 		<correct_answer>3</correct_answer>
 		<hint>199,56,180</hint>
-
 	</question>
 
 
 	<question id="3001">
-
 		<name>Acostarea reprezintă apropierea unei nave* de:</name>
 		<category>1</category>
 		<subcategory>3</subcategory>
@@ -7774,12 +6662,9 @@
 		<answer id="3">cheu, doc, platformă, debarcader, fluviu, geamandură, altă navă.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>65,101,161,145</hint>
-
 	</question>
 
-
 	<question id="3002">
-
 		<name>Alegerea remorcii se face funcție de:</name>
 		<category>1</category>
 		<subcategory>3</subcategory>
@@ -7789,7 +6674,6 @@
 		<answer id="3">rezistență la înaintare, coeficientul bloc, dimensiunile navei remorcate.</answer>
 		<correct_answer>1</correct_answer>
 		<hint>145</hint>
-
 	</question>
 
 

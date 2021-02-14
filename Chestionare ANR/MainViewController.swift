@@ -55,6 +55,7 @@ class MainViewController: UIViewController, TestResultProtocol {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
+        
         commercialTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeCommercial), userInfo: nil, repeats: true);
         
         AppUtility.lockOrientation(.portrait, andRotateTo: .portrait);
