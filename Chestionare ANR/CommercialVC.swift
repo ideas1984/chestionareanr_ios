@@ -9,23 +9,27 @@
 import UIKit
 
 class CommercialVC: UIViewController {
-    
-    @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var closeButton: UIButton!
+    @IBOutlet weak var polymorphicView: UIView!
+    var timeLabel1: UILabel?;
     
     var timeLeftCalculatorTimer: Timer?;
-    var secondsToWait = 10;
+    var secondsToWait = 3;
     
     override func viewDidLoad() {
         super.viewDidLoad();
-        closeButton.isHidden = true;
+        
+        timeLabel1 = UILabel();
+        timeLabel1?.text = "\(secondsToWait)";
+        timeLabel1?.textAlignment = .center;
+        timeLabel1?.font = UIFont.systemFont(ofSize: 26);
+        setView(timeLabel1!);
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
         if(secondsToWait > 0 ) {
-            timeLabel.text = "\(secondsToWait)";
+            timeLabel1?.text = "\(secondsToWait)";
             timeLeftCalculatorTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimeLeft), userInfo: nil, repeats: true);
         }
     }
@@ -35,7 +39,7 @@ class CommercialVC: UIViewController {
         timeLeftCalculatorTimer?.invalidate();
     }
     
-    @IBAction func closeClicked(_ sender: Any) {
+    @IBAction func closeClicked(_ sender: UIView) {
         if let nav = self.navigationController {
             nav.popViewController(animated: true);
         } else {
@@ -48,11 +52,28 @@ class CommercialVC: UIViewController {
         
         if(secondsToWait == 0) {
             timeLeftCalculatorTimer?.invalidate();
-            timeLabel.isHidden = true;
-            closeButton.isHidden = false;
+        
+            timeLabel1?.removeFromSuperview();
+            
+            let closeButton = UIButton();
+            closeButton.setImage(UIImage(named: "close"), for: .normal);
+            closeButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (closeClicked (_:))));
+            
+            setView(closeButton);
         } else {
-            timeLabel.text = "\(secondsToWait)";
+            timeLabel1?.text = "\(secondsToWait)";
         }
+    }
+    
+    private func setView(_ view: UIView) {
+        polymorphicView.addSubview(view);
+        
+        view.translatesAutoresizingMaskIntoConstraints = false;
+        
+        view.leadingAnchor.constraint(equalTo: polymorphicView.leadingAnchor, constant: 0).isActive = true;
+        view.trailingAnchor.constraint(equalTo: polymorphicView.trailingAnchor, constant: 0).isActive = true;
+        view.bottomAnchor.constraint(equalTo: polymorphicView.bottomAnchor, constant: 0).isActive = true;
+        view.topAnchor.constraint(equalTo: polymorphicView.topAnchor, constant: 0).isActive = true;
     }
     
 }
