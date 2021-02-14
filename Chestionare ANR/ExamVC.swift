@@ -146,8 +146,14 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     
     @IBAction func nextClicked(_ sender: UIView) {
         changeUserInteraction(false);
-        questionViewController?.display(correctAnswer: testState.questions[testState.currentQuestionIdx].correctAnswerId, andWrongAnswer: selectedAnswer.rawValue);
-        verifyAnswerTimer = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(processAnswer), userInfo: nil, repeats: false);
+        
+        if(UserDefaults.standard.bool(forKey: Const.KEY_SHOW_CORRECT_ANSWER)) {
+            questionViewController?.display(correctAnswer: testState.questions[testState.currentQuestionIdx].correctAnswerId, andWrongAnswer: selectedAnswer.rawValue);
+            verifyAnswerTimer = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(processAnswer), userInfo: nil, repeats: false);
+        } else {
+            processAnswer();
+        }
+
     }
     
     @objc private func processAnswer() {
