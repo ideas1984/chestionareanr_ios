@@ -209,14 +209,17 @@ class OneQuestionVC: UIViewController {
         return label.frame.height;
     }
     
-    // only for review questions
-    public func display(correctAnswer goodAnswerID: Int, andWrongAnswer wrongAnswerID: Int) {
-        getAnswerButton(ofID: goodAnswerID)?.setState(AnswerButton.ButtonState.CORRECT_ANSWER);
+    // only for learning and review questions
+    public func display(correctAnswer goodAnswerID: Int, andWrongAnswer wrongAnswerID: Int, _ disable: Bool) {
         getAnswerButton(ofID: wrongAnswerID)?.setState(AnswerButton.ButtonState.WRONG_ANSWER);
-        aAnswerView.isUserInteractionEnabled = false;
-        bAnswerView.isUserInteractionEnabled = false;
-        cAnswerView.isUserInteractionEnabled = false;
-        dAnswerView.isUserInteractionEnabled = false;
+        getAnswerButton(ofID: goodAnswerID)?.setState(AnswerButton.ButtonState.CORRECT_ANSWER);
+        
+        if(disable) {
+            aAnswerView.isUserInteractionEnabled = false;
+            bAnswerView.isUserInteractionEnabled = false;
+            cAnswerView.isUserInteractionEnabled = false;
+            dAnswerView.isUserInteractionEnabled = false;
+        }
     }
     
     private func getAnswerButton(ofID answerID: Int) -> AnswerButton? {

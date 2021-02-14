@@ -18,9 +18,9 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
     
     @IBOutlet weak var helpButton: UIButton!
     
-    @IBOutlet weak var previousButton: UIView!
-    @IBOutlet weak var verifyButton: UIView!
-    @IBOutlet weak var nextButton: UIView!
+    @IBOutlet weak var previousButton: ANRButton!
+    @IBOutlet weak var verifyButton: ANRButton!
+    @IBOutlet weak var nextButton: ANRButton!
     
     @IBOutlet weak var containerView: UIView!
     
@@ -33,6 +33,7 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
     var subcategory:Int?;
     var childVC : OneQuestionVC?;
     var selectedAnswer: OneQuestionVC.AnswerEnum = OneQuestionVC.AnswerEnum.NONE_SELECTED;
+    var questionViewController: OneQuestionVC?;
 
     override func viewDidLoad() {
         super.viewDidLoad();
@@ -48,7 +49,6 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
         
         state = State(questions: XMLUtil.instance.getQuestions(fromSubcategory: subcategory!));
         state.currentQuestionIdx = UserDefaults.standard.integer(forKey: Const.getKey(forSubcategory: subcategory!));
-                
     }
     
     
@@ -58,13 +58,12 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
         showQuestion(atIndex: state.currentQuestionIdx); // call it here on view will appear
     }
     
-    
     func answerSelected(_ answer: OneQuestionVC.AnswerEnum) {
         selectedAnswer = answer;
         if(answer == OneQuestionVC.AnswerEnum.NONE_SELECTED) {
-            changeUIState(toButton: verifyButton, false);
+            verifyButton.setEnabled(false);
         } else {
-            changeUIState(toButton: verifyButton, true);
+            verifyButton.setEnabled(true);
         }
     }
     
@@ -93,12 +92,14 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
         showQuestion(atIndex: state.currentQuestionIdx + 1);
     }
     
-    @IBAction func verifyClicked(_ sender: UIView) {
-        if(state.questions[state.currentQuestionIdx].correctAnswerId == selectedAnswer.rawValue) {
-            print("corect");
-        } else {
-            print("gresit");
-        }
+    @IBAction func verifyClicked(_ sender: UIView) {        
+        questionViewController?.display(correctAnswer: state.questions[state.currentQuestionIdx].correctAnswerId, andWrongAnswer: selectedAnswer.rawValue, false);
+        
+//        if(state.questions[state.currentQuestionIdx].correctAnswerId == selectedAnswer.rawValue) {
+//            print("corect");
+//        } else {
+//            print("gresit");
+//        }
     }
     
     @objc func willEnterForeground() {
@@ -128,18 +129,6 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
             }
     }
     
-    private func changeUIState(toButton button: UIView, _ enabled: Bool) {
-        if(enabled) {
-            button.isUserInteractionEnabled = true;
-            button.backgroundColor = UIColor.white;
-        } else {
-            button.isUserInteractionEnabled = false;
-//            button.backgroundColor = UIColor(named: "disable_color");
-            button.backgroundColor = UIColor.gray;
-        }
-    }
-    
-    
     private func showQuestion(atIndex questionIndex: Int) {
         if(questionIndex <= -1 || questionIndex >= state.questions.count) {
             return;
@@ -151,27 +140,26 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
         let oneQuestionViewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
         addViewControllerAsChildViewController(childViewController: oneQuestionViewController);
         oneQuestionViewController.ansertSelectedDelegate = self;
-        
         view.layoutIfNeeded();//very important here. do not erase this
-        
         oneQuestionViewController.setQuestion(state.questions[questionIndex], andNumber: questionIndex + 1);
+        questionViewController = oneQuestionViewController;
         
         answerSelected(OneQuestionVC.AnswerEnum.NONE_SELECTED);
         
         
         if(questionIndex <= 0 ) {
-            changeUIState(toButton: previousButton, false);
+            previousButton.setEnabled(false);
             previousLabel.text = "";
         } else {
-            changeUIState(toButton: previousButton, true);
+            previousButton.setEnabled(true);
             previousLabel.text = "\(questionIndex)";
         }
         
         if(questionIndex >= state.questions.count - 1) {
-            changeUIState(toButton: nextButton, false);
+            nextButton.setEnabled(false);
             nextLabel.text = "";
         } else {
-            changeUIState(toButton: nextButton, true);
+            nextButton.setEnabled(true);
             nextLabel.text = "\(questionIndex + 2)";
         }
         

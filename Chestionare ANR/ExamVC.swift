@@ -31,6 +31,7 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     var childVC : OneQuestionVC?;
     var startTestDate:Date?;
     var timeLeftCalculatorTimer: Timer?;
+    var verifyAnswerTimer: Timer?;
     
     weak var testResultdelegate: TestResultProtocol?
     
@@ -90,6 +91,7 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated);
         timeLeftCalculatorTimer?.invalidate();
+        verifyAnswerTimer?.invalidate();
     }
     
     deinit {
@@ -144,6 +146,10 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     }
     
     @IBAction func nextClicked(_ sender: UIView) {
+        
+        //TODO here
+        verifyAnswerTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(verifyTimePassed), userInfo: nil, repeats: false);
+        
         if(testState.questions[testState.currentQuestionIdx].correctAnswerId == selectedAnswer.rawValue) {
             testState.goodAnswers += 1;
         } else {
@@ -178,6 +184,10 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             return true;
         }
         return false;
+    }
+    
+    @objc func verifyTimePassed() {
+        print("verifyTimePassed");
     }
     
     @objc func updateTimeLeft() {
@@ -264,31 +274,6 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             childVC!.view.removeFromSuperview();
             childVC!.removeFromParent();
         }
-    }
-    
-    
-    private func getDummyQuestion() -> Question {
-        //        let softWrappedQuotation = "Morbi consectetur purus rhoncus est vulputate semper. Integer dictum diam vitae metus vulputate gravida. Sed sollicitudin, enim id tempor interdum, orci enim congue dui, in viverra velit magna non felis. Cras sit amet lorem nunc. Integer et lectus et est lobortis aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla et elit elit. Duis non urna ut libero sollicitudin aliquet. Suspendisse bibendum, velit quis laoreet luctus, quam ligula viverra neque, ac tristique eros elit a ligula. Donec a laoreet diam. Vestibulum eget arcu consectetur, suscipit lectus a, convallis magna. Aliquam quis accumsan orci.";
-        let softWrappedQuotation = "Pentru executarea navigației în siguranță pe vreme rea vor fi luați în considerare următorii factori:";
-        
-        //        let answerA = "Aenean a tristique mi. Nam mattis dolor vitae vulputate lobortis. Mauris pharetra turpis vel nulla venenatis tincidunt. Donec fringilla ultrices tellus, finibus fringilla ex elementum eget. Sed scelerisque in lacus et iaculis. Sed ornare ipsum tortor, eget semper ipsum aliquam viverra. Pellentesque a libero volutpat, rutrum mauris ac, aliquet dolor. Aliquam ut purus faucibus, volutpat diam ut, malesuada sem.";
-        let answerA = "analiza forței și direcției vântului, a alurilor corecte, în funcție de suprafața velica și comportarea navei.";
-        //        let answerB = "Aenean a tristique mi. Nam mattis dolor vitae vulputate lobortis. Mauris pharetra turpis vel nulla venenatis tincidunt. Donec fringilla ultrices tellus, finibus fringilla ex elementum eget. Sed scelerisque in lacus et iaculis. Sed ornare ipsum tortor, eget semper ipsum aliquam viverra. Pellentesque a libero volutpat, rutrum mauris ac, aliquet dolor. Aliquam ut purus faucibus, volutpat diam ut, malesuada sem.";
-        let answerB = "verificarea instalațiilor de ancorare și remorcare, pentru utilizarea lor în situații neprevăzute.";
-        let answerC = "Aenean a tristique mi. Nam mattis dolor vitae vulputate lobortis. Mauris pharetra turpis vel nulla venenatis tincidunt. Donec fringilla ultrices tellus, finibus fringilla ex elementum eget. Sed scelerisque in lacus et iaculis. Sed ornare ipsum tortor, eget semper ipsum aliquam viverra. Pellentesque a libero volutpat, rutrum mauris ac, aliquet dolor. Aliquam ut purus faucibus, volutpat diam ut, malesuada sem.";
-        //        let answerC = "analiza posibilităților de utilizare a mijloacelor colective de salvare în situații neprevăzute.";
-        let answerD = "Aenean a tristique mi. Nam mattis dolor vitae vulputate lobortis. Mauris pharetra turpis vel nulla venenatis tincidunt. Donec fringilla ultrices tellus, finibus fringilla ex elementum eget. Sed scelerisque in lacus et iaculis. Sed ornare ipsum tortor, eget semper ipsum aliquam viverra. Pellentesque a libero volutpat, rutrum mauris ac, aliquet dolor. Aliquam ut purus faucibus, volutpat diam ut, malesuada sem.";
-        //        let answerD = "analiza condițiilor de navigație pe vreme rea, ținându-se cont de vânt.";
-        
-        var answers = [Int: String]();
-        answers[1] = answerA;
-        answers[2] = answerB;
-        answers[3] = answerC;
-        answers[4] = answerD;
-        
-        let question = Question(id:1036, name: softWrappedQuotation,category: [],subcategory: 1,image: "",answers: answers,correctAnswerId:  1,hints: []);
-        
-        return question;
     }
     
 }

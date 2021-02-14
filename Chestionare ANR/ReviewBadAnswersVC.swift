@@ -86,7 +86,7 @@ class ReviewBadAnswersVC: UIViewController {
             
             let question = XMLUtil.instance.getQuestion(withID: Int(state.wrongAnswers[questionIndex].id));
             oneQuestionViewController.setQuestion(question, andNumber: questionIndex + 1);
-            oneQuestionViewController.display(correctAnswer: question.correctAnswerId, andWrongAnswer: Int(state.wrongAnswers[questionIndex].wrongAnswerID));
+            oneQuestionViewController.display(correctAnswer: question.correctAnswerId, andWrongAnswer: Int(state.wrongAnswers[questionIndex].wrongAnswerID), true);
             
             if(questionIndex <= 0 ) {
                 previousButton.setEnabled(false);
