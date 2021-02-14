@@ -30,6 +30,7 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     var selectedAnswer: OneQuestionVC.AnswerEnum = OneQuestionVC.AnswerEnum.NONE_SELECTED;
     var childVC : OneQuestionVC?;
     var startTestDate:Date?;
+    var questionViewController: OneQuestionVC?;
     var timeLeftCalculatorTimer: Timer?;
     var verifyAnswerTimer: Timer?;
     
@@ -83,8 +84,6 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             timeLeftCalculatorTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimeLeft), userInfo: nil, repeats: true);
             
             showQuestion(questionIndex: testState.currentQuestionIdx);
-            
-            //            viewController.setQuestion(getDummyQuestion());
         }
     }
     
@@ -146,9 +145,13 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     }
     
     @IBAction func nextClicked(_ sender: UIView) {
-        
-        //TODO here
-        verifyAnswerTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(verifyTimePassed), userInfo: nil, repeats: false);
+        changeUserInteraction(false);
+        questionViewController?.display(correctAnswer: testState.questions[testState.currentQuestionIdx].correctAnswerId, andWrongAnswer: selectedAnswer.rawValue);
+        verifyAnswerTimer = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(processAnswer), userInfo: nil, repeats: false);
+    }
+    
+    @objc private func processAnswer() {
+        changeUserInteraction(true);
         
         if(testState.questions[testState.currentQuestionIdx].correctAnswerId == selectedAnswer.rawValue) {
             testState.goodAnswers += 1;
@@ -186,10 +189,6 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
         return false;
     }
     
-    @objc func verifyTimePassed() {
-        print("verifyTimePassed");
-    }
-    
     @objc func updateTimeLeft() {
         let difference = Int(Date().timeIntervalSince(startTestDate!).rounded());
         let totalTime = AppUtility.instance.categoryInfoMap[category!]?.time;
@@ -222,11 +221,11 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
         let viewController = storyboard.instantiateViewController(withIdentifier: "OneQuestionViewController") as! OneQuestionVC;
         addViewControllerAsChildViewController(childViewController: viewController);
         viewController.ansertSelectedDelegate = self;
-        
         view.layoutIfNeeded();//very important here. do not erase this
-        
         let originalQuestionIndex = testState.originalIndexes[testState.questions[index].id]!;
         viewController.setQuestion(testState.questions[index], andNumber: originalQuestionIndex);
+        questionViewController = viewController;
+        
         
         remainingQuestionsLabel.text = String(testState.questions.count);
         goodAnswersLabel.text = String(testState.goodAnswers);
@@ -242,11 +241,18 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     
     
     @IBAction func backClicked(_ sender: Any) {
-        if let nav = self.navigationController {
-            nav.popViewController(animated: true)
-        } else {
-            self.dismiss(animated: true, completion: nil)
-        }
+        let alert = UIAlertController(title: nil, message: "Oprește testul în derulare?", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Da", style: .default, handler: { (action: UIAlertAction!) in
+
+            if let nav = self.navigationController {
+                nav.popViewController(animated: true)
+            } else {
+                self.dismiss(animated: true, completion: nil)
+            }
+            
+        }))
+        alert.addAction(UIAlertAction(title: "Nu", style: .cancel, handler: nil))
+        present(alert, animated: true, completion: nil);
     }
     
     @IBAction func helpClicked(_ sender: Any) {
@@ -274,6 +280,12 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
             childVC!.view.removeFromSuperview();
             childVC!.removeFromParent();
         }
+    }
+    
+    private func changeUserInteraction(_ state: Bool) {
+        helpButton.isUserInteractionEnabled = state;
+        skipButton.isUserInteractionEnabled = state;
+        nextButton.isUserInteractionEnabled = state;
     }
     
 }

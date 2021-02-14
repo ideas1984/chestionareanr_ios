@@ -104,11 +104,13 @@ class SettingsVC: UIViewController {
     }
     
     @IBAction func resetLearningClicked(_ sender: UITapGestureRecognizer) {
-        let refreshLearningAlert = UIAlertController(title: "Refresh", message: "All data will be lost.", preferredStyle: UIAlertController.Style.alert)
-        refreshLearningAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+        let refreshLearningAlert = UIAlertController(title: nil,
+                                                     message: "Resetarea mediului de învățare implică pierderea evidenței parcurgerii materiei.\n\nEști sigur că vrei să faci asta?",
+                                                     preferredStyle: UIAlertController.Style.alert)
+        refreshLearningAlert.addAction(UIAlertAction(title: "Da", style: .default, handler: { (action: UIAlertAction!) in
             self.resetLearning();
         }))
-        refreshLearningAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        refreshLearningAlert.addAction(UIAlertAction(title: "Nu", style: .cancel, handler: nil))
         present(refreshLearningAlert, animated: true, completion: nil);
     }
     
@@ -126,8 +128,10 @@ class SettingsVC: UIViewController {
     
     @IBAction func resetAllClicked(_ sender: UITapGestureRecognizer) {
         
-        let refreshAllAlert = UIAlertController(title: "Refresh", message: "All data will be lost.", preferredStyle: UIAlertController.Style.alert)
-        refreshAllAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+        let refreshAllAlert = UIAlertController(title: nil,
+                                                message: "Această resetare presupune ștergerea mediului de învățare, a istoricului și rapoartelor testelor cât și a altor setări ale aplicației.\n\nEști sigur că vrei să faci asta?",
+                                                preferredStyle: UIAlertController.Style.alert)
+        refreshAllAlert.addAction(UIAlertAction(title: "Da", style: .default, handler: { (action: UIAlertAction!) in
             self.resetLearning();
             let defaults = UserDefaults.standard;
             defaults.setValue(16, forKey: Const.KEY_FONT_SIZE);
@@ -137,7 +141,7 @@ class SettingsVC: UIViewController {
             
             self.updateUI();
         }))
-        refreshAllAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        refreshAllAlert.addAction(UIAlertAction(title: "Nu", style: .cancel, handler: nil))
         present(refreshAllAlert, animated: true, completion: nil);
     }
     

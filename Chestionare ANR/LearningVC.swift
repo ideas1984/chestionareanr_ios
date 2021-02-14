@@ -68,11 +68,18 @@ class LearningVC: UIViewController, AnswerSelectedProtocol {
     }
     
     @IBAction func backClicked(_ sender: Any) {
-        if let nav = self.navigationController {
-            nav.popViewController(animated: true)
-        } else {
-            self.dismiss(animated: true, completion: nil)
-        }
+        let alert = UIAlertController(title: nil, message: "Părăsește mediul de învățare?", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Da", style: .default, handler: { (action: UIAlertAction!) in
+
+            if let nav = self.navigationController {
+                nav.popViewController(animated: true)
+            } else {
+                self.dismiss(animated: true, completion: nil)
+            }
+            
+        }))
+        alert.addAction(UIAlertAction(title: "Nu", style: .cancel, handler: nil))
+        present(alert, animated: true, completion: nil);
     }
     
     @IBAction func helpClicked(_ sender: Any) {

@@ -10,11 +10,8 @@ import UIKit
 
 class OneQuestionVC: UIViewController {
     
-//    var mainController: MainViewController!
-    
     weak var ansertSelectedDelegate: AnswerSelectedProtocol?;
     var selectedAnswer:AnswerEnum = AnswerEnum.NONE_SELECTED;
-
     
     @IBOutlet weak var questionView: UIView!
     @IBOutlet weak var questionLabel: UILabel!
@@ -57,7 +54,6 @@ class OneQuestionVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         
-//        questionView.layer.cornerRadius = 10;
         questionView.layer.shadowColor = UIColor.black.cgColor;
         questionView.layer.shadowRadius = 4;
         questionView.layer.shadowOpacity = 0.6;
@@ -100,11 +96,11 @@ class OneQuestionVC: UIViewController {
         bAnswerHeightConstraint.constant = heightForView(text:question.answers[2]!, font: aFont!, width: self.view.frame.width - 79) + 16;
         bAnswerLabel.text = question.answers[2];
         bAnswerLabel.font = aFont;
-
+        
         cAnswerHeightConstraint.constant = heightForView(text:question.answers[3]!, font: aFont!, width: self.view.frame.width - 79) + 16;
         cAnswerLabel.text = question.answers[3];
         cAnswerLabel.font = aFont;
-
+        
         if(question.answers[4] != nil) {
             dAnswerHeightConstraint.constant = heightForView(text:question.answers[4]!, font: aFont!, width: self.view.frame.width - 79) + 16;
             dAnswerLabel.text = question.answers[4];
@@ -119,7 +115,7 @@ class OneQuestionVC: UIViewController {
             c6.constant = 0;
             c7.constant = 0;
         }
-
+        
         view.layoutIfNeeded();
     }
     
@@ -197,16 +193,38 @@ class OneQuestionVC: UIViewController {
         }
     }
     
-
+    
     func heightForView(text:String, font:UIFont, width:CGFloat) -> CGFloat {
         let label:UILabel = UILabel(frame: CGRect(x:0, y:0, width:width, height:CGFloat.greatestFiniteMagnitude));
         label.numberOfLines = 0;
         label.lineBreakMode = NSLineBreakMode.byWordWrapping;
         label.font = font;
         label.text = text;
-
+        
         label.sizeToFit();
         return label.frame.height;
+    }
+    
+    // only used for Exam
+    public func display(correctAnswer goodAnswerID: Int, andWrongAnswer wrongAnswerID: Int) {
+        getAnswerButton(ofID: wrongAnswerID)?.setState(AnswerButton.ButtonState.WRONG_ANSWER);
+        
+        let correctAnswerButton = getAnswerButton(ofID: goodAnswerID);
+        correctAnswerButton?.setState(AnswerButton.ButtonState.CORRECT_ANSWER);
+        
+        UIView.animate(withDuration: 0.5,
+                       delay: 0,
+                       options: [UIView.AnimationOptions.autoreverse, UIView.AnimationOptions.repeat],
+                       animations: {
+                        correctAnswerButton?.setState(AnswerButton.ButtonState.DEFAULT);
+                       },
+                       completion: nil);
+        
+        
+        aAnswerView.isUserInteractionEnabled = false;
+        bAnswerView.isUserInteractionEnabled = false;
+        cAnswerView.isUserInteractionEnabled = false;
+        dAnswerView.isUserInteractionEnabled = false;
     }
     
     // only for learning and review questions
@@ -235,5 +253,5 @@ class OneQuestionVC: UIViewController {
         
         return nil;
     }
-
+    
 }
