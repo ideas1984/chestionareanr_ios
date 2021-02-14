@@ -3889,17 +3889,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBr-cx-yZA">
-                                <rect key="frame" x="8" y="149.5" width="171.5" height="40"/>
+                                <rect key="frame" x="8" y="149.5" width="171.5" height="30"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaO-kf-yHe">
-                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" name="answer_wrong"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="aaO-kf-yHe" secondAttribute="height" multiplier="1:1" id="coi-hd-fRv"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- răspunsul tău" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd3-Ez-SuP">
-                                        <rect key="frame" x="48" y="0.0" width="123.5" height="40"/>
+                                        <rect key="frame" x="38" y="0.0" width="133.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -3908,7 +3908,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="vd3-Ez-SuP" secondAttribute="trailing" id="DWd-tV-GQ9"/>
-                                    <constraint firstAttribute="height" constant="40" id="VIT-90-ate"/>
+                                    <constraint firstAttribute="height" constant="30" id="VIT-90-ate"/>
                                     <constraint firstItem="vd3-Ez-SuP" firstAttribute="leading" secondItem="aaO-kf-yHe" secondAttribute="trailing" constant="8" id="Y9d-hZ-X9k"/>
                                     <constraint firstAttribute="bottom" secondItem="aaO-kf-yHe" secondAttribute="bottom" id="YKu-2j-v3P"/>
                                     <constraint firstItem="aaO-kf-yHe" firstAttribute="height" secondItem="gBr-cx-yZA" secondAttribute="height" id="aTk-SL-ae2"/>
@@ -3919,17 +3919,17 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ss-qL-naz">
-                                <rect key="frame" x="187.5" y="149.5" width="179.5" height="40"/>
+                                <rect key="frame" x="187.5" y="149.5" width="179.5" height="30"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Lx-Qv-78u">
-                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" name="answer_correct"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="1Lx-Qv-78u" secondAttribute="height" multiplier="1:1" id="26Q-LU-XgI"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- răspunsul corect" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opl-7Y-mHw">
-                                        <rect key="frame" x="48" y="0.0" width="131.5" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- răspuns corect" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="opl-7Y-mHw">
+                                        <rect key="frame" x="38" y="0.0" width="141.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -3939,7 +3939,7 @@
                                 <constraints>
                                     <constraint firstItem="1Lx-Qv-78u" firstAttribute="height" secondItem="4ss-qL-naz" secondAttribute="height" id="11A-g9-97E"/>
                                     <constraint firstAttribute="bottom" secondItem="1Lx-Qv-78u" secondAttribute="bottom" id="7eB-p5-gG6"/>
-                                    <constraint firstAttribute="height" constant="40" id="ArF-wN-JDe"/>
+                                    <constraint firstAttribute="height" constant="30" id="ArF-wN-JDe"/>
                                     <constraint firstAttribute="trailing" secondItem="opl-7Y-mHw" secondAttribute="trailing" id="LO0-g6-Q7q"/>
                                     <constraint firstItem="opl-7Y-mHw" firstAttribute="leading" secondItem="1Lx-Qv-78u" secondAttribute="trailing" constant="8" id="Oam-TU-XyU"/>
                                     <constraint firstItem="1Lx-Qv-78u" firstAttribute="leading" secondItem="4ss-qL-naz" secondAttribute="leading" id="Yz1-rl-Qz0"/>
@@ -3949,7 +3949,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qd-vA-37q" userLabel="container_view">
-                                <rect key="frame" x="0.0" y="197.5" width="375" height="399.5"/>
+                                <rect key="frame" x="0.0" y="187.5" width="375" height="409.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-Iu-XXz" userLabel="control footer">
@@ -4207,7 +4207,7 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSN-dD-Z5O" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="433.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="395.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regulament de navigație pe Dunăre" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyk-Xk-Lay">
                                                 <rect key="frame" x="16" y="16" width="343" height="60"/>
@@ -4223,31 +4223,31 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detalii referitoare la categoria aleasă:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qBG-Vq-Aem">
-                                                <rect key="frame" x="16" y="126" width="187.5" height="53"/>
+                                                <rect key="frame" x="16" y="110" width="187.5" height="53"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 177 de întrebări" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C2-jQ-s1O">
-                                                <rect key="frame" x="32" y="195" width="327" height="20.5"/>
+                                                <rect key="frame" x="32" y="179" width="327" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 36 întrebări parcurse din totalul de 177" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9n-U2-5Nu">
-                                                <rect key="frame" x="32" y="237.5" width="304.5" height="20.5"/>
+                                                <rect key="frame" x="32" y="207.5" width="304.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- progres 20.34%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9e-j8-OAp">
-                                                <rect key="frame" x="32" y="274" width="327" height="20.5"/>
+                                                <rect key="frame" x="32" y="236" width="327" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqT-uN-4SR" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="310.5" width="343" height="50"/>
+                                                <rect key="frame" x="16" y="272.5" width="343" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continuă pregătirea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhX-fs-xep">
                                                         <rect key="frame" x="8" y="8" width="327" height="34"/>
@@ -4269,7 +4269,7 @@
                                                 </connections>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* pentru resetarea mediului de învățare accesați secțiunea Setări a aplicației" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8v-xr-YcK">
-                                                <rect key="frame" x="16" y="376.5" width="343" height="41"/>
+                                                <rect key="frame" x="16" y="338.5" width="343" height="41"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -4281,17 +4281,17 @@
                                             <constraint firstItem="cqT-uN-4SR" firstAttribute="leading" secondItem="cSN-dD-Z5O" secondAttribute="leading" constant="16" id="24C-FS-lHu"/>
                                             <constraint firstAttribute="trailing" secondItem="lyk-Xk-Lay" secondAttribute="trailing" constant="16" id="65f-oz-ypC"/>
                                             <constraint firstAttribute="trailing" secondItem="d8v-xr-YcK" secondAttribute="trailing" constant="16" id="9Hf-IK-mBT"/>
-                                            <constraint firstItem="qBG-Vq-Aem" firstAttribute="top" secondItem="kZH-xf-IvT" secondAttribute="bottom" constant="32" id="9dd-RK-f1w"/>
+                                            <constraint firstItem="qBG-Vq-Aem" firstAttribute="top" secondItem="kZH-xf-IvT" secondAttribute="bottom" constant="16" id="9dd-RK-f1w"/>
                                             <constraint firstItem="d8v-xr-YcK" firstAttribute="leading" secondItem="cSN-dD-Z5O" secondAttribute="leading" constant="16" id="CyI-5c-2wX"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qBG-Vq-Aem" secondAttribute="trailing" constant="16" id="Fd9-qM-BOt"/>
                                             <constraint firstAttribute="trailing" secondItem="kZH-xf-IvT" secondAttribute="trailing" constant="16" id="Gqe-cx-qtl"/>
                                             <constraint firstItem="lyk-Xk-Lay" firstAttribute="leading" secondItem="cSN-dD-Z5O" secondAttribute="leading" constant="16" id="ICb-gz-DHu"/>
-                                            <constraint firstItem="Z9e-j8-OAp" firstAttribute="top" secondItem="d9n-U2-5Nu" secondAttribute="bottom" constant="16" id="L4s-VL-l1P"/>
+                                            <constraint firstItem="Z9e-j8-OAp" firstAttribute="top" secondItem="d9n-U2-5Nu" secondAttribute="bottom" constant="8" id="L4s-VL-l1P"/>
                                             <constraint firstItem="lyk-Xk-Lay" firstAttribute="top" secondItem="cSN-dD-Z5O" secondAttribute="top" constant="16" id="Ncx-aC-cZD"/>
                                             <constraint firstItem="d8v-xr-YcK" firstAttribute="top" secondItem="cqT-uN-4SR" secondAttribute="bottom" constant="16" id="T6t-Ki-XJU"/>
                                             <constraint firstItem="Z9e-j8-OAp" firstAttribute="leading" secondItem="cSN-dD-Z5O" secondAttribute="leading" constant="32" id="XD1-Y1-Hur"/>
                                             <constraint firstItem="kZH-xf-IvT" firstAttribute="leading" secondItem="cSN-dD-Z5O" secondAttribute="leading" constant="16" id="ZgU-cn-ZtM"/>
-                                            <constraint firstItem="d9n-U2-5Nu" firstAttribute="top" secondItem="0C2-jQ-s1O" secondAttribute="bottom" constant="22" id="cbl-f1-88i"/>
+                                            <constraint firstItem="d9n-U2-5Nu" firstAttribute="top" secondItem="0C2-jQ-s1O" secondAttribute="bottom" constant="8" id="cbl-f1-88i"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="d9n-U2-5Nu" secondAttribute="trailing" constant="16" id="cfp-2r-dlU"/>
                                             <constraint firstItem="d9n-U2-5Nu" firstAttribute="leading" secondItem="cSN-dD-Z5O" secondAttribute="leading" constant="32" id="cqB-EE-LrK"/>
                                             <constraint firstItem="cqT-uN-4SR" firstAttribute="top" secondItem="Z9e-j8-OAp" secondAttribute="bottom" constant="16" id="dyN-oz-hjD"/>
@@ -4358,6 +4358,12 @@
         <image name="sail" width="40" height="40"/>
         <image name="settings" width="40" height="40"/>
         <image name="together" width="40" height="40"/>
+        <namedColor name="answer_correct">
+            <color red="0.10968577861785889" green="0.9491463303565979" blue="0.33062735199928284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="answer_wrong">
+            <color red="0.90830832719802856" green="0.44250321388244629" blue="0.39854636788368225" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="background_1">
             <color red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

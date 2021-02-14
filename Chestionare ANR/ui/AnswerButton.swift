@@ -34,11 +34,11 @@ class AnswerButton: UIView {
         case ButtonState.DEFAULT:
             self.backgroundColor = UIColor.white;
         case ButtonState.SELECTED:
-            self.backgroundColor = UIColor(red: 1, green: 0.62, blue: 0.61, alpha: 1);
+            self.backgroundColor = UIColor(named: "answer_selected");
         case ButtonState.CORRECT_ANSWER:
-            self.backgroundColor = UIColor.green;
+            self.backgroundColor = UIColor(named: "answer_correct");
         case ButtonState.WRONG_ANSWER:
-            self.backgroundColor = UIColor.red;
+            self.backgroundColor = UIColor(named: "answer_wrong");
         }
     }
 
