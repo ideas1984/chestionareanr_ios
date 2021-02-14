@@ -25,7 +25,7 @@ class ExamVC: UIViewController, AnswerSelectedProtocol {
     
     
     var testState = TestState();
-    var viewState: ViewState = ViewState.COMMERCIAL_SHOWED;
+    var viewState: ViewState = ViewState.NONE;
     var category:Int?;
     var selectedAnswer: OneQuestionVC.AnswerEnum = OneQuestionVC.AnswerEnum.NONE_SELECTED;
     var childVC : OneQuestionVC?;

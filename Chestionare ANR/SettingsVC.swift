@@ -36,7 +36,7 @@ class SettingsVC: UIViewController {
         showAnswerButtonNo.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (changeShowAnswerClicked (_:))));
         
         resetLearningButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (resetLearningClicked (_:))));
-
+        
         resetAllButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (resetAllClicked (_:))));
     }
     
@@ -104,7 +104,12 @@ class SettingsVC: UIViewController {
     }
     
     @IBAction func resetLearningClicked(_ sender: UITapGestureRecognizer) {
-        resetLearning();
+        let refreshLearningAlert = UIAlertController(title: "Refresh", message: "All data will be lost.", preferredStyle: UIAlertController.Style.alert)
+        refreshLearningAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            self.resetLearning();
+        }))
+        refreshLearningAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        present(refreshLearningAlert, animated: true, completion: nil);
     }
     
     private func resetLearning() {
@@ -120,21 +125,27 @@ class SettingsVC: UIViewController {
     }
     
     @IBAction func resetAllClicked(_ sender: UITapGestureRecognizer) {
-        resetLearning();
-        let defaults = UserDefaults.standard;
-        defaults.setValue(16, forKey: Const.KEY_FONT_SIZE);
-        defaults.setValue(true, forKey: Const.KEY_SHOW_CORRECT_ANSWER);
         
-        CoreDataManager.shared.resetCoreData();
-        
-        updateUI();
+        let refreshAllAlert = UIAlertController(title: "Refresh", message: "All data will be lost.", preferredStyle: UIAlertController.Style.alert)
+        refreshAllAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            self.resetLearning();
+            let defaults = UserDefaults.standard;
+            defaults.setValue(16, forKey: Const.KEY_FONT_SIZE);
+            defaults.setValue(true, forKey: Const.KEY_SHOW_CORRECT_ANSWER);
+            
+            CoreDataManager.shared.resetCoreData();
+            
+            self.updateUI();
+        }))
+        refreshAllAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        present(refreshAllAlert, animated: true, completion: nil);
     }
     
     private func updateUI() {
         updateFontButtons(withFontSize: UserDefaults.standard.integer(forKey: Const.KEY_FONT_SIZE));
         updateShowAnswerButtons(withFlag: UserDefaults.standard.bool(forKey: Const.KEY_SHOW_CORRECT_ANSWER));
     }
-
+    
     
     
 }

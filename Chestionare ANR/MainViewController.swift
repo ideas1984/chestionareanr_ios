@@ -61,6 +61,8 @@ class MainViewController: UIViewController, TestResultProtocol {
         
         commercialImageView.image =  UIImage(named: "reclama01");
         commercialImageView.contentMode = UIView.ContentMode.scaleToFill;
+        
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -96,15 +98,16 @@ class MainViewController: UIViewController, TestResultProtocol {
     public func mainMenuClicked(_ buttonName: String) {
         switch buttonName {
         case "chestionare_anr":
+            
             backButton.isHidden = false;
-            
+
             removeExistingViewController();
-            
+
             let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
             let questionnaireVC = storyboard.instantiateViewController(withIdentifier: "QuestionaireViewController") as! QuestionnaireVC;
             questionnaireVC.setMainController(self);
             self.addViewControllerAsChildViewController(childViewController: questionnaireVC);
-            
+
             visibleVC = questionnaireVC;
             
         case "mediu_de_invatare":

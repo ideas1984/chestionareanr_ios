@@ -1603,18 +1603,35 @@
                                     <action selector="closeClicked:" destination="jW8-UI-fvv" eventType="touchUpInside" id="0rU-Et-M2e"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9wI-zn-ndK">
+                                <rect key="frame" x="348" y="60" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cBv-bS-1Fh"/>
+                                    <constraint firstAttribute="width" constant="50" id="fqv-5d-3Dw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="APv-tR-xu6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="APv-tR-xu6" firstAttribute="trailing" secondItem="9wI-zn-ndK" secondAttribute="trailing" constant="16" id="0GW-lV-mrL"/>
+                            <constraint firstItem="9wI-zn-ndK" firstAttribute="top" secondItem="APv-tR-xu6" secondAttribute="top" constant="16" id="1cI-Pr-QPU"/>
                             <constraint firstItem="APv-tR-xu6" firstAttribute="bottom" secondItem="ee8-Xv-xfN" secondAttribute="bottom" id="EGK-fu-tcd"/>
                             <constraint firstItem="OAF-7q-Oen" firstAttribute="top" secondItem="APv-tR-xu6" secondAttribute="top" constant="16" id="Fyu-4z-Gum"/>
                             <constraint firstItem="ee8-Xv-xfN" firstAttribute="top" secondItem="APv-tR-xu6" secondAttribute="top" id="Ybm-ic-3sw"/>
                             <constraint firstItem="APv-tR-xu6" firstAttribute="trailing" secondItem="ee8-Xv-xfN" secondAttribute="trailing" id="a1P-KS-iFb"/>
+                            <constraint firstItem="9wI-zn-ndK" firstAttribute="leading" secondItem="APv-tR-xu6" secondAttribute="leading" constant="348" id="enz-u6-yhR"/>
                             <constraint firstItem="APv-tR-xu6" firstAttribute="trailing" secondItem="OAF-7q-Oen" secondAttribute="trailing" constant="16" id="seI-0d-ExQ"/>
                             <constraint firstItem="ee8-Xv-xfN" firstAttribute="leading" secondItem="APv-tR-xu6" secondAttribute="leading" id="yvS-Lk-zWj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="closeButton" destination="OAF-7q-Oen" id="SGC-k3-1E6"/>
+                        <outlet property="timeLabel" destination="9wI-zn-ndK" id="irw-Lm-AMf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HxQ-KV-woU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4344,7 +4361,7 @@
         <image name="back_1" width="512" height="512"/>
         <image name="book" width="40" height="40"/>
         <image name="capitan" width="40" height="40"/>
-        <image name="close" width="40" height="40"/>
+        <image name="close" width="512" height="512"/>
         <image name="help_transparent" width="50" height="50"/>
         <image name="left" width="512" height="512"/>
         <image name="paper_boats" width="1180.6666259765625" height="694.33331298828125"/>
