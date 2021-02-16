@@ -3570,7 +3570,7 @@
                                                 <rect key="frame" x="0.0" y="487" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="București" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="l8A-We-ZiS">
-                                                        <rect key="frame" x="8" y="4" width="319" height="42"/>
+                                                        <rect key="frame" x="56" y="4" width="271" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -3583,6 +3583,13 @@
                                                             <constraint firstAttribute="width" constant="40" id="u2b-kJ-B8I"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="GTT-Ay-aav">
+                                                        <rect key="frame" x="8" y="5" width="40" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="mBk-Wz-5zC"/>
+                                                            <constraint firstAttribute="width" constant="40" id="qea-dr-yBP"/>
+                                                        </constraints>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="but_address">
@@ -3591,10 +3598,13 @@
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="YAH-t0-777" secondAttribute="bottom" constant="5" id="3Nz-zp-VkK"/>
+                                                    <constraint firstItem="GTT-Ay-aav" firstAttribute="leading" secondItem="8hL-2N-Q8C" secondAttribute="leading" constant="8" id="SSE-gL-ci8"/>
                                                     <constraint firstItem="YAH-t0-777" firstAttribute="leading" secondItem="l8A-We-ZiS" secondAttribute="trailing" constant="4" id="Wez-0v-RI4"/>
                                                     <constraint firstAttribute="bottom" secondItem="l8A-We-ZiS" secondAttribute="bottom" constant="4" id="YEL-Vd-XEA"/>
+                                                    <constraint firstItem="GTT-Ay-aav" firstAttribute="top" secondItem="8hL-2N-Q8C" secondAttribute="top" constant="5" id="ded-RZ-2tn"/>
                                                     <constraint firstAttribute="trailing" secondItem="YAH-t0-777" secondAttribute="trailing" constant="4" id="dne-tQ-R0q"/>
-                                                    <constraint firstItem="l8A-We-ZiS" firstAttribute="leading" secondItem="8hL-2N-Q8C" secondAttribute="leading" constant="8" id="okz-NP-ZmF"/>
+                                                    <constraint firstItem="l8A-We-ZiS" firstAttribute="leading" secondItem="GTT-Ay-aav" secondAttribute="trailing" constant="8" id="fWb-jf-UlA"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GTT-Ay-aav" secondAttribute="bottom" constant="5" id="mWF-7P-T5j"/>
                                                     <constraint firstItem="l8A-We-ZiS" firstAttribute="top" secondItem="8hL-2N-Q8C" secondAttribute="top" constant="4" id="qgx-Nz-M8D"/>
                                                     <constraint firstAttribute="height" constant="50" id="tDY-UW-gTg"/>
                                                     <constraint firstItem="YAH-t0-777" firstAttribute="top" secondItem="8hL-2N-Q8C" secondAttribute="top" constant="5" id="yJN-Uq-0Ks"/>
@@ -3614,7 +3624,7 @@
                                                 <rect key="frame" x="0.0" y="538" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+40787646111" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="nSk-89-hGr">
-                                                        <rect key="frame" x="8" y="4" width="319" height="42"/>
+                                                        <rect key="frame" x="56" y="4" width="271" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -3627,6 +3637,13 @@
                                                             <constraint firstAttribute="width" constant="40" id="UoW-ot-Ucl"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="Awv-Ni-cBE">
+                                                        <rect key="frame" x="8" y="5" width="40" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="40" id="iR9-IM-gqo"/>
+                                                            <constraint firstAttribute="height" constant="40" id="wIK-xH-bjD"/>
+                                                        </constraints>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="but_phone">
@@ -3635,12 +3652,15 @@
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="V7x-1R-cUX" secondAttribute="bottom" constant="5" id="3Bu-HX-dHT"/>
-                                                    <constraint firstItem="nSk-89-hGr" firstAttribute="leading" secondItem="E1X-0i-91J" secondAttribute="leading" constant="8" id="4FL-Ee-ffm"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Awv-Ni-cBE" secondAttribute="bottom" constant="5" id="GUd-VH-k7I"/>
                                                     <constraint firstItem="nSk-89-hGr" firstAttribute="top" secondItem="E1X-0i-91J" secondAttribute="top" constant="4" id="OW9-7D-2xo"/>
                                                     <constraint firstItem="V7x-1R-cUX" firstAttribute="top" secondItem="E1X-0i-91J" secondAttribute="top" constant="5" id="VFD-dv-M3w"/>
                                                     <constraint firstItem="V7x-1R-cUX" firstAttribute="leading" secondItem="nSk-89-hGr" secondAttribute="trailing" constant="4" id="e1j-oJ-owD"/>
+                                                    <constraint firstItem="Awv-Ni-cBE" firstAttribute="top" secondItem="E1X-0i-91J" secondAttribute="top" constant="5" id="eNL-cJ-xM6"/>
+                                                    <constraint firstItem="Awv-Ni-cBE" firstAttribute="leading" secondItem="E1X-0i-91J" secondAttribute="leading" constant="8" id="gDx-pb-bAA"/>
                                                     <constraint firstAttribute="height" constant="50" id="gad-Zs-H8B"/>
                                                     <constraint firstAttribute="trailing" secondItem="V7x-1R-cUX" secondAttribute="trailing" constant="4" id="pzM-DQ-SR1"/>
+                                                    <constraint firstItem="nSk-89-hGr" firstAttribute="leading" secondItem="Awv-Ni-cBE" secondAttribute="trailing" constant="8" id="wIX-tj-CZ0"/>
                                                     <constraint firstAttribute="bottom" secondItem="nSk-89-hGr" secondAttribute="bottom" constant="4" id="yIg-m7-iPU"/>
                                                 </constraints>
                                                 <connections>
@@ -3658,7 +3678,7 @@
                                                 <rect key="frame" x="0.0" y="589" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="office@navymasters.ro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="dY3-KB-qzV">
-                                                        <rect key="frame" x="8" y="4" width="319" height="42"/>
+                                                        <rect key="frame" x="56" y="4" width="271" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -3671,6 +3691,13 @@
                                                             <constraint firstAttribute="width" constant="40" id="gJa-Ep-mDj"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email" translatesAutoresizingMaskIntoConstraints="NO" id="Q9p-R1-5De">
+                                                        <rect key="frame" x="8" y="5" width="40" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="E71-IE-orC"/>
+                                                            <constraint firstAttribute="width" constant="40" id="dKm-YC-I8Q"/>
+                                                        </constraints>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="but_email">
@@ -3678,11 +3705,14 @@
                                                 </accessibility>
                                                 <gestureRecognizers/>
                                                 <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="Q9p-R1-5De" secondAttribute="bottom" constant="5" id="9YO-30-C5D"/>
                                                     <constraint firstAttribute="height" constant="50" id="B5p-TN-pa4"/>
-                                                    <constraint firstItem="dY3-KB-qzV" firstAttribute="leading" secondItem="2ee-Lk-gVf" secondAttribute="leading" constant="8" id="Iug-DO-8Ur"/>
                                                     <constraint firstItem="nB4-Dg-PH0" firstAttribute="leading" secondItem="dY3-KB-qzV" secondAttribute="trailing" constant="4" id="KAA-st-kbs"/>
+                                                    <constraint firstItem="Q9p-R1-5De" firstAttribute="top" secondItem="2ee-Lk-gVf" secondAttribute="top" constant="5" id="MQe-wT-zzO"/>
                                                     <constraint firstAttribute="bottom" secondItem="nB4-Dg-PH0" secondAttribute="bottom" constant="5" id="U5X-pP-PGp"/>
                                                     <constraint firstItem="nB4-Dg-PH0" firstAttribute="top" secondItem="2ee-Lk-gVf" secondAttribute="top" constant="5" id="a1g-Et-ySq"/>
+                                                    <constraint firstItem="dY3-KB-qzV" firstAttribute="leading" secondItem="Q9p-R1-5De" secondAttribute="trailing" constant="8" id="bCR-nw-7hc"/>
+                                                    <constraint firstItem="Q9p-R1-5De" firstAttribute="leading" secondItem="2ee-Lk-gVf" secondAttribute="leading" constant="8" id="nEV-Dv-ISa"/>
                                                     <constraint firstItem="dY3-KB-qzV" firstAttribute="top" secondItem="2ee-Lk-gVf" secondAttribute="top" constant="4" id="vvJ-cW-Cdf"/>
                                                     <constraint firstAttribute="trailing" secondItem="nB4-Dg-PH0" secondAttribute="trailing" constant="4" id="wgI-q0-7Em"/>
                                                     <constraint firstAttribute="bottom" secondItem="dY3-KB-qzV" secondAttribute="bottom" constant="4" id="yII-0L-UW5"/>
@@ -3702,7 +3732,7 @@
                                                 <rect key="frame" x="0.0" y="640" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.navymasters.ro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="VlN-zO-3rh">
-                                                        <rect key="frame" x="8" y="4" width="319" height="42"/>
+                                                        <rect key="frame" x="56" y="4" width="271" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -3715,6 +3745,13 @@
                                                             <constraint firstAttribute="height" constant="40" id="vBQ-n2-Ol1"/>
                                                         </constraints>
                                                     </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="www" translatesAutoresizingMaskIntoConstraints="NO" id="U6D-hr-rbZ">
+                                                        <rect key="frame" x="8" y="5" width="40" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="40" id="A6s-CI-ytv"/>
+                                                            <constraint firstAttribute="height" constant="40" id="QJU-nL-SVD"/>
+                                                        </constraints>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="but_www">
@@ -3723,12 +3760,15 @@
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="78M-63-0a3" secondAttribute="bottom" constant="5" id="3cj-Va-v4U"/>
-                                                    <constraint firstItem="VlN-zO-3rh" firstAttribute="leading" secondItem="TTE-X6-uLg" secondAttribute="leading" constant="8" id="5cm-eE-uii"/>
+                                                    <constraint firstItem="U6D-hr-rbZ" firstAttribute="top" secondItem="TTE-X6-uLg" secondAttribute="top" constant="5" id="3mi-LA-hAP"/>
                                                     <constraint firstAttribute="height" constant="50" id="Gs0-Xx-KHd"/>
+                                                    <constraint firstItem="VlN-zO-3rh" firstAttribute="leading" secondItem="U6D-hr-rbZ" secondAttribute="trailing" constant="8" id="Kiz-DM-wy4"/>
                                                     <constraint firstItem="VlN-zO-3rh" firstAttribute="top" secondItem="TTE-X6-uLg" secondAttribute="top" constant="4" id="Puw-Kc-hCi"/>
                                                     <constraint firstAttribute="bottom" secondItem="VlN-zO-3rh" secondAttribute="bottom" constant="4" id="WSj-q7-MU1"/>
                                                     <constraint firstItem="78M-63-0a3" firstAttribute="top" secondItem="TTE-X6-uLg" secondAttribute="top" constant="5" id="Yge-EZ-ZGE"/>
+                                                    <constraint firstItem="U6D-hr-rbZ" firstAttribute="leading" secondItem="TTE-X6-uLg" secondAttribute="leading" constant="8" id="lMI-WL-pqU"/>
                                                     <constraint firstItem="78M-63-0a3" firstAttribute="leading" secondItem="VlN-zO-3rh" secondAttribute="trailing" constant="4" id="rNK-uX-AHJ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="U6D-hr-rbZ" secondAttribute="bottom" constant="5" id="wfX-Na-4Kt"/>
                                                     <constraint firstAttribute="trailing" secondItem="78M-63-0a3" secondAttribute="trailing" constant="4" id="zMi-7V-O4d"/>
                                                 </constraints>
                                                 <connections>
@@ -3825,7 +3865,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3304" y="249"/>
+            <point key="canvasLocation" x="3303.6231884057975" y="248.4375"/>
         </scene>
         <!--Review Bad AnswersVC-->
         <scene sceneID="oG8-J2-nRz">
@@ -4347,9 +4387,12 @@
         <image name="back_1" width="512" height="512"/>
         <image name="book" width="591" height="591"/>
         <image name="capitan" width="591" height="591"/>
+        <image name="email" width="64" height="64"/>
         <image name="help_transparent" width="50" height="50"/>
         <image name="left" width="512" height="512"/>
         <image name="paper_boats" width="1180.6666259765625" height="694.33331298828125"/>
+        <image name="phone" width="64" height="64"/>
+        <image name="pin" width="64" height="64"/>
         <image name="play" width="66.666664123535156" height="77"/>
         <image name="quiz" width="591" height="591"/>
         <image name="recicle_bin" width="64" height="64"/>
@@ -4358,6 +4401,7 @@
         <image name="sail" width="591" height="591"/>
         <image name="settings" width="591" height="591"/>
         <image name="together" width="591" height="591"/>
+        <image name="www" width="512" height="512"/>
         <namedColor name="answer_correct">
             <color red="0.10999999195337296" green="0.94900000095367432" blue="0.33100003004074097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -4365,7 +4409,7 @@
             <color red="0.90799999237060547" green="0.44299995899200439" blue="0.39899998903274536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="background_1">
-            <color red="0.86273360252380371" green="0.86273360252380371" blue="0.86273360252380371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="text_color">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
