@@ -56,13 +56,11 @@ class MainViewController: UIViewController, TestResultProtocol {
         super.viewWillAppear(animated);
         
         
-        commercialTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeCommercial), userInfo: nil, repeats: true);
-        
         AppUtility.lockOrientation(.portrait, andRotateTo: .portrait);
         
-        commercialImageView.image =  UIImage(named: "reclama01");
+        commercialTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeCommercial), userInfo: nil, repeats: true);
         commercialImageView.contentMode = UIView.ContentMode.scaleToFill;
-        
+        changeCommercial();
         
     }
     
@@ -72,14 +70,14 @@ class MainViewController: UIViewController, TestResultProtocol {
     }
     
     @objc func changeCommercial() {
-        let imageName =  "reclama0\(getRandomNumber())";
+        let imageName =  "reclama_mica_0\(getRandomNumber())";
         commercialImageView.image =  UIImage(named: imageName);
     }
     
     private func getRandomNumber() -> Int {
         var number:Int;
         repeat {
-            number = Int.random(in: 1..<4);
+            number = Int.random(in: 1..<5);
         } while number == lastRandom;
         lastRandom = number;
         

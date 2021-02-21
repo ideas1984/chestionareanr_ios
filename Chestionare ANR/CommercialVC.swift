@@ -10,8 +10,9 @@ import UIKit
 
 class CommercialVC: UIViewController {
     @IBOutlet weak var polymorphicView: UIView!
-    var timeLabel1: UILabel?;
+    @IBOutlet weak var commercialImageView: UIImageView!
     
+    var timeLabel1: UILabel?;
     var timeLeftCalculatorTimer: Timer?;
     var secondsToWait = 3;
     
@@ -23,6 +24,9 @@ class CommercialVC: UIViewController {
         timeLabel1?.textAlignment = .center;
         timeLabel1?.font = UIFont.systemFont(ofSize: 26);
         setView(timeLabel1!);
+        
+        let imageName =  "reclama_mare_0\(Int.random(in: 1..<4))";
+        commercialImageView.image =  UIImage(named: imageName);
     }
     
     override func viewWillAppear(_ animated: Bool) {

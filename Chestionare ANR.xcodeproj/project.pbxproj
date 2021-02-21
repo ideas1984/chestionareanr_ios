@@ -201,6 +201,13 @@
 		07B72C7E25E301230023347B /* image1156.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72BD825E301220023347B /* image1156.png */; };
 		07B72C7F25E301230023347B /* image2159.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72BD925E301220023347B /* image2159.png */; };
 		07B72C8025E301230023347B /* image2247.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72BDA25E301220023347B /* image2247.png */; };
+		07B72C8925E30AB70023347B /* reclama_mica_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72C8525E30AB60023347B /* reclama_mica_02.png */; };
+		07B72C8A25E30AB70023347B /* reclama_mica_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72C8625E30AB60023347B /* reclama_mica_01.png */; };
+		07B72C8B25E30AB70023347B /* reclama_mica_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72C8725E30AB60023347B /* reclama_mica_03.png */; };
+		07B72C8C25E30AB70023347B /* reclama_mica_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72C8825E30AB70023347B /* reclama_mica_04.png */; };
+		07B72C9125E30F5C0023347B /* reclama_mare_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72C8E25E30F5A0023347B /* reclama_mare_02.png */; };
+		07B72C9225E30F5C0023347B /* reclama_mare_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72C8F25E30F5B0023347B /* reclama_mare_03.png */; };
+		07B72C9325E30F5C0023347B /* reclama_mare_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72C9025E30F5B0023347B /* reclama_mare_01.png */; };
 		07C8C7202537A462002F12FD /* XMLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C8C71F2537A462002F12FD /* XMLUtil.swift */; };
 		07D5440925CF2E8C006A23A9 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D5440825CF2E8C006A23A9 /* SettingsVC.swift */; };
 		07D664EE256B0F2700C10811 /* anexe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07D664ED256B0F2700C10811 /* anexe.pdf */; };
@@ -423,6 +430,13 @@
 		07B72BD825E301220023347B /* image1156.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1156.png; sourceTree = "<group>"; };
 		07B72BD925E301220023347B /* image2159.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2159.png; sourceTree = "<group>"; };
 		07B72BDA25E301220023347B /* image2247.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2247.png; sourceTree = "<group>"; };
+		07B72C8525E30AB60023347B /* reclama_mica_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mica_02.png; sourceTree = "<group>"; };
+		07B72C8625E30AB60023347B /* reclama_mica_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mica_01.png; sourceTree = "<group>"; };
+		07B72C8725E30AB60023347B /* reclama_mica_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mica_03.png; sourceTree = "<group>"; };
+		07B72C8825E30AB70023347B /* reclama_mica_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mica_04.png; sourceTree = "<group>"; };
+		07B72C8E25E30F5A0023347B /* reclama_mare_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mare_02.png; sourceTree = "<group>"; };
+		07B72C8F25E30F5B0023347B /* reclama_mare_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mare_03.png; sourceTree = "<group>"; };
+		07B72C9025E30F5B0023347B /* reclama_mare_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mare_01.png; sourceTree = "<group>"; };
 		07C8C71F2537A462002F12FD /* XMLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLUtil.swift; sourceTree = "<group>"; };
 		07D5440825CF2E8C006A23A9 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		07D664ED256B0F2700C10811 /* anexe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = anexe.pdf; sourceTree = "<group>"; };
@@ -476,6 +490,7 @@
 		078B1307259D325A00F17735 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				07B72C8225E30A870023347B /* commercial */,
 				07B72BAD25E3011D0023347B /* image1036.png */,
 				07B72BB825E3011E0023347B /* image1037.png */,
 				07B72BCF25E301200023347B /* image1038.png */,
@@ -663,6 +678,36 @@
 				07FA88D625B24089006787F9 /* TestResult.swift */,
 			);
 			path = delegate;
+			sourceTree = "<group>";
+		};
+		07B72C8225E30A870023347B /* commercial */ = {
+			isa = PBXGroup;
+			children = (
+				07B72C8425E30AA10023347B /* big */,
+				07B72C8325E30A910023347B /* small */,
+			);
+			path = commercial;
+			sourceTree = "<group>";
+		};
+		07B72C8325E30A910023347B /* small */ = {
+			isa = PBXGroup;
+			children = (
+				07B72C8625E30AB60023347B /* reclama_mica_01.png */,
+				07B72C8525E30AB60023347B /* reclama_mica_02.png */,
+				07B72C8725E30AB60023347B /* reclama_mica_03.png */,
+				07B72C8825E30AB70023347B /* reclama_mica_04.png */,
+			);
+			name = small;
+			sourceTree = "<group>";
+		};
+		07B72C8425E30AA10023347B /* big */ = {
+			isa = PBXGroup;
+			children = (
+				07B72C9025E30F5B0023347B /* reclama_mare_01.png */,
+				07B72C8E25E30F5A0023347B /* reclama_mare_02.png */,
+				07B72C8F25E30F5B0023347B /* reclama_mare_03.png */,
+			);
+			path = big;
 			sourceTree = "<group>";
 		};
 		07C8C71E2537A441002F12FD /* xml */ = {
@@ -862,6 +907,7 @@
 				07B72C3225E301220023347B /* image1042.png in Resources */,
 				07D66511256B14D800C10811 /* semnale_care_servesc_reglementării_navigatiei_pe_calea_navigabila.pdf in Resources */,
 				07B72C5625E301230023347B /* image2131.png in Resources */,
+				07B72C8A25E30AB70023347B /* reclama_mica_01.png in Resources */,
 				07B72C5825E301230023347B /* image1078.png in Resources */,
 				07B72C2E25E301220023347B /* image1171.png in Resources */,
 				07B72C6125E301230023347B /* image2019.png in Resources */,
@@ -870,6 +916,7 @@
 				07D6650E256B14CD00C10811 /* semnale _sonore.pdf in Resources */,
 				07B72C4925E301230023347B /* image1152.png in Resources */,
 				07B72BE625E301220023347B /* image1084.png in Resources */,
+				07B72C8C25E30AB70023347B /* reclama_mica_04.png in Resources */,
 				07B72C7A25E301230023347B /* image1083.png in Resources */,
 				07B72C2325E301220023347B /* image1120.png in Resources */,
 				07B72C6E25E301230023347B /* image2198.png in Resources */,
@@ -933,6 +980,7 @@
 				07B72C6425E301230023347B /* image2163.png in Resources */,
 				07B72B3125E2FDE50023347B /* questions.xml in Resources */,
 				07D6650B256B14C700C10811 /* balizarea_caii_navigabile.pdf in Resources */,
+				07B72C8925E30AB70023347B /* reclama_mica_02.png in Resources */,
 				07B72C4D25E301230023347B /* image2241.png in Resources */,
 				07B72C7B25E301230023347B /* image1059.png in Resources */,
 				07B72C3D25E301220023347B /* image1175.png in Resources */,
@@ -964,6 +1012,7 @@
 				07B72C4E25E301230023347B /* image1073.png in Resources */,
 				07B72C2C25E301220023347B /* image1153.png in Resources */,
 				07B72C7D25E301230023347B /* image1157.png in Resources */,
+				07B72C9325E30F5C0023347B /* reclama_mare_01.png in Resources */,
 				07B72C1925E301220023347B /* image2024.png in Resources */,
 				07B72C0E25E301220023347B /* image1067.png in Resources */,
 				07B72C4025E301220023347B /* image2244.png in Resources */,
@@ -973,6 +1022,7 @@
 				07B72C2425E301220023347B /* image1049.png in Resources */,
 				07B72C2125E301220023347B /* image1127.png in Resources */,
 				07B72C7025E301230023347B /* image1058.png in Resources */,
+				07B72C9125E30F5C0023347B /* reclama_mare_02.png in Resources */,
 				07B72BED25E301220023347B /* image1169.png in Resources */,
 				07B72BE325E301220023347B /* image1140.png in Resources */,
 				07B72BE925E301220023347B /* image1161.png in Resources */,
@@ -996,6 +1046,7 @@
 				07B72C7725E301230023347B /* image1093.png in Resources */,
 				07B72C0425E301220023347B /* image1144.png in Resources */,
 				07B72C0525E301220023347B /* image2197.png in Resources */,
+				07B72C8B25E30AB70023347B /* reclama_mica_03.png in Resources */,
 				07B72C5325E301230023347B /* image1036.png in Resources */,
 				07B72C3B25E301220023347B /* image1052.png in Resources */,
 				07B72C7F25E301230023347B /* image2159.png in Resources */,
@@ -1006,6 +1057,7 @@
 				07B72C2925E301220023347B /* image1039.png in Resources */,
 				07B72C6D25E301230023347B /* image1172.png in Resources */,
 				07B72C0125E301220023347B /* image2155.png in Resources */,
+				07B72C9225E30F5C0023347B /* reclama_mare_03.png in Resources */,
 				07B72BF725E301220023347B /* image1155.png in Resources */,
 				07B72C1C25E301220023347B /* image2254.png in Resources */,
 				07B72BFC25E301220023347B /* image2154.png in Resources */,
