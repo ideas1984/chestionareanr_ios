@@ -19,14 +19,14 @@ class HintsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         
-
+        containerView.layer.cornerRadius = 10;
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
-        containerView.layer.cornerRadius = 10;
-        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo:label.bottomAnchor).isActive = true;
+        scrollView.isDirectionalLockEnabled = true;
+//        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo:label.bottomAnchor).isActive = true;
         
         var text = String();
         let hintsMap = XMLUtil.instance.hints;
@@ -51,14 +51,10 @@ class HintsVC: UIViewController {
             }
         }
         
-//        label.attributedText = stringFromHtml(string: text);
+        label.attributedText = stringFromHtml(string: text);
         
-        label.text = text;
+//        label.text = text;
         
-        
-        label.layoutIfNeeded();
-        scrollView.layoutIfNeeded();
-        containerView.layoutIfNeeded();
     }
     
     private func stringFromHtml(string: String) -> NSAttributedString? {
