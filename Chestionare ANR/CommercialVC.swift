@@ -27,6 +27,10 @@ class CommercialVC: UIViewController {
         
         let imageName =  "reclama_mare_0\(Int.random(in: 1..<4))";
         commercialImageView.image =  UIImage(named: imageName);
+        
+        commercialImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(openCommercialWebsite)));
+        commercialImageView.isUserInteractionEnabled = true;
+        commercialImageView.contentMode = UIView.ContentMode.scaleToFill;
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -36,6 +40,10 @@ class CommercialVC: UIViewController {
             timeLabel1?.text = "\(secondsToWait)";
             timeLeftCalculatorTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimeLeft), userInfo: nil, repeats: true);
         }
+    }
+    
+    @objc func openCommercialWebsite() {
+        AppUtility.navigateTo(url: "https://www.navymasters.ro");
     }
     
     override func viewWillDisappear(_ animated: Bool) {

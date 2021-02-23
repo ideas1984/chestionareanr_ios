@@ -31,8 +31,18 @@ class AppUtility:NSObject{
         categoryInfoMap[Const.CATEGORY_DIFERENTA_D] = CategoryInfo(totalQuestions: 10, passScore: 8, time: 1200);
         categoryInfoMap[Const.CATEGORY_C] = CategoryInfo(totalQuestions: 26, passScore: 22, time: 3600);
         categoryInfoMap[Const.CATEGORY_DIFERENTA_C] = CategoryInfo(totalQuestions: 10, passScore: 8, time: 1200);
-        
     }
+    
+    static func navigateTo(url wwwwURL: String) {
+        if let url = URL(string: wwwwURL) {
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
     
     static func lockOrientation(_ orientation: UIInterfaceOrientationMask) {
         

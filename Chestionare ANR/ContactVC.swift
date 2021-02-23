@@ -39,32 +39,26 @@ class ContactVC: UIViewController {
     
     private func makeACall() {
         if let url = URL(string: "tel://" + "+40787646111") {
-          if #available(iOS 10.0, *) {
-            UIApplication.shared.open(url)
-          } else {
-            UIApplication.shared.openURL(url)
-          }
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
         }
     }
     
     private func opneEmail() {
         let email = "navymasters@yahoo.com"
         if let url = URL(string: "mailto:\(email)") {
-          if #available(iOS 10.0, *) {
-            UIApplication.shared.open(url)
-          } else {
-            UIApplication.shared.openURL(url)
-          }
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
         }
     }
     
     private func openWebPage() {
-        if let url = URL(string: "https://www.navymasters.ro") {
-          if #available(iOS 10.0, *) {
-            UIApplication.shared.open(url)
-          } else {
-            UIApplication.shared.openURL(url)
-          }
-        }
+        AppUtility.navigateTo(url: "https://www.navymasters.ro");
     }
 }

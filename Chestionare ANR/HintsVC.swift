@@ -28,7 +28,6 @@ class HintsVC: UIViewController {
         super.viewWillAppear(animated);
         
         scrollView.isDirectionalLockEnabled = true;
-//        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo:label.bottomAnchor).isActive = true;
         
         var text = String();
         let hintsMap = XMLUtil.instance.hints;
@@ -45,13 +44,13 @@ class HintsVC: UIViewController {
 //            text.append("\n\n");
 //        }
         
-        for hintID in 1...10 {
-            text.append(hintsMap[hintID]!.content.replacingOccurrences(of: "[", with: "<").replacingOccurrences(of: "]", with: ">"));
-            
-            if(hintID != 10) {
-                text.append("<br><br>");
-            }
-        }
+//        for hintID in 1...10 {
+//            text.append(hintsMap[hintID]!.content.replacingOccurrences(of: "[", with: "<").replacingOccurrences(of: "]", with: ">"));
+//
+//            if(hintID != 10) {
+//                text.append("<br><br>");
+//            }
+//        }
         
         label.attributedText = stringFromHtml(string: text);
         

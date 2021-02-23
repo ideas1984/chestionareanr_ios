@@ -13,43 +13,20 @@ class MainViewController: UIViewController, TestResultProtocol {
     @IBOutlet weak var commercialImageView: UIImageView!
     @IBOutlet weak var containerView: UIView!;
     @IBOutlet weak var backButton: UIButton!
-    var visibleVC: UIViewController!;
-    var commercialTimer: Timer?;
-    var lastRandom = 0;
     
-//    lazy var mainMenuVC: MainMenuVC = {
-//        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-//        var viewController = storyboard.instantiateViewController(withIdentifier: "MainMenuVC") as! MainMenuVC;
-//        viewController.setMainController(self);
-//        self.addViewControllerAsChildViewController(childViewController: viewController)
-//        return viewController;
-//    }()
-    
+    private var visibleVC: UIViewController!;
+    private var commercialTimer: Timer?;
+    private var lastRandom = 0;
     
     override func viewDidLoad() {
         super.viewDidLoad();
-        //        XMLUtil.instance;
+        
+        commercialImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(openCommercialWebsite)));
+        commercialImageView.isUserInteractionEnabled = true;
+        commercialImageView.contentMode = UIView.ContentMode.scaleToFill;
         
         openMainMenuViewController();
-        
-        
-        
-//        CoreDataManager.shared.resetCoreData();
-    
-//        print(CoreDataManager.shared.loadWrongAnswers().count);
-//        for wrongAnswer in CoreDataManager.shared.loadWrongAnswers() {
-//            print("\(wrongAnswer.id)");
-//        }
-//        for wrongAnswer in CoreDataManager.shared.loadWrongAnswers() {
-//            print("\(wrongAnswer.id)");
-//        }
-        
-        
-//        CoreDataManager.shared.saveWrongQuestion(questionId: 1, wrongAnswerId: 101);
-//        CoreDataManager.shared.saveWrongQuestion(questionId: 2, wrongAnswerId: 102);
-//        CoreDataManager.shared.saveWrongQuestion(questionId: 3, wrongAnswerId: 103);
-//        CoreDataManager.shared.saveWrongQuestion(questionId: 4, wrongAnswerId: 104);
-//        CoreDataManager.shared.saveWrongQuestion(questionId: 5, wrongAnswerId: 105);
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -59,9 +36,7 @@ class MainViewController: UIViewController, TestResultProtocol {
         AppUtility.lockOrientation(.portrait, andRotateTo: .portrait);
         
         commercialTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeCommercial), userInfo: nil, repeats: true);
-        commercialImageView.contentMode = UIView.ContentMode.scaleToFill;
         changeCommercial();
-        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -72,6 +47,10 @@ class MainViewController: UIViewController, TestResultProtocol {
     @objc func changeCommercial() {
         let imageName =  "reclama_mica_0\(getRandomNumber())";
         commercialImageView.image =  UIImage(named: imageName);
+    }
+    
+    @objc func openCommercialWebsite() {
+        AppUtility.navigateTo(url: "https://www.navymasters.ro");
     }
     
     private func getRandomNumber() -> Int {
