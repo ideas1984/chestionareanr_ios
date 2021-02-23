@@ -13,6 +13,7 @@ class HintsVC: UIViewController {
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var dragger: UIView!
     
     var hints : [Int] = [];
     
@@ -20,6 +21,7 @@ class HintsVC: UIViewController {
         super.viewDidLoad();
         
         containerView.layer.cornerRadius = 10;
+        dragger.layer.cornerRadius = 3;
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,7 +36,7 @@ class HintsVC: UIViewController {
         for (index, element) in hints.enumerated() {
             text.append(hintsMap[element]!.content.replacingOccurrences(of: "[", with: "<").replacingOccurrences(of: "]", with: ">"));
             if(index != hints.count - 1) {
-                text.append("\n\n");
+                text.append("<br><br>");
             }
         }
         

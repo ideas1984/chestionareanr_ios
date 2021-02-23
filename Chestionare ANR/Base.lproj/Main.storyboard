@@ -1635,14 +1635,20 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oo6-sN-JgA" userLabel="header">
                                         <rect key="frame" x="8" y="8" width="274" height="30"/>
                                         <subviews>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rr2-qc-fTE">
-                                                <rect key="frame" x="-4" y="-191" width="281.33333333333331" height="412"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </scrollView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJK-DE-rtC">
+                                                <rect key="frame" x="94.666666666666657" y="12" width="85" height="6"/>
+                                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="6" id="K0U-cH-Er6"/>
+                                                    <constraint firstAttribute="width" constant="85" id="h4V-SU-Iqa"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="E6S-aD-sdr"/>
+                                            <constraint firstItem="DJK-DE-rtC" firstAttribute="centerY" secondItem="Oo6-sN-JgA" secondAttribute="centerY" id="h84-X8-n2a"/>
+                                            <constraint firstItem="DJK-DE-rtC" firstAttribute="centerX" secondItem="Oo6-sN-JgA" secondAttribute="centerX" id="oL7-D4-Snt"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTe-q8-VQt">
@@ -1666,7 +1672,7 @@
                                                 </constraints>
                                             </scrollView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="Ki0-61-IUv" firstAttribute="width" secondItem="MTe-q8-VQt" secondAttribute="width" id="fYj-JS-Gco"/>
                                             <constraint firstAttribute="trailing" secondItem="1HB-uh-Hhf" secondAttribute="trailing" id="gfE-mb-D9x"/>
@@ -1699,6 +1705,7 @@
                     </view>
                     <connections>
                         <outlet property="containerView" destination="G5k-Mx-G35" id="lU0-cP-TTW"/>
+                        <outlet property="dragger" destination="DJK-DE-rtC" id="5MB-zk-sjr"/>
                         <outlet property="label" destination="Ki0-61-IUv" id="eb3-j0-Vvr"/>
                         <outlet property="scrollView" destination="1HB-uh-Hhf" id="p9j-pD-kNF"/>
                     </connections>
@@ -4434,6 +4441,9 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -4445,9 +4455,6 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
