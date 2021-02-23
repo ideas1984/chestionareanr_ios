@@ -21,6 +21,11 @@ class MainViewController: UIViewController, TestResultProtocol {
     override func viewDidLoad() {
         super.viewDidLoad();
         
+        // load XMLs in background
+        DispatchQueue.global(qos: .userInitiated).async {
+            print(Thread.isMainThread);
+        }
+        
         commercialImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(openCommercialWebsite)));
         commercialImageView.isUserInteractionEnabled = true;
         commercialImageView.contentMode = UIView.ContentMode.scaleToFill;
