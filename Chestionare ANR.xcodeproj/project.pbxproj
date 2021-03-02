@@ -19,7 +19,6 @@
 		077E5CA725D1F3CC004F9D53 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077E5CA625D1F3CC004F9D53 /* ContactVC.swift */; };
 		078B45312586C2A600477694 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B45302586C2A600477694 /* AppUtility.swift */; };
 		078BEE2C2538F79C00A6B31F /* QuestionsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BEE2B2538F79C00A6B31F /* QuestionsParser.swift */; };
-		078BEE372539026E00A6B31F /* hints_test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 078BEE362539026E00A6B31F /* hints_test.xml */; };
 		078BEE3A2539027700A6B31F /* hints.xml in Resources */ = {isa = PBXBuildFile; fileRef = 078BEE392539027700A6B31F /* hints.xml */; };
 		078BEE442539036700A6B31F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BEE432539036700A6B31F /* Question.swift */; };
 		078C2E9825A51A390063E36B /* AnswerSelectedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078C2E9725A51A390063E36B /* AnswerSelectedProtocol.swift */; };
@@ -28,7 +27,6 @@
 		078DC00C24D8A2B000512D0A /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078DC00B24D8A2B000512D0A /* ArrowButton.swift */; };
 		079581D725CCA87900723F35 /* LegislationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079581D625CCA87900723F35 /* LegislationVC.swift */; };
 		0798AC3C25C4BC58000CED89 /* LearningDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798AC3B25C4BC58000CED89 /* LearningDetailsVC.swift */; };
-		0799463925AB533000920B1B /* questions_one_question.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0799463825AB533000920B1B /* questions_one_question.xml */; };
 		079AA3EF25EEDD1C00C95DF0 /* questions.xml in Resources */ = {isa = PBXBuildFile; fileRef = 079AA3EE25EEDD1C00C95DF0 /* questions.xml */; };
 		079AA3F325EEDDDF00C95DF0 /* image2194.png in Resources */ = {isa = PBXBuildFile; fileRef = 079AA3F225EEDDDF00C95DF0 /* image2194.png */; };
 		079AA3FA25EEE27800C95DF0 /* reclama_mica_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 079AA3F625EEE27800C95DF0 /* reclama_mica_02.png */; };
@@ -249,7 +247,6 @@
 		077E5CA625D1F3CC004F9D53 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
 		078B45302586C2A600477694 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		078BEE2B2538F79C00A6B31F /* QuestionsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsParser.swift; sourceTree = "<group>"; };
-		078BEE362539026E00A6B31F /* hints_test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hints_test.xml; sourceTree = "<group>"; };
 		078BEE392539027700A6B31F /* hints.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = hints.xml; sourceTree = "<group>"; };
 		078BEE432539036700A6B31F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		078C2E9725A51A390063E36B /* AnswerSelectedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerSelectedProtocol.swift; sourceTree = "<group>"; };
@@ -258,7 +255,6 @@
 		078DC00B24D8A2B000512D0A /* ArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
 		079581D625CCA87900723F35 /* LegislationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegislationVC.swift; sourceTree = "<group>"; };
 		0798AC3B25C4BC58000CED89 /* LearningDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningDetailsVC.swift; sourceTree = "<group>"; };
-		0799463825AB533000920B1B /* questions_one_question.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = questions_one_question.xml; sourceTree = "<group>"; };
 		079AA3EE25EEDD1C00C95DF0 /* questions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = questions.xml; sourceTree = "<group>"; };
 		079AA3F225EEDDDF00C95DF0 /* image2194.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2194.png; sourceTree = "<group>"; };
 		079AA3F625EEE27800C95DF0 /* reclama_mica_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mica_02.png; sourceTree = "<group>"; };
@@ -718,10 +714,8 @@
 				078BEE2B2538F79C00A6B31F /* QuestionsParser.swift */,
 				078BEE432539036700A6B31F /* Question.swift */,
 				079D56AB25AF96C400440426 /* Hint.swift */,
-				078BEE362539026E00A6B31F /* hints_test.xml */,
 				079AA3EE25EEDD1C00C95DF0 /* questions.xml */,
 				078BEE392539027700A6B31F /* hints.xml */,
-				0799463825AB533000920B1B /* questions_one_question.xml */,
 			);
 			path = xml;
 			sourceTree = "<group>";
@@ -1000,7 +994,6 @@
 				07D66507256B14B000C10811 /* regulament_navigatie_pe_dunare.pdf in Resources */,
 				07F514F9249D755D001681D8 /* LaunchScreen.storyboard in Resources */,
 				07B72C6525E301230023347B /* image1097.png in Resources */,
-				078BEE372539026E00A6B31F /* hints_test.xml in Resources */,
 				07B72BDF25E301220023347B /* image1135.png in Resources */,
 				07B72BDB25E301220023347B /* image2245.png in Resources */,
 				07B72C1425E301220023347B /* image1108.png in Resources */,
@@ -1008,7 +1001,6 @@
 				07B72C4825E301230023347B /* image2262.png in Resources */,
 				07D664EE256B0F2700C10811 /* anexe.pdf in Resources */,
 				07B72C3725E301220023347B /* image2166.png in Resources */,
-				0799463925AB533000920B1B /* questions_one_question.xml in Resources */,
 				07B72C7925E301230023347B /* image1119.png in Resources */,
 				07B72C4E25E301230023347B /* image1073.png in Resources */,
 				07B72C2C25E301220023347B /* image1153.png in Resources */,

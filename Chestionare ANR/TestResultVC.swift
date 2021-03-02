@@ -24,14 +24,14 @@ class TestResultVC: UIViewController {
         
         if(testResult == TestResult.PASS) {
             testResultlabel.text = "ADMIS";
-            testResultlabel.textColor = UIColor.green;
+            testResultlabel.backgroundColor = UIColor.green;
             goodAnswersLabel.text = "Raspunsuri corecte: \(goodAnswers!)";
             buttonLabel.text = "Dacă sunteți de părere că această aplicație vă este de ajutor, va rugăm să ne apreciați efortul cu un review de 5 stele. Mulțumim!";
             eventButtonLabel.text = "Apreciază aplicația";
             eventButton.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector (createReview (_:))));
         } else {
             testResultlabel.text = "RESPINS";
-            testResultlabel.textColor = UIColor.red;
+            testResultlabel.backgroundColor = UIColor.red;
             if(testResult == TestResult.FAIL_NO_NECCESARY_ANSWERS) {
                 goodAnswersLabel.text = "Nu ai reușit să te încadrezi în barem";
             } else { //TestResult.FAIL_TIME_EXPIRED
