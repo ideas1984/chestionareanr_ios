@@ -114,6 +114,7 @@ class ReviewBadAnswersVC: UIViewController {
         
         let label = UILabel();
         label.text = "Momentan nu există date.\n\nÎntrebările greșite din timpul testelor vor fi afișate în această secțiune pentru a putea fi revizuite.";
+        label.textColor = UIColor(named: "text_color");
         label.numberOfLines = 0;
         label.textAlignment = NSTextAlignment.center;
         containerView.addSubview(label);

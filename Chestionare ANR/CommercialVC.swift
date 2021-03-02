@@ -23,6 +23,7 @@ class CommercialVC: UIViewController {
         timeLabel1?.text = "\(secondsToWait)";
         timeLabel1?.textAlignment = .center;
         timeLabel1?.font = UIFont.systemFont(ofSize: 26);
+        timeLabel1?.textColor = UIColor(named: "text_color");
         setView(timeLabel1!);
         
         let imageName =  "reclama_mare_0\(Int.random(in: 1..<4))";
