@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -15,20 +15,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="DWU-d2-70G">
-                                <rect key="frame" x="0.0" y="44.000000000000014" width="390" height="176.33333333333337"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="153.5"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0h4-JR-2KP">
-                                <rect key="frame" x="0.0" y="220.33333333333337" width="390" height="513"/>
+                                <rect key="frame" x="0.0" y="153.5" width="375" height="447"/>
                                 <color key="backgroundColor" name="background_1"/>
                                 <accessibility key="accessibilityConfiguration" label="ContainerView"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTZ-NY-kDA" userLabel="back button">
-                                <rect key="frame" x="16" y="60" width="50" height="50"/>
+                                <rect key="frame" x="16" y="16" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="PDh-Hk-0G0"/>
                                     <constraint firstAttribute="height" constant="50" id="Xat-E2-l37"/>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reclama_mica_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="pF0-eO-UCi" userLabel="Commercial">
-                                <rect key="frame" x="0.0" y="733.33333333333337" width="390" height="76.666666666666629"/>
+                                <rect key="frame" x="0.0" y="600.5" width="375" height="66.5"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </imageView>
                         </subviews>
@@ -82,10 +82,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m4O-Va-YeT">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vt6-5E-IMw" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="473.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="473.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mediu de învățare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5H-VD-Sx0">
                                                 <rect key="frame" x="16" y="10" width="343" height="30"/>
@@ -94,20 +94,20 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categorie de examinare:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5W-iq-kPL">
-                                                <rect key="frame" x="16" y="50" width="343" height="20.666666666666671"/>
+                                                <rect key="frame" x="16" y="50" width="343" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categoria D (ape interioare)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgn-uF-jWh">
-                                                <rect key="frame" x="0.0" y="75.666666666666671" width="375" height="21"/>
+                                                <rect key="frame" x="0.0" y="75.5" width="375" height="21"/>
                                                 <color key="backgroundColor" name="label_background"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QeP-eW-MxO" userLabel="but nav dunare">
-                                                <rect key="frame" x="0.0" y="96.666666666666657" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="96.5" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regulament de navigație pe Dunăre" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LCX-kz-K8t">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -144,14 +144,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V5O-Sh-61w" userLabel="separator1">
-                                                <rect key="frame" x="0.0" y="146.66666666666666" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="146.5" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="qsb-qj-hu5"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8OO-b7-GTY" userLabel="but marinarie 1">
-                                                <rect key="frame" x="0.0" y="147.66666666666666" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="147.5" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marinărie" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zoh-NI-dHk">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -188,14 +188,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E4n-42-4ha" userLabel="separator2">
-                                                <rect key="frame" x="0.0" y="197.66666666666666" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="197.5" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="U8e-9X-qrE"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vmc-VL-3aT" userLabel="but conducerea si manevrarea 1">
-                                                <rect key="frame" x="0.0" y="198.66666666666666" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="198.5" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conducerea şi manevrarea ambarcațiunilor cu motor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="rg8-Js-qLu">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -232,14 +232,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2y-KY-5Zd" userLabel="separator3">
-                                                <rect key="frame" x="0.0" y="248.66666666666669" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="248.5" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="YNi-RW-G3L"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categoria C (maritim 6 mile)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8e-rf-ZoA">
-                                                <rect key="frame" x="0.0" y="249.66666666666669" width="375" height="21"/>
+                                                <rect key="frame" x="0.0" y="249.5" width="375" height="21"/>
                                                 <color key="backgroundColor" name="label_background"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="5ph-OV-cRn"/>
@@ -249,7 +249,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XyW-hP-gf4" userLabel="but colreg">
-                                                <rect key="frame" x="0.0" y="270.66666666666669" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="270.5" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COLREG" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ddt-3f-hUU">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -286,14 +286,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xny-H0-IoS" userLabel="separator4">
-                                                <rect key="frame" x="0.0" y="320.66666666666669" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="320.5" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="zKg-QY-D9S"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wem-c9-He8" userLabel="but nav maritima">
-                                                <rect key="frame" x="0.0" y="321.66666666666669" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="321.5" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navigație maritimă" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="A2a-Sj-u2R">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -330,14 +330,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hab-Np-JDg" userLabel="separator5">
-                                                <rect key="frame" x="0.0" y="371.66666666666669" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="371.5" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="yi0-zV-XFD"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEs-kj-5uw" userLabel="but marinarie 2">
-                                                <rect key="frame" x="0.0" y="372.66666666666669" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="372.5" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marinărie" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Bob-Cy-Mhe">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -374,14 +374,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a0r-Of-e3u" userLabel="separator6">
-                                                <rect key="frame" x="0.0" y="422.66666666666669" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="422.5" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="MD2-hy-TV8"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nYg-yJ-4yR" userLabel="but conducerea si manevrarea 2">
-                                                <rect key="frame" x="0.0" y="423.66666666666669" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="423.5" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conducerea şi manevrarea ambarcațiunilor cu motor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Roh-LJ-McQ">
                                                         <rect key="frame" x="8" y="4" width="319" height="42"/>
@@ -544,7 +544,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaZ-5D-syP">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTa-TS-dYl" userLabel="Container">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="478"/>
@@ -897,7 +897,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9E7-ey-tVt">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OuP-Ha-ZZC" userLabel="Container">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="459"/>
@@ -916,10 +916,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j00-Oe-lLo" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="66" width="343" height="36.666666666666657"/>
+                                                <rect key="frame" x="16" y="66" width="343" height="36.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vezi întrebările greșite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGz-Ac-AGx">
-                                                        <rect key="frame" x="8" y="8.0000000000000018" width="327" height="20.666666666666671"/>
+                                                        <rect key="frame" x="8" y="8" width="327" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -937,111 +937,111 @@
                                                 </connections>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raportul tuturor testelor finalizate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dv9-gh-4CW">
-                                                <rect key="frame" x="8" y="134.66666666666666" width="359" height="24"/>
+                                                <rect key="frame" x="8" y="134.5" width="359" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcA-Oz-XVJ" userLabel="separator 2">
-                                                <rect key="frame" x="8" y="166.66666666666666" width="359" height="2"/>
+                                                <rect key="frame" x="8" y="166.5" width="359" height="2"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="2" id="W4e-lv-Gal"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Promovabilitate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owg-Av-IMW">
-                                                <rect key="frame" x="8" y="184.66666666666666" width="171.66666666666666" height="19.333333333333343"/>
+                                                <rect key="frame" x="8" y="184.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0A-pu-Yr7">
-                                                <rect key="frame" x="195.66666666666663" y="184.66666666666666" width="171.33333333333337" height="19.333333333333343"/>
+                                                <rect key="frame" x="195.5" y="184.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Promovate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxP-Ib-7xh">
-                                                <rect key="frame" x="8" y="212" width="171.66666666666666" height="19.666666666666657"/>
+                                                <rect key="frame" x="8" y="212" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re6-4u-SB8">
-                                                <rect key="frame" x="195.66666666666663" y="212" width="171.33333333333337" height="19.666666666666657"/>
+                                                <rect key="frame" x="195.5" y="212" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" systemColor="systemGreenColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nepromovate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMU-pY-55K">
-                                                <rect key="frame" x="8" y="239.66666666666669" width="171.66666666666666" height="19.333333333333314"/>
+                                                <rect key="frame" x="8" y="239.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJL-1H-wil">
-                                                <rect key="frame" x="195.66666666666663" y="239.66666666666669" width="171.33333333333337" height="19.333333333333314"/>
+                                                <rect key="frame" x="195.5" y="239.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" systemColor="systemRedColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total teste" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9Z-e0-aRR">
-                                                <rect key="frame" x="8" y="267" width="171.66666666666666" height="19.666666666666686"/>
+                                                <rect key="frame" x="8" y="267" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IP0-gs-YfJ">
-                                                <rect key="frame" x="195.66666666666663" y="267" width="171.33333333333337" height="19.666666666666686"/>
+                                                <rect key="frame" x="195.5" y="267" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raportul ultimelor 10 teste finalizate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nky-4e-naC">
-                                                <rect key="frame" x="8" y="318.66666666666669" width="359" height="24"/>
+                                                <rect key="frame" x="8" y="318.5" width="359" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6E-dW-8J8" userLabel="separator 3">
-                                                <rect key="frame" x="8" y="350.66666666666669" width="359" height="2"/>
+                                                <rect key="frame" x="8" y="350.5" width="359" height="2"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="2" id="eqj-Td-MBX"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Promovabilitate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3h-1u-VlR">
-                                                <rect key="frame" x="8" y="368.66666666666669" width="171.66666666666666" height="19.333333333333314"/>
+                                                <rect key="frame" x="8" y="368.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8c-Z7-Dr4">
-                                                <rect key="frame" x="195.66666666666663" y="368.66666666666669" width="171.33333333333337" height="19.333333333333314"/>
+                                                <rect key="frame" x="195.5" y="368.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Promovate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-bP-64S">
-                                                <rect key="frame" x="8" y="396" width="171.66666666666666" height="19.666666666666686"/>
+                                                <rect key="frame" x="8" y="396" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCj-nD-Fy5">
-                                                <rect key="frame" x="195.66666666666663" y="396" width="171.33333333333337" height="19.666666666666686"/>
+                                                <rect key="frame" x="195.5" y="396" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" systemColor="systemGreenColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nepromovate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9z-Cl-9ap">
-                                                <rect key="frame" x="8" y="423.66666666666669" width="171.66666666666666" height="19.333333333333314"/>
+                                                <rect key="frame" x="8" y="423.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYO-Gs-9KJ">
-                                                <rect key="frame" x="195.66666666666663" y="423.66666666666669" width="171.33333333333337" height="19.333333333333314"/>
+                                                <rect key="frame" x="195.5" y="423.5" width="171.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" systemColor="systemRedColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1165,10 +1165,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5w6-nd-d2l">
-                                <rect key="frame" x="0.0" y="44" width="375" height="872"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c03-dA-S9x" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="944.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="945"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chestionare ANR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMr-uJ-KJg">
                                                 <rect key="frame" x="16" y="10" width="343" height="30"/>
@@ -1177,166 +1177,166 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categorie de examinare:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnj-Bo-WLs">
-                                                <rect key="frame" x="16" y="50" width="343" height="20.666666666666671"/>
+                                                <rect key="frame" x="16" y="50" width="343" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBT-tl-JLG">
-                                                <rect key="frame" x="12" y="230.33333333333331" width="351" height="26"/>
+                                                <rect key="frame" x="12" y="230" width="351" height="26"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- total întrebări: 26" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbN-aa-6SQ">
-                                                <rect key="frame" x="16" y="260.33333333333331" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="260" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- regulament de navigație pe Dunăre: 10" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4I-IR-LIp">
-                                                <rect key="frame" x="16" y="285.33333333333331" width="347" height="20.333333333333314"/>
+                                                <rect key="frame" x="16" y="285" width="347" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- marinărie: 8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kS-KV-QA3">
-                                                <rect key="frame" x="16" y="309.66666666666669" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="309.5" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- conducerea și manevrarea ambarcațiunilor cu motor: 8" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQi-xV-Yxd">
-                                                <rect key="frame" x="16" y="334.66666666666669" width="347" height="40.666666666666686"/>
+                                                <rect key="frame" x="16" y="334.5" width="347" height="41"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- barem de promovare: 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttJ-cY-UZs">
-                                                <rect key="frame" x="16" y="379.33333333333331" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="379.5" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- timp alocat: 60 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6b-PN-b8H">
-                                                <rect key="frame" x="16" y="404.33333333333331" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="404.5" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diferență D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8c-y4-vne">
-                                                <rect key="frame" x="12" y="437.33333333333331" width="351" height="25"/>
+                                                <rect key="frame" x="12" y="437.5" width="351" height="25"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- total întrebări: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eta-gd-zka">
-                                                <rect key="frame" x="16" y="466.33333333333331" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="466.5" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- regulament de navigație pe Dunăre: 10" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gx3-wb-myG">
-                                                <rect key="frame" x="16" y="491.33333333333337" width="347" height="20.333333333333314"/>
+                                                <rect key="frame" x="16" y="491.5" width="347" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- barem de promovare: 8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsY-Hu-spU">
-                                                <rect key="frame" x="16" y="515.66666666666663" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="516" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- timp alocat: 20 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQw-K2-ndt">
-                                                <rect key="frame" x="16" y="540.66666666666663" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="541" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGH-8I-pSq">
-                                                <rect key="frame" x="12" y="573.66666666666663" width="351" height="26"/>
+                                                <rect key="frame" x="12" y="574" width="351" height="26"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- total întrebări: 26" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZ3-3S-D2w">
-                                                <rect key="frame" x="16" y="603.66666666666663" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="604" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- COLREG: 8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1x4-bs-PT8">
-                                                <rect key="frame" x="16" y="628.66666666666663" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="629" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- navigație maritimă: 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgZ-9f-Yfr">
-                                                <rect key="frame" x="16" y="653.66666666666663" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="654" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- marinărie: 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KAn-P0-1LV">
-                                                <rect key="frame" x="16" y="678.66666666666663" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="679" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- conducerea și manevrarea ambarcațiunilor cu motor: 6" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsM-QT-FMg">
-                                                <rect key="frame" x="16" y="703.66666666666663" width="347" height="40.666666666666629"/>
+                                                <rect key="frame" x="16" y="704" width="347" height="41"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- barem de promovare: 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh1-tU-ckN">
-                                                <rect key="frame" x="16" y="748.33333333333337" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="749" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- timp alocat: 60 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwZ-wo-Q5N">
-                                                <rect key="frame" x="16" y="773.33333333333337" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="774" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diferență D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mME-hG-nGu">
-                                                <rect key="frame" x="12" y="806.33333333333337" width="351" height="26"/>
+                                                <rect key="frame" x="12" y="807" width="351" height="26"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- total întrebări: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Um-Ca-qXZ">
-                                                <rect key="frame" x="16" y="836.33333333333337" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="837" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- COLREG: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW4-A1-8Rc">
-                                                <rect key="frame" x="16" y="861.33333333333337" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="862" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- barem de promovare: 8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUS-F6-dgc">
-                                                <rect key="frame" x="16" y="886.33333333333337" width="347" height="21"/>
+                                                <rect key="frame" x="16" y="887" width="347" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- timp alocat: 20 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUt-FT-Lhu">
-                                                <rect key="frame" x="12" y="911.33333333333337" width="351" height="21"/>
+                                                <rect key="frame" x="12" y="912" width="351" height="21"/>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvs-qj-HFd" userLabel="D View" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="78.666666666666671" width="163.66666666666666" height="50.000000000000014"/>
+                                                <rect key="frame" x="16" y="78.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ft-MD-XFi">
-                                                        <rect key="frame" x="8" y="7.9999999999999858" width="147.66666666666666" height="34"/>
+                                                        <rect key="frame" x="8" y="8" width="147.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -1358,10 +1358,10 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ra-Go-1gp" userLabel="Diferenta D View" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="195.66666666666663" y="78.666666666666671" width="163.33333333333337" height="50.000000000000014"/>
+                                                <rect key="frame" x="195.5" y="78.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diferență D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLO-Nh-g3W">
-                                                        <rect key="frame" x="8" y="7.9999999999999858" width="147.33333333333334" height="34"/>
+                                                        <rect key="frame" x="8" y="8" width="147.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -1383,10 +1383,10 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZs-UH-bi5" userLabel="C View" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="144.66666666666666" width="163.66666666666666" height="50"/>
+                                                <rect key="frame" x="16" y="144.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbz-DT-c8E">
-                                                        <rect key="frame" x="8" y="8" width="147.66666666666666" height="34"/>
+                                                        <rect key="frame" x="8" y="8" width="147.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -1408,10 +1408,10 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTV-wv-xx3" userLabel="Diferenta C View" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="195.66666666666663" y="144.66666666666666" width="163.33333333333337" height="50"/>
+                                                <rect key="frame" x="195.5" y="144.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diferență C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMm-4y-eQZ">
-                                                        <rect key="frame" x="8" y="8" width="147.33333333333334" height="34"/>
+                                                        <rect key="frame" x="8" y="8" width="147.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -1583,14 +1583,14 @@
             <objects>
                 <viewController storyboardIdentifier="commercial_vc" id="jW8-UI-fvv" customClass="CommercialVC" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XNe-KB-Myi">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reclama_mare_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="q7I-kr-fUr">
-                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aig-dL-ncy">
-                                <rect key="frame" x="324" y="60" width="50" height="50"/>
+                                <rect key="frame" x="309" y="16" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -1626,17 +1626,17 @@
             <objects>
                 <viewController storyboardIdentifier="hints_vc" id="yEP-no-Avz" customClass="HintsVC" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O6B-e0-Sng">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G5k-Mx-G35" userLabel="container">
-                                <rect key="frame" x="50" y="194" width="290" height="466"/>
+                                <rect key="frame" x="50" y="150" width="275" height="367"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oo6-sN-JgA" userLabel="header">
-                                        <rect key="frame" x="8" y="8" width="274" height="30"/>
+                                        <rect key="frame" x="8" y="8" width="259" height="30"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJK-DE-rtC">
-                                                <rect key="frame" x="94.666666666666657" y="12" width="85" height="6"/>
+                                                <rect key="frame" x="87" y="12" width="85" height="6"/>
                                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="6" id="K0U-cH-Er6"/>
@@ -1652,13 +1652,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTe-q8-VQt">
-                                        <rect key="frame" x="8" y="46" width="274" height="412"/>
+                                        <rect key="frame" x="8" y="46" width="259" height="313"/>
                                         <subviews>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1HB-uh-Hhf">
-                                                <rect key="frame" x="0.0" y="0.0" width="274" height="412"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="259" height="313"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ki0-61-IUv">
-                                                        <rect key="frame" x="0.0" y="0.0" width="274" height="20.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="259" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -1719,15 +1719,15 @@
             <objects>
                 <viewController storyboardIdentifier="PDFViewerVC" title="PDFViewerVC" id="qrU-9c-tOE" customClass="PDFViewerVC" customModule="Chestionare_ANR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yHd-BQ-Ia7">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ME1-tx-rLa" customClass="PDFView">
-                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhU-DB-Odw">
-                                <rect key="frame" x="16" y="60" width="50" height="50"/>
+                                <rect key="frame" x="16" y="16" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="KSp-Ay-4tc"/>
                                     <constraint firstAttribute="width" constant="50" id="Qh9-Qo-6In"/>
@@ -1766,7 +1766,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K2m-E6-4SP" userLabel="time header">
-                                <rect key="frame" x="0.0" y="44" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB4-da-UyT">
                                         <rect key="frame" x="8" y="10" width="50" height="50"/>
@@ -1813,10 +1813,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwS-1S-nmM" userLabel="status header">
-                                <rect key="frame" x="0.0" y="114" width="375" height="40"/>
+                                <rect key="frame" x="0.0" y="70" width="375" height="40"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwP-dE-mIq">
-                                        <rect key="frame" x="7.9999999999999929" y="8" width="114.33333333333331" height="24"/>
+                                        <rect key="frame" x="8" y="8" width="114.5" height="24"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rămase" textAlignment="right" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="29b-nr-NDN">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
@@ -1825,7 +1825,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="F1b-hG-HCt">
-                                                <rect key="frame" x="88" y="0.0" width="26.333333333333329" height="24"/>
+                                                <rect key="frame" x="88" y="0.0" width="26.5" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -1844,7 +1844,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CX9-Cv-eHp">
-                                        <rect key="frame" x="130.33333333333334" y="8" width="114.33333333333334" height="24"/>
+                                        <rect key="frame" x="130.5" y="8" width="114" height="24"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corecte" textAlignment="right" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="C6q-vw-fbI">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
@@ -1853,7 +1853,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="rvK-J3-Kb8">
-                                                <rect key="frame" x="88" y="0.0" width="26.333333333333329" height="24"/>
+                                                <rect key="frame" x="88" y="0.0" width="26" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -1872,7 +1872,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRp-Dj-SUz">
-                                        <rect key="frame" x="252.66666666666666" y="8" width="114.33333333333334" height="24"/>
+                                        <rect key="frame" x="252.5" y="8" width="114.5" height="24"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greșite" textAlignment="right" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="vjG-ue-knb">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
@@ -1881,7 +1881,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ndj-Wy-BVl">
-                                                <rect key="frame" x="88.000000000000028" y="0.0" width="26.333333333333329" height="24"/>
+                                                <rect key="frame" x="88" y="0.0" width="26.5" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -1918,17 +1918,17 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YL2-wI-nOu" userLabel="container_view">
-                                <rect key="frame" x="0.0" y="154" width="375" height="443"/>
+                                <rect key="frame" x="0.0" y="110" width="375" height="487"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZe-CJ-AFg" userLabel="control footer">
                                 <rect key="frame" x="0.0" y="597" width="375" height="70"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBu-2S-gHe" userLabel="skip button" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="8" width="171.66666666666666" height="54"/>
+                                        <rect key="frame" x="8" y="8" width="171.5" height="54"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amână" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0M-G5-CHJ">
-                                                <rect key="frame" x="8" y="8" width="155.66666666666666" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="155.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -1943,10 +1943,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nas-xG-tLE" userLabel="next button" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="195.66666666666663" y="8" width="171.33333333333337" height="54"/>
+                                        <rect key="frame" x="195.5" y="8" width="171.5" height="54"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Următoarea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvj-BX-8nf">
-                                                <rect key="frame" x="8" y="8" width="155.33333333333334" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="155.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -2018,7 +2018,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wQ4-kv-XSE">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4O-k3-eg5" userLabel="Container">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="566"/>
@@ -2342,7 +2342,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tG0-Ry-cBP">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSH-9l-rbP" userLabel="Container">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="261"/>
@@ -2627,7 +2627,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ym1-47-Mw1" userLabel="header">
-                                <rect key="frame" x="0.0" y="44" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAq-OX-YrY">
                                         <rect key="frame" x="8" y="10" width="50" height="50"/>
@@ -2674,20 +2674,20 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Znk-WC-YSc" userLabel="container_view">
-                                <rect key="frame" x="0.0" y="122" width="375" height="475"/>
+                                <rect key="frame" x="0.0" y="78" width="375" height="519"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4p-tM-znd" userLabel="control footer">
                                 <rect key="frame" x="0.0" y="597" width="375" height="70"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="raK-Ca-kPp" userLabel="previous" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="7.9999999999999929" y="8" width="114.33333333333331" height="54"/>
+                                        <rect key="frame" x="8" y="8" width="114.5" height="54"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="left" translatesAutoresizingMaskIntoConstraints="NO" id="b1m-mE-40Y">
-                                                <rect key="frame" x="8" y="8" width="32.666666666666664" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="33" height="38"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jL7-Mh-rkh">
-                                                <rect key="frame" x="40.666666666666664" y="8" width="65.666666666666686" height="38"/>
+                                                <rect key="frame" x="41" y="8" width="65.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -2706,10 +2706,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBk-nP-jXC" userLabel="verify" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="130.33333333333334" y="8" width="114.33333333333334" height="54"/>
+                                        <rect key="frame" x="130.5" y="8" width="114" height="54"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verifică" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caX-XI-PWP">
-                                                <rect key="frame" x="8" y="8" width="98.333333333333329" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="98" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -2724,16 +2724,16 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9Y-5z-MDG" userLabel="next" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="252.66666666666666" y="8" width="114.33333333333334" height="54"/>
+                                        <rect key="frame" x="252.5" y="8" width="114.5" height="54"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKY-Vs-BTC">
-                                                <rect key="frame" x="8.0000000000000284" y="8" width="65.666666666666671" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="65.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="04W-WC-enQ">
-                                                <rect key="frame" x="73.666666666666657" y="8" width="32.666666666666657" height="38"/>
+                                                <rect key="frame" x="73.5" y="8" width="33" height="38"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2807,7 +2807,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXO-os-7yy">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffb-zT-sGu" userLabel="Container">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="456"/>
@@ -3280,10 +3280,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="US6-ya-iGB">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4b-iP-pAD" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="573.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="573.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dimensiune font" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGE-Mo-Jcs">
                                                 <rect key="frame" x="8" y="16" width="359" height="23"/>
@@ -3299,10 +3299,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4p-Is-sH3" userLabel="12" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="109" width="73.666666666666671" height="50"/>
+                                                <rect key="frame" x="16" y="109" width="74" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZw-g9-yHv">
-                                                        <rect key="frame" x="4" y="4" width="65.666666666666671" height="42"/>
+                                                        <rect key="frame" x="4" y="4" width="66" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -3318,10 +3318,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-uy-m2C" userLabel="14" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="105.66666666666669" y="109" width="74" height="50"/>
+                                                <rect key="frame" x="106" y="109" width="73.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGD-Ow-Ehh">
-                                                        <rect key="frame" x="4" y="4" width="66" height="42"/>
+                                                        <rect key="frame" x="4" y="4" width="65.5" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -3336,10 +3336,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iCf-1s-E6C" userLabel="16" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="195.66666666666666" y="109" width="73.666666666666657" height="50"/>
+                                                <rect key="frame" x="195.5" y="109" width="74" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgR-3k-Pyb">
-                                                        <rect key="frame" x="4" y="4" width="65.666666666666671" height="42"/>
+                                                        <rect key="frame" x="4" y="4" width="66" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -3354,10 +3354,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-Wo-hOK" userLabel="18" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="285.33333333333331" y="109" width="73.666666666666686" height="50"/>
+                                                <rect key="frame" x="285.5" y="109" width="73.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLZ-lE-xOV">
-                                                        <rect key="frame" x="4" y="4" width="65.666666666666671" height="42"/>
+                                                        <rect key="frame" x="4" y="4" width="65.5" height="42"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -3379,16 +3379,16 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Afișează raspunsul corect în timpul examinării în cazul în care raspunsul meu este greșit." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lf-By-0EM">
-                                                <rect key="frame" x="8" y="193" width="359" height="68.333333333333314"/>
+                                                <rect key="frame" x="8" y="193" width="359" height="68.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-pJ-cHc" userLabel="Da" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="269.33333333333331" width="163.66666666666666" height="50"/>
+                                                <rect key="frame" x="16" y="269.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Da" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwf-nF-Tmj">
-                                                        <rect key="frame" x="8" y="8" width="147.66666666666666" height="34"/>
+                                                        <rect key="frame" x="8" y="8" width="147.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -3407,10 +3407,10 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dy3-t3-waS" userLabel="Nu" customClass="ANRRadioButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="195.66666666666663" y="269.33333333333331" width="163.33333333333337" height="50"/>
+                                                <rect key="frame" x="195.5" y="269.5" width="163.5" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whS-sb-1W4">
-                                                        <rect key="frame" x="8" y="8" width="147.33333333333334" height="34"/>
+                                                        <rect key="frame" x="8" y="8" width="147.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" name="text_color"/>
                                                         <nil key="highlightedColor"/>
@@ -3426,20 +3426,20 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NRM-gt-Ewq" userLabel="separator 2">
-                                                <rect key="frame" x="8" y="335.33333333333331" width="359" height="2"/>
+                                                <rect key="frame" x="8" y="335.5" width="359" height="2"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="2" id="6Bj-Zr-KLY"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resetează istoricul mediului de învățare" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU4-Ph-Jm6">
-                                                <rect key="frame" x="8" y="353.33333333333331" width="359" height="23"/>
+                                                <rect key="frame" x="8" y="353.5" width="359" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FVU-Nq-3L9" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="392.33333333333331" width="343" height="50"/>
+                                                <rect key="frame" x="16" y="392.5" width="343" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resetează mediul de învățare" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-IV-QHb">
                                                         <rect key="frame" x="8" y="4" width="327" height="42"/>
@@ -3458,20 +3458,20 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6AC-MB-GXu" userLabel="separator 3">
-                                                <rect key="frame" x="8" y="458.33333333333331" width="359" height="2"/>
+                                                <rect key="frame" x="8" y="458.5" width="359" height="2"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="2" id="QZc-MX-ymk"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resetează istoricul aplicației" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h44-b3-urr">
-                                                <rect key="frame" x="8" y="476.33333333333337" width="359" height="23"/>
+                                                <rect key="frame" x="8" y="476.5" width="359" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ys3-lD-Vio" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="507.33333333333337" width="343" height="50"/>
+                                                <rect key="frame" x="16" y="507.5" width="343" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resetează" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JR-FQ-Zet">
                                                         <rect key="frame" x="8" y="4" width="327" height="42"/>
@@ -3592,10 +3592,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhn-56-5c4">
-                                <rect key="frame" x="0.0" y="44" width="375" height="772"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="850"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPy-OA-VN0" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="690.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="691"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navy Masters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWr-wJ-6c0">
                                                 <rect key="frame" x="16" y="10" width="343" height="30"/>
@@ -3604,21 +3604,21 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqg-dY-lBA">
-                                                <rect key="frame" x="8" y="48.000000000000028" width="359" height="429.66666666666674"/>
+                                                <rect key="frame" x="8" y="48" width="359" height="430"/>
                                                 <string key="text">Aplicația „Chestionare ANR” reprezintă o resursă educațională  ce are rolul de a ușura și eficientiza învățarea în vederea pregătirii pentru obținerea „Certificatului internațional de conducător de ambarcațiune de agrement clasa D și/sau clasa C”. Obiectivul principal al aplicației este de a oferi studenților posibilitatea de a-și testa cunoștințele, (dobândite după ce au urmat cursurile școlilor de specialitate) în condiții de examen.  Obiectivele secundare sunt creșterea accesibilității procesului de învățare (fiind la un touch distanță de a începe să înveți/ exersezi în orice clipă, în orice loc, aplicația funcționând și fără acces la internet) și îmbogățirea vocabularului prin asimilarea de termeni noi, dar și prin înțelegerea corectă (conform dicționarului) a termenilor din întrebări. Prin apăsarea butonului „Help me”, reprezentat printr-un colac de salvare în colțul din dreapta sus, se accesează definiția termenilor evidențiați cu „*”. Pentru a înțelege în profunzime, termenii care conțin în definiția lor alți termeni specifici marinărești sunt evidențiați (scriși cu litere mari și boldate) și explicați de asemenea, iar termenii cărora trebuie să li se acorde o atenție aparte sunt evidențiați prin scriere boldată.</string>
                                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dV5-Kf-wSc" userLabel="separator1">
-                                                <rect key="frame" x="0.0" y="485.66666666666663" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="486" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Nnh-1w-f5Y"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8hL-2N-Q8C" userLabel="but_address">
-                                                <rect key="frame" x="0.0" y="486.66666666666663" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="487" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="București" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="l8A-We-ZiS">
                                                         <rect key="frame" x="56" y="4" width="271" height="42"/>
@@ -3665,14 +3665,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOZ-Ef-PhN" userLabel="separator2">
-                                                <rect key="frame" x="0.0" y="536.66666666666663" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="537" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="5Rs-5D-I9v"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1X-0i-91J" userLabel="but_phone">
-                                                <rect key="frame" x="0.0" y="537.66666666666663" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="538" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+40787646111" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="nSk-89-hGr">
                                                         <rect key="frame" x="56" y="4" width="271" height="42"/>
@@ -3719,14 +3719,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUH-wy-9cD" userLabel="separator3">
-                                                <rect key="frame" x="0.0" y="587.66666666666663" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="588" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="tiW-6R-lEc"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ee-Lk-gVf" userLabel="but_email">
-                                                <rect key="frame" x="0.0" y="588.66666666666663" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="589" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="office@navymasters.ro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="dY3-KB-qzV">
                                                         <rect key="frame" x="56" y="4" width="271" height="42"/>
@@ -3773,14 +3773,14 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJA-QH-oBs" userLabel="separator4">
-                                                <rect key="frame" x="0.0" y="638.66666666666663" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="639" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="oNs-02-kTT"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TTE-X6-uLg" userLabel="but_www">
-                                                <rect key="frame" x="0.0" y="639.66666666666663" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="640" width="375" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.navymasters.ro" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="VlN-zO-3rh">
                                                         <rect key="frame" x="56" y="4" width="271" height="42"/>
@@ -3827,7 +3827,7 @@
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wV6-kC-2Nd" userLabel="separator5">
-                                                <rect key="frame" x="0.0" y="689.66666666666663" width="375" height="1"/>
+                                                <rect key="frame" x="0.0" y="690" width="375" height="1"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="c5F-0A-OAx"/>
@@ -3927,7 +3927,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kZR-mj-X5F" userLabel="header">
-                                <rect key="frame" x="0.0" y="44" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1J-Ql-29k">
                                         <rect key="frame" x="8" y="10" width="50" height="50"/>
@@ -3974,13 +3974,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Întrebarea 4 din 31" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uK0-fQ-sIl">
-                                <rect key="frame" x="16" y="122.00000000000001" width="343" height="19.666666666666671"/>
+                                <rect key="frame" x="16" y="78" width="343" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" name="text_color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gBr-cx-yZA">
-                                <rect key="frame" x="8" y="149.66666666666666" width="171.33333333333334" height="30"/>
+                                <rect key="frame" x="8" y="105.5" width="171.5" height="30"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaO-kf-yHe">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -3990,7 +3990,7 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- răspunsul tău" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd3-Ez-SuP">
-                                        <rect key="frame" x="38" y="0.0" width="133.33333333333334" height="30"/>
+                                        <rect key="frame" x="38" y="0.0" width="133.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" name="text_color"/>
                                         <nil key="highlightedColor"/>
@@ -4010,7 +4010,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ss-qL-naz">
-                                <rect key="frame" x="187.33333333333337" y="149.66666666666666" width="179.66666666666663" height="30"/>
+                                <rect key="frame" x="187.5" y="105.5" width="179.5" height="30"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Lx-Qv-78u">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -4020,7 +4020,7 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- răspuns corect" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="opl-7Y-mHw">
-                                        <rect key="frame" x="38" y="0.0" width="141.66666666666666" height="30"/>
+                                        <rect key="frame" x="38" y="0.0" width="141.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" name="text_color"/>
                                         <nil key="highlightedColor"/>
@@ -4040,17 +4040,17 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qd-vA-37q" userLabel="container_view">
-                                <rect key="frame" x="0.0" y="187.66666666666666" width="375" height="409.33333333333337"/>
+                                <rect key="frame" x="0.0" y="143.5" width="375" height="453.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-Iu-XXz" userLabel="control footer">
                                 <rect key="frame" x="0.0" y="597" width="375" height="70"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcK-DZ-wIm" userLabel="previous" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="7.9999999999999929" y="8" width="114.33333333333331" height="54"/>
+                                        <rect key="frame" x="8" y="8" width="114.5" height="54"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="left" translatesAutoresizingMaskIntoConstraints="NO" id="rhC-A6-b48">
-                                                <rect key="frame" x="8" y="8" width="98.333333333333329" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="98.5" height="38"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4062,10 +4062,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NrB-QI-zbr" userLabel="delete" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="130.33333333333334" y="8" width="114.33333333333334" height="54"/>
+                                        <rect key="frame" x="130.5" y="8" width="114" height="54"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recicle_bin" translatesAutoresizingMaskIntoConstraints="NO" id="eaP-rb-34I">
-                                                <rect key="frame" x="8" y="8" width="98.333333333333329" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="98" height="38"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -4077,10 +4077,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QYF-4l-J2c" userLabel="next" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                        <rect key="frame" x="252.66666666666666" y="8" width="114.33333333333334" height="54"/>
+                                        <rect key="frame" x="252.5" y="8" width="114.5" height="54"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="right" translatesAutoresizingMaskIntoConstraints="NO" id="Ozn-JL-bFZ">
-                                                <rect key="frame" x="8.0000000000000284" y="8" width="98.333333333333329" height="38"/>
+                                                <rect key="frame" x="8" y="8" width="98.5" height="38"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -4158,10 +4158,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NZb-9z-O2Y">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86U-QO-crN" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="378.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="378.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testul a luat sfârşit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBW-gD-BvO">
                                                 <rect key="frame" x="16" y="16" width="343" height="30"/>
@@ -4177,7 +4177,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rezultatul testului:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OSQ-t9-cSa">
-                                                <rect key="frame" x="8" y="96" width="175.66666666666666" height="50"/>
+                                                <rect key="frame" x="8" y="96" width="175.5" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="LcW-Mw-QfG"/>
                                                 </constraints>
@@ -4186,7 +4186,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADMIS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL2-Tt-rlj">
-                                                <rect key="frame" x="191.66666666666663" y="96" width="175.33333333333337" height="50"/>
+                                                <rect key="frame" x="191.5" y="96" width="175.5" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="UPc-iy-6in"/>
                                                 </constraints>
@@ -4195,20 +4195,20 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raspunsuri corecte: 24" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LL-7W-3Rq">
-                                                <rect key="frame" x="8" y="178" width="359" height="25.333333333333343"/>
+                                                <rect key="frame" x="8" y="178" width="359" height="25.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBt-Mb-ESo">
-                                                <rect key="frame" x="16" y="235.33333333333331" width="343" height="61"/>
+                                                <rect key="frame" x="16" y="235.5" width="343" height="61"/>
                                                 <string key="text">Dacă sunteți de părere că această aplicație vă este de ajutor, va rugăm să ne apreciați efortul cu un review de 5 stele. Mulțumim!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfR-3s-cbe" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="312.33333333333331" width="343" height="50"/>
+                                                <rect key="frame" x="16" y="312.5" width="343" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apreciază aplicația" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnQ-pC-0Q6">
                                                         <rect key="frame" x="8" y="8" width="327" height="34"/>
@@ -4295,10 +4295,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OK6-Hy-inz">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSN-dD-Z5O" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="394.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="395.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regulament de navigație pe Dunăre" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyk-Xk-Lay">
                                                 <rect key="frame" x="16" y="16" width="343" height="60"/>
@@ -4314,31 +4314,31 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detalii referitoare la categoria aleasă:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qBG-Vq-Aem">
-                                                <rect key="frame" x="16" y="110.00000000000001" width="187.33333333333334" height="52.666666666666671"/>
+                                                <rect key="frame" x="16" y="110" width="187.5" height="53"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 177 de întrebări" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0C2-jQ-s1O">
-                                                <rect key="frame" x="32" y="178.66666666666666" width="327" height="20.666666666666657"/>
+                                                <rect key="frame" x="32" y="179" width="327" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 36 întrebări parcurse din totalul de 177" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9n-U2-5Nu">
-                                                <rect key="frame" x="32" y="207.33333333333334" width="304.66666666666669" height="20.333333333333343"/>
+                                                <rect key="frame" x="32" y="207.5" width="304.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- progres 20.34%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9e-j8-OAp">
-                                                <rect key="frame" x="32" y="235.66666666666669" width="327" height="20.333333333333314"/>
+                                                <rect key="frame" x="32" y="236" width="327" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqT-uN-4SR" customClass="ANRButton" customModule="Chestionare_ANR" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="272" width="343" height="50"/>
+                                                <rect key="frame" x="16" y="272.5" width="343" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continuă pregătirea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhX-fs-xep">
                                                         <rect key="frame" x="8" y="8" width="327" height="34"/>
@@ -4360,7 +4360,7 @@
                                                 </connections>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* pentru resetarea mediului de învățare accesați secțiunea Setări a aplicației" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8v-xr-YcK">
-                                                <rect key="frame" x="16" y="338" width="343" height="40.666666666666686"/>
+                                                <rect key="frame" x="16" y="338.5" width="343" height="41"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" name="text_color"/>
                                                 <nil key="highlightedColor"/>
@@ -4465,7 +4465,7 @@
             <color red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="label_background">
-            <color red="0.73499999999999999" green="1" blue="0.80800000000000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.73500001430511475" green="1" blue="0.80800002813339233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="text_color">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

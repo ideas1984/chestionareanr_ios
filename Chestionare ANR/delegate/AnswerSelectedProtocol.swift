@@ -6,6 +6,6 @@
 //  Copyright © 2021 NavyMasters. All rights reserved.
 //
 
-protocol AnswerSelectedProtocol: class {
+protocol AnswerSelectedProtocol: AnyObject {
     func answerSelected(_ answer: OneQuestionVC.AnswerEnum)
 }

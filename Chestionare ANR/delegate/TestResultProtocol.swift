@@ -6,7 +6,7 @@
 //  Copyright © 2021 NavyMasters. All rights reserved.
 //
 
-protocol TestResultProtocol: class {
+protocol TestResultProtocol: AnyObject {
     func testFinished(withResult result: TestResult, andGoodAnswers goodAnswers: Int);
 }
 

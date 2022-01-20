@@ -37,6 +37,8 @@
 		079D56AC25AF96C400440426 /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079D56AB25AF96C400440426 /* Hint.swift */; };
 		079D56AF25AF977100440426 /* HintsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079D56AE25AF977100440426 /* HintsParser.swift */; };
 		079EE99F259BE1AD004D89A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F514F5249D755D001681D8 /* Assets.xcassets */; };
+		07A5B166279A182400710F89 /* image1121.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A5B165279A182400710F89 /* image1121.png */; };
+		07A5B168279A185900710F89 /* image2061.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A5B167279A185900710F89 /* image2061.png */; };
 		07ABCD7B25C34766002E340E /* SignsAndSignalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABCD7A25C34766002E340E /* SignsAndSignalsVC.swift */; };
 		07B1B99925D32D9B000ECA39 /* ReviewBadAnswersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1B99825D32D9B000ECA39 /* ReviewBadAnswersVC.swift */; };
 		07B72BDB25E301220023347B /* image2245.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B72B3525E301100023347B /* image2245.png */; };
@@ -264,6 +266,8 @@
 		079AA40025EEE30500C95DF0 /* reclama_mare_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reclama_mare_01.png; sourceTree = "<group>"; };
 		079D56AB25AF96C400440426 /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
 		079D56AE25AF977100440426 /* HintsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsParser.swift; sourceTree = "<group>"; };
+		07A5B165279A182400710F89 /* image1121.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1121.png; sourceTree = "<group>"; };
+		07A5B167279A185900710F89 /* image2061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2061.png; sourceTree = "<group>"; };
 		07ABCD7A25C34766002E340E /* SignsAndSignalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsAndSignalsVC.swift; sourceTree = "<group>"; };
 		07B1B99825D32D9B000ECA39 /* ReviewBadAnswersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewBadAnswersVC.swift; sourceTree = "<group>"; };
 		07B72B3525E301100023347B /* image2245.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2245.png; sourceTree = "<group>"; };
@@ -637,8 +641,10 @@
 				07B72B6325E301150023347B /* image2246.png */,
 				07B72BDA25E301220023347B /* image2247.png */,
 				07B72B5425E301140023347B /* image2248.png */,
+				07A5B165279A182400710F89 /* image1121.png */,
 				07B72B5525E301140023347B /* image2249.png */,
 				07B72B8525E301190023347B /* image2250.png */,
+				07A5B167279A185900710F89 /* image2061.png */,
 				07B72B3F25E301110023347B /* image2251.png */,
 				07B72B8225E301180023347B /* image2252.png */,
 				07B72BB725E3011E0023347B /* image2253.png */,
@@ -887,8 +893,10 @@
 				07B72C0025E301220023347B /* image1132.png in Resources */,
 				07B72BFD25E301220023347B /* image1137.png in Resources */,
 				07B72BDD25E301220023347B /* image1117.png in Resources */,
+				07A5B168279A185900710F89 /* image2061.png in Resources */,
 				07B72C7E25E301230023347B /* image1156.png in Resources */,
 				07B72C0925E301220023347B /* image2246.png in Resources */,
+				07A5B166279A182400710F89 /* image1121.png in Resources */,
 				07B72C2625E301220023347B /* image1112.png in Resources */,
 				07B72C5425E301230023347B /* image1139.png in Resources */,
 				07B72C0225E301220023347B /* image1146.png in Resources */,
@@ -1262,7 +1270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7PL99Y7VN;
+				DEVELOPMENT_TEAM = DCHRL52R7J;
 				INFOPLIST_FILE = "Chestionare ANR/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1281,7 +1289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7PL99Y7VN;
+				DEVELOPMENT_TEAM = DCHRL52R7J;
 				INFOPLIST_FILE = "Chestionare ANR/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
